@@ -2,20 +2,31 @@ import subprocess
 import sys
 import os
 
-def pdf_to_xml(pdf_path: str, xml_path: str = None) -> str:
-    """
-    Converte um ficheiro PDF para XML usando pdftohtml.
-    Devolve o caminho do ficheiro XML gerado.
-    """
+def pdf_to_xml(pdf_path: str, xml_path: str = None, first_page: int = None, last_page: int = None) -> str:
     if not os.path.exists(pdf_path):
         raise FileNotFoundError(f"Ficheiro PDF não encontrado: {pdf_path}")
 
+    # O pdftohtml às vezes cria ficheiros extras, 
+    # por isso é melhor definir apenas o nome base
     if xml_path is None:
         xml_path = os.path.splitext(pdf_path)[0] + ".xml"
 
-    print(f"A converter '{pdf_path}' para XML...")
+    # Construir o comando na ordem correta: [OPÇÕES] [ENTRADA]
+    command = ["pdftohtml", "-xml", "-noframes"]
+    
+    if first_page:
+        command.extend(["-f", str(first_page)])
+    if last_page:
+        command.extend(["-l", str(last_page)])
+        
+    command.append(pdf_path)
+    # Nota: Se não passarmos o xml_path no comando, 
+    # ele gera um ficheiro com o mesmo nome do PDF mas extensão .xml automaticamente
+
+    print(f"A executar: {' '.join(command)}")
+    
     result = subprocess.run(
-        ["pdftohtml", "-xml", pdf_path, xml_path],
+        command,
         capture_output=True,
         text=True
     )
@@ -23,15 +34,19 @@ def pdf_to_xml(pdf_path: str, xml_path: str = None) -> str:
     if result.returncode != 0:
         raise RuntimeError(f"Erro ao converter PDF:\n{result.stderr}")
 
-    print(f"XML gerado: {xml_path}")
+    print(f"Conversão concluída com sucesso!")
     return xml_path
-
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Uso: python pdf_to_xml.py <ficheiro.pdf> [saida.xml]")
+        print("Uso: python pdf_to_xml.py <ficheiro.pdf> [página_inicial] [página_final]")
         sys.exit(1)
 
     pdf = sys.argv[1]
-    xml = sys.argv[2] if len(sys.argv) > 2 else None
-    pdf_to_xml(pdf, xml)
+    p_inicial = int(sys.argv[2]) if len(sys.argv) > 2 else None
+    p_final = int(sys.argv[3]) if len(sys.argv) > 3 else None
+    
+    try:
+        pdf_to_xml(pdf, first_page=p_inicial, last_page=p_final)
+    except Exception as e:
+        print(f"Erro: {e}")

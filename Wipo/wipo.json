@@ -1,0 +1,2922 @@
+{
+  "fonte": "WIPO Pearl COVID-19 Glossary",
+  "total_entradas": 162,
+  "entradas": [
+    {
+      "termo_en": "acute respiratory distress syndrome",
+      "categoria": "MEDI, Pathology",
+      "pagina": "6",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "síndrome do desconforto respiratório agudo, (syn.) SDRA",
+        "frances": "syndrome de détresse respiratoire aiguë, (syn.) SDRA",
+        "espanhol": "síndrome de dificultad respiratoria aguda, (syn.) SDRA",
+        "alemao": "akutes Atemnotsyndrom des Erwachsenen, (syn.) ARDS",
+        "arabe": "ةمزلاتم ةقئاضلا ةيسفنتلا ةداحلا",
+        "russo": "острый респираторный дистресс-синдром, (syn.) ОРДС",
+        "chines": "急性呼吸窘迫综合征 , (syn.) ARDS",
+        "japones": "急性呼吸窮迫症候群 , (syn.) 急性呼吸促迫症候群 , ARDS",
+        "coreano": "급성  호흡곤란  증후군 , (syn.) ARDS"
+      },
+      "definicao_en": "(syn.) ARDS Respiratory disease characterized by the rapid onset of widespread inflammation in the lungs."
+    },
+    {
+      "termo_en": "adaptive immunity",
+      "categoria": "MEDI, Anatomy & physiology",
+      "pagina": "6",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "imunidade adquirida, (syn.) imunidade adaptativa",
+        "frances": "immunité acquise, (syn.) immunité adaptative",
+        "espanhol": "inmunidad adquirida, (syn.) inmunidad adaptativa",
+        "alemao": "erworbene Immunität, (syn.) adaptive Immunität",
+        "arabe": "ةعانم ةبستكم ، (syn.) ةعانم ةَّيفُيكت ، ةعانم ةفيكتم",
+        "russo": "приобретенный иммунитет, (syn.) адаптивный иммунитет",
+        "chines": "获得性免疫 , (syn.) 适应性免疫",
+        "japones": "獲得免疫 , (syn.) 適応免疫",
+        "coreano": "후천성  면역"
+      },
+      "definicao_en": "(syn.) acquired immunity Immunity acquired during a person’s lifetime upon exposure to an infectious agent either by previous infection or immunization."
+    },
+    {
+      "termo_en": "aerosol",
+      "categoria": "CHEM, Chemical elements & compounds",
+      "pagina": "6",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "aerossol",
+        "frances": "aérosol",
+        "espanhol": "aerosol",
+        "alemao": "Aerosol",
+        "arabe": "ءابه يوج ، (syn.) لوسوريأ",
+        "russo": "аэрозоль",
+        "chines": "气溶胶",
+        "japones": "エアロゾル , (syn.) エアゾール",
+        "coreano": "에어로솔"
+      },
+      "definicao_en": "Suspension of solid or liquid particles in a gas."
+    },
+    {
+      "termo_en": "ageusia",
+      "categoria": "MEDI, Pathology",
+      "pagina": "6",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "ageusia",
+        "frances": "agueusie",
+        "espanhol": "ageusia",
+        "alemao": "Ageusie",
+        "arabe": "دقف ةساح قوذلا ، (syn.) نادقف ةساح قوذلا ، دقف ةساح قوذتلا",
+        "russo": "агевзия",
+        "chines": "味觉丧失",
+        "japones": "味覚消失",
+        "coreano": "무미각증"
+      },
+      "definicao_en": "Disorder characterized by loss of taste."
+    },
+    {
+      "termo_en": "airborne transmission",
+      "categoria": "MEDI, Pathology",
+      "pagina": "6",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "transmissão por aerossóis",
+        "frances": "transmission par aérosol",
+        "espanhol": "transmisión aérea, (syn.) transmisión por aerosoles",
+        "alemao": "Übertragung durch Tröpfchenkerne",
+        "arabe": "لاقتنا نع قيرط ءاوهلا ، (syn.) لاقتنا نع قيرط ذاذر ، لاقتنا ربع ءاوهلا",
+        "russo": "аэрозольный механизм передачи",
+        "chines": "气溶胶传播",
+        "japones": "空気感染 , (syn.) 飛沫核感染",
+        "coreano": "공기  매개  전파 , (syn.) 공기  전염"
+      },
+      "definicao_en": "(syn.) aerosol transmission Mode of indirect transmission of an infectious disease that occurs when an infectious agent is carried by dust or droplet nuclei suspended in the air in the form of aerosols."
+    },
+    {
+      "termo_en": "angiotensin-converting enzyme",
+      "categoria": "SCIE, Biochemistry",
+      "pagina": "7",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "enzima conversora de angiotensina, (syn.) ECA",
+        "frances": "enzyme de conversion de l'angiotensine, (syn.) ECA",
+        "espanhol": "enzima convertidora de la angiotensina, (syn.) ECA",
+        "alemao": "Angiotensin-konvertierendes Enzym, (syn.) ACE",
+        "arabe": "ميزنا وحم ل يجنلال نيسنيتو",
+        "russo": "ангиотензин-превращающий фермент, (syn.) АПФ (syn.) ангиотензин-конвертирующий фермент, (syn.) АКФ",
+        "chines": "血管紧张素转换酶 , (syn.) ACE",
+        "japones": "アンジオテンシン変換酵素 , (syn.) ACE",
+        "coreano": "안지오텐신  전환효소 , (syn.) ACE"
+      },
+      "definicao_en": "(syn.) ACE Class of ectoenzymes found in, e.g., the lungs, heart, skin, or blood vessels, whose function is to cleave circulating peptides, among which angiotensinogen, which are then used to regulate specific cell functions."
+    },
+    {
+      "termo_en": "anosmia",
+      "categoria": "MEDI, Pathology",
+      "pagina": "7",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "anosmia",
+        "frances": "anosmie",
+        "espanhol": "anosmia",
+        "alemao": "Anosmie",
+        "arabe": "نادقف ةساح شلا م",
+        "russo": "аносмия",
+        "chines": "嗅觉消失",
+        "japones": "無嗅覚",
+        "coreano": "무후각증"
+      },
+      "definicao_en": "Disorder characterized by loss of smell."
+    },
+    {
+      "termo_en": "antibody",
+      "categoria": "SCIE, Biology",
+      "pagina": "7",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "anticorpo, (syn.) imunoglobulina",
+        "frances": "anticorps, (syn.) immunoglobuline",
+        "espanhol": "anticuerpo, (syn.) inmunoglobulina",
+        "alemao": "Antikörper, (syn.) Immunglobulin",
+        "arabe": "دض ، (syn.) مسج داضم ، نيليبولج يعانم",
+        "russo": "антитело, (syn.) иммуноглобулин",
+        "chines": "抗体 , (syn.) 免疫球蛋白",
+        "japones": "抗体 , (syn.) 免疫グロブリン",
+        "coreano": "항체"
+      },
+      "definicao_en": "(syn.) immunoglobulin Protein produced by B lymphocytes that can recognize and neutralize an antigen."
+    },
+    {
+      "termo_en": "antigen",
+      "categoria": "SCIE, Biology",
+      "pagina": "7",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "antígeno",
+        "frances": "antigène",
+        "espanhol": "antígeno",
+        "alemao": "Antigen",
+        "arabe": "سم دضت ، ( syn . ) لوم د م داض",
+        "russo": "антиген",
+        "chines": "抗原",
+        "japones": "抗原",
+        "coreano": "항원"
+      },
+      "definicao_en": "Particle, typically a protein, which the immune system recognizes as foreign."
+    },
+    {
+      "termo_en": "asymptomatic transmission",
+      "categoria": "MEDI, Pathology",
+      "pagina": "7",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "transmissão assintomática",
+        "frances": "transmission asymptomatique",
+        "espanhol": "transmisión asintomática",
+        "alemao": "asymptomatische Übertragung",
+        "arabe": "لاقتنا نم باصم نودب ضارعأ",
+        "russo": "бессимптомная передача",
+        "chines": "无症状传播",
+        "japones": "無症候性感染",
+        "coreano": "무증상  전파"
+      },
+      "definicao_en": "Mode of transmission of an infectious disease to another person from an infected person who does not develop symptoms."
+    },
+    {
+      "termo_en": "attack rate",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "8",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "taxa de ataque",
+        "frances": "taux d'attaque",
+        "espanhol": "tasa de ataque",
+        "alemao": "Befallsrate",
+        "arabe": "لدعم موجه",
+        "russo": "показатель пораженности",
+        "chines": "罹患率 B",
+        "japones": "発病率",
+        "coreano": "발병률"
+      },
+      "definicao_en": "Proportion of people that contract a disease in a population initially free of the disease, i.e. during a disease outbreak."
+    },
+    {
+      "termo_en": "basic reproduction number",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "8",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "número básico de reprodução, (syn.) 𝑅₀",
+        "frances": "taux de reproduction de base, (syn.) 𝑅₀",
+        "espanhol": "número básico de reproducción, (syn.) 𝑅₀ , tasa de contagio, tasa de reproducción",
+        "alemao": "Basisreproduktionszahl, (syn.) 𝑅₀",
+        "arabe": "ددع رثاكت يساسأ",
+        "russo": "базовое репродуктивное число, (syn.) 𝑅₀",
+        "chines": "基本传染数 , (syn.) 𝑅₀",
+        "japones": "基本再生産数 , (syn.) 𝑅₀",
+        "coreano": "기초감염재생산수"
+      },
+      "definicao_en": "(syn.) basic reproduction ratio, basic reproductive ratio, 𝑅₀ Average number of secondary cases that one case produces in a population at risk."
+    },
+    {
+      "termo_en": "biostatistics",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "8",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "bioestatística",
+        "frances": "biostatistique",
+        "espanhol": "bioestadística",
+        "alemao": "Biostatistik",
+        "arabe": "ءاصحإ يجولويب",
+        "russo": "биостатистика",
+        "chines": "生物统计学",
+        "japones": "生物統計学",
+        "coreano": "생물통계학"
+      },
+      "definicao_en": "Application of statistical methods and tools to the fields of biological sciences and medicine, including study design, data collection and analysis, and interpretation of findings."
+    },
+    {
+      "termo_en": "blood plasma",
+      "categoria": "MEDI, Anatomy & physiology",
+      "pagina": "8",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "plasma sanguíneo, (syn.) plasma",
+        "frances": "plasma sanguin, (syn.) plasma",
+        "espanhol": "plasma sanguíneo, (syn.) plasma",
+        "alemao": "Blutplasma",
+        "arabe": "ةروصم مدلا ، (syn.) امزلاب مدلا ، امزلاب",
+        "russo": "плазма крови",
+        "chines": "血浆 C",
+        "japones": "血漿",
+        "coreano": "혈장"
+      },
+      "definicao_en": "(syn.) plasma Liquid part of the blood in which red and white blood cells and platelets are suspended and which carries such blood cells as well as proteins, mineral salts, sugars, fats, and hormones throughout the body."
+    },
+    {
+      "termo_en": "case",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "9",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "caso",
+        "frances": "cas",
+        "espanhol": "caso",
+        "alemao": "Fall",
+        "arabe": "ةلاح ، (syn.) ةلاح ةيضرم",
+        "russo": "случай",
+        "chines": "病例",
+        "japones": "症例",
+        "coreano": "사례"
+      },
+      "definicao_en": "Person who is diagnosed as having a disease."
+    },
+    {
+      "termo_en": "case definition",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "9",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "definição de caso",
+        "frances": "définition de cas",
+        "espanhol": "definición de caso",
+        "alemao": "Falldefinition",
+        "arabe": "فيرعت ةلاح ، (syn.) فيرعت ةلاح ةيضرم",
+        "russo": "эпидемиологическое определение случая",
+        "chines": "病例定义",
+        "japones": "症例定義",
+        "coreano": "사례  정의"
+      },
+      "definicao_en": "Set of criteria used to decide whether a person has contracted a specific disease."
+    },
+    {
+      "termo_en": "case fatality rate",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "9",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "taxa de letalidade, (syn.) taxa de letalidade dos casos",
+        "frances": "taux de létalité",
+        "espanhol": "tasa de letalidad",
+        "alemao": "Fall-Verstorbenen-Anteil",
+        "arabe": "لدعم ةتامإ ةلاحلا ، (syn.) لدعم تايفو ةلاحلا",
+        "russo": "показатель летальности",
+        "chines": "病死率",
+        "japones": "致死率 , (syn.) CFR",
+        "coreano": "치사율 , (syn.) 치명률"
+      },
+      "definicao_en": "(syn.) CFR Proportion of people who die of a given disease out of all the confirmed cases."
+    },
+    {
+      "termo_en": "casual contact",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "9",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "contato casual, (syn.) contacto casual (pt-PT)",
+        "frances": "contact occasionnel",
+        "espanhol": "contacto ocasional",
+        "alemao": "Kontaktperson der Kategorie II",
+        "arabe": "طلاخم رباع",
+        "russo": "случайный контакт",
+        "chines": "偶然接触者",
+        "japones": "非濃厚接触者",
+        "coreano": "일상접촉"
+      },
+      "definicao_en": "Person who has been in the proximity of a person affected by an infectious disease but does not live with or care for the infected person."
+    },
+    {
+      "termo_en": "chain of infection",
+      "categoria": "SCIE, Biology",
+      "pagina": "9",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "cadeia de transmissão",
+        "frances": "chaîne de transmission",
+        "espanhol": "cadena de transmission, (syn.) cadena epidemiológica",
+        "alemao": "Übertragungskette",
+        "arabe": "ةلسلس ىودع",
+        "russo": "цепь передачи инфекции, (syn.) инфекционная цепь",
+        "chines": "感染链",
+        "japones": "感染の連鎖 , (syn.) 感染成立の連鎖",
+        "coreano": "감염사슬"
+      },
+      "definicao_en": "Process in which an infectious agent leaves its reservoir or host through a portal of exit, is conveyed by a mode of transmission, and enters a susceptible host through a portal of entry."
+    },
+    {
+      "termo_en": "chloroquine",
+      "categoria": "MEDI, Pharmacology",
+      "pagina": "10",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "cloroquina",
+        "frances": "chloroquine",
+        "espanhol": "cloroquina",
+        "alemao": "Chloroquin",
+        "arabe": "نيوكورولك ، (syn.) نيكورولك",
+        "russo": "хлорохин",
+        "chines": "氯喹",
+        "japones": "クロロキン",
+        "coreano": "클로로퀸"
+      },
+      "definicao_en": "Quinoline that is substituted at position 4 by a [5- (diethylamino)pentan-2-yl]amino group and at position 7 by chlorine and is used for the treatment of e.g. malaria, lupus erythematosus, and rheumatoid arthritis."
+    },
+    {
+      "termo_en": "close contact",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "10",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "contato próximo, (syn.) contacto próximo (pt-PT)",
+        "frances": "contact étroit",
+        "espanhol": "contacto cercano",
+        "alemao": "Kontaktperson der Kategorie I",
+        "arabe": "طلاخم بيرق",
+        "russo": "тесный контакт",
+        "chines": "密切接触者",
+        "japones": "濃厚接触者",
+        "coreano": "밀접접촉"
+      },
+      "definicao_en": "Person who lives with, cares for, or has direct contact with the respiratory secretions or body fluids of, a person affected by an infectious disease."
+    },
+    {
+      "termo_en": "cluster",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "10",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "conglomerado",
+        "frances": "cluster",
+        "espanhol": "conglomerado de casos",
+        "alemao": "Cluster",
+        "arabe": "دوقنع",
+        "russo": "кластер",
+        "chines": "集群",
+        "japones": "クラスター",
+        "coreano": "군집"
+      },
+      "definicao_en": "(syn.) disease cluster Aggregation of cases of a disease within a given place and time."
+    },
+    {
+      "termo_en": "computed tomography",
+      "categoria": "MEDI, Diagnostic equipment & procedures",
+      "pagina": "10",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "tomografia computadorizada, (syn.) tomografia computorizada , TC",
+        "frances": "tomographie assistée par ordinateur, (syn.) tomodensitométrie, TDM",
+        "espanhol": "tomografía computarizada, (syn.) TC",
+        "alemao": "Computertomographie, CT",
+        "arabe": "ريوصت يعطقم",
+        "russo": "компьютерная томография, (syn.) KT",
+        "chines": "计算机断层扫描 , (syn.) 计算机断层成像 , 电子计算机断 层成像",
+        "japones": "コンピュータ断層撮影",
+        "coreano": "컴퓨터단층촬영 , (syn.) 전산화  단층촬영 , CT"
+      },
+      "definicao_en": "(syn.) computer-assisted tomography, computerized tomography, CT Medical imaging technique by which three-dimensional images of the body are obtained by directing a beam of x-rays at the patient and quickly rotating them around the patient’s body, producing cross-sectional images that are then stacked together by a computed tomography scanner."
+    },
+    {
+      "termo_en": "confirmed case",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "10",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "caso confirmado",
+        "frances": "cas positif",
+        "espanhol": "caso confirmado, (syn.) paciente confirmado",
+        "alemao": "bestätigter Fall",
+        "arabe": "ةلاح ةدكؤم ، (syn.) ةلاح ةدكؤم ةباصلإا ضرملاب",
+        "russo": "подтвержденный случай",
+        "chines": "确诊病例",
+        "japones": "確定例 , (syn.) 確定症例",
+        "coreano": "확진자 , (syn.) 확진  환자"
+      },
+      "definicao_en": "Case that is confirmed by a laboratory test."
+    },
+    {
+      "termo_en": "contact",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "11",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "contato, (syn.) contacto (pt-PT)",
+        "frances": "contact, (syn.) personne contact",
+        "espanhol": "contacto",
+        "alemao": "Kontaktperson",
+        "arabe": "طلاخم",
+        "russo": "контактное лицо",
+        "chines": "接触者",
+        "japones": "接触者",
+        "coreano": "접촉자"
+      },
+      "definicao_en": "Person who has been in the proximity of another person affected by an infectious disease and who is at risk of having contracted this disease."
+    },
+    {
+      "termo_en": "contact follow-up",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "11",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "seguimento de contatos, (syn.) acompanhamento de contatos",
+        "frances": "suivi des contacts",
+        "espanhol": "seguimiento de contactos",
+        "alemao": "Kontaktpersonen-Nachverfolgung",
+        "arabe": "ةعباتم نيطلاخم",
+        "russo": "наблюдение за контактами",
+        "chines": "接触者随访",
+        "japones": "接触者のフォローアップ",
+        "coreano": "접촉자  관리"
+      },
+      "definicao_en": "Process of monitoring the contacts of a case for symptoms of the disease."
+    },
+    {
+      "termo_en": "contact identification",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "11",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "identificação de contatos, (syn.) identificação de contactos (pt-PT)",
+        "frances": "identification des contacts",
+        "espanhol": "identificación de contactos",
+        "alemao": "Identifizierung von Kontaktpersonen",
+        "arabe": "ديدحت نيطلاخم",
+        "russo": "выявление контактов, (syn.) идентификация контактных лиц",
+        "chines": "接触者识别",
+        "japones": "接触者の特定",
+        "coreano": "접촉자  확인"
+      },
+      "definicao_en": "Process aimed at identifying all contacts of a case by asking about the activities of the case and the activities and roles of the people around the case since the onset of the disease."
+    },
+    {
+      "termo_en": "contact tracing",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "11",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "rastreamento de contatos, (syn.) rastreamento de contactos (pt-PT)",
+        "frances": "traçage des contacts",
+        "espanhol": "rastreo de contactos",
+        "alemao": "Contact Tracing",
+        "arabe": "عبتت نيطلاخم",
+        "russo": "отслеживание контактов",
+        "chines": "接触者追踪",
+        "japones": "接触追跡",
+        "coreano": "접촉자  추적"
+      },
+      "definicao_en": "Process of identification, listing and follow-up of contacts."
+    },
+    {
+      "termo_en": "containment",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "11",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "contenção",
+        "frances": "endiguement",
+        "espanhol": "contención",
+        "alemao": "Eindämmung",
+        "arabe": "ءاوتحا",
+        "russo": "сдерживание",
+        "chines": "围堵",
+        "japones": "封じ込め",
+        "coreano": "전파차단"
+      },
+      "definicao_en": "Strategy adopted by a public body to cut off transmission of a disease."
+    },
+    {
+      "termo_en": "convalescent plasma therapy",
+      "categoria": "MEDI, Therapeutics",
+      "pagina": "12",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "terapia com plasma convalescente, (syn.) tratamento com plasma convalescente",
+        "frances": "utilisation thérapeutique de plasma de convalescents",
+        "espanhol": "tratamiento con plasma de convalecientes",
+        "alemao": "Therapie mit Rekonvaleszentenplasma",
+        "arabe": "جلاع امزلابب ةهاقنلا",
+        "russo": "переливание плазмы от реконвалесцентов",
+        "chines": "恢复期血浆治疗 , (syn.) 康复者血浆治疗",
+        "japones": "回復期血漿療法",
+        "coreano": "회복기혈장치료"
+      },
+      "definicao_en": "Therapeutic treatment whereby the blood plasma donated by individuals who have recovered from an infectious disease is introduced into the blood of people who are suffering from the same disease in order to help control the symptoms and limit the progression of the disease."
+    },
+    {
+      "termo_en": "coronavirus",
+      "categoria": "SCIE, Biology",
+      "pagina": "12",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "coronavírus, (syn.) CoV",
+        "frances": "coronavirus, (syn.) CoV",
+        "espanhol": "coronavirus, (syn.) CoV",
+        "alemao": "Coronavirus",
+        "arabe": "سوريف يجات ، (syn.) سوريف يليلكإ ، سوريف لكم ل",
+        "russo": "коронавирус",
+        "chines": "冠状病毒 , (syn.) CoV",
+        "japones": "コロナウイルス",
+        "coreano": "코로나바이러스"
+      },
+      "definicao_en": "(syn.) CoV Family of viruses that consist of a core comprising a positive-sense single-stranded RNA, an envelope, a capsid, and spikes."
+    },
+    {
+      "termo_en": "coronavirus disease 2019",
+      "categoria": "MEDI, Pathology",
+      "pagina": "12",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "doença do coronavírus 2019, (syn.) COVID-19",
+        "frances": "COVID-19, (syn.) Covid-19, covid-19",
+        "espanhol": "enfermedad por coronavirus 2019, (syn.) covid-19",
+        "alemao": "Covid-19",
+        "arabe": "ضرم ديفوك -",
+        "russo": "коронавирусная болезнь 2019 года, (syn.) COVID-19",
+        "chines": "2019 冠状病毒病 , (syn.) COVID-19",
+        "japones": "新型コロナウイルス感染症 , (syn.) COVID-19",
+        "coreano": "코로나바이러스감염증-19"
+      },
+      "definicao_en": "(syn.) COVID-19 Infectious disease caused by SARS-CoV-2."
+    },
+    {
+      "termo_en": "cough reflex",
+      "categoria": "MEDI, Anatomy & physiology",
+      "pagina": "12",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "reflexo de tosse",
+        "frances": "réflexe tussigène",
+        "espanhol": "reflejo tusígeno, (syn.) reflejo de la tos",
+        "alemao": "Hustenreflex",
+        "arabe": "م ن كع س سلا لاع",
+        "russo": "кашлевой рефлекс",
+        "chines": "咳嗽反射",
+        "japones": "咳嗽反射 , (syn.) 咳反射",
+        "coreano": "기침  반사"
+      },
+      "definicao_en": "Body's natural response to help clear irritants from the airways."
+    },
+    {
+      "termo_en": "cytokine release syndrome",
+      "categoria": "MEDI, Pathology",
+      "pagina": "12",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "síndrome de liberação de citocinas",
+        "frances": "syndrome de libération de cytokines",
+        "espanhol": "síndrome de liberación de citocinas, (syn.) tormenta de citocinas",
+        "alemao": "Zytokin-Freisetzungssyndrom",
+        "arabe": "ةمزلاتم زارفإ نيكوتيسلا",
+        "russo": "синдром выброса цитокинов",
+        "chines": "细胞因子释放综合征 D",
+        "japones": "サイトカイン放出症候群 , (syn.) CRS",
+        "coreano": "사이토카인  방출  증후군"
+      },
+      "definicao_en": "(syn.) CRS Systemic inflammatory response syndrome caused by a large and rapid release of cytokines into the blood, which may be triggered by different factors, e.g. a viral infection or the use of certain drugs in immunotherapy."
+    },
+    {
+      "termo_en": "death-to-case ratio",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "13",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "taxa de mortalidade",
+        "frances": "taux de mortalité",
+        "espanhol": "razón de muertes por casos nuevos",
+        "alemao": "Sterblichkeitsrate",
+        "arabe": "لدعم تايفولا نم تلااحلا ةباصملا",
+        "russo": "cоотношение умерших и заболевших",
+        "chines": "病例死亡比",
+        "japones": "死亡罹患比",
+        "coreano": "신규  확진자  대비  신규  사망자  비율"
+      },
+      "definicao_en": "Number of deaths attributed to a particular disease in a specified period divided by the number of new cases of the disease identified during the same period."
+    },
+    {
+      "termo_en": "direct contact transmission",
+      "categoria": "MEDI, Pathology",
+      "pagina": "13",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "transmissão direta",
+        "frances": "transmission par contact direct",
+        "espanhol": "transmisión directa",
+        "alemao": "direkte Kontaktübertagung, (syn.) direkte Übertragung",
+        "arabe": "لاقتنا رشابم",
+        "russo": "прямой контактный путь передачи",
+        "chines": "直接接触传播",
+        "japones": "直接接触感染",
+        "coreano": "직접  접촉전파"
+      },
+      "definicao_en": "Mode of transmission that occurs when an infectious agent is transferred from a reservoir to a host by direct contact or droplet transmission."
+    },
+    {
+      "termo_en": "disease",
+      "categoria": "MEDI, Pathology",
+      "pagina": "13",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "doença",
+        "frances": "maladie",
+        "espanhol": "enfermedad",
+        "alemao": "Krankheit",
+        "arabe": "ضرم ، (syn.) ءاد",
+        "russo": "болезнь",
+        "chines": "疾病",
+        "japones": "疾病 , (syn.) 疾患",
+        "coreano": "질병 , (syn.) 병"
+      },
+      "definicao_en": "Abnormal condition that has a negative impact on the structure or function of all or part of an organism, generally associated with certain signs and symptoms."
+    },
+    {
+      "termo_en": "disease outbreak",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "13",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "surto",
+        "frances": "flambée épidémique",
+        "espanhol": "brote epidémico",
+        "alemao": "Ausbruch",
+        "arabe": "يشفت ضرم",
+        "russo": "вспышка болезни",
+        "chines": "疾病爆发",
+        "japones": "集団発生 , (syn.) アウトブレイク",
+        "coreano": "질병  발생"
+      },
+      "definicao_en": "Cluster of a disease with a common cause and an overall number of cases that is inferior to that of an epidemic."
+    },
+    {
+      "termo_en": "deoxyribonucleic acid",
+      "categoria": "SCIE, Biochemistry",
+      "pagina": "14",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "ácido desoxirribonucleico, (syn.) ADN",
+        "frances": "acide désoxyribonucléique, (syn.) ADN",
+        "espanhol": "ácido desoxirribonucleico, (syn.) ADN",
+        "alemao": "Desoxyribonukleinsäure, (syn.) Desoxyribonucleinsäure, DNA, DNS",
+        "arabe": "ضمح يوون صوقنم نيجسكلأا ، (syn.) اند",
+        "russo": "дезоксирибонуклеиновая кислота, (syn.) ДНК",
+        "chines": "脱氧核糖核酸 , (syn.) DNA",
+        "japones": "デオキシリボ核酸 , (syn.) DNA",
+        "coreano": "디옥시리보핵산 , (syn.) DNA"
+      },
+      "definicao_en": "(syn.) DNA Double-stranded nucleic acid whose nucleotides consist of a backbone made up by a modified sugar, called deoxyribose, a nitrogenous base, i.e. adenine, guanine, cytosine, and thymine, and a phosphate group."
+    },
+    {
+      "termo_en": "drive-through testing",
+      "categoria": "MEDI, Medical care",
+      "pagina": "14",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "rastreio drive-through",
+        "frances": "test de dépistage en voiture",
+        "espanhol": "prueba desde el auto",
+        "alemao": "Drive-in für Corona-Test",
+        "arabe": "صحف نم ةرايسلا",
+        "russo": "тестирование по принципу «не выходя из машины»",
+        "chines": "免下车检测",
+        "japones": "ドライブスルー検査",
+        "coreano": "승차  검진"
+      },
+      "definicao_en": "Method of performing swab tests on people whilst they remain in their vehicles."
+    },
+    {
+      "termo_en": "droplet nucleus",
+      "categoria": "MEDI, Anatomy & physiology",
+      "pagina": "14",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "núcleo goticular",
+        "frances": "noyau de gouttelettes",
+        "espanhol": "núcleo goticular",
+        "alemao": "Tröpfchenkern",
+        "arabe": "ىون ذاذر",
+        "russo": "капельное ядро",
+        "chines": "飞沫核",
+        "japones": "飛沫核",
+        "coreano": "비말핵"
+      },
+      "definicao_en": "Dried residue, approximately ≤ 5 μm in diameter, which results from the evaporation of droplets coughed or sneezed into the air."
+    },
+    {
+      "termo_en": "droplet transmission",
+      "categoria": "MEDI, Pathology",
+      "pagina": "14",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "transmissão por gotículas respiratórias, (syn.) transmissão por gotículas",
+        "frances": "transmission par gouttelettes",
+        "espanhol": "transmisión por gotículas",
+        "alemao": "Tröpchenübertragung",
+        "arabe": "لاقتنا نع قيرط تاريطق",
+        "russo": "воздушно-капельный путь передачи",
+        "chines": "飞沫传播 E",
+        "japones": "飛沫感染 , (syn.) 飛沫散布",
+        "coreano": "비말전파"
+      },
+      "definicao_en": "(syn.) droplet spread Mode of direct transmission of an infectious disease that occurs when a person is in the proximity of an infected person who has respiratory symptoms, e.g., via coughing, sneezing, breathing, or talking."
+    },
+    {
+      "termo_en": "elimination",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "14",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "eliminação",
+        "frances": "élimination",
+        "espanhol": "eliminación",
+        "alemao": "Tilgung",
+        "arabe": "ةطخ ءاضق ىلع ضرم ، (syn.) ةيجيتارتسا ةحفاكم ضرم ، ةيجيتارتسا ءاضق ىلع ضرم",
+        "russo": "cтратегия ликвидации",
+        "chines": "消除 , (syn.) 消除策略",
+        "japones": "排除",
+        "coreano": "제거  전략"
+      },
+      "definicao_en": "(syn.) suppression, elimination strategy Strategy adopted by a public body to reduce to zero the incidence of a disease in a given geographical area."
+    },
+    {
+      "termo_en": "endemic disease",
+      "categoria": "MEDI, Public health & hygiene Public health & hygiene",
+      "pagina": "15",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "doença endêmica, (syn.) doença endémica (pt-PT)",
+        "frances": "endémie",
+        "espanhol": "endemia",
+        "alemao": "Endemie",
+        "arabe": "ضرم نطوتم",
+        "russo": "эндемическое заболевание",
+        "chines": "地方病",
+        "japones": "風土病",
+        "coreano": "풍토병"
+      },
+      "definicao_en": "Disease for which there are as many cases as would be expected in a given population at a given time."
+    },
+    {
+      "termo_en": "environmental cleaning",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "15",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "limpeza ambiental",
+        "frances": "nettoyage de l'environnement",
+        "espanhol": "limpieza ambiental",
+        "alemao": "Krankenhaushygiene",
+        "arabe": "فيظنت يئيب ، (syn.) فيظنت ةئيب ةطيحم",
+        "russo": "уборка помещений",
+        "chines": "环境清洁",
+        "japones": "環境清掃",
+        "coreano": "환경관리"
+      },
+      "definicao_en": "Set of actions and processes, including cleaning, disinfecting and monitoring, implemented in places at risk of spread of an infectious agent through contaminated objects."
+    },
+    {
+      "termo_en": "epidemic curve",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "15",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "curva epidêmica, (syn.) curva epidémica (pt-PT)",
+        "frances": "courbe épidémique",
+        "espanhol": "curva epidemiológica",
+        "alemao": "epidemische Kurve",
+        "arabe": "ىنحنم يئابو",
+        "russo": "эпидемическая кривая",
+        "chines": "流行曲线",
+        "japones": "流行曲線",
+        "coreano": "유행곡선"
+      },
+      "definicao_en": "Graphical representation of the incidence of a disease or other health-related event plotted over time."
+    },
+    {
+      "termo_en": "epidemic disease",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "15",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "epidemia, (syn.) doença epidêmica, doença epidémica (pt-PT)",
+        "frances": "épidémie",
+        "espanhol": "epidemia",
+        "alemao": "Epidemie",
+        "arabe": "ضرم يئابو",
+        "russo": "эпидемическое заболевание",
+        "chines": "流行病",
+        "japones": "流行病",
+        "coreano": "유행병"
+      },
+      "definicao_en": "Disease for which there are many more cases than would be expected at a given time in a given population and which can be ascribed to the same cause."
+    },
+    {
+      "termo_en": "epidemic threshold",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "15",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "limite epidêmico, (syn.) limiar epidêmico, limiar epidémico (pt-PT)",
+        "frances": "seuil épidémique",
+        "espanhol": "umbral epidémico",
+        "alemao": "epidemische Schwelle",
+        "arabe": "ةبتع ءابو",
+        "russo": "эпидемический порог",
+        "chines": "流行阈值",
+        "japones": "流行閾値",
+        "coreano": "유행  기준치"
+      },
+      "definicao_en": "Number of individuals within a population at risk that is required for an epidemic to occur."
+    },
+    {
+      "termo_en": "epidemiology",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "16",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "epidemiologia",
+        "frances": "épidémiologie",
+        "espanhol": "epidemiología",
+        "alemao": "Epidemiologie",
+        "arabe": "ملع تايئابولا ، (syn.) ملع ةئبولأا",
+        "russo": "эпидемиология",
+        "chines": "流行病学 F",
+        "japones": "疫学",
+        "coreano": "역학"
+      },
+      "definicao_en": "Scientific study of the occurrence of a disease or other health-related event in specified populations, and its application to the control of health problems."
+    },
+    {
+      "termo_en": "fever",
+      "categoria": "MEDI, Anatomy & physiology",
+      "pagina": "16",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "febre",
+        "frances": "fièvre",
+        "espanhol": "fiebre",
+        "alemao": "Fieber",
+        "arabe": "ىمح ، (syn.) ةنوخس",
+        "russo": "лихорадка, (syn.) повышение температуры тела",
+        "chines": "发热 (syn.) 发烧",
+        "japones": "発熱",
+        "coreano": "발열, (syn.) 열"
+      },
+      "definicao_en": "(syn.) pyrexia Innate immune response mechanism that increases a person’s body temperature above the normal level."
+    },
+    {
+      "termo_en": "filtering facepiece respirator",
+      "categoria": "ENVR, Personal protective equipment",
+      "pagina": "16",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "máscara autofiltrante",
+        "frances": "masque de protection respiratoire, (syn.) masque FFP",
+        "espanhol": "mascarilla autofiltrante",
+        "alemao": "partikelfiltrierende Halbmaske",
+        "arabe": "عانق سفنت حشرم",
+        "russo": "фильтрующая лицевая маска, (syn.) фильтрующий респиратор",
+        "chines": "过滤面罩呼吸器",
+        "japones": "フィルター式フェイスピースレスピレーター",
+        "coreano": "방진  마스크"
+      },
+      "definicao_en": "(syn.) filtering face-piece respirator, FFR Respiratory protective equipment that uses filters to remove hazardous substances from the air being breathed by the wearer."
+    },
+    {
+      "termo_en": "fomite",
+      "categoria": "MEDI, Pathology",
+      "pagina": "16",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "fômite, (syn.) fómite (pt-PT)",
+        "frances": "vecteur passif",
+        "espanhol": "fómite, (syn.) vector pasivo",
+        "alemao": "unbelebter Vektor",
+        "arabe": "ةادأ ىودع",
+        "russo": "фомит",
+        "chines": "物媒",
+        "japones": "媒介物",
+        "coreano": "매개물"
+      },
+      "definicao_en": "Inanimate object contaminated by an infectious agent that can indirectly transmit an infectious disease."
+    },
+    {
+      "termo_en": "full face shield",
+      "categoria": "ENVR, Personal protective equipment",
+      "pagina": "16",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "viseira de proteção facial",
+        "frances": "visière",
+        "espanhol": "pantalla facial",
+        "alemao": "Gesichtsschutz",
+        "arabe": "عانق قاو ، (syn.) عانق هجو",
+        "russo": "лицевой щиток",
+        "chines": "防护面罩 G",
+        "japones": "顔面保護シールド",
+        "coreano": "안면보호구"
+      },
+      "definicao_en": "(syn.) face shield (syn.) full-face visor (syn.) visor Personal protective equipment that protects the wearer’s eyes and face from sprays, splashes, and large-particle droplets, and prevents the spread of respiratory droplets from the wearer to others."
+    },
+    {
+      "termo_en": "gene",
+      "categoria": "SCIE, Genetics",
+      "pagina": "17",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "gene",
+        "frances": "gène",
+        "espanhol": "gen",
+        "alemao": "Gen",
+        "arabe": "نيج ، (syn.) ةثروم",
+        "russo": "ген",
+        "chines": "基因",
+        "japones": "遺伝子",
+        "coreano": "유전자"
+      },
+      "definicao_en": "Sequence of DNA that carries the required information for making a specific molecule, typically a protein."
+    },
+    {
+      "termo_en": "gene therapy",
+      "categoria": "MEDI, Therapeutics",
+      "pagina": "17",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "terapia gênica, (syn.) terapia génica (pt-PT)",
+        "frances": "thérapie génique",
+        "espanhol": "genoterapia, (syn.) terapia génica",
+        "alemao": "Gentherapie",
+        "arabe": "جلاع ينيج ، (syn.) جلاع تانيجلاب",
+        "russo": "генная терапия",
+        "chines": "基因治疗",
+        "japones": "遺伝子治療",
+        "coreano": "유전자  치료"
+      },
+      "definicao_en": "Therapeutic treatment whereby one or more foreign genes are inserted into the genome of an organism by means of a vector, to compensate for abnormal genes or to help the organism produce a protein that can be beneficial for it."
+    },
+    {
+      "termo_en": "genome",
+      "categoria": "SCIE, Genetics",
+      "pagina": "17",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "genoma",
+        "frances": "génome",
+        "espanhol": "genoma",
+        "alemao": "Genom",
+        "arabe": "موُني ِج ، (syn.) يجم ن",
+        "russo": "геном",
+        "chines": "基因组 H",
+        "japones": "ゲノム",
+        "coreano": "게놈 , (syn.) 유전체"
+      },
+      "definicao_en": "Complete set of DNA of a living organism, including all of its genes."
+    },
+    {
+      "termo_en": "hand sanitizer",
+      "categoria": "CHEM, Detergents & cleaning agents",
+      "pagina": "17",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "gel desinfetante, (syn.) álcool-gel",
+        "frances": "désinfectant pour les mains",
+        "espanhol": "gel hidroalcohólico, (syn.) alcohol en gel",
+        "alemao": "Händedesinfektionsmittel",
+        "arabe": "مقعم نيدي",
+        "russo": "кожный антисептик, (syn.) антисептическое средство для рук , санитайзер",
+        "chines": "免洗洗手液",
+        "japones": "手指消毒剤",
+        "coreano": "손  세정제"
+      },
+      "definicao_en": "Gel, foam, or liquid used for handwashing that may or may not contain alcohol."
+    },
+    {
+      "termo_en": "hand washing",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "18",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "lavagem das mãos",
+        "frances": "lavage des mains",
+        "espanhol": "lavado de las manos",
+        "alemao": "Händewaschen",
+        "arabe": "لسغ نيدي",
+        "russo": "мытье рук",
+        "chines": "洗手",
+        "japones": "手洗い",
+        "coreano": "손  씻기"
+      },
+      "definicao_en": "Action of removing any unwanted substance or microorganism from a person's hands using water or another liquid, with or without soap or other detergents."
+    },
+    {
+      "termo_en": "herd immunity",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "18",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "imunidade de grupo, (syn.) imunidade comunitária",
+        "frances": "immunité de groupe",
+        "espanhol": "inmunidad de grupo, (syn.) inmunidad colectiva, inmunidad de rebaño",
+        "alemao": "Herdenimmunität",
+        "arabe": "ةعانم عيطق ، (syn.) ةعانم عمتجم",
+        "russo": "коллективный иммунитет, (syn.) популяционный иммунитет",
+        "chines": "群体免疫",
+        "japones": "集団免疫",
+        "coreano": "집단  면역"
+      },
+      "definicao_en": "(syn.) community immunity Indirect protection from an infectious agent achieved in a population at risk when a sufficiently large proportion of individuals in the population show an acquired immunity to that infectious agent."
+    },
+    {
+      "termo_en": "high-risk group",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "18",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "grupo de alto risco",
+        "frances": "groupe à haut risque",
+        "espanhol": "grupo de alto riesgo",
+        "alemao": "besonders gefährdete Personengruppe",
+        "arabe": "ةئف رثكأ ةضرع ةباصلإل",
+        "russo": "группа риска",
+        "chines": "高危人群",
+        "japones": "ハイリスク群 , (syn.) 高危険群",
+        "coreano": "고위험군"
+      },
+      "definicao_en": "Part of a population at risk that has higher than average prevalence, incidence or severity of a disease."
+    },
+    {
+      "termo_en": "hospital gown",
+      "categoria": "MEDI, Medical equipment",
+      "pagina": "18",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "bata hospitalar",
+        "frances": "casaque",
+        "espanhol": "bata quirúrgica",
+        "alemao": "Schutzkittel",
+        "arabe": "ةءابع ةيبط",
+        "russo": "больничная одежда",
+        "chines": "医用防护服",
+        "japones": "医療用ガウン",
+        "coreano": "환자복"
+      },
+      "definicao_en": "Garment of personal protective equipment worn in healthcare settings to reduce the risk of exposure to infectious agents."
+    },
+    {
+      "termo_en": "hospitalization",
+      "categoria": "MEDI, Medical care",
+      "pagina": "18",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "hospitalização",
+        "frances": "hospitalisation",
+        "espanhol": "hospitalización",
+        "alemao": "Krankenhausaufenthalt",
+        "arabe": "ءافشتسا",
+        "russo": "госпитализация",
+        "chines": "住院治疗",
+        "japones": "入院",
+        "coreano": "입원"
+      },
+      "definicao_en": "Admission and stay of a patient in a hospital for treatment."
+    },
+    {
+      "termo_en": "host",
+      "categoria": "SCIE, Biology",
+      "pagina": "19",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "hospedeiro",
+        "frances": "hôte",
+        "espanhol": "hospedador, (syn.) hospedero",
+        "alemao": "Wirt",
+        "arabe": "لئاع ، (syn.) فيضم",
+        "russo": "хозяин",
+        "chines": "宿主",
+        "japones": "宿主",
+        "coreano": "숙주"
+      },
+      "definicao_en": "Person or animal infected by an infectious agent."
+    },
+    {
+      "termo_en": "hygiene",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "19",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "higiene",
+        "frances": "hygiène",
+        "espanhol": "higiene",
+        "alemao": "Hygiene",
+        "arabe": "ةفاظن ، (syn.) ةفاظن ةيحص",
+        "russo": "гигиена",
+        "chines": "卫生 I",
+        "japones": "衛生",
+        "coreano": "위생"
+      },
+      "definicao_en": "Set of practices that help to maintain health and prevent the spread of diseases."
+    },
+    {
+      "termo_en": "immune response",
+      "categoria": "MEDI, Anatomy & physiology",
+      "pagina": "19",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "resposta imunitária,",
+        "frances": "réponse immunitaire, (syn.) réaction immunitaire",
+        "espanhol": "respuesta inmunitaria, (syn.) respuesta immune",
+        "alemao": "Immunantwort",
+        "arabe": "ةباجتسا يعانم ة",
+        "russo": "",
+        "chines": "",
+        "japones": "免疫反応 , (syn.) 免疫応答",
+        "coreano": "면역  반응"
+      },
+      "definicao_en": "Reaction of the immune system of an organism to potentially harmful stimuli."
+    },
+    {
+      "termo_en": "(syn.)",
+      "categoria": null,
+      "pagina": "19",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "",
+        "frances": "",
+        "espanhol": "",
+        "alemao": "",
+        "arabe": "",
+        "russo": "иммунный ответ",
+        "chines": "免疫反应",
+        "japones": "",
+        "coreano": ""
+      },
+      "definicao_en": "resposta imune, resposta imunológica"
+    },
+    {
+      "termo_en": "immune system",
+      "categoria": "MEDI, Anatomy & physiology",
+      "pagina": "19",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "",
+        "frances": "",
+        "espanhol": "sistema inmunitario,",
+        "alemao": "Immunsystem",
+        "arabe": "زاهج يعانم",
+        "russo": "",
+        "chines": "",
+        "japones": "",
+        "coreano": ""
+      },
+      "definicao_en": "Network of cells and antibodies that defends the body against the attack of agents perceived as extraneous and potentially harmful to it by triggering an immune response, which can be specific (adaptive) or not specific (innate)."
+    },
+    {
+      "termo_en": "(syn.)",
+      "categoria": null,
+      "pagina": "19",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "sistema imunitário, (syn.) sistema imunológico,    sistema imune",
+        "frances": "système immunitaire",
+        "espanhol": "",
+        "alemao": "",
+        "arabe": "",
+        "russo": "иммунная система",
+        "chines": "免疫系统",
+        "japones": "免疫系",
+        "coreano": "면역계"
+      },
+      "definicao_en": "sistema inmunológico"
+    },
+    {
+      "termo_en": "immunity",
+      "categoria": "MEDI, Anatomy & physiology",
+      "pagina": "19",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "imunidade",
+        "frances": "immunité",
+        "espanhol": "inmunidad",
+        "alemao": "Immunität",
+        "arabe": "ةعانم",
+        "russo": "иммунитет",
+        "chines": "免疫力",
+        "japones": "免疫",
+        "coreano": "면역"
+      },
+      "definicao_en": "Condition of being protected against an infectious disease."
+    },
+    {
+      "termo_en": "imported case",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "20",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "",
+        "frances": "cas importé",
+        "espanhol": "caso importado",
+        "alemao": "importierter Fall",
+        "arabe": "ةلاح ةدروتسم",
+        "russo": "",
+        "chines": "",
+        "japones": "",
+        "coreano": ""
+      },
+      "definicao_en": "Case who has a history of travel from an affected area some time before the onset of the disease and cannot be linked to local transmission."
+    },
+    {
+      "termo_en": "輸入症例",
+      "categoria": null,
+      "pagina": "20",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "caso importado",
+        "frances": "",
+        "espanhol": "",
+        "alemao": "",
+        "arabe": "",
+        "russo": "завозной случай",
+        "chines": "境外输入病例",
+        "japones": "",
+        "coreano": "해외유입  사례"
+      },
+      "definicao_en": ""
+    },
+    {
+      "termo_en": "incidence",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "20",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "incidência",
+        "frances": "incidence",
+        "espanhol": "incidencia",
+        "alemao": "Incidenz",
+        "arabe": "لدعم ثودح",
+        "russo": "заболеваемость,",
+        "chines": "",
+        "japones": "罹患率 , (syn.) 発生率",
+        "coreano": "발생률"
+      },
+      "definicao_en": "New cases of a disease arising in a given period in a population at risk."
+    },
+    {
+      "termo_en": "(syn.)",
+      "categoria": null,
+      "pagina": "20",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "",
+        "frances": "",
+        "espanhol": "",
+        "alemao": "",
+        "arabe": "",
+        "russo": "",
+        "chines": "发生率",
+        "japones": "",
+        "coreano": ""
+      },
+      "definicao_en": "инцидентность"
+    },
+    {
+      "termo_en": "incubation period",
+      "categoria": "MEDI, Pathology",
+      "pagina": "20",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "período de incubação",
+        "frances": "période d'incubation",
+        "espanhol": "período de incubación",
+        "alemao": "Inkubationszeit",
+        "arabe": "ةرتف ةناضح",
+        "russo": "инкубационный период",
+        "chines": "潜伏期",
+        "japones": "潜伏期間",
+        "coreano": "잠복기"
+      },
+      "definicao_en": "Lapse of time between the exposure to an infectious agent and the onset of the symptoms of a disease."
+    },
+    {
+      "termo_en": "index case",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "20",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "caso índice",
+        "frances": "cas index",
+        "espanhol": "caso índice",
+        "alemao": "Indexfall",
+        "arabe": "ةلاح ةلاد",
+        "russo": "индексный случай, (syn.) индексный пациент",
+        "chines": "指示病例",
+        "japones": "インデックスケース , (syn.) 発端者,  最初の患者",
+        "coreano": "지표환자 , (syn.) 최초  환자"
+      },
+      "definicao_en": "(syn.) index patient The first known case of the outbreak of a disease in a cluster."
+    },
+    {
+      "termo_en": "indirect contact transmission",
+      "categoria": "MEDI, Pathology",
+      "pagina": "20",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "transmissão indireta",
+        "frances": "transmission par contact indirect",
+        "espanhol": "transmisión indirecta",
+        "alemao": "indirekte Kontaktübertragung",
+        "arabe": "لاقتنا ريغ رشابم",
+        "russo": "непрямой контактный путь передачи",
+        "chines": "间接接触传播",
+        "japones": "間接接触感染",
+        "coreano": "간접  접촉  전파"
+      },
+      "definicao_en": "Mode of transmission that occurs when an infectious agent is transferred from a reservoir to a host by means of a vehicle, i.e. water, food or air, a vector or a fomite."
+    },
+    {
+      "termo_en": "infection fatality rate",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "21",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "taxa de letalidade da infecção, (syn.) letalidade dos infectados",
+        "frances": "taux de mortalité par infection, (syn.) IFR",
+        "espanhol": "tasa de letalidad",
+        "alemao": "Infizierten-Verstorbenen-Anteil",
+        "arabe": "لدعم ةتامإ ىودع",
+        "russo": "коэффициент смертности от инфекции",
+        "chines": "感染死亡率",
+        "japones": "感染死亡率 , (syn.) 感染致死率",
+        "coreano": "감염  치사율"
+      },
+      "definicao_en": "(syn.) IFR Proportion of people who will die of a certain disease out of all those who have been infected."
+    },
+    {
+      "termo_en": "infectious agent",
+      "categoria": "MEDI, Pathology",
+      "pagina": "21",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "agente infeccioso",
+        "frances": "agent infectieux",
+        "espanhol": "agente infeccioso",
+        "alemao": "Infektionserreger",
+        "arabe": "لماع دعم",
+        "russo": "инфекционный агент",
+        "chines": "传染病原体",
+        "japones": "感染病原体 , (syn.) 感染因子",
+        "coreano": "감염원"
+      },
+      "definicao_en": "Biological agent that may or may not cause an infectious disease."
+    },
+    {
+      "termo_en": "infectious disease",
+      "categoria": "MEDI, Pathology",
+      "pagina": "21",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "doença infecciosa",
+        "frances": "maladie infectieuse",
+        "espanhol": "enfermedad infecciosa",
+        "alemao": "Infektionskrankheit",
+        "arabe": "ضرم دعم",
+        "russo": "инфекционнoe заболеваниe",
+        "chines": "传染病",
+        "japones": "感染症",
+        "coreano": "감염병"
+      },
+      "definicao_en": "Disease caused by a pathogen."
+    },
+    {
+      "termo_en": "infectivity",
+      "categoria": "SCIE, Biology",
+      "pagina": "21",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "infecciosidade, (syn.) infectividade",
+        "frances": "infectiosité",
+        "espanhol": "infecciosidad",
+        "alemao": "Infektiosität",
+        "arabe": "ةردق ىلع ثادحإ ىودع",
+        "russo": "инфективность",
+        "chines": "感染力",
+        "japones": "感染力",
+        "coreano": "감염력"
+      },
+      "definicao_en": "Ability of an infectious agent to enter, survive, and multiply in a host."
+    },
+    {
+      "termo_en": "inflammation",
+      "categoria": "MEDI, Anatomy & physiology",
+      "pagina": "21",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "inflamação",
+        "frances": "inflammation",
+        "espanhol": "inflamación",
+        "alemao": "Entzündung",
+        "arabe": "باهتلا",
+        "russo": "воспаление",
+        "chines": "炎症",
+        "japones": "炎症",
+        "coreano": "염증"
+      },
+      "definicao_en": "Series of innate immunity processes initiated by the body in response to an injury."
+    },
+    {
+      "termo_en": "intensive care unit",
+      "categoria": "MEDI, Medical care",
+      "pagina": "22",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "unidade de cuidados intensivos, (syn.) UCI",
+        "frances": "unité de soins intensifs, (syn.) USI",
+        "espanhol": "unidad de cuidados intensivos, (syn.) unidad de terapia intensiva, UCI, UTI",
+        "alemao": "Intensivstation",
+        "arabe": "ةدحو ةيانع كرم ةز ، (syn.) ةدحو ةياعر كرم ةز ، ةدحو ةيانع ثكم ةف ، ةدحو ةياعر ثكم ةف",
+        "russo": "отделение реанимации и интенсивной терапии, (syn.) ОРИТ",
+        "chines": "重症监护室 , (syn.) 加护病房",
+        "japones": "集中治療室 , (syn.) ICU",
+        "coreano": "중환자실 , (syn.) 집중치료실"
+      },
+      "definicao_en": "(syn.) critical care unit, ICU, CCU Hospital facility that provides critical care and life support for acutely ill or injured patients."
+    },
+    {
+      "termo_en": "intubation",
+      "categoria": "MEDI, Surgery",
+      "pagina": "22",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "intubação",
+        "frances": "intubation",
+        "espanhol": "intubación",
+        "alemao": "Intubation, (syn.) Intubierung",
+        "arabe": "بيبنت",
+        "russo": "интубация",
+        "chines": "插管术 L",
+        "japones": "挿管",
+        "coreano": "삽관"
+      },
+      "definicao_en": "(syn.) endotracheal intubation Invasive lung ventilation method in which a tube is inserted into the patient’s trachea through the mouth or nose."
+    },
+    {
+      "termo_en": "laboratory test",
+      "categoria": "MEDI, Diagnostic equipment & procedures",
+      "pagina": "22",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "teste laboratorial",
+        "frances": "examen de laboratoire",
+        "espanhol": "prueba de laboratorio",
+        "alemao": "Labortest",
+        "arabe": "صحف يربخم ، (syn.) صحف يربتخم ، رابتخا يربخم",
+        "russo": "лабораторный анализ",
+        "chines": "实验室检验",
+        "japones": "検体検査",
+        "coreano": "실험실  검사"
+      },
+      "definicao_en": "Diagnostic test performed on samples of a person’s body, e.g. blood, urine, saliva, tissues, typically in specially equipped facilities."
+    },
+    {
+      "termo_en": "lockdown",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "22",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "confinamento",
+        "frances": "confinement",
+        "espanhol": "confinamiento",
+        "alemao": "Massenquarantäne",
+        "arabe": "قلاغإ",
+        "russo": "режим изоляции",
+        "chines": "封 锁 M",
+        "japones": "都市封鎖 , (syn.) ロックダウン",
+        "coreano": "봉쇄"
+      },
+      "definicao_en": "(syn.) confinement Strategy adopted by a public body because of an emergency that requires people to remain in a certain location which they may not leave other than for exceptional reasons."
+    },
+    {
+      "termo_en": "magnetic resonance imaging",
+      "categoria": null,
+      "pagina": "23",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "",
+        "frances": "",
+        "espanhol": "",
+        "alemao": "",
+        "arabe": "",
+        "russo": "",
+        "chines": "",
+        "japones": "",
+        "coreano": ""
+      },
+      "definicao_en": "(syn.) magnetic resonance tomography, nuclear magnetic resonance imaging, MRI, MRT, NMRI Medical imaging technique by which three-dimensional images of the body are obtained by exciting protons present in the water of living tissues and detecting the change in the direction of their rotational axis by means of a magnetic resonance imaging scanner."
+    },
+    {
+      "termo_en": "MEDI,",
+      "categoria": "Diagnostic equipment & procedures",
+      "pagina": "23",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "imagiologia por ressonância magnética, (syn.) IRM",
+        "frances": "imagerie par résonance magnétique, (syn.) imagerie par résonance magnétique nucléaire, IRM",
+        "espanhol": "imagen por resonancia magnética, (syn.) IRM",
+        "alemao": "Magnetresonanztomographie, (syn.) MRT, Kernspintomographie, Magnetresonanz-Bildgebung",
+        "arabe": "ريوصت نينرلاب يسيطانغملا",
+        "russo": "магнитно-резонансная томография, (syn.) ядерномагнитно-резонансная томография, ЯМРТ",
+        "chines": "磁共振成像",
+        "japones": "磁気共鳴映像法",
+        "coreano": "자기공명영상, (syn.) 자기공명영상법 , MRI"
+      },
+      "definicao_en": ""
+    },
+    {
+      "termo_en": "mask",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "23",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "máscara",
+        "frances": "masque",
+        "espanhol": "mascarilla, (syn.) barbijo (es-AR), tapaboca (es-CU)",
+        "alemao": "Atemschutzmaske",
+        "arabe": "ةمامك ، (syn.) عانق",
+        "russo": "маска",
+        "chines": "口罩",
+        "japones": "マスク",
+        "coreano": "마스크"
+      },
+      "definicao_en": "Commercially produced or homemade covering for nose and mouth used to reduce the spread of respiratory droplets from the wearer to others."
+    },
+    {
+      "termo_en": "mechanical ventilation",
+      "categoria": "MEDI, Medical care",
+      "pagina": "23",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "ventilação mecânica",
+        "frances": "ventilation artificielle",
+        "espanhol": "ventilación mecánica",
+        "alemao": "maschinelle Beatmung",
+        "arabe": "ةيوهت ةيكيناكيم",
+        "russo": "искусственная вентиляция лёгких, (syn.) аппаратное дыхание, ИВЛ",
+        "chines": "机械通气",
+        "japones": "機械的換気 , (syn.) MV",
+        "coreano": "기계환기"
+      },
+      "definicao_en": "Lung ventilation provided by driving fresh air into the lungs by positive pressure and/or by pumping expiratory air out of the lungs by negative pressure."
+    },
+    {
+      "termo_en": "mechanical ventilator",
+      "categoria": "MEDI, Medical equipment",
+      "pagina": "23",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "ventilador mecânico",
+        "frances": "ventilateur mécanique",
+        "espanhol": "respirador, (syn.) ventilador mecánico",
+        "alemao": "Beatmungsgerät, (syn.) mechanischer Ventilator, Respirator",
+        "arabe": "زاهج سفنت يعانطصا",
+        "russo": "аппарат искусственной вентиляции легких, (syn.) аппарат ИВЛ",
+        "chines": "呼吸机",
+        "japones": "人工呼吸器",
+        "coreano": "인공  호흡기"
+      },
+      "definicao_en": "(syn.) ventilator Machine that helps patients to breathe by driving fresh air into the lungs by positive pressure and/or by pumping expiratory air out of the lungs by negative pressure, replacing some or all of the muscular effort required for lung ventilation."
+    },
+    {
+      "termo_en": "medical care",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "23",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "cuidado médico",
+        "frances": "soins médicaux",
+        "espanhol": "atención médica",
+        "alemao": "medizinische Versorgung",
+        "arabe": "ةياعر ةيبط ، (syn.) ةيانع ةيبط",
+        "russo": "медицинская помощь",
+        "chines": "医疗保健",
+        "japones": "医療",
+        "coreano": "의료"
+      },
+      "definicao_en": "Administration and delivery of healthcare by professionals."
+    },
+    {
+      "termo_en": "medical glove",
+      "categoria": "MEDI, Medical equipment",
+      "pagina": "24",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "luva médica",
+        "frances": "gant médical",
+        "espanhol": "guante médico",
+        "alemao": "Einmalhandschuh",
+        "arabe": "زافق يبط",
+        "russo": "медицинская перчатка",
+        "chines": "医用手套",
+        "japones": "医療用手袋",
+        "coreano": "의료용 장갑"
+      },
+      "definicao_en": "Personal protective equipment for the hands typically worn by healthcare professionals to protect themselves from exposure to infectious agents or other biological, chemical or physical hazards."
+    },
+    {
+      "termo_en": "mitigation",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "24",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "mitigação",
+        "frances": "stratégie d'atténuation",
+        "espanhol": "mitigación",
+        "alemao": "Folgenminderungsstrategie",
+        "arabe": "فيفخت",
+        "russo": "смягчение последствий",
+        "chines": "缓疫",
+        "japones": "緩和",
+        "coreano": "피해최소화"
+      },
+      "definicao_en": "Strategy adopted by a public body to reduce the number of infected people in a given geographical area and limit the impact on the health system of a disease outbreak."
+    },
+    {
+      "termo_en": "mode of transmission",
+      "categoria": "MEDI, Pathology",
+      "pagina": "24",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "modo de transmissão",
+        "frances": "mode de transmission",
+        "espanhol": "vía de transmisión",
+        "alemao": "Übertragungsweg",
+        "arabe": "ةقيرط لاقتنا ىودع ، (syn.) ةليسو لاقتنا ىودع",
+        "russo": "механизм передачи",
+        "chines": "传播方式",
+        "japones": "感染経路",
+        "coreano": "전파양식"
+      },
+      "definicao_en": "(syn.) route of transmission Means by which an infectious agent spreads from one host to another."
+    },
+    {
+      "termo_en": "monoclonal antibody",
+      "categoria": "SCIE, Therapeutics",
+      "pagina": "24",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "anticorpo monoclonal",
+        "frances": "anticorps monoclonal",
+        "espanhol": "anticuerpo monoclonal",
+        "alemao": "monoklonaler Antikörper",
+        "arabe": "مسج داضم ديحو ةليسنلا ، (syn.) ض د ديحو ةليسنلا ، مسج داضم يداحأ أشنملا",
+        "russo": "моноклональное антитело",
+        "chines": "单克隆抗体",
+        "japones": "モノクローナル抗体 , (syn.) 単クローン抗体",
+        "coreano": "단일클론  항체"
+      },
+      "definicao_en": "Laboratory-produced molecule that targets and attacks specific antigens, thereby triggering a specific immune response."
+    },
+    {
+      "termo_en": "morbidity",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "24",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "morbidade",
+        "frances": "morbidité",
+        "espanhol": "morbilidad",
+        "alemao": "Morbidität",
+        "arabe": "ةضارم",
+        "russo": "морбидность",
+        "chines": "罹病率",
+        "japones": "罹患",
+        "coreano": "이환율"
+      },
+      "definicao_en": "Level of health and well-being of an individual."
+    },
+    {
+      "termo_en": "multiple organ failure",
+      "categoria": "MEDI, Pathology",
+      "pagina": "25",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "",
+        "frances": "",
+        "espanhol": "insuficiencia multiorgánica,",
+        "alemao": "Multiorganversagen, (syn.) MOV",
+        "arabe": "لشف يوضع ددعتم",
+        "russo": "",
+        "chines": "",
+        "japones": "",
+        "coreano": ""
+      },
+      "definicao_en": "(syn.) multiorgan failure, MOF Inability of two or more organs or organ systems to perform their function."
+    },
+    {
+      "termo_en": "(syn.)",
+      "categoria": null,
+      "pagina": "25",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "falência multiorgânica",
+        "frances": "défaillance multiviscérale, (syn.) défaillance polyviscérale",
+        "espanhol": "",
+        "alemao": "",
+        "arabe": "",
+        "russo": "полиорганная недостаточность",
+        "chines": "多器官功能衰竭 N",
+        "japones": "多臓器不全",
+        "coreano": "다발성  장기부전 , (syn.) 다장기기능부전증후군"
+      },
+      "definicao_en": "fallo multiorgánico"
+    },
+    {
+      "termo_en": "nasopharyngeal swab test",
+      "categoria": "MEDI, Diagnostic equipment & procedures",
+      "pagina": "25",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "esfregaço nasofaríngeo, (syn.) exsudado nasofaríngeo",
+        "frances": "prélèvement nasopharyngé",
+        "espanhol": "hisopado nasofaríngeo",
+        "alemao": "Nasen-Rachen-Abstrich",
+        "arabe": "ةحسم ةيموعلب ةيفنأ",
+        "russo": "мазок из носоглотки",
+        "chines": "鼻咽拭子法",
+        "japones": "鼻咽頭スワブ",
+        "coreano": "비인두  면봉  검사 , (syn.) 비인두면봉"
+      },
+      "definicao_en": "Method of collecting a specimen of nasal secretions for diagnostic purposes by inserting a swab into each nostril, extending it back into the nasopharynx, leaving it in place for a few seconds, and slowly withdrawing it with a rotating motion."
+    },
+    {
+      "termo_en": "non-invasive ventilation",
+      "categoria": "MEDI, Medical care",
+      "pagina": "25",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "ventilação não-invasiva, (syn.) VNI",
+        "frances": "ventilation non invasive",
+        "espanhol": "ventilación no invasiva, (syn.) VNI",
+        "alemao": "nicht-invasive Beatmung",
+        "arabe": "ةيوهت ريغ ةعضاب",
+        "russo": "неинвазивная искусственная вентиляция легких, (syn.) неинвазивная ИВЛ",
+        "chines": "无创通气",
+        "japones": "非侵襲的換気 , (syn.) NIV",
+        "coreano": "비침습적  환기"
+      },
+      "definicao_en": "(syn.) NIV Positive pressure ventilation provided through a person’s upper respiratory airways using an oxygen mask."
+    },
+    {
+      "termo_en": "nucleotide sequence",
+      "categoria": "SCIE, Biochemistry",
+      "pagina": "25",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "sequência nucleotídica,",
+        "frances": "séquence nucléotidique",
+        "espanhol": "secuencia nucleotídica, (syn.) secuencia de nucleótidos",
+        "alemao": "Nukleotidsequenz",
+        "arabe": "لسلست تاديوونلا ، (syn.) لسلست تاديتويلكوينلا ، لسلست يديتويلكون",
+        "russo": "",
+        "chines": "",
+        "japones": "ヌクレオチド配列",
+        "coreano": "뉴클레오티드  서열"
+      },
+      "definicao_en": "Sequence of the repeating units of DNA or RNA."
+    },
+    {
+      "termo_en": "(syn.)",
+      "categoria": null,
+      "pagina": "25",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "",
+        "frances": "",
+        "espanhol": "",
+        "alemao": "",
+        "arabe": "",
+        "russo": "нуклеотидная последовательность",
+        "chines": "核苷酸序列 P",
+        "japones": "",
+        "coreano": ""
+      },
+      "definicao_en": "seqüência nucleotídica (pt-BR)"
+    },
+    {
+      "termo_en": "pandemic",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "26",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "pandemia",
+        "frances": "pandémie",
+        "espanhol": "pandemia",
+        "alemao": "Pandemie",
+        "arabe": "ةحئاج",
+        "russo": "пандемия",
+        "chines": "大流行",
+        "japones": "世界的大流行 , (syn.) パンデミック",
+        "coreano": "대유행 , (syn.) 범유행"
+      },
+      "definicao_en": "(syn.) pandemic disease Epidemic disease that has spread to different countries and continents."
+    },
+    {
+      "termo_en": "pandemic preparedness",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "26",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "preparação para pandemia",
+        "frances": "préparation à une pandémie",
+        "espanhol": "preparación para pandemias",
+        "alemao": "Pandemievorbereitung",
+        "arabe": "بهأت ةحئاجل",
+        "russo": "готовность к пандемии",
+        "chines": "大流行应对准备",
+        "japones": "世界的大流行への備え",
+        "coreano": "대유행 대비"
+      },
+      "definicao_en": "Ability of a public body to deal with a threat to human health caused by a pandemic by ensuring that appropriate response plans are in place."
+    },
+    {
+      "termo_en": "pathogen",
+      "categoria": "SCIE, Biology",
+      "pagina": "26",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "",
+        "frances": "",
+        "espanhol": "microorganismo patógeno",
+        "alemao": "Pathogen",
+        "arabe": "رمم ض",
+        "russo": "",
+        "chines": "",
+        "japones": "",
+        "coreano": ""
+      },
+      "definicao_en": "Infectious agent causing a disease."
+    },
+    {
+      "termo_en": ", (syn.)",
+      "categoria": null,
+      "pagina": "26",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "patógeno",
+        "frances": "agent pathogène",
+        "espanhol": "",
+        "alemao": "",
+        "arabe": "",
+        "russo": "патоген, (syn.) патогенный возбудитель",
+        "chines": "病原体",
+        "japones": "病原体",
+        "coreano": "병원체"
+      },
+      "definicao_en": "patógeno"
+    },
+    {
+      "termo_en": "personal protective equipment",
+      "categoria": "ENVR, Personal protective equipment",
+      "pagina": "26",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "equipamento de proteção individual, (syn.) EPI",
+        "frances": "équipement de protection individuelle, (syn.) EPI",
+        "espanhol": "equipo de protección individual, (syn.) EPI",
+        "alemao": "persönliche Schutzausrüstung, (syn.) PSA",
+        "arabe": "تادعم ةياقو ةيصخش",
+        "russo": "средство индивидуальной защиты, (syn.) СИЗ",
+        "chines": "个人防护装备 , (syn.) PPE",
+        "japones": "個人防護具 , (syn.) PPE",
+        "coreano": "개인보호장비"
+      },
+      "definicao_en": "(syn.) PPE Gear worn by an individual that provides protection against one or more risks to a person’s health and safety."
+    },
+    {
+      "termo_en": "pharmacoepidemiology",
+      "categoria": "MEDI, Pharmacology",
+      "pagina": "26",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "farmacoepidemiologia",
+        "frances": "pharmaco-épidémiologie",
+        "espanhol": "farmacoepidemiología",
+        "alemao": "Pharmakoepidemiologie",
+        "arabe": "ةلديص ةيئابو",
+        "russo": "фармакоэпидемиология",
+        "chines": "药物流行病学",
+        "japones": "薬剤疫学",
+        "coreano": "약물역학"
+      },
+      "definicao_en": "Study of the use and effects of drugs in large numbers of people, the aim of which is to estimate the probability of positive or negative effects of a drug."
+    },
+    {
+      "termo_en": "point-of-care testing",
+      "categoria": "MEDI, Medical care",
+      "pagina": "27",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "teste laboratorial remoto, (syn.) teste de diagnóstico rápido, TLR, TDR",
+        "frances": "analyses de biologie délocalisée, (syn.) ADBD",
+        "espanhol": "análisis junto al paciente, (syn.) pruebas a la cabecera del paciente",
+        "alemao": "patientennahe Sofortdiagnostik, (syn.) patientennahe Labordiagnostik, POCT",
+        "arabe": "رابتخإ ةطقُن ةياعرلا",
+        "russo": "исследование по месту лечения, (syn.) ИМЛ",
+        "chines": "即时检验 , (syn.) POCT",
+        "japones": "ポイントオブケアテスティング , (syn.) ポイントオブケアテス , POCT",
+        "coreano": "현장검사, (syn.) POCT"
+      },
+      "definicao_en": "(syn.) point-of-collection testing, POCT Method of performing a laboratory test at or near the site of patient care."
+    },
+    {
+      "termo_en": "polymerase chain reaction",
+      "categoria": "SCIE, Genetics",
+      "pagina": "27",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "reação em cadeia da polimerase, (syn.) PCR",
+        "frances": "amplification en chaîne par polymérase, (syn.) réaction en chaîne par polymérase, réaction en chaîne à la polymérase, ACP, PCR",
+        "espanhol": "reacción en cadena de la polimerasa, (syn.) RCP, PCR",
+        "alemao": "Polymerasekettenreaktion, (syn.) Polymerase- Kettenreaktion, PCR",
+        "arabe": "لسلستم ةرملب لعافت ، (syn.) لعافت يلسلست يزاريميلوب ، لعافت زاريميلوب لسلستم",
+        "russo": "полимеразная цепная реакция, (syn.) ПЦР",
+        "chines": "聚合酶链反应, (syn.) PCR",
+        "japones": "ポリメラーゼ連鎖反応",
+        "coreano": "중합효소  연쇄  반응 , (syn.) PCR"
+      },
+      "definicao_en": "(syn.) PCR Molecular biology technique that applies high temperature and a DNA polymerase to a sample of DNA containing the target sequence, thereby producing copies of small segments of the original DNA for use in further molecular and genetic analysis."
+    },
+    {
+      "termo_en": "portal of entry",
+      "categoria": "MEDI, Pathology",
+      "pagina": "27",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "porta de entrada, (syn.) via de entrada",
+        "frances": "porte d'entrée",
+        "espanhol": "puerta de entrada",
+        "alemao": "Eintrittspforte",
+        "arabe": "ناكم لوخد",
+        "russo": "входные ворота инфекции",
+        "chines": "侵入门户",
+        "japones": "侵入門戸",
+        "coreano": "입구"
+      },
+      "definicao_en": "Anatomical site at which an infectious agent enters a host."
+    },
+    {
+      "termo_en": "portal of exit",
+      "categoria": "MEDI, Pathology",
+      "pagina": "27",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "porta de saída, (syn.) via de saída",
+        "frances": "porte de sortie",
+        "espanhol": "puerta de salida",
+        "alemao": "Austrittspforte",
+        "arabe": "ناكم جورخ",
+        "russo": "выходные ворота инфекции",
+        "chines": "出口",
+        "japones": "排出門戸",
+        "coreano": "출구"
+      },
+      "definicao_en": "Anatomical site at which an infectious agent leaves a host."
+    },
+    {
+      "termo_en": "pre-symptomatic transmission",
+      "categoria": "MEDI, Pathology",
+      "pagina": "27",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "transmissão pré-sintomática",
+        "frances": "transmission pré-symptomatique",
+        "espanhol": "transmisión presintomática",
+        "alemao": "präsymptomatische Übertragung",
+        "arabe": "لاقتنا نم باصم لبق روهظ ضارعأ",
+        "russo": "предсимптомная передача",
+        "chines": "症状前传播 , (syn.) 潜伏期传播",
+        "japones": "発症前感染",
+        "coreano": "잠복기  전염"
+      },
+      "definicao_en": "Mode of transmission of an infectious disease to another person from an infected person who has not yet developed symptoms."
+    },
+    {
+      "termo_en": "prevalence",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "28",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "prevalência",
+        "frances": "prévalence",
+        "espanhol": "prevalencia",
+        "alemao": "Prävalenz",
+        "arabe": "لدعم راشتنا",
+        "russo": "распространенность, (syn.) превалентность",
+        "chines": "盛行率",
+        "japones": "有病率",
+        "coreano": "유병률"
+      },
+      "definicao_en": "All cases of a disease observed at a given point in time in a population at risk."
+    },
+    {
+      "termo_en": "primary case",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "28",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "caso primário",
+        "frances": "patient zéro",
+        "espanhol": "caso inicial, (syn.) caso primario",
+        "alemao": "Patient Null",
+        "arabe": "ةلاح ةيلوأ ، (syn.) ضيرم مقر رفص",
+        "russo": "нулевой пациент",
+        "chines": "首发病例",
+        "japones": "1 次感染者",
+        "coreano": "1 차  환자 , (syn.) 최초  감염자"
+      },
+      "definicao_en": "(syn.) patient zero Case to whom the onset of the outbreak of a disease can be traced back."
+    },
+    {
+      "termo_en": "probable case",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "28",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "caso provável",
+        "frances": "cas probable",
+        "espanhol": "caso probable",
+        "alemao": "wahrscheinlicher Fall",
+        "arabe": "ةلاح ةلمتحم",
+        "russo": "вероятный случай",
+        "chines": "可能病例",
+        "japones": "可能性例",
+        "coreano": "추정환자"
+      },
+      "definicao_en": "Case that is compatible with a clinical case definition and for whom there is strong epidemiological evidence of disease, e.g. the person is a contact of a confirmed case but no laboratory test confirmation is available."
+    },
+    {
+      "termo_en": "public health",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "28",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "saúde pública",
+        "frances": "santé publique",
+        "espanhol": "salud pública",
+        "alemao": "öffentliches Gesundheitswesen",
+        "arabe": "ةحص ةماع ، (syn.) ةحص ةيمومع",
+        "russo": "общественное здоровье",
+        "chines": "公共卫生",
+        "japones": "公衆衛生",
+        "coreano": "공중  보건"
+      },
+      "definicao_en": "Science of protecting and improving the health of people through the organized efforts of society by promoting a healthy lifestyle, preventing injuries, and preventing, detecting and responding to infectious diseases."
+    },
+    {
+      "termo_en": "public health surveillance",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "28",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "vigilância sanitária pública, (syn.) vigilância em saúde pública",
+        "frances": "surveillance épidémiologique, (syn.) surveillance de santé publique",
+        "espanhol": "vigilancia de la salud pública",
+        "alemao": "epidemiologische Überwachung",
+        "arabe": "ةبقارم ةحصلا ةماعلا",
+        "russo": "санитарно-эпидемиологический надзор",
+        "chines": "公共卫生监测 Q",
+        "japones": "公衆衛生サーベイランス",
+        "coreano": "역학  감시"
+      },
+      "definicao_en": "Ongoing systematic collection, analysis, and dissemination of health data to help guide public health decision making and action."
+    },
+    {
+      "termo_en": "quarantine",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "29",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "quarentena",
+        "frances": "quarantaine",
+        "espanhol": "cuarentena",
+        "alemao": "Quarantäne",
+        "arabe": "رجح يحص",
+        "russo": "карантин",
+        "chines": "检疫 R",
+        "japones": "検疫 , (syn.) 隔離",
+        "coreano": "검역"
+      },
+      "definicao_en": "Strategy adopted by a public body to keep apart from the general population for a certain period of time all individuals suspected of having contact with a person affected by an infectious disease or coming from an affected area, until it is confirmed that they have not contracted the disease."
+    },
+    {
+      "termo_en": "real-time reverse transcription-",
+      "categoria": null,
+      "pagina": "29",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "",
+        "frances": "",
+        "espanhol": "",
+        "alemao": "",
+        "arabe": "",
+        "russo": "",
+        "chines": "",
+        "japones": "",
+        "coreano": ""
+      },
+      "definicao_en": ""
+    },
+    {
+      "termo_en": "polymerase chain reaction",
+      "categoria": "MEDI, Diagnostic equipment & procedures",
+      "pagina": "29",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "reação em cadeia da polimerase da transcrição reversa em tempo real, (syn.) RT-PCR em tempo real, rRT-PCR",
+        "frances": "RT-PCR en temps reel, (syn.) RT-PCR temps reel",
+        "espanhol": "reacción en cadena de la polimerasa con transcripción inversa en tiempo real",
+        "alemao": "Echtzeit RT-PCR",
+        "arabe": "لعافت زاريميلوب لسلستم خسنلل يسكعلا يف نمزلا يقيقحلا",
+        "russo": "полимеразная цепная реакция с обратной транскрипцией в реальном времени, (syn.) ОТ-ПЦР-РВ",
+        "chines": "实时逆转录聚合酶链反应, (syn.) rRT-PCR",
+        "japones": "リアルタイム逆転写ポリメラーゼ連鎖反応 , (syn.) Real-Time RT-PCR",
+        "coreano": "실시간  역전사  중합효소  연쇄반응"
+      },
+      "definicao_en": "(syn.) real-time RT-PCR, rRT-PCR Reverse transcription polymerase chain reaction in which detection and quantification of amplified DNA sequences are performed after each PCR cycle."
+    },
+    {
+      "termo_en": "reservoir",
+      "categoria": "SCIE, BiologyCIE, Biology",
+      "pagina": "29",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "reservatório",
+        "frances": "réservoir",
+        "espanhol": "reservorio",
+        "alemao": "Reservoir",
+        "arabe": "عدوتسم ، (syn.) نزاخ",
+        "russo": "резервуар",
+        "chines": "病原储库",
+        "japones": "病原巣 , (syn.) レゼルボア",
+        "coreano": "병원소"
+      },
+      "definicao_en": "Natural habitat in which an infectious agent normally lives, grows, and multiplies."
+    },
+    {
+      "termo_en": "respiratory disease",
+      "categoria": "MEDI, Pathologyogy",
+      "pagina": "29",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "doença respiratória",
+        "frances": "maladie respiratoire",
+        "espanhol": "enfermedad respiratoria",
+        "alemao": "Atemwegserkrankung",
+        "arabe": "ضرم يسفنت",
+        "russo": "заболевание органов дыхания, (syn.) респираторное заболевание",
+        "chines": "呼吸系统疾病",
+        "japones": "呼吸器疾患",
+        "coreano": "호흡기  질환"
+      },
+      "definicao_en": "Disease affecting the airways and the lungs and hindering normal breathing, which may be caused by, e.g., infection, air pollution, or exposure to noxious substances."
+    },
+    {
+      "termo_en": "respiratory droplet",
+      "categoria": "MEDI, Anatomy & physiology",
+      "pagina": "30",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "gotícula respiratória, (syn.) gotícula",
+        "frances": "gouttelette",
+        "espanhol": "gotícula",
+        "alemao": "Tröpfchen",
+        "arabe": "ةريطق ، (syn.) ذاذر ، ذاذر يسفنت",
+        "russo": "капля",
+        "chines": "呼吸飞沫 , (syn.) 飞沫",
+        "japones": "呼吸飛沫 , (syn.) 飛沫",
+        "coreano": "호흡기  비말 , (syn.) 비말"
+      },
+      "definicao_en": "(syn.) droplet Particle made of water, proteins, viral RNA, and non- volatile metabolites, which is >5- 10 μm in diameter and is exhaled from the nose and mouth of a person whilst e.g. coughing, sneezing breathing, or talking."
+    },
+    {
+      "termo_en": "respiratory hygiene",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "30",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "higiene respiratória",
+        "frances": "hygiène respiratoire",
+        "espanhol": "higiene respiratoria",
+        "alemao": "Husten-Nies-Etikette",
+        "arabe": "ةفاظن ةيسفنت",
+        "russo": "респираторная гигиена",
+        "chines": "呼吸道卫生 , (syn.) 咳嗽礼仪",
+        "japones": "呼吸器衛生",
+        "coreano": "호흡기  위생 , (syn.) 기침예절"
+      },
+      "definicao_en": "(syn.) cough etiquette Set of practices and behaviours adopted by an individual with the aim of preventing the spread of respiratory diseases."
+    },
+    {
+      "termo_en": "respiratory protective equipment",
+      "categoria": "ENVR, Personal protective equipment",
+      "pagina": "30",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "equipamento de proteção respiratória, (syn.) EPR, respirador",
+        "frances": "appareil de protection respiratoire, (syn.) APR",
+        "espanhol": "equipo de protección respiratoria",
+        "alemao": "Atemschutzgerät",
+        "arabe": "تادعم ةيامح ةيسفنت ، (syn.) زاهج سفنت قاو",
+        "russo": "респиратор, (syn.) средство индивидуальной защиты органов дыхания, СИЗОД",
+        "chines": "呼吸防护装备",
+        "japones": "呼吸用保護具",
+        "coreano": "호흡용  보호구"
+      },
+      "definicao_en": "(syn.) respirator (en-US), RPE Personal protective equipment that protects the wearer against inhalation of hazardous substances in the air, such as dust, fumes, gases, or biological substances."
+    },
+    {
+      "termo_en": "risk factor",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "30",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "fator de risco",
+        "frances": "facteur de risque",
+        "espanhol": "factor de riesgo",
+        "alemao": "Risikofaktor",
+        "arabe": "لماع رطخ ، (syn.) لماع ةروطخ",
+        "russo": "фактор риска",
+        "chines": "风险因素",
+        "japones": "危険因子 , (syn.) リスク因子",
+        "coreano": "위험인자"
+      },
+      "definicao_en": "Characteristic, condition, or behaviour that increases the likelihood that a person will contract a disease or sustain an injury."
+    },
+    {
+      "termo_en": "ribonucleic acid",
+      "categoria": "SCIE, Biochemistry",
+      "pagina": "31",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "ácido ribonucleico, (syn.) RNA, ARN",
+        "frances": "acide ribonucléique, (syn.) ARN",
+        "espanhol": "ácido ribonucleico, (syn.) ARN",
+        "alemao": "Ribonukleinsäure, (syn.) RNA, RNS",
+        "arabe": "ضمح يوون يزوبير ، (syn.) انر",
+        "russo": "рибонуклеиновая кислота, (syn.) РНК",
+        "chines": "核糖核酸, (syn.) RNA S",
+        "japones": "リボ核酸 , (syn.) RNA",
+        "coreano": "리보핵산"
+      },
+      "definicao_en": "(syn.) RNA Single-stranded nucleic acid whose nucleotides consist of a backbone made up by a simple sugar, called ribose, a phosphate group, and a nitrogenous base, i.e. adenine, guanine, cytosine, and uracil."
+    },
+    {
+      "termo_en": "self-isolation",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "31",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "autoisolamento, (syn.) auto-isolamento",
+        "frances": "isolement",
+        "espanhol": "aislamiento voluntario",
+        "alemao": "Selbst-Isolation",
+        "arabe": "لزع يتاذ",
+        "russo": "самоизоляция",
+        "chines": "自我隔离",
+        "japones": "自主隔離",
+        "coreano": "자가격리 , (syn.) 자가검역"
+      },
+      "definicao_en": "(syn.) self-quarantine Measure taken by an individual in order to avoid contact with other people and thus help to prevent the spread of an infectious disease."
+    },
+    {
+      "termo_en": "sepsis",
+      "categoria": "MEDI, Pathology",
+      "pagina": "31",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "sepsis, (syn.) sepse",
+        "frances": "sepsis",
+        "espanhol": "sepsis",
+        "alemao": "Sepsis",
+        "arabe": "ناتنإ ، (syn.) مخ ج",
+        "russo": "cепсис",
+        "chines": "脓毒症",
+        "japones": "敗血症",
+        "coreano": "패혈증"
+      },
+      "definicao_en": "Organ dysfunction syndrome caused by an impairment of the physiological regulatory mechanisms via which a host responds to infection."
+    },
+    {
+      "termo_en": "septic shock",
+      "categoria": "MEDI, Pathology",
+      "pagina": "31",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "choque séptico, (syn.) choque sético (pt-PT)",
+        "frances": "choc septique",
+        "espanhol": "choque séptico",
+        "alemao": "septischer Schock",
+        "arabe": "ةمدص ةيناتنإ",
+        "russo": "септический шок",
+        "chines": "感染性休克",
+        "japones": "敗血症性ショック",
+        "coreano": "패혈성  쇽 , (syn.) 패혈쇼크"
+      },
+      "definicao_en": "Class of sepsis in which abnormalities of circulation, i.e. persistent hypotension despite fluid resuscitation, and/or of cellular metabolism are serious enough to increase mortality substantially."
+    },
+    {
+      "termo_en": "serologic test",
+      "categoria": null,
+      "pagina": "31",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "",
+        "frances": "",
+        "espanhol": "",
+        "alemao": "",
+        "arabe": "",
+        "russo": "",
+        "chines": "",
+        "japones": "",
+        "coreano": ""
+      },
+      "definicao_en": "(syn.) serological test, antibody test Laboratory test aimed at detecting in the blood serum of an individual the presence of antibodies produced in response to a given disease."
+    },
+    {
+      "termo_en": "MEDI,",
+      "categoria": "Diagnostic equipment & procedures",
+      "pagina": "31",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "teste serológico",
+        "frances": "test sérologique",
+        "espanhol": "prueba serológica, (syn.) prueba de anticuerpos",
+        "alemao": "serologischer Test",
+        "arabe": "صحف يجولوريس ، (syn.) ليلحت لصم ، صحف لصم",
+        "russo": "серологический тест",
+        "chines": "血清学检测",
+        "japones": "血清学的検査 , (syn.) 血清検査",
+        "coreano": "혈청검사, (syn.) 혈청학적  검사 , 항체검사"
+      },
+      "definicao_en": ""
+    },
+    {
+      "termo_en": "severe acute respiratory syndrome",
+      "categoria": "MEDI, Pathology",
+      "pagina": "32",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "síndrome respiratória aguda grave, (syn.) síndrome respiratória aguda severa, SARS",
+        "frances": "syndrome respiratoire aigu sévère, (syn.) SRAS",
+        "espanhol": "síndrome respiratorio agudo grave, (syn.) SRAG",
+        "alemao": "schweres akutes Atemnotsyndrom, ( syn. ) schweres akutes Atemwegssyndrom, SARS",
+        "arabe": "ةمزلاتم ةيسفنت ةداح ةميخو ، ( syn. ) ةمزلاتم باهتللاا يوئرلا داحلا ميخولا ، سراس",
+        "russo": "тяжелый острый респираторный синдром, (syn.) ТОРС",
+        "chines": "严重急性呼吸系统综合征 , (syn.) 非典型肺炎, SARS",
+        "japones": "重症急性呼吸器症候群 , (syn.) SARS",
+        "coreano": "중증급성호흡기증후군 , (syn.) 사스"
+      },
+      "definicao_en": "(syn.) SARS Infectious disease caused by SARS-CoV-1."
+    },
+    {
+      "termo_en": "severe acute respiratory syndrome",
+      "categoria": null,
+      "pagina": "32",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "",
+        "frances": "",
+        "espanhol": "",
+        "alemao": "",
+        "arabe": "",
+        "russo": "",
+        "chines": "",
+        "japones": "",
+        "coreano": ""
+      },
+      "definicao_en": ""
+    },
+    {
+      "termo_en": "coronavirus 2",
+      "categoria": "SCIE, Biology",
+      "pagina": "32",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "coronavírus da síndrome respiratória aguda grave 2, (syn.) coronavírus 2 da síndrome respiratória aguda grave, SARS-CoV-2",
+        "frances": "SARS-CoV-2",
+        "espanhol": "coronavirus del síndrome respiratorio agudo grave 2, (syn.) coronavirus 2 del síndrome respiratorio agudo grave, SARS-CoV-2",
+        "alemao": "schweres akutes respiratorisches Syndrom-Coronavirus- 2, (syn.) SARS-CoV-2",
+        "arabe": "سراس - فوك -",
+        "russo": "второй коронавирус тяжелого острого респираторного синдрома, (syn.) SARS-CoV-2",
+        "chines": "严重急性呼吸综合征冠状病毒 2, (syn.) SARS-CoV-2",
+        "japones": "新型コロナウイルス , (syn.) SARS-CoV-2",
+        "coreano": "SARS CoV-2"
+      },
+      "definicao_en": "(syn.) SARS-CoV-2 Coronavirus that causes COVID-19."
+    },
+    {
+      "termo_en": "social distancing",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "32",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "",
+        "frances": "distanciation physique",
+        "espanhol": "distanciamiento social",
+        "alemao": "räumliche Distanzierung",
+        "arabe": "دعابت يدسج",
+        "russo": "",
+        "chines": "",
+        "japones": "",
+        "coreano": ""
+      },
+      "definicao_en": "Strategy adopted by a public body to reduce physical contact and proximity between individuals in a community in order to reduce the risk of transmission of an infectious disease, for example by instructing or advising individuals to maintain a certain distance from each other or by prohibiting gatherings of more than a certain number of people."
+    },
+    {
+      "termo_en": "社会的距離",
+      "categoria": null,
+      "pagina": "32",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "distanciamento social",
+        "frances": "",
+        "espanhol": "",
+        "alemao": "",
+        "arabe": "",
+        "russo": "социальное дистанцирование",
+        "chines": "社交距离",
+        "japones": "",
+        "coreano": "사회적  거리두기"
+      },
+      "definicao_en": ""
+    },
+    {
+      "termo_en": "spike glycoprotein",
+      "categoria": "SCIE, Biochemistry",
+      "pagina": "32",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "glicoproteína de espícula, (syn.) espícula",
+        "frances": "glycoprotéine de spicule, (syn.) spicule",
+        "espanhol": "glicoproteína de la espícula, (syn.) espícula",
+        "alemao": "Spike-Glykoprotein, (syn.) Spike",
+        "arabe": "نيتورب ةكسح",
+        "russo": "гликопротеин шиповидных отростков",
+        "chines": "刺突糖蛋白",
+        "japones": "スパイク糖タンパク質 , (syn.) スパイク",
+        "coreano": "스파이크  당단백질"
+      },
+      "definicao_en": "(syn.) spike Glycoprotein complex made up of three protomers and located on the envelope of coronaviruses, which enables the virus to bind to the receptor site of the host cells."
+    },
+    {
+      "termo_en": "super-spreader",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "33",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "supercontagiador",
+        "frances": "super-propagateur",
+        "espanhol": "supercontagiador",
+        "alemao": "Superverbreiter",
+        "arabe": "رشان ىودع قئاف",
+        "russo": "суперраспространитель",
+        "chines": "超级传播者",
+        "japones": "スーパースプレッダー",
+        "coreano": "슈퍼  전파자"
+      },
+      "definicao_en": "Person affected by an infectious disease who transmits the disease to a significantly higher number of people than does the average infected person."
+    },
+    {
+      "termo_en": "surgical mask",
+      "categoria": "MEDI, Medical equipment",
+      "pagina": "33",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "máscara cirúrgica",
+        "frances": "masque chirurgical",
+        "espanhol": "mascarilla quirúrgica, (syn.) barbijo quirúrgico ( es-AR), tapaboca quirúrgico (es-CU)",
+        "alemao": "chirurgischer Mund-Nasen-Schutz",
+        "arabe": "عانق يحارج",
+        "russo": "хирургическая маска",
+        "chines": "医用外科口罩",
+        "japones": "医療用マスク , (syn.) サージカルマスク",
+        "coreano": "수술용  마스크"
+      },
+      "definicao_en": "Half-face mask, flat and rectangular in shape, made of nonwoven fabric and comprising filtration layers, with folds and elastic bands or long straight ties that can be looped behind a person’s ears or tied around a person’s head, which is used to protect the wearer from sprays, splashes, and large-particle droplets and to prevent the spread of respiratory droplets from the wearer to others."
+    },
+    {
+      "termo_en": "suspected case",
+      "categoria": "MEDI, Public health & hygiene",
+      "pagina": "33",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "caso suspeito",
+        "frances": "cas possible",
+        "espanhol": "caso sospechoso",
+        "alemao": "Verdachtsfall",
+        "arabe": "ةلاح هبتشم اهب ، (syn.) ةلاح ةهبتشم",
+        "russo": "предположительный случай",
+        "chines": "疑似病例",
+        "japones": "疑い例",
+        "coreano": "의사  환자"
+      },
+      "definicao_en": "Case that is compatible with a clinical case definition but there is no laboratory test confirmation or strong epidemiological evidence, e.g. the person is not a contact of a confirmed case."
+    },
+    {
+      "termo_en": "swab",
+      "categoria": "MEDI, Diagnostic equipment & procedures",
+      "pagina": "33",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "zaragatoa",
+        "frances": "écouvillon",
+        "espanhol": "hisopo",
+        "alemao": "Tupfer",
+        "arabe": "ةحسم",
+        "russo": "тупфер, (syn.) зонд-тампон",
+        "chines": "拭子",
+        "japones": "スワブ , (syn.) 綿棒",
+        "coreano": "면봉"
+      },
+      "definicao_en": "Piece of soft material used by a healthcare professional for cleaning wounds or taking samples from a person’s body for testing purposes."
+    },
+    {
+      "termo_en": "swab test",
+      "categoria": null,
+      "pagina": "33",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "",
+        "frances": "",
+        "espanhol": "",
+        "alemao": "",
+        "arabe": "",
+        "russo": "",
+        "chines": "",
+        "japones": "",
+        "coreano": ""
+      },
+      "definicao_en": "Method of collecting a sample of organic material for diagnostic purposes by inserting a swab into a person’s body orifices, e.g. nose, mouth, etc."
+    },
+    {
+      "termo_en": "MEDI,",
+      "categoria": "Diagnostic equipment & procedures",
+      "pagina": "34",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "esfregaço",
+        "frances": "écouvillonnage",
+        "espanhol": "hisopado",
+        "alemao": "Tupfertest",
+        "arabe": "صحف ةحسم",
+        "russo": "мазок",
+        "chines": "拭子检测法",
+        "japones": "拭き取り検査 , (syn.) スワブ検査",
+        "coreano": "면봉  검사"
+      },
+      "definicao_en": ""
+    },
+    {
+      "termo_en": "symptom",
+      "categoria": "MEDI, Pathology",
+      "pagina": "34",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "sintoma",
+        "frances": "symptôme",
+        "espanhol": "síntoma",
+        "alemao": "Symptom",
+        "arabe": "ضرع",
+        "russo": "симптом",
+        "chines": "症状",
+        "japones": "症状",
+        "coreano": "증상"
+      },
+      "definicao_en": "Manifestation of a disease that is perceptible to only the patient (subjective symptom) or to the patient and others (objective symptom or sign)."
+    },
+    {
+      "termo_en": "symptomatic transmission",
+      "categoria": "MEDI, Pathology",
+      "pagina": "34",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "transmissão sintomática",
+        "frances": "transmission symptomatique",
+        "espanhol": "trasmisión sintomática",
+        "alemao": "symptomatische Übertragung",
+        "arabe": "لاقتنا نم باصم ضارعأب",
+        "russo": "симптомная передача",
+        "chines": "有症状传播",
+        "japones": "症候性感染",
+        "coreano": "유증상  전파"
+      },
+      "definicao_en": "Mode of transmission to another person of an infectious disease from an infected person who has developed symptoms."
+    },
+    {
+      "termo_en": "systemic inflammatory response",
+      "categoria": null,
+      "pagina": "34",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "",
+        "frances": "",
+        "espanhol": "",
+        "alemao": "",
+        "arabe": "",
+        "russo": "",
+        "chines": "",
+        "japones": "",
+        "coreano": ""
+      },
+      "definicao_en": ""
+    },
+    {
+      "termo_en": "syndrome",
+      "categoria": "MEDI, Pathology",
+      "pagina": "34",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "síndrome da resposta inflamatória sistémica, (syn.) SIRS",
+        "frances": "syndrome de réponse inflammatoire systémique, (syn.) SIRS",
+        "espanhol": "síndrome de respuesta inflamatoria sistémica, (syn.) SRIS",
+        "alemao": "systemisches inflammatorisches Response-Syndrom, (syn.) SIRS",
+        "arabe": "ةمزلاتم ةباجتسلاا ةيباهتللاا ةيزاهجلا",
+        "russo": "синдром системной воспалительной реакции, (syn.) ССВР",
+        "chines": "全身炎症反应综合征 , (syn.) SIRS T",
+        "japones": "全身性炎症反応症候群 , (syn.) SIRS",
+        "coreano": "전신성  염증  반응  증후군"
+      },
+      "definicao_en": "(syn.) SIRS Condition characterized by a disproportionate inflammatory response to a variety of severe clinical phenomena, including relating to body temperature (>38°C or <36°C), heart rate (>90 beats per minute), respiratory rate (>20 breaths per minute or PaCO2 <32 mmHg), and white blood cell count (>12,000/cu mm, <4,000/cu mm, or >10% immature band forms)."
+    },
+    {
+      "termo_en": "telehealth",
+      "categoria": "MEDI, Medical care",
+      "pagina": "34",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "",
+        "frances": "télésanté",
+        "espanhol": "telesalud",
+        "alemao": "Telegesundheit",
+        "arabe": "ةحص نع دعب",
+        "russo": "",
+        "chines": "",
+        "japones": "",
+        "coreano": ""
+      },
+      "definicao_en": "Remote provision of clinical and non-clinical services using information and communication technologies, such as diagnosis and treatment of diseases and injuries, research and evaluation, and education of health professionals."
+    },
+    {
+      "termo_en": "遠隔医療",
+      "categoria": null,
+      "pagina": "35",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "telessaúde",
+        "frances": "",
+        "espanhol": "",
+        "alemao": "",
+        "arabe": "",
+        "russo": "телездравоохранение",
+        "chines": "远程健康",
+        "japones": "",
+        "coreano": "원격  의료"
+      },
+      "definicao_en": ""
+    },
+    {
+      "termo_en": "thrombosis",
+      "categoria": "MEDI, Pathology",
+      "pagina": "35",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "trombose",
+        "frances": "thrombose",
+        "espanhol": "trombosis",
+        "alemao": "Thrombose",
+        "arabe": "لجت ط ، (syn.) اثخ ،ر رثخت",
+        "russo": "тромбоз",
+        "chines": "血栓形成",
+        "japones": "血栓症",
+        "coreano": "혈전증"
+      },
+      "definicao_en": "Vascular disease involving the formation of thrombi inside a blood vessel, i.e. an artery or a vein, obstructing circulation."
+    },
+    {
+      "termo_en": "triage",
+      "categoria": "MEDI, Medical care",
+      "pagina": "35",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "triagem",
+        "frances": "triage",
+        "espanhol": "triaje",
+        "alemao": "Triage",
+        "arabe": "زرف",
+        "russo": "медицинская сортировка",
+        "chines": "分诊 U",
+        "japones": "トリアージ",
+        "coreano": "중증도  분류"
+      },
+      "definicao_en": "Process of sorting patients or casualties to determine priority of need and proper place of treatment."
+    },
+    {
+      "termo_en": "urgent care",
+      "categoria": "MEDI, Medical care",
+      "pagina": "35",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "pronto atendimento, (syn.) serviço de urgência básica, serviço de atendimento permanente, SAP, SUB",
+        "frances": "soins non programmés",
+        "espanhol": "atención de urgencias menores",
+        "alemao": "Bagatell-Notfall",
+        "arabe": "ةياعر ةلجاع",
+        "russo": "неотложная помощь, (syn.) неотложная медицинская помощь",
+        "chines": "急诊护理",
+        "japones": "初期救急",
+        "coreano": "긴급  치료"
+      },
+      "definicao_en": "Medical care provided for illnesses or injuries that require prompt attention but are typically not so serious as to require the services of an emergency room."
+    },
+    {
+      "termo_en": "urgent care facility",
+      "categoria": "MEDI, Medical care",
+      "pagina": "35",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "unidade de pronto atendimento, (syn.) centro de saúde, UPA",
+        "frances": "centre de soins non programmés, (syn.) service d'accueil médical non programmé",
+        "espanhol": "dispensario de urgencias menores",
+        "alemao": "Notfallpraxis",
+        "arabe": "قفرم ةياعر ةلجاع",
+        "russo": "отделение неотложной медицинской помощи, (syn.) кабинет неотложной помощи",
+        "chines": "急诊护理中心 V",
+        "japones": "初期救急施設 , (syn.) 急病診療所",
+        "coreano": "긴급  치료  시설"
+      },
+      "definicao_en": "(syn.) urgent care center A walk-in clinic led by qualified medical professionals, i.e. doctors and nurses, in which urgent care is delivered."
+    },
+    {
+      "termo_en": "vaccine",
+      "categoria": "MEDI, Therapeutics",
+      "pagina": "36",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "vacina",
+        "frances": "vaccin",
+        "espanhol": "vacuna",
+        "alemao": "Impfstoff, (syn.) Vakzine",
+        "arabe": "حاقل",
+        "russo": "вакцина",
+        "chines": "疫苗",
+        "japones": "ワクチン",
+        "coreano": "백신"
+      },
+      "definicao_en": "Therapeutic preparation containing an antigen, i.e. a virus or a segment of a virus or a toxin generated by bacteria, that may have been attenuated, inactivated or killed and which is able to trigger the immune response and generate immunity in an organism."
+    },
+    {
+      "termo_en": "vector",
+      "categoria": "SCIE, Biology",
+      "pagina": "36",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "vetor",
+        "frances": "vecteur",
+        "espanhol": "vector",
+        "alemao": "Vektor",
+        "arabe": "لقان",
+        "russo": "переносчик",
+        "chines": "病媒",
+        "japones": "媒介者 , (syn.) ベクター",
+        "coreano": "매개체"
+      },
+      "definicao_en": "Living organism that indirectly transmits an infectious disease to a susceptible host either by carrying the infectious agent on its body (mechanical vector) or by providing an environment in which the infectious agent can reproduce and survive (biological vector)."
+    },
+    {
+      "termo_en": "viral load",
+      "categoria": "MEDI, Diagnostic equipment & procedures",
+      "pagina": "36",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "carga viral",
+        "frances": "charge virale",
+        "espanhol": "carga viral",
+        "alemao": "Viruslast",
+        "arabe": "ح لم يسوريف",
+        "russo": "вирусная нагрузка",
+        "chines": "病毒载量",
+        "japones": "ウイルス量",
+        "coreano": "바이러스  부하"
+      },
+      "definicao_en": "Amount of viral particles present in a millilitre of a fluid sample, e.g. blood."
+    },
+    {
+      "termo_en": "viral vector",
+      "categoria": "SCIE, Genetics",
+      "pagina": "36",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "vetor viral",
+        "frances": "vecteur viral",
+        "espanhol": "vector viral",
+        "alemao": "viraler Vektor",
+        "arabe": "لقان يسوريف",
+        "russo": "вирусный вектор",
+        "chines": "病毒载体",
+        "japones": "ウイルスベクター",
+        "coreano": "바이러스  매개체"
+      },
+      "definicao_en": "Virus that has been genetically modified for use in gene therapy."
+    },
+    {
+      "termo_en": "virus",
+      "categoria": "SCIE, Biology",
+      "pagina": "36",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "vírus",
+        "frances": "virus",
+        "espanhol": "virus",
+        "alemao": "Virus",
+        "arabe": "سوريف",
+        "russo": "вирус",
+        "chines": "病毒 X",
+        "japones": "ウイルス",
+        "coreano": "바이러스"
+      },
+      "definicao_en": "Microscopic infectious agent that can multiply only in living cells of animals, plants, or bacteria, consisting of genetic material, either DNA or RNA, housed inside a capsid."
+    },
+    {
+      "termo_en": "X-ray image",
+      "categoria": "MEDI, Diagnostic equipment & procedures",
+      "pagina": "37",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "imagem radiográfica",
+        "frances": "cliché radiographique",
+        "espanhol": "radiografía",
+        "alemao": "Röntgenaufnahme",
+        "arabe": "ةروص ةعشأ ةينيس ، (syn.) ةروص ةعشأ سكا",
+        "russo": "рентгеновское изображение",
+        "chines": "X 射线图像 Z",
+        "japones": "Ｘ線画像",
+        "coreano": "엑스레이  영상"
+      },
+      "definicao_en": "Image formed by the shadows of the objects inside a patient’s body when x-rays travel through it and pass through an x-ray detector on the other side of the patient."
+    },
+    {
+      "termo_en": "zoonosis",
+      "categoria": "MEDI, Pathology",
+      "pagina": "37",
+      "traducoes": {
+        "ingles": "",
+        "portugues": "zoonose",
+        "frances": "zoonose",
+        "espanhol": "zoonosis",
+        "alemao": "Zoonose",
+        "arabe": "ضرم يناويح ردصملا",
+        "russo": "зооноз",
+        "chines": "人畜共患病",
+        "japones": "人獣共通感染症 , (syn.) 動物由来感染症",
+        "coreano": "인수공통전염병"
+      },
+      "definicao_en": "Infectious disease that is transmissible under natural conditions from vertebrate animals to humans."
+    }
+  ]
+}
