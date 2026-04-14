@@ -6,13 +6,11 @@ def pdf_to_xml(pdf_path: str, xml_path: str = None, first_page: int = None, last
     if not os.path.exists(pdf_path):
         raise FileNotFoundError(f"Ficheiro PDF não encontrado: {pdf_path}")
 
-    # O pdftohtml às vezes cria ficheiros extras, 
-    # por isso é melhor definir apenas o nome base
     if xml_path is None:
         xml_path = os.path.splitext(pdf_path)[0] + ".xml"
 
-    # Construir o comando na ordem correta: [OPÇÕES] [ENTRADA]
-    command = ["pdftohtml", "-xml", "-noframes"]
+    # ADICIONADO O FLAG '-i' para ignorar imagens e não encher a pasta de lixo
+    command = ["pdftohtml", "-xml", "-noframes", "-i"]
     
     if first_page:
         command.extend(["-f", str(first_page)])
@@ -20,8 +18,6 @@ def pdf_to_xml(pdf_path: str, xml_path: str = None, first_page: int = None, last
         command.extend(["-l", str(last_page)])
         
     command.append(pdf_path)
-    # Nota: Se não passarmos o xml_path no comando, 
-    # ele gera um ficheiro com o mesmo nome do PDF mas extensão .xml automaticamente
 
     print(f"A executar: {' '.join(command)}")
     
@@ -34,7 +30,7 @@ def pdf_to_xml(pdf_path: str, xml_path: str = None, first_page: int = None, last
     if result.returncode != 0:
         raise RuntimeError(f"Erro ao converter PDF:\n{result.stderr}")
 
-    print(f"Conversão concluída com sucesso!")
+    print(f"Conversão concluída com sucesso! Sem imagens geradas.")
     return xml_path
 
 if __name__ == "__main__":

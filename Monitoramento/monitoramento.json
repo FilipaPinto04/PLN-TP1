@@ -1,0 +1,2373 @@
+[
+    {
+        "concept": "Ação",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Operação que resulta em produto voltado para atender aos objetivos de um programa. Ver Atividades; Programa",
+        "notes": [
+            "i) Pode ser um projeto, uma atividade, uma operação especial, um financiamento ou uma transferência a outro ente da Federação ou a pessoa física ou jurídica, na forma de subsídios, subvenções, auxílios, contribuições, doações, entre outros. ii) Os produtos resultantes da ação podem ser bens ou serviços."
+        ],
+        "spanish": "acción",
+        "english": "action"
+    },
+    {
+        "concept": "Accountability",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Conjunto de mecanismos que permitem aos gestores da organização prestar contas dos planejamentos e execuções da área, bem como serem responsabilizados pelo resultado de suas ações.",
+        "notes": [],
+        "spanish": "rendición de cuentas; accountability",
+        "english": "accountabillity"
+    },
+    {
+        "concept": "Acesso à informação",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Direito de obter dados, processados ou não, contidos em qualquer meio, suporte ou formato. Ver Dado Disseminação da informação; Documentação da informação; Gestão da informação; Gestão do conhecimento; Informação",
+        "notes": [
+            "i) Contribui para: produzir e transmitir conhecimento, diminuir a corrupção, ampliar a eficiência do poder público e aumentar a participação social. ii) É um direito dos cidadãos e dever do Estado regulamentado pela Lei n.º 12.527, de 18 de novembro de 2011, chamada Lei de Acesso à Informação (LAI)."
+        ],
+        "spanish": "acceso a la información",
+        "english": "access to information"
+    },
+    {
+        "concept": "Ações de saúde",
+        "classe": "pl",
+        "sinonimos": [],
+        "description": "Ações que abrangem promoção, prevenção, diagnóstico, tratamento, recuperação e reabilitação em saúde, com execução de acordo com princípios organizativos do Sistema Único de Saúde (SUS). Ver Ação",
+        "notes": [
+            "i) Devem considerar, em seu planejamento, as necessidades de saúde da população em questão (país, estado, Distrito Federal ou município), bem como a identificação dos problemas do sistema de saúde, e os marcos jurídico-normativos do Sistema Único de Saúde (SUS). ii) Em alguns casos, o termo poderá ser encontrado associado a serviços de saúde (por exemplo: ações e serviços de saúde), porém, a depender do contexto e do uso, não se trata necessariamente de um sinônimo."
+        ],
+        "spanish": "acciones de salud",
+        "english": "health actions"
+    },
+    {
+        "concept": "Ações intersetoriais",
+        "classe": "",
+        "sinonimos": [],
+        "description": "fem. pl Processos articulados entre distintos setores do governo e/ou da sociedade, em que são considerados objetivos, estratégias e recursos de cada parte, implicando a troca e a construção coletiva de saberes e práticas entre os envolvidos.",
+        "notes": [
+            "estabelecem vínculos de corresponsabilidade e cogestão, na tentativa de equacionar problemas complexos para o alcance de resultados mais eficientes e eficazes."
+        ],
+        "spanish": "acciones intersectoriales",
+        "english": "intersectoral actions"
+    },
+    {
+        "concept": "Acompanhamento",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Observação da evolução de um processo ou fenômeno, realizado por exame, medição e análise. Ver Monitoramento",
+        "notes": [],
+        "spanish": "seguimiento",
+        "english": "follow-up"
+    },
+    {
+        "concept": "Agenda estratégica",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Intervenção que reúne um conjunto de temas ou problemas a serem enfrentados em um período específico, para orientação e monitoramento de ações prioritárias em determinada área de atuação. Ver Agenda política",
+        "notes": [
+            "i) No setor público, pode nortear a política de Estado, seja em nível nacional ou em cada um dos demais entes federativos (estados, Distrito Federal e municípios). ii) Exemplo: Política Nacional de Saúde, Política Estadual de Saúde, Política Municipal de Saúde, Agenda Transversal e Multissetorial da Primeira Infância."
+        ],
+        "spanish": "planificación estratégica",
+        "english": "strategic agenda"
+    },
+    {
+        "concept": "Agenda política",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Intervenção que reúne um conjunto de temas ou problemas públicos, a serem enfrentados em um período específico, considerados importantes pelo grupo que está no comando do Estado, podendo nortear sua política de governo. Ver Agenda estratégica",
+        "notes": [
+            "nem toda agenda política é considerada estratégica, por isso existe uma pressão constante por ajustes e modificações da parte daqueles que não veem nela suas demandas contempladas."
+        ],
+        "spanish": "agenda política",
+        "english": "political agenda"
+    },
+    {
+        "concept": "Agregação de dados",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo de coletar, combinar e relacionar dados de várias fontes para resumir ou refinar informações.",
+        "notes": [],
+        "spanish": "agregación de datos",
+        "english": "data aggregation"
+    },
+    {
+        "concept": "AIR",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "⇒ Análise de Impacto Regulatório",
+        "notes": [],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Alocação de recursos",
+        "classe": "fem",
+        "sinonimos": [
+            "Destinação de recursos"
+        ],
+        "description": "Distribuição dos recursos disponíveis, sejam orçamentários, financeiros, físicos, humanos, intelectuais ou tecnológicos, com finalidade específica.",
+        "notes": [
+            "i) Termo muito utilizado nos campos da economia, gestão de projetos e gestão orçamentária, nos quais os recursos são escassos e as demandas são altas. ii) Para uma eficiente alocação de recursos, é necessário estabelecer critérios para a destinação de forma estratégica. iii) No campo da saúde pública, a alocação de recursos precisa de um planejamento integrado, que considere aspectos como: equidade, humanização, situação epidemiológica e socioeconômica do território, eficiência e sustentabilidade, a fim de proporcionar aos cidadãos o acesso a bens e serviços de qualidade. iv) Para a gestão orçamentária, devem-se observar, como diretrizes na alocação de recursos, as informações sobre a execução física das ações orçamentárias e os resultados de avaliações e do monitoramento de políticas públicas e programas de governo."
+        ],
+        "spanish": "asignación de recursos",
+        "english": "allocation of resources"
+    },
+    {
+        "concept": "Análise",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Exame detalhado de algo para conhecer e descrever melhor sua natureza, funções, relações e causas.",
+        "notes": [],
+        "spanish": "análisis",
+        "english": "analysis"
+    },
+    {
+        "concept": "Análise baseada em evidências",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo de verificação cujas bases analíticas são sustentadas em indícios confiáveis e válidos para subsidiar a tomada de decisão a partir do conhecimento acadêmico e empírico. Ver Evidências para tomada de decisão Tomada de decisão",
+        "notes": [],
+        "spanish": "estudio basado en la evidencia",
+        "english": "evidence based analysis"
+    },
+    {
+        "concept": "Análise de dados",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processamento, apresentação tabular e gráfica e interpretação de dados com o objetivo de transformá-los em informação, gerar conhecimento e auxiliar na tomada de decisões.",
+        "notes": [
+            "tem por função responder a uma série de questionamentos relacionados ao objeto e ao contexto analisados."
+        ],
+        "spanish": "análisis de datos",
+        "english": "data analysis"
+    },
+    {
+        "concept": "Análise de Impacto Regulatório",
+        "classe": "fem",
+        "sinonimos": [
+            "AIR"
+        ],
+        "description": "Procedimento analítico, realizado previamente à edição de atos normativos a partir da definição de problema regulatório, que contém informações e dados sobre os prováveis efeitos desses atos, para verificar a razoabilidade do seu impacto e subsidiar a tomada de decisão. Ver Evidências para tomada de decisão Tomada de decisão",
+        "notes": [],
+        "spanish": "análisis del impacto regulatorio",
+        "english": "regulatory impact analysis"
+    },
+    {
+        "concept": "Análise de indicadores",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo analítico que verifica a implementação e a utilização de um indicador ou de um conjunto de indicadores previstos em determinada intervenção pública.",
+        "notes": [
+            "tem como objetivo gerar conhecimento sobre o objeto mensurado e o potencial de utilização para influenciar na tomada de decisão em relação às intervenções monitoradas e avaliadas. Em espanhol análisis de indicadores Em inglês assessment of indicators"
+        ],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Análise de risco",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo de compreender a natureza e determinar o nível de risco, de modo a subsidiar a avaliação e seu tratamento, analisando causas, fontes e consequências, observado o custo-benefício em relação ao resultado final esperado. Ver Gestão de risco Risco",
+        "notes": [
+            "nesse processo, devem-se observar a compreensão e o nível do risco analisado para se tomar decisões, em especial: a) se determinado risco precisa de tratamento e prioridade; b) se determinada atividade deve ser realizada ou descontinuada; e c) se controles internos devem ser implementados ou, se já existirem, se devem ser modificados, mantidos ou eliminados."
+        ],
+        "spanish": "análisis de riesgo",
+        "english": "risk analysis"
+    },
+    {
+        "concept": "Análise de situação em saúde",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo analítico-sintético que permite identificar, descrever, priorizar e explicar o perfil de saúde-doença de determinada população, com o objetivo de formular estratégias para atender às necessidades e determinar prioridades de ação ou intervenção. Ver Análise situacional",
+        "notes": [],
+        "spanish": "análisis de la situación de salud",
+        "english": "health situational analysis"
+    },
+    {
+        "concept": "Análise de viabilidade",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo de identificação da disponibilidade de determinados tipos de recursos utilizados para o desencadeamento e a continuidade das intervenções que devem ser realizadas para potencializar as oportunidades e reduzir os obstáculos em cada momento no processo decisório.",
+        "notes": [],
+        "spanish": "análisis de viabilidad",
+        "english": "feasibility analysis"
+    },
+    {
+        "concept": "Análise estratégica",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo de diagnóstico organizacional e de pertinência das intervenções, nos níveis interno e externo à organização, a fim de formular um planejamento para a tomada de decisão e para o cumprimento de objetivos.",
+        "notes": [
+            "i) Essencial para apreciar a suficiência e a adequação da intervenção em relação aos problemas apresentados pelo contexto local. ii) A pertinência de uma intervenção depende, fundamentalmente, do contexto (epidemiológico, sociocultural, sanitário, financeiro, político ou geográfico), dos atores envolvidos e do alinhamento entre objetivos e interesses aos quais estão relacionadas as intervenções em análise."
+        ],
+        "spanish": "análisis estratégico",
+        "english": "strategic analysis"
+    },
+    {
+        "concept": "Análise",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo de análise de intervenções públicas a partir do seu nascedouro, em seu estágio de elaboração, a fim de verificar se respondem a um problema bem delimitado e pertinente. Ver Análise ex-post.",
+        "notes": [
+            "i) Tem o intuito de orientar a decisão para que ela recaia sobre a alternativa mais efetiva, eficaz e eficiente. ii) Contribui para que as decisões alocativas sejam tomadas a partir de critérios transparentes, baseados em análises técnicas robustas."
+        ],
+        "spanish": "análisis ex-ante",
+        "english": "ex-ante analysis"
+    },
+    {
+        "concept": "Análise",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo de análise de intervenções públicas a partir de seu andamento ou conclusão, a fim de propor seu aprimoramento, suspensão ou substituição. Ver Análise ex-ante.",
+        "notes": [
+            "i) Possibilita acessar os pontos críticos de uma intervenção e conhecer, com elevado grau de confiança, o impacto, o retorno e a eficiência dela. ii) Pode ocorrer durante a implementação de uma intervenção, analisando seu processo, ou depois de sua finalização, analisando seu impacto. iii) É instrumento relevante para a tomada de decisões ao longo da execução da intervenção, indicando o que deve ser aprimorado, bem como para uma melhor alocação de recursos entre diferentes intervenções."
+        ],
+        "spanish": "análisis ex-post",
+        "english": "ex-post analysis"
+    },
+    {
+        "concept": "Análise prospectiva",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Método que procura identificar e analisar possíveis cenários e acontecimentos futuros, prevendo oportunidades, ameaças, riscos e incertezas, com o objetivo de elaborar melhores estratégias institucionais e decisões políticas. Ver Cenário",
+        "notes": [
+            "i) Busca compreender variáveis técnicas, sociais, econômicas e políticas, para identificar pontos relevantes na construção de cenários futuros. ii) Possibilita visualizar aspectos que podem ameaçar a instituição, avaliar as competências organizacionais necessárias e planejar ações futuras de maneira global."
+        ],
+        "spanish": "análisis prospectivo",
+        "english": "prospective analysis"
+    },
+    {
+        "concept": "Análise situacional",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo analítico-sintético que permite identificar, descrever, priorizar e explicar os fatores internos e externos que influenciam uma organização nos diferentes contextos, com o objetivo de formular estratégias para atender às necessidades e determinar prioridades de ação ou intervenção. Ver Análise de situação em saúde",
+        "notes": [],
+        "spanish": "análisis de la situación",
+        "english": "situational analysis"
+    },
+    {
+        "concept": "Aprendizado de máquina",
+        "classe": "masc",
+        "sinonimos": [
+            "Machine learning"
+        ],
+        "description": "",
+        "notes": [],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Área fim",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Área finalística",
+        "notes": [],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Área finalística",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Área fim Área diretamente relacionada ao desenvolvimento da gestão e da execução final das intervenções do órgão.",
+        "notes": [],
+        "spanish": "área final",
+        "english": "target area"
+    },
+    {
+        "concept": "Área meio",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Área responsável por desenvolver ações, no nível intermediário, relevantes para a concretização dos objetivos finais, mas sem relação direta com a execução das intervenções do órgão.",
+        "notes": [],
+        "spanish": "área intermedia",
+        "english": "interim area; intermediate area"
+    },
+    {
+        "concept": "Articulação",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Ação de integrar, conectar e coordenar setores, saberes e experiências, visando superar a fragmentação de conhecimentos e estruturas sociais, e promovendo a intersetorialidade no planejamento, na realização, no monitoramento e na avaliação de intervenções públicas para alcançar efeitos sinérgicos em situações complexas.",
+        "notes": [
+            "a intersetorialidade pressupõe a congregação de conhecimentos, experiências de áreas, grupos e pessoas, visando à elaboração de intervenções que, a partir do compartilhamento de gestão e responsabilidades, permitam reduzir desagregações das ações e dos serviços de saúde ofertados."
+        ],
+        "spanish": "coordinación",
+        "english": "coordination"
+    },
+    {
+        "concept": "Atividades",
+        "classe": "pl",
+        "sinonimos": [],
+        "description": "Rotinas seguidas para alcançar o objetivo de uma intervenção. Ver Ação; Política; Programa; Projeto",
+        "notes": [
+            "envolvem um conjunto de operações, realizadas de modo contínuo e permanente, que resultam em um produto (bem ou serviço) necessário à manutenção de uma ação de governo."
+        ],
+        "spanish": "actividades",
+        "english": "activities"
+    },
+    {
+        "concept": "Auditoria",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Averiguação independente e sistemática de dada matéria, baseada em normas técnicas e profissionais, na qual se confronta uma condição com determinado critério, assim como se produz uma opinião de validação ou não validação.",
+        "notes": [],
+        "spanish": "auditoría",
+        "english": "audit"
+    },
+    {
+        "concept": "Avaliação",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Mensuração do valor ou do mérito de uma intervenção. Ver Indicador de eficácia Indicador de eficiência Indicador de efetividade",
+        "notes": [
+            "objetiva verificar a pertinência, a eficiência, a eficácia, a efetividade, o impacto e a sustentabilidade de uma intervenção, gerando recomendações para aperfeiçoar a gestão desta."
+        ],
+        "spanish": "evaluación",
+        "english": "evaluation; assessment"
+    },
+    {
+        "concept": "Avaliação de desempenho individual e institucional",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Mensuração sistemática e contínua da atuação individual dos servidores e institucional dos órgãos de lotação dos servidores, tendo como referência metas globais e intermediárias estabelecidas por esses órgãos.",
+        "notes": [
+            "i) A avaliação de desempenho individual é realizada com base em critérios e fatores relativos às competências e à atuação individual do servidor em tarefas e atividades a ele atribuídas. ii) A avaliação de desempenho institucional visa aferir o alcance das metas organizacionais, podendo levar em consideração o desenvolvimento de projetos e atividades prioritárias. iii) É utilizada para pagamento de gratificações de desempenho de servidores. iv) É regulamentada pelo Decreto n.º 7.133, de 19 de março de 2010."
+        ],
+        "spanish": "evaluación del desempeño individual y institucional",
+        "english": "individual and institutional performance assessment"
+    },
+    {
+        "concept": "Avaliação de impacto",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Análise e aferição que verifica o grau de efetividade social de uma intervenção após a sua finalização.",
+        "notes": [
+            "i) Busca detectar mudanças que efetivamente ocorreram e em que medida elas aconteceram na direção desejada. ii) Analisa o que teria acontecido com os beneficiários de um projeto se eles não tivessem determinada intervenção. iii) Tem o desafio de construir um contrafactual plausível (um grupo semelhante ao de tratamento, mas que não recebe o tratamento) para identificar a causalidade entre a intervenção e os resultados observados."
+        ],
+        "spanish": "evaluación del impacto",
+        "english": "impact assessment"
+    },
+    {
+        "concept": "Avaliação de processo",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Análise e aferição que, durante a implementação de uma intervenção, verificam o grau de adequação de ações, atividades e procedimentos, visando identificar obstáculos para corrigir rumos.",
+        "notes": [],
+        "spanish": "evaluación del processo",
+        "english": "process assessment"
+    },
+    {
+        "concept": "Avaliação de resultados",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Análise e aferição que verificam em que grau o esforço empreendido no contexto de uma intervenção produziu benefícios e transformações em seu público-alvo. Ver Análise ex-post.",
+        "notes": [
+            "tem enfoque na eficácia em medir o grau em que a política atinge seus objetivos e suas metas."
+        ],
+        "spanish": "evaluación de resultados",
+        "english": "assessment of results"
+    },
+    {
+        "concept": "Avaliação em saúde",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Análise, aferição e emissão de juízo de valor sobre uma intervenção em saúde, com o objetivo de produzir informações que possam melhorá-la, mantê-la ou transformá-la. Ver Avaliação",
+        "notes": [],
+        "spanish": "evaluación en salud",
+        "english": "health assessment; health evaluation"
+    },
+    {
+        "concept": "Banco de dados",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Conjunto de dados ou de bases de dados inter-relacionados, organizados e estruturados, normalmente armazenados em sistemas computacionais, com o objetivo de otimizar o acesso, processamento, gerenciamento, modificação, cruzamento, atualização e controle de informações. Ver Base de dados Big data; Dado informação",
+        "notes": [
+            "i) São projetados para armazenar grandes quantidades de dados e geralmente são controlados por sistemas de gerenciamento de bancos de dados (SGBD), possibilitando o acesso simultâneo a vários usuários com rapidez e segurança. ii) São divididos basicamente em: banco de dados relacionais (com dados armazenados em formato de tabelas com colunas e linhas) e não relacionais (com dados como imagens, vídeos e gráficos). iii) Possibilitam a geração de análises, informações e conhecimento, sendo importante ferramenta no processo de monitoramento e avaliação para a tomada de decisões."
+        ],
+        "spanish": "banco de datos",
+        "english": "databank"
+    },
+    {
+        "concept": "Base de dados",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Coleção organizada de dados logicamente relacionados e organizados em uma estrutura de tabela com linhas e colunas. Ver Banco de dados Dado",
+        "notes": [
+            "i) É projetada, construída e preenchida a partir de dados com algum significado e para um propósito específico. ii) É geralmente armazenada em bancos de dados, em formatos operáveis por máquina. iii) Nas tabelas das bases de dados, as linhas são formadas por uma lista ordenada de colunas e representam registros ou tuplas (sequências de valores), enquanto as colunas são consideradas campos nos quais são caracterizados os tipos de dados da tabela (numéricos, alfanuméricos, datas, coordenadas etc.). iv) São bases de dados do Departamento de Informática do Sistema Único de Saúde (DataSUS): o Sistema de Informações sobre Mortalidade (SIM), o Sistema Nacional de Agravos de Notificação (Sinan) e o Sistema de Informações sobre Nascidos Vivos (Sinasc); e bases de dados bibliográficas: a Biblioteca Virtual em Saúde (BVS) e a plataforma PubMed."
+        ],
+        "spanish": "base de datos",
+        "english": "database"
+    },
+    {
+        "concept": "Base geográfica",
+        "classe": "fem",
+        "sinonimos": [
+            "Território"
+        ],
+        "description": "",
+        "notes": [],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Base legal",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Conjunto de aspectos legais, fundamentado por um ou mais normativos, que embasam um objeto em discussão.",
+        "notes": [
+            "exemplos de normativos: decretos, instruções, leis, normas, portarias, resoluções etc."
+        ],
+        "spanish": "base legal",
+        "english": "legal grounds"
+    },
+    {
+        "concept": "Base populacional",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Conjunto de informações que se propõem a reunir características específicas de certa natureza referentes a determinado grupo da população.",
+        "notes": [
+            "i) Exemplo: determinada faixa etária em dada população.",
+            "ii) Estudos de base populacional são ferramentas relevantes para fazer estimativas sobre: condição de saúde, comportamentos relacionados à saúde, acesso e uso de serviços de saúde e morbidade referida pela população."
+        ],
+        "spanish": "base poblacional",
+        "english": "population basis"
+    },
+    {
+        "concept": "Benchmarking",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Técnica de comparação, de especificações, experiências e práticas, para auxiliar na identificação, na implementação e no aperfeiçoamento de boas práticas de gestão. Ver Boas práticas",
+        "notes": [
+            "i) Na construção e na análise de indicadores, tem o objetivo de sugerir valores referenciais para comparação do desempenho.",
+            "ii) Pode ser realizado interna ou externamente à unidade de análise, a partir de referenciais como mecanismos de trabalho, processos, serviços, produtos ou resultados considerados de notório destaque."
+        ],
+        "spanish": "benchmarking",
+        "english": "benchmarking"
+    },
+    {
+        "concept": "BI",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Business Intelligence.",
+        "notes": [],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Big data",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Conjunto de dados, em sua maioria não estruturados, provenientes de diversas fontes e formatos, de complexidade, variedade e volume abundantes, que chegam aos sistemas de gerenciamento com grande velocidade. Ver Dado; Datalake",
+        "notes": [
+            "i) Em função da alta complexidade, da variedade e do volume de dados, muitas vezes os sistemas tradicionais de gerenciamento não são capazes de armazená-los e de gerenciá-los, pois os dados são provenientes de diversas plataformas (físicas ou digitais, tangíveis ou intangíveis). Assim, novos sistemas de armazenamento e tratamento de dados vêm sendo constantemente desenvolvidos para gerenciá- los. ii) O processamento do big data pode gerar informações úteis sobre os negócios das organizações, subsidiando uma melhor tomada de decisões."
+        ],
+        "spanish": "big data",
+        "english": "big data"
+    },
+    {
+        "concept": "Boas práticas",
+        "classe": "pl",
+        "sinonimos": [],
+        "description": "Requisitos essenciais que devem ser adotados para garantir a qualidade de uma intervenção.",
+        "notes": [],
+        "spanish": "buenas practicas",
+        "english": "good practices"
+    },
+    {
+        "concept": "Brainstorming",
+        "classe": "masc",
+        "sinonimos": [
+            "Tempestade de ideias"
+        ],
+        "description": "Técnica de discussão em grupo na qual todos os participantes contribuem espontaneamente com ideias, no intuito de resolver algum problema ou conceber um trabalho criativo.",
+        "notes": [],
+        "spanish": "brainstoming ; lluvia de ideas",
+        "english": "brainstorming"
+    },
+    {
+        "concept": "Business Intelligence",
+        "classe": "masc",
+        "sinonimos": [
+            "BI"
+        ],
+        "description": "Conjunto de aplicações, técnicas e ferramentas projetadas para auxiliar na interpretação e na transformação de uma grande quantidade de dados brutos em informações significativas e úteis para a gestão e a tomada de decisão. Ver Big data.",
+        "notes": [
+            "i) Também conhecido em português como Inteligência de Negócios. ii) Combina ações de mineração, coleta, tratamento, análise e visualização de dados, com o apoio de soluções tecnológicas, para gerar mudanças positivas e eliminar a ineficiência."
+        ],
+        "spanish": "business intelligence ; inteligencia de negocios",
+        "english": "business intelligence"
+    },
+    {
+        "concept": "Cadeia de valor",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Série de atividades finalísticas e de suporte, desenvolvidas pela organização, de forma interligada, com direcionamento estratégico e foco de atuação, a fim de atender às necessidades do usuário com maior eficiência e eficácia.",
+        "notes": [
+            "i) Possibilita averiguar, com bastante precisão, os valores gerados pelas etapas do processo finalístico da organização. ii) No contexto do setor industrial, tem o intuito de identificar vantagens competitivas no atendimento às necessidades dos clientes, considerando as relações com fornecedores, os ciclos de produção e a entrega de bens e serviços. iii) As atividades finalísticas e de suporte envolvem: insumos, processos, produtos, resultados e impactos, e são aferidas por meio do estabelecimento de indicadores, que medem o desempenho da organização. iv) Exemplos de atividades finalísticas (primárias): logística interna e externa, operações, marketing e venda, e assistência técnica. v) Exemplos de atividades de suporte (secundárias): compras, desenvolvimento de tecnologia, gestão de recursos humanos, administração e infraestrutura."
+        ],
+        "spanish": "cadena de valor",
+        "english": "value chain"
+    },
+    {
+        "concept": "Cálculo do indicador",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Aplicação de fórmula matemática predefinida para mensurar aspectos relacionados a determinado conceito, fenômeno, problema ou resultado de uma intervenção na realidade e no tempo. Ve r Elaboração de indicadores Fórmula de cálculo Indicador Memória de cálculo",
+        "notes": [],
+        "spanish": "cálculo del indicador",
+        "english": "calculation of indicators"
+    },
+    {
+        "concept": "Catálogo de intervenções",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Ferramenta na qual as fichas de descrição das intervenções e as fichas de qualificação dos respectivos indicadores são cadastradas de forma ordenada, com o objetivo de organizar e registrar a informação sobre a intervenção. Ver Ficha de descrição da intervenção Ficha de qualificação do indicador Intervenção",
+        "notes": [
+            "i) Proporciona a visualização e a compreensão da intervenção com clareza, objetividade e descrição. ii) Possibilita mapear as intervenções públicas sob a responsabilidade das secretarias do Ministério da Saúde."
+        ],
+        "spanish": "catálogo de intervenciones",
+        "english": "catalog of interventions"
+    },
+    {
+        "concept": "Cenário",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Panorama atual ou projeção hipotética do futuro que propicia a antecipação de realidades possíveis e suas variáveis para subsidiar a tomada de decisão. Ver Análise prospectiva",
+        "notes": [
+            "i) No processo de planejamento, a construção de cenários permite um cálculo antecipado dos limites e possibilidades de ação, orientando a formulação de objetivos factíveis de serem alcançados.",
+            "ii) Pode ser favorável, com a predominância de hipóteses positivas sobre os planos de ação; ou desfavorável, com a predominância de hipóteses negativas. iii) O cenário atual envolve informações sobre o desempenho das ações no momento presente e sobre as entregas e realizações relativas ao progresso e ao andamento das intervenções."
+        ],
+        "spanish": "escenario",
+        "english": "scenario; situation"
+    },
+    {
+        "concept": "Ciclo de políticas públicas",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Etapas sucessivas ou concomitantes de diagnóstico, formulação, implementação, controle, monitoramento e avaliação decorrentes de intervenções governamentais. Ver Política Tomada de decisão.",
+        "notes": [
+            "i) Possibilita visualizar os processos e investigar as relações de poder, as articulações e as práticas relacionadas às políticas. ii) Pode ser segmentado nas seguintes etapas: entendimento dos problemas, levantamento das alternativas, tomada de decisão, implementação, monitoramento e avaliação."
+        ],
+        "spanish": "ciclo de políticas públicas",
+        "english": "cycle of public policies"
+    },
+    {
+        "concept": "Ciência da informação",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Área de estudo dedicada às questões científicas e às práticas profissionais orientadas para os problemas da efetiva comunicação do conhecimento e de seus registros entre os seres humanos, nos contextos social, institucional ou individual do uso e das necessidades de informação. Ver Informação",
+        "notes": [
+            "i) Inclui os campos da editoração, comunicação, biblioteconomia e informática. ii) Para a manipulação das informações, utilizam-se processos e métodos de coleta, armazenamento, disseminação, publicação e recuperação, por meio de modernas tecnologias informacionais."
+        ],
+        "spanish": "ciencia de la información",
+        "english": "information science"
+    },
+    {
+        "concept": "Ciência de dados",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Área de estudo, pautada na organização, na propriedade e na análise de dados, que utiliza estatística, matemática e soluções computacionais para a coleta, a detecção de padrões, a limpeza, a preparação e a organização dos dados. Ver Big data; Dado ; Machine learning.",
+        "notes": [
+            "combina técnicas estatísticas, matemáticas, de mineração de dados ( data mining ), big data visualização e aprendizado de máquina ( machine learning )."
+        ],
+        "spanish": "ciencia de datos",
+        "english": "data science"
+    },
+    {
+        "concept": "Colegiado",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Instância voltada para a condução e o aprimoramento de políticas públicas, na qual os membros têm os mesmos poderes.",
+        "notes": [
+            "i) De acordo com o Decreto n.º 9.759, de 11 de abril de 2019, o colegiado pode ser um conselho, um comitê, uma comissão, um grupo, uma junta, uma equipe, uma mesa, um fórum ou uma sala. ii) O colegiado decorre da constatação de que a tomada de decisões em ambientes pluripessoais de natureza deliberativa resulta em atos presumidamente adequados, com maior legitimidade, em razão de terem sido fruto de debate e da contraposição de ideias."
+        ],
+        "spanish": "cuerpo colegiado",
+        "english": "collegiate body"
+    },
+    {
+        "concept": "Coleta de dados",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo de obtenção e apuração de dados para responder perguntas e avaliar resultados. Ver Dado",
+        "notes": [
+            "pode ser contínua (na qual os eventos são registados à medida que acontecem); periódica (para eventos de ciclo em ciclo); ou ocasional (realizada sem determinação de continuidade ou período)."
+        ],
+        "spanish": "recolección de datos",
+        "english": "data collection"
+    },
+    {
+        "concept": "Comitê consultivo",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Grupo formalmente constituído para aconselhar ou emitir pareceres para corpos governamentais, sociedades ou outras instituições nas ações relacionadas a políticas, programas e projetos.",
+        "notes": [],
+        "spanish": "comité consultivo; comité asesor",
+        "english": "advisory committee"
+    },
+    {
+        "concept": "Competências organizacionais",
+        "classe": "pl",
+        "sinonimos": [],
+        "description": "Capacidade de mobilizar, integrar e coordenar processos, recursos, conhecimentos e comportamentos singulares e essenciais que assegurem a realização da missão, da visão e/ou da estratégia de uma instituição.",
+        "notes": [
+            "i) Distinguem o ambiente de atuação de uma instituição e contribuem para que ela construa e mantenha uma identidade e uma cultura organizacional que impulsionem o alinhamento da gestão e a execução articulada de ações. ii) A correta identificação, percepção e desenvolvimento dessas competências é fundamental para assegurar o alcance dos objetivos estabelecidos e dos resultados desejados pela instituição."
+        ],
+        "spanish": "competencias organizacionales",
+        "english": "organizational skills"
+    },
+    {
+        "concept": "Compliance",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Conformidade com as normas, os princípios éticos e a transparência, para atingir os objetivos, a qualidade na gestão das organizações e a minimização de riscos. Ver Análise de risco Gestão de risco Risco",
+        "notes": [
+            "i) Os órgãos e as entidades podem estabelecer instâncias de defesa, para supervisão e monitoramento, por meio de comitês, diretorias ou assessorias específicas para tratar de riscos, controles internos, integridade e conformidade. ii) Os compliance risks (riscos de conformidade) estão relacionados à possível violação de leis, regulamentos, termos contratuais, padrões ou políticas internas, podendo envolver riscos materiais para alcançar os objetivos de uma organização."
+        ],
+        "spanish": "compliance ; cumplimiento",
+        "english": "compliance"
+    },
+    {
+        "concept": "Confiabilidade",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Característica dos dados e das informações obtidos a partir de fontes fidedignas, que utilizam metodologias de coleta, consolidação e análise reconhecidas e transparentes, possibilitando seu uso e rastreamento precisos.",
+        "notes": [],
+        "spanish": "confiabilidad; fiabilidad",
+        "english": "reliability"
+    },
+    {
+        "concept": "Conjunto de dados",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Coleção de dados tabulados, ordenados, organizados e documentados, de forma a terem significado e poderem ser transformados em informações. Ver Análise de dados ; Big data; C iência de dados Dado Machine learning.",
+        "notes": [
+            "i) É organizado em linhas (membros do conjunto), nas quais estão os registros dos acontecimentos, e em colunas (variáveis), nas quais estão as características dos acontecimentos. ii) Por ser a base utilizada pelos algoritmos para aprender, evoluir e exibir resultados, é considerado o principal insumo dos processos de análise de dados, ciência de dados e aprendizado de máquina ( machine learning )."
+        ],
+        "spanish": "conjunto de datos",
+        "english": "dataset"
+    },
+    {
+        "concept": "Conjunto mínimo de dados",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Menor quantidade possível de dados, a respeito das ações e dos serviços prestados em cada contato assistencial, agrupados em um formulário padronizado, que são coletados pelos estabelecimentos de saúde, públicos e privados. Ver Conjunto de dados Dado",
+        "notes": [
+            "i) É composto por dados clínicos e administrativos. ii) Tem como objetivo a obtenção de uma base de dados padronizada e capaz de prestar informações assistenciais oportunas, confiáveis e comparáveis, que possam subsidiar a produção de pesquisas acadêmicas e institucionais, o monitoramento e a avaliação de intervenções de saúde, o faturamento dos serviços prestados e o planejamento da rede de atenção à saúde. iii) Fazem parte do Registro Eletrônico de Saúde (RES) e do Sistema Nacional de Informação em Saúde (SNIS)."
+        ],
+        "spanish": "conjunto mínimo básico de datos",
+        "english": "minimum basic dataset"
+    },
+    {
+        "concept": "Controle",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Fiscalização realizada a partir de normas e padrões previamente estabelecidos e planejados, para apurar o alcance de expectativas e, se necessário, corrigir uma malversação de recursos públicos, que podem ser materiais, financeiros e humanos.",
+        "notes": [
+            "promove exame minucioso com o objetivo de comandar, governar ou regular o funcionamento institucional."
+        ],
+        "spanish": "fiscalización; control",
+        "english": "inspection; control"
+    },
+    {
+        "concept": "Controle social",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Práticas de fiscalização e participação da sociedade nos processos deliberativos relacionados à formulação de políticas de saúde e de gestão.",
+        "notes": [
+            "i) Alguns mecanismos institucionalizados, como os Conselhos de Saúde e as Conferências de Saúde, garantem a participação e o controle social com a representatividade dos distintos atores sociais. ii) Visa ao benefício social e deve ser permanente para a efetivação do estado democrático. iii) No Sistema Único de Saúde (SUS), é regulamentado e organizado pela Lei n.º 8.142, de 28 de dezembro de 1990."
+        ],
+        "spanish": "control social",
+        "english": "social control"
+    },
+    {
+        "concept": "Cultura de monitoramento e avaliação",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Conjunto de valores, conhecimentos, procedimentos, comportamentos e ações que definem os níveis de institucionalização do monitoramento e da avaliação de uma organização. Ver Avaliação Institucionalização do monitoramento e da avaliação Monitoramento",
+        "notes": [],
+        "spanish": "cultura de seguimiento y evaluación",
+        "english": "monitoring and evaluation culture"
+    },
+    {
+        "concept": "Custo-benefício",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Análise comparativa que considera a escolha, entre os benefícios e os recursos necessários para obtê-los, visando priorizar a tomada de decisão sobre a implementação de intervenções públicas. Ver Análise de viabilidade Análise de risco Custo-Efetividade",
+        "notes": [],
+        "spanish": "costo-beneficio",
+        "english": "cost-benefit"
+    },
+    {
+        "concept": "Custo-efetividade",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Análise, baseada em estudos científicos, que possibilita identificar as intervenções de menor custo em relação a determinado resultado social ou individual. Ver Custo-Benefício",
+        "notes": [
+            "i) Tipo de análise de viabilidade e econômica. ii) A análise econômica engloba quatro tipos de estudos: a) custo-efetividade;",
+            "b) custo-utilidade; c) custo-benefício; e d) custo-minimização."
+        ],
+        "spanish": "costo-efectividad",
+        "english": "cost-effectiveness"
+    },
+    {
+        "concept": "Custodiante da informação",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Pessoa física ou jurídica, interna ou externa à organização, que detém a posse, mesmo que transitória, de informação produzida ou recebida.",
+        "notes": [],
+        "spanish": "guardián de la información",
+        "english": "information custodian"
+    },
+    {
+        "concept": "Dado",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Registro elementar, ainda que não organizado ou manipulado, que serve de base ou pressuposto para análise e obtenção de informações. Ver Indicador; Informação; Metadados",
+        "notes": [
+            "i) Pode ser um número, um texto ou uma imagem e, em geral, envolve a classificação e a rotulação de elementos em categorias.",
+            "ii) Consiste de observações documentadas ou resultados de medições que, frequentemente, acarretam registros numéricos, expressando uma quantidade de seres, objetos ou fenômenos e suas características."
+        ],
+        "spanish": "dato",
+        "english": "data"
+    },
+    {
+        "concept": "Dados abertos",
+        "classe": "pl",
+        "sinonimos": [],
+        "description": "Dados estruturados, em formato digital e aberto, que podem ser livremente acessados, utilizados, cruzados e compartilhados por qualquer pessoa, para qualquer finalidade, estando sujeitos, no máximo, a exigências que visem a atribuir crédito à sua autoria ou à sua fonte. Ver Dado",
+        "notes": [
+            "i) São regidos por três princípios comumente chamados de leis dos dados abertos: 1) devem poder ser encontrados e indexados na internet; 2) devem estar disponíveis em formato aberto e compreensível por máquina; e 3) não pode haver restrições para sua utilização e replicação. ii) Formato aberto refere-se a arquivos de configuração não proprietária, com utilização livre de patentes ou qualquer outra restrição legal, com especificação publicamente documentada, de livre conhecimento e implementação."
+        ],
+        "spanish": "datos abiertos",
+        "english": "open data"
+    },
+    {
+        "concept": "Dados qualitativos",
+        "classe": "",
+        "sinonimos": [],
+        "description": "masc. pl Dados não numéricos, baseados em atributos, características, propriedades ou fenômenos. Ver Dado",
+        "notes": [
+            "i) A descrição desses dados é feita por meio de impressões, pontos de vista e opiniões. ii) Podem ser classificados como nominais, para os quais não existe nenhuma ordenação nas possíveis realizações (exemplos: estado civil, sexo, cor dos olhos, etnia); ou ordinais, para os quais existe uma ordenação de resultados (exemplos: grau de instrução, classe social, estágio da doença)."
+        ],
+        "spanish": "datos cualitativos",
+        "english": "qualitative data"
+    },
+    {
+        "concept": "Dados quantitativos",
+        "classe": "",
+        "sinonimos": [],
+        "description": "masc. pl Dados em formato numérico, que representam contagens ou medidas. Ver Dado",
+        "notes": [
+            "podem ser classificados como discretos, quando o número de valores possíveis é finito ou enumerável, representando uma contagem (exemplos: número de filhos, número de ovos produzidos, número de processos); ou contínuos, quando o número de valores possíveis é infinito, correspondendo a uma escala contínua sem vazios, interrupções ou saltos (exemplos: peso, altura, pressão arterial, salário)."
+        ],
+        "spanish": "datos cuantitativos",
+        "english": "quantitative data"
+    },
+    {
+        "concept": "Dashboard",
+        "classe": "masc",
+        "sinonimos": [
+            "Painel de informação"
+        ],
+        "description": "",
+        "notes": [],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Datalake",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Repositório centralizado que armazena grandes e variados conjuntos de dados brutos em seu formato original, de múltiplas fontes, sem um modelo predefinido explícito e sem metadados definidos. Ver Big data; Dado",
+        "notes": [
+            "i) É usado como estratégia de gerenciamento por empresas e organizações que precisam de um repositório de dados grande, abrangente e integralizado. ii) Os dados armazenados podem estar estruturados, semiestruturados ou não estruturados."
+        ],
+        "spanish": "datalake",
+        "english": "datalake"
+    },
+    {
+        "concept": "Desempenho institucional",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Conjunto de características que permitem determinar o grau de eficácia de uma instituição em relação a metas, requisitos e expectativas previamente definidos. Ver Avaliação de desempenho individual e institucional",
+        "notes": [],
+        "spanish": "desempeño institucional",
+        "english": "institutional performance"
+    },
+    {
+        "concept": "Destinação de recursos",
+        "classe": "fem",
+        "sinonimos": [
+            "Alocação de recursos"
+        ],
+        "description": "",
+        "notes": [],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Diretrizes",
+        "classe": "pl",
+        "sinonimos": [],
+        "description": "Orientações que determinam e indicam um caminho a ser seguido e definem regras para se estabelecer uma intervenção.",
+        "notes": [
+            "i) Podem servir de base para a avaliação da qualidade e da eficiência da intervenção. ii) No contexto do planejamento institucional, podem representar o escopo de uma ação governamental, devendo abrigar programas e ações constantes do Plano Plurianual (PPA)."
+        ],
+        "spanish": "línea directriz",
+        "english": "guideline"
+    },
+    {
+        "concept": "Disseminação da informação",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Transferência de informação com o objetivo de possibilitar a geração de conhecimento orientada a um público específico. Ver Acesso à informação Documentação da informação Gestão da informação Gestão do conhecimento Informação",
+        "notes": [
+            "tem por finalidade: a) tornar pública a produção de conhecimentos gerados ou organizados por uma instituição;",
+            "b) promover a apropriação de informação por parte de um usuário receptor; e c) propagar a informação por vários meios e suportes, com base no esquema tradicional de emissor, canal, mensagem, receptor."
+        ],
+        "spanish": "diseminación de la información; difusión de la información",
+        "english": "information dissemination"
+    },
+    {
+        "concept": "Documentação da informação",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Seleção, registro, classificação, preservação e custódia das informações, por meio de normas, códigos e lógicas, para facilitar o acesso, o compartilhamento e a disseminação delas. Ver Acesso à informação Disseminação da informação Gestão da informação Gestão do conhecimento Informação",
+        "notes": [],
+        "spanish": "documentación de información",
+        "english": "information documentation"
+    },
+    {
+        "concept": "EAS",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Estabelecimento Assistencial de Saúde.",
+        "notes": [],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Elaboração de indicadores",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Construção de medidas-síntese de registro que podem ser interpretadas quanto aos seus atributos. Ver Cálculo do indicador Ficha de qualificação do indicador Fórmula de cálculo Indicador Memória de cálculo",
+        "notes": [
+            "i) Deve basear-se em critérios e padrões bem definidos e explícitos que considerem, pelo menos: a especificidade, a sensibilidade, a confiabilidade, a validade, a disponibilidade/ mensurabilidade e a relevância da informação. ii) Deve utilizar uma ficha técnica que descreva: o conceito, o método de cálculo, a fonte de dados, a periodicidade, a função do indicador, a forma de interpretá-lo e as suas limitações."
+        ],
+        "spanish": "elaboración de indicadores",
+        "english": "creation of indicators"
+    },
+    {
+        "concept": "Entidades vinculadas",
+        "classe": "",
+        "sinonimos": [],
+        "description": "fem. pl Órgãos da Administração Pública indireta, vinculados a órgão da Administração Pública direta, com administração e orçamentos próprios, que devem prestar contas de suas ações.",
+        "notes": [
+            "i) São autarquias, fundações públicas, empresas públicas e sociedades de economia mista. ii) No âmbito do Ministério da Saúde, são: a Agência Nacional de Vigilância Sanitária (Anvisa), a Agência Nacional de Saúde Suplementar (ANS), a Fundação Nacional de Saúde (Funasa), a Fundação Oswaldo Cruz (Fiocruz), a Empresa Brasileira de Hemoderivados e Biotecnologia (Hemobrás) e o Grupo Hospitalar Conceição (GHC)."
+        ],
+        "spanish": "entidades vinculadas",
+        "english": "linked entities"
+    },
+    {
+        "concept": "Entregas intermediárias",
+        "classe": "pl",
+        "sinonimos": [
+            "Resultados intermediários"
+        ],
+        "description": "",
+        "notes": [],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Escopo",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Conjunto de informações, características e requisitos de uma intervenção que delimita e detalha o trabalho necessário para o seu desenvolvimento. Ver Intervenção",
+        "notes": [],
+        "spanish": "ámbito; alcance",
+        "english": "scope"
+    },
+    {
+        "concept": "Esferas de gestão",
+        "classe": "pl",
+        "sinonimos": [],
+        "description": "Níveis de responsabilidade governamental, conforme as esferas de governo: União, estados, Distrito Federal e municípios.",
+        "notes": [
+            "na área da saúde, as esferas de governo são representadas pelo Ministério da Saúde, na União, e pelas respectivas secretarias de saúde ou órgãos equivalentes, nos estados, no Distrito Federal e nos municípios."
+        ],
+        "spanish": "nível de manejo; ámbito de gestión",
+        "english": "management level"
+    },
+    {
+        "concept": "Estabelecimento Assistencial de Saúde",
+        "classe": "masc",
+        "sinonimos": [
+            "EAS"
+        ],
+        "description": "Espaço físico delimitado, permanente e sob responsabilidade técnica, destinado à prestação de assistência à saúde à população.",
+        "notes": [
+            "i) Recebe pacientes, em regime de internação ou não, para o atendimento a qualquer nível de complexidade. ii) Realiza ações e serviços de saúde humana."
+        ],
+        "spanish": "centro de salud",
+        "english": "health care facility"
+    },
+    {
+        "concept": "Estratégia",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Procedimento por meio do qual são articuladas e estabelecidas decisões, escolhas e trajetórias, tomando por base a integração de aspectos técnicos e políticos, para definir a forma de implementação de políticas, programas e projetos.",
+        "notes": [],
+        "spanish": "estrategia",
+        "english": "strategy"
+    },
+    {
+        "concept": "Evidências para tomada de decisão",
+        "classe": "",
+        "sinonimos": [],
+        "description": "fem. pl. Indícios que consideram aspectos como eficácia, acurácia, efetividade, eficiência, segurança e avaliação econômica para fundamentar um conhecimento técnico-científico usado para embasar deliberações da gestão nas intervenções. Ver Análise baseada em evidências Tomada de decisão",
+        "notes": [],
+        "spanish": "decisiones basadas en evidencias",
+        "english": "evidence-based decision making"
+    },
+    {
+        "concept": "Execução da política",
+        "classe": "fem",
+        "sinonimos": [
+            "Implementação da política"
+        ],
+        "description": "Etapa do ciclo de políticas públicas em que as propostas e determinações são concretizadas em ações e se ajustam à realidade encontrada. Ver Ciclo de políticas públicas Implementação Política Política pública",
+        "notes": [
+            "i) Abrange distintas deliberações para o cumprimento de uma decisão previamente definida. ii) É considerada uma etapa complexa, pois nela se tornam visíveis as deficiências existentes na concepção da política ou outras vulnerabilidades relacionadas ao ambiente externo."
+        ],
+        "spanish": "ejecución de política",
+        "english": "policy implementation"
+    },
+    {
+        "concept": "Ficha de descrição da intervenção",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Instrumento técnico para detalhamento, descrição e registro padronizado das informações da intervenção com o objetivo de subsidiar as estratégias de monitoramento e avaliação no Ministério da Saúde. Ver Catálogo de intervenções Ficha de qualificação do indicador Intervenção",
+        "notes": [
+            "deve especificar diretrizes, objetivos, metas e normativos da intervenção."
+        ],
+        "spanish": "hoja de descripción de la intervención",
+        "english": "intervention description sheet"
+    },
+    {
+        "concept": "Ficha de qualificação do indicador",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Instrumento técnico padronizado com orientações sobre conceitos e critérios utilizados nos indicadores. Ver Dado; Indicador; Metadados",
+        "notes": [
+            "composta por metadados que sistematizam os atributos e elementos essenciais para definir, qualificar e explicar um indicador."
+        ],
+        "spanish": "hoja de calificación del indicador",
+        "english": "performance indicator reference sheet"
+    },
+    {
+        "concept": "Fonte",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Órgão ou instituição de origem do registro ou da produção sistematizada de dados e informações.",
+        "notes": [
+            "i) É necessária para a apuração da fidedignidade de um indicador. ii) Deve vir acompanhada da data de emissão, e é desejável que tenha uma divulgação periódica."
+        ],
+        "spanish": "fuente; origen",
+        "english": "source"
+    },
+    {
+        "concept": "Fontes de dados",
+        "classe": "",
+        "sinonimos": [],
+        "description": "fem. pl. Locais em que uma organização armazena dados gerados ou coletados de diversas formas. Ver Dado",
+        "notes": [],
+        "spanish": "fuentes de datos",
+        "english": "data sources"
+    },
+    {
+        "concept": "Fontes de informação",
+        "classe": "",
+        "sinonimos": [],
+        "description": "fem. pl Publicações, ferramentas e recursos, em diversos meios e suportes, que atendam às necessidades de informação dos usuários. Ver Informação",
+        "notes": [
+            "i) Fontes primárias são fatos oriundos diretamente da fonte e não adulterados. ii) Fontes secundárias trazem informação agrupada ou organizada e têm a função de facilitar o uso da informação dispersa nas fontes primárias."
+        ],
+        "spanish": "fuentes de información",
+        "english": "sources of information"
+    },
+    {
+        "concept": "Forma de implementação",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Modo utilizado para executar e colocar em prática as decisões adotadas para viabilizar uma intervenção.",
+        "notes": [
+            "i) Está vinculada aos processos políticos. ii) A complexidade da dinâmica social e as particularidades culturais, econômicas e sociais têm impacto nas prioridades estabelecidas e, portanto, na forma de implementação de uma intervenção."
+        ],
+        "spanish": "forma de implementación",
+        "english": "implementation method"
+    },
+    {
+        "concept": "Fórmula de cálculo",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Expressão matemática que combina as variáveis e os elementos de um indicador para obtenção de seu resultado. Ver Cálculo do indicador Elaboração de indicadores Memória de cálculo",
+        "notes": [],
+        "spanish": "fórmula de cálculo",
+        "english": "calculation formula"
+    },
+    {
+        "concept": "Formulação de políticas",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo de definição de objetivos, ações e metas a serem alcançados para solucionar determinado problema. Ver Ciclo de políticas públicas Meta Objetivo Política",
+        "notes": [
+            "inclui a análise da situação inicial; o desenho da imagem-objetivo em um prazo determinado; a formulação de proposições de ações embasadas em princípios e diretrizes; a análise de coerência (interna e externa) dessas proposições; a análise de viabilidade de execução das ações propostas; e a formalização das políticas em leis, normas, planos, programas e projetos."
+        ],
+        "spanish": "formulación de políticas",
+        "english": "policy formulation; policy development"
+    },
+    {
+        "concept": "Gestão da informação",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo geralmente apoiado pela tecnologia que, além da identificação de necessidades de informação, envolve a organização, o armazenamento, o desenvolvimento de produtos e serviços, a distribuição, o uso e a recuperação da informação. Ver Acesso à informação Disseminação da informação Documentação da informação Gestão do conhecimento Informação Informação em saúde.",
+        "notes": [
+            "i) Tem por missão tratar do conteúdo, da segurança, do acesso e da disponibilidade da informação. ii) Apoia a política de gerenciamento na tomada de decisão e na evolução da estrutura organizacional. iii) Dá suporte ao processo decisório e amplia as possibilidades de formulação de estratégias nas organizações."
+        ],
+        "spanish": "gestión de la información",
+        "english": "information management"
+    },
+    {
+        "concept": "Gestão de risco",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo de caráter permanente, estabelecido, direcionado e monitorado pela alta administração, que sistematiza, estrutura e coordena atividades, eventos ou situações que possam afetar o alcance dos objetivos da instituição. Ver Análise de risco Risco",
+        "notes": [
+            "tem como objetivo fornecer uma segurança razoável para o alcance dos objetivos da instituição."
+        ],
+        "spanish": "gestión de riesgos",
+        "english": "risk management"
+    },
+    {
+        "concept": "Gestão do conhecimento",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Gerenciamento de tecnologias e processos com o objetivo de aplicar o conhecimento nas organizações, por meio de melhores práticas no uso da informação, para melhorar seu desempenho. Ver Acesso à informação Disseminação da informação Documentação da informação Gestão da informação Informação",
+        "notes": [
+            "o gerenciamento inclui: criar, selecionar, capturar, registrar, identificar, organizar, arquivar, compartilhar e analisar de forma estruturada, colaborativa, integrativa, sistemática e lógica a informação produzida, além de obter o retorno efetivo do uso do conhecimento para a organização."
+        ],
+        "spanish": "gestión del conocimiento",
+        "english": "knowledge management"
+    },
+    {
+        "concept": "Gestão estratégica",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Conjunto de decisões que são realizadas a partir de análises profundas dos ambientes interno e externo e, em longo prazo, determinam o desempenho de uma instituição.",
+        "notes": [],
+        "spanish": "gestión estratégica",
+        "english": "strategic management"
+    },
+    {
+        "concept": "Gestão tripartite",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Gestão compartilhada e articulada entre os três níveis de entes federados com vistas à implementação de intervenções públicas.",
+        "notes": [
+            "a gestão compartilhada na saúde é condição necessária, visto que o Sistema Único de Saúde (SUS) se configura como uma rede regionalizada e hierarquizada e em um contexto de autonomia dos entes federados, que são responsáveis tanto pelas ações e pelos serviços de saúde quanto pelo financiamento deles."
+        ],
+        "spanish": "gestión tripartita",
+        "english": "tripartite management; management shared among three administrative levels"
+    },
+    {
+        "concept": "Gestor de informação em saúde",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Profissional da informação com responsabilidade e habilidade para gerenciar a coleta, o processamento, o registro, a disseminação e o uso da informação, a fim de fornecer subsídios para a tomada de decisão em saúde.",
+        "notes": [
+            "como parte de sua atuação, o profissional precisa ter capacidade para desenvolver recursos informacionais e disseminar a informação, com o intuito de facilitar o acesso e a geração de conhecimento."
+        ],
+        "spanish": "gestor de información en salud",
+        "english": "health information manager"
+    },
+    {
+        "concept": "Governabilidade",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Capacidade de gerenciar e decidir sobre o andamento de determinada intervenção, levando em consideração os recursos disponíveis para a execução de suas ações.",
+        "notes": [
+            "os recursos podem ser políticos, financeiros, materiais e/ou humanos."
+        ],
+        "spanish": "gobernabilidad",
+        "english": "governability"
+    },
+    {
+        "concept": "Governança pública",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Mecanismo de liderança, estratégia e controle, que compreende a avaliação, o direcionamento e o monitoramento da gestão, a fim de conduzir políticas públicas e prestar serviços de interesse à sociedade. Em espanhol gobernanza publica Em inglês public governance",
+        "notes": [],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Governo aberto",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Cultura de governança, centrada no cidadão, que utiliza ferramentas, políticas e práticas inovadoras e sustentáveis para promover a transparência, a capacidade de resposta e a responsabilização do governo. Ver Accountability Governança pública Partes interessadas Transparência Em espanhol gobierno abierto Em inglês open government",
+        "notes": [
+            "i) É baseado em quatro princípios: transparência; prestação de contas e accountability (responsabilização); participação do cidadão; e tecnologia e inovação. ii) Incentiva a participação das partes interessadas ( stakeholders ) no apoio à democracia e ao crescimento inclusivo."
+        ],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Grau de implantação",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Mensuração do nível de operacionalização de uma intervenção em saúde, tendo como base o planejado. Ver Implantação; Implementação",
+        "notes": [],
+        "spanish": "grado de implantación",
+        "english": "level of implementation; degree of implementation"
+    },
+    {
+        "concept": "Implantação",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo pelo qual uma intervenção é iniciada, introduzida, adotada ou estabelecida. Ver Implementação",
+        "notes": [],
+        "spanish": "implantación",
+        "english": "implantation"
+    },
+    {
+        "concept": "Implementação",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo de operacionalização de uma intervenção previamente implantada, concretizado por atividades que permitem transformar intenções gerais em ações e resultados. Ver Implantação",
+        "notes": [],
+        "spanish": "implementación",
+        "english": "implementation"
+    },
+    {
+        "concept": "Implementação da política",
+        "classe": "fem",
+        "sinonimos": [
+            "Execução da política"
+        ],
+        "description": "",
+        "notes": [],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Indicador",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Medida-síntese, de registro, que permite mostrar e mensurar aspectos relacionados a determinado conceito, fenômeno, problema ou resultado de uma intervenção. Ver Medida-síntese",
+        "notes": [
+            "i) Permite gerar informações, bem como identificar e aferir a situação de uma política pública, operacionalizando sua observação e possibilitando o acompanhamento de sua evolução no tempo.",
+            "ii) A idoneidade de um indicador está diretamente relacionada à qualidade e à precisão da informação por ele fornecida. iii) Pode ser: taxa, razão, contagem, coeficiente, proporção, incidência, registro administrativo, pesquisa amostral, estatística, entre outros."
+        ],
+        "spanish": "indicador",
+        "english": "indicator"
+    },
+    {
+        "concept": "Indicador analítico",
+        "classe": "masc",
+        "sinonimos": [
+            "Indicador simples"
+        ],
+        "description": "Medida-síntese que descreve aspectos específicos da realidade de forma clara, rápida e objetiva. Ver Indicador; Indicador sintético Medida-síntese",
+        "notes": [
+            "exemplos: número de consultas médicas na atenção básica; número de leitos hospitalares."
+        ],
+        "spanish": "indicador analítico",
+        "english": "analytical indicator"
+    },
+    {
+        "concept": "Indicador complexo",
+        "classe": "masc",
+        "sinonimos": [
+            "Indicador sintético"
+        ],
+        "description": "",
+        "notes": [],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Indicador de desempenho",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Medida-síntese que expressa a capacidade produtiva de entregas e avalia processos durante determinado período. Ver Indicador Medida-síntese Em espanhol indicador de desempeño Em inglês performance indicator",
+        "notes": [
+            "i) Pode ser utilizado para avaliar pessoas, organizações, serviços, produtos, sistemas, entre outros. ii) Exemplos: tempo médio de atendimento nas Unidades Básicas de Saúde (UBS); proporção de gestantes com pelo menos seis consultas de pré-natal realizadas, entre a 1ª e a 20ª semana gestacional."
+        ],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Indicador de economicidade",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Medida-síntese que expressa os custos dos insumos e os recursos alocados em relação aos benefícios. Ver Indicador Medida-síntese Em espanhol indicador de economicidad Em inglês savings indicator",
+        "notes": [
+            "i) Envolve uma análise de viabilidade econômica. ii) A economicidade é um princípio expresso no artigo 70 da Constituição Federal de 1988, que busca obter um resultado esperado com o menor custo possível, mantendo a qualidade e a celeridade na prestação do serviço ou no trato com os bens públicos. iii) Exemplo: valor do repasse para estruturação dos serviços de radioterapia."
+        ],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Indicador de efetividade",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Medida-síntese que expressa o alcance dos objetivos finalísticos de uma intervenção com otimização de recursos e esforços. Ver Indicador Indicador de eficácia Indicador de eficiência Indicador de impacto Medida-síntese",
+        "notes": [
+            "i) A efetividade é considerada a junção da eficácia com a eficiência. Trata-se de atingir os objetivos planejados, utilizando os recursos da melhor forma possível. ii) Exemplo: taxa de mortalidade infantil; tempo de espera em lista para transplante."
+        ],
+        "spanish": "indicador de efectividad",
+        "english": "effectiveness indicator"
+    },
+    {
+        "concept": "Indicador de eficácia",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Medida-síntese que expressa o alcance dos objetivos finalísticos de uma intervenção em condições ideais de estruturas físicas, equipamentos e serviços. Ver Indicador Indicador de efetividade; Indicador de eficiência; Medida-síntese.",
+        "notes": [
+            "i) A eficácia está diretamente relacionada à qualidade dos resultados ou efeitos esperados, independentemente dos custos e do tempo que isso acarreta. ii) Exemplo: cobertura vacinal de poliomielite inativada e pentavalente; cobertura populacional de equipes de atenção primária."
+        ],
+        "spanish": "indicador de eficácia",
+        "english": "efficacy indicator"
+    },
+    {
+        "concept": "Indicador de eficiência",
+        "classe": "",
+        "sinonimos": [],
+        "description": "m asc. Medida-síntese que expressa a relação entre os resultados obtidos por uma intervenção e os seus custos. Ver Eficácia Eficiência Efetividade Indicador Indicador de efetividade Indicador de eficácia Medida-síntese",
+        "notes": [
+            "i) A eficiência está diretamente relacionada à racionalidade e à produtividade. É o processo de executar exatamente o que foi planejado. ii) Exemplo: produção de vacina contra HPV; número de consultas especializadas realizadas e pagas por região de saúde."
+        ],
+        "spanish": "indicador de eficiencia",
+        "english": "efficiency indicator"
+    },
+    {
+        "concept": "Indicador de esforço",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Medida-síntese que expressa, por meio de métricas óbvias e objetivas, o empenho dedicado à execução de uma intervenção, aferindo seu efeito após um tempo determinado. Ver Indicador Indicador de execução Indicador de eficiência Indicador de insumos Medida-síntese",
+        "notes": [
+            "i) Permite verificar a causa antes de o efeito acontecer. ii) Pode ser classificado como indicador de execução, eficiência ou insumos.",
+            "iii) Para calculá-lo, geralmente são necessárias informações que, na maioria das vezes, não estão na base de dados da organização e exigem regras de contagem e novos instrumentos para que sejam coletadas. iv) Exemplo: número de ligações atendidas pela Ouvidoria do Ministério da Saúde; proporção de residências visitadas em, pelo menos, quatro ciclos de visitas domiciliares para controle da dengue."
+        ],
+        "spanish": "indicador de esfuerzo",
+        "english": "effort indicator"
+    },
+    {
+        "concept": "Indicador de excelência",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Medida-síntese que expressa se o resultado da intervenção alcançou a expectativa ou o padrão esperados. Ver Indicador de desempenho Indicador de esforço Indicador de resultado Indicador de execução Indicador de economicidade Medida-síntese",
+        "notes": [
+            "i) Tipo de indicador de esforço que demonstra o desempenho.",
+            "ii) Exemplo: número de Distritos Sanitários Especiais Indígenas (Dsei) com acesso a medicamento garantido; número de exames citopatológicos do colo do útero realizado em mulheres de 25 a 64 anos."
+        ],
+        "spanish": "indicador de excelencia",
+        "english": "excellence indicator"
+    },
+    {
+        "concept": "Indicador de execução",
+        "classe": "masc",
+        "sinonimos": [
+            "Indicador de progresso"
+        ],
+        "description": "Medida-síntese que expressa o quanto uma etapa da intervenção foi realizada. Ver Indicador Indicador de desempenho Indicador de esforço Indicador de resultado Indicador de execução Indicador de economicidade Medida-síntese",
+        "notes": [
+            "exemplo: proporção de cura de casos novos de tuberculose pulmonar com confirmação laboratorial; percentual de municípios que realizam no mínimo seis grupos de ações de Vigilância Sanitária."
+        ],
+        "spanish": "indicador de ejecución; indicador de implementación",
+        "english": "implementation indicator"
+    },
+    {
+        "concept": "Indicador de gestão",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Medida-síntese que permite acompanhar e avaliar as diferentes fases do ciclo de gestão das políticas públicas, averiguando os aspectos decorrentes de seus processos de implementação em determinada população, área geográfica e período. Ver Indicador; Indicador de impacto; Indicador de insumo; Indicador de processo; Indicador de produto; Indicador de resultado Medida-síntese",
+        "notes": [
+            "i) Como está diretamente relacionado às etapas do ciclo de gestão de uma política pública, ele pode ser: de insumo (antes), de processo (durante), de produto (depois), de resultado (depois) e de impacto (depois). ii) Exemplo: gasto público com saúde em proporção ao Produto Interno Bruto (PIB); número de Unidades de Pronto Atendimento (UPAs) implantadas no município."
+        ],
+        "spanish": "indicador de gestión",
+        "english": "management indicator"
+    },
+    {
+        "concept": "Indicador de impacto",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Medida-síntese, de natureza abrangente e multidimensional, que permite mensurar resultados em longo prazo. Ver Indicador Medida-síntese",
+        "notes": [
+            "i) Afere efeitos e desdobramentos mais gerais, previstos ou não, positivos ou negativos, que decorrem da implantação e da implementação de programas, projetos e políticas. ii) Mede a efetividade, por meio da obtenção de produtos úteis, com economicidade e prazo determinado. iii) Na epidemiologia, incidência e mortalidade são comumente utilizadas como indicadores de impacto. iv) Exemplo: taxa de mortalidade infantil; número de internações por condições sensíveis à atenção básica (ICSAB) no Sistema Único de Saúde (SUS)."
+        ],
+        "spanish": "indicador de impacto",
+        "english": "impact indicator"
+    },
+    {
+        "concept": "Indicador de infraestrutura",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Medida-síntese quantitativa que permite mensurar a disponibilidade de equipamentos, serviços e edificações necessários para a execução de processos, atividades e intervenções. Ver Indicador; Indicador de insumo Medida-síntese",
+        "notes": [
+            "exemplos: número de cadeiras odontológicas disponíveis em Unidades Básicas de Saúde (UBS); número de leitos disponíveis, por especialidade, em um hospital ou em uma área geográfica."
+        ],
+        "spanish": "indicador de infraestructura",
+        "english": "infrastructure indicator"
+    },
+    {
+        "concept": "Indicador de insumo",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Medida-síntese que permite mensurar a disponibilidade de recursos materiais, humanos, financeiros e administrativos necessários para a execução de ações, atividades e processos. Ver Indicador; Indicador de infraestrutura Medida-síntese",
+        "notes": [
+            "exemplos: quantidade de médicos por mil habitantes; quantidade de testes disponibilizados por tipo de testagem."
+        ],
+        "spanish": "indicador de insumo; indicador de aporte",
+        "english": "input indicator"
+    },
+    {
+        "concept": "Indicador de processo",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Medida-síntese que exprime o esforço contínuo de utilização dos insumos alocados na obtenção de resultados. Ver Indicador Indicador de produto Indicador de resultado Medida-síntese",
+        "notes": [
+            "exemplos: proporção de gestantes com seis consultas de pré-natal ou mais durante a gravidez."
+        ],
+        "spanish": "indicador de proceso",
+        "english": "process indicator"
+    },
+    {
+        "concept": "Indicador de produto",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Medida-síntese que permite mensurar, em curto prazo, o alcance das metas físicas e o efeito e a mudança de políticas, programas e projetos, possibilitando avaliar a capacidade de entrega de benefícios, bens ou serviços à população. Ver Indicador Indicador de processo Indicador de resultado Medida-síntese",
+        "notes": [
+            "exemplos: quantidade de Unidades Básicas de Saúde (UBS) construídas; percentual de consultas de pré-natal realizadas."
+        ],
+        "spanish": "indicador de producto",
+        "english": "product indicator"
+    },
+    {
+        "concept": "Indicador de progresso",
+        "classe": "masc",
+        "sinonimos": [
+            "Indicador de execução"
+        ],
+        "description": "",
+        "notes": [],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Indicador de resultado",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Medida-síntese que expressa, direta ou indiretamente, em médio prazo, o efeito e a mudança de políticas, programas e projetos, possibilitando avaliar a capacidade de alcance de metas e objetivos planejados para a população. Ver Indicador Indicador de processo Indicador de produto Medida-síntese",
+        "notes": [
+            "i) Tem particular importância no contexto da gestão pública orientada a resultados. ii) Exemplos: taxa de sobrevivência pós-transplante; taxa de sepse pós-operatória."
+        ],
+        "spanish": "indicador de resultado",
+        "english": "outcome indicator"
+    },
+    {
+        "concept": "Indicador de saúde",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Medida-síntese que permite aferir informações, de ordem quantitativa ou qualitativa, sobre certos atributos e dimensões das condições de saúde da população e de desempenho do sistema de saúde, em determinada área geográfica e em período delimitado. Ver Indicador Medida-síntese",
+        "notes": [
+            "exemplo: mortalidade proporcional por idade em menores de 1 ano de idade; incidência absoluta de febre amarela no Brasil em determinado período."
+        ],
+        "spanish": "indicador de salud",
+        "english": "health indicator"
+    },
+    {
+        "concept": "Indicador simples",
+        "classe": "masc",
+        "sinonimos": [
+            "Indicador analítico"
+        ],
+        "description": "",
+        "notes": [],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Indicador sintético",
+        "classe": "masc",
+        "sinonimos": [
+            "Indicador complexo"
+        ],
+        "description": "Medida-síntese que tem a capacidade de sistematizar e combinar várias dimensões da realidade em uma mesma medida, oferecendo parâmetros para a tomada de decisão. Ver Indicador; Indicador analítico Medida-síntese",
+        "notes": [
+            "i) Constituído por indicadores analíticos ou por muitas variáveis, possibilita a comparabilidade por meio de um ranqueamento. ii) Pode mensurar a qualidade de vida e o nível de vulnerabilidade de uma população com a criação de índices compostos que considerem diferentes fatores sociais e econômicos. iii) Exemplos: Índice de Desenvolvimento Humano (IDH); Índice de Condições de Qualidade de Vida (ICQV)."
+        ],
+        "spanish": "indicador sintético",
+        "english": "synthetic indicator"
+    },
+    {
+        "concept": "Indicador social",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Medida-síntese com significado social relevante, em geral de ordem quantitativa, que aponta, indica, relaciona e exprime, em termos operacionais, condições ou mudanças importantes da sociedade. Ver Indicador Medida-síntese",
+        "notes": [
+            "exemplo: taxa de fecundidade total; taxa de mortalidade infantil por causas previsíveis."
+        ],
+        "spanish": "indicador social",
+        "english": "social indicator"
+    },
+    {
+        "concept": "Índice",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Valor numérico que representa um conjunto de medidas e permite a interpretação e o agrupamento de informações complexas.",
+        "notes": [
+            "i) Informações complexas são aquelas de difícil compreensão ou entendimento. ii) Exemplo: Índice de Desenvolvimento Humano (IDH)."
+        ],
+        "spanish": "índice",
+        "english": "index"
+    },
+    {
+        "concept": "Índice de referência",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Valor que expressa a situação de um indicador e sua data de apuração. Ver Indicador",
+        "notes": [
+            "consiste na aferição de um indicador, em dado momento, a partir de uma unidade de medida escolhida."
+        ],
+        "spanish": "índice de referencia",
+        "english": "reference index"
+    },
+    {
+        "concept": "Informação",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Conjunto de dados organizados que fazem referência a um acontecimento, fato ou fenômeno e tem a finalidade de reduzir incertezas e incrementar conhecimentos sobre um assunto de interesse. Ver Dado",
+        "notes": [
+            "pode ser codificada, transmitida e interpretada, de forma a aumentar a probabilidade de compreensão da realidade que pretende representar."
+        ],
+        "spanish": "información",
+        "english": "information"
+    },
+    {
+        "concept": "Informação em saúde",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Conjunto de dados transformado em conhecimento comunicado, utilizado como instrumento de apoio decisório para o planejamento, a gestão, a organização e a avaliação nos vários níveis que constituem o Sistema Único de Saúde (SUS).",
+        "notes": [
+            "seu desenvolvimento está vinculado à priorização política do uso de informações estratégicas para a tomada de decisão em saúde."
+        ],
+        "spanish": "información de salud",
+        "english": "health information"
+    },
+    {
+        "concept": "Informação estratégica",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Informação qualificada, essencial e determinante, que se mostra apta a reduzir o grau de incerteza e ampliar a celeridade na tomada de decisão. Ver Estratégia Informação",
+        "notes": [
+            "i) Tem valor agregado e relevante para o seu usuário, possibilitando, em um processo dinâmico, agilidade no caminho entre a reflexão e a ação. ii) As instituições responsáveis pela sua produção devem participar de um processo de cooperação técnica constante e edificado a partir de mecanismos estáveis de articulação interinstitucional."
+        ],
+        "spanish": "información estratégica",
+        "english": "strategic information"
+    },
+    {
+        "concept": "Institucionalização do monitoramento e avaliação",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo de consolidação de valores, conhecimentos, procedimentos, comportamentos e ações de monitoramento e avaliação, que transforma ações espontâneas, desorganizadas e discricionárias em operações estruturadas e formalmente constituídas.",
+        "notes": [
+            "está intimamente relacionada ao nível de capacidade de modernização da gestão, pressupondo a indução, o estímulo e a incorporação cotidiana de práticas de monitoramento e avaliação no interior das instituições."
+        ],
+        "spanish": "institucionalización del seguimiento y evaluación",
+        "english": "institutionalization of monitoring and evaluation"
+    },
+    {
+        "concept": "Instrumentos de gestão",
+        "classe": "pl",
+        "sinonimos": [],
+        "description": "Ferramentas de apoio à atividade e à responsabilidade de gerenciar intervenções e sistemas.",
+        "notes": [
+            "i) Na área da saúde, auxiliam a gestão dos sistemas de saúde (municipal, estadual ou nacional), apoiando o exercício das funções de coordenação, articulação, negociação, planejamento, acompanhamento, controle, avaliação e auditoria. ii) Exemplos: Plano de Saúde, Programação Anual de Saúde, Relatório de Gestão."
+        ],
+        "spanish": "instrumentos de gestión",
+        "english": "management instruments; management tools"
+    },
+    {
+        "concept": "Intercâmbio de informação",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Troca de informações caracterizada pela reciprocidade e pela inclusão de informações contextualizadas, oportunas e pertinentes em ambientes colaborativos. Ver Acesso à informação Disseminação da informação",
+        "notes": [
+            "tem como desafio a manutenção de um fluxo informativo sustentável, a contextualização das fontes de informação e a adoção de terminologias uniformes e adequadas."
+        ],
+        "spanish": "intercambio de información",
+        "english": "information exchange"
+    },
+    {
+        "concept": "Interoperabilidade da informação em saúde",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Capacidade que sistemas, ferramentas e aplicações têm de se comunicar, trocar dados e utilizar informações, sem a necessidade de intervenção humana, com o objetivo de otimizar processos, reduzir custos e melhorar a qualidade da atenção à saúde.",
+        "notes": [],
+        "spanish": "interoperabilidad de la información en salud",
+        "english": "health information interoperability"
+    },
+    {
+        "concept": "Interpretação do indicador",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Análise e compreensão dos dados e das informações apresentados por um indicador, bem como de seu significado. Ver Indicador",
+        "notes": [],
+        "spanish": "interpretación del indicador",
+        "english": "indicator interpretation"
+    },
+    {
+        "concept": "Intervenção",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Interferência governamental com intenção de mudar determinada situação e o seu resultado.",
+        "notes": [
+            "pode ocorrer por meio de políticas, programas, planos, projetos, ações, atividades etc."
+        ],
+        "spanish": "intervención",
+        "english": "intervention"
+    },
+    {
+        "concept": "Limitação do indicador",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Fragilidades e outros aspectos que restringem e delimitam o indicador, devendo ser considerados em sua criação e adoção. Ver Indicador; Fonte; Fórmula de cálculo",
+        "notes": [
+            "pode direcionar ou limitar a avaliação de uma situação e estar relacionada a: apuração dos dados, fonte, fórmula de cálculo, interpretação e temporalidade."
+        ],
+        "spanish": "limitación del indicador",
+        "english": "limitation of the indicator"
+    },
+    {
+        "concept": "Linha de base",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Observação ou valor que representa o estágio de referência inicial de uma quantidade mensurável.",
+        "notes": [
+            "i) Na medicina, é a informação encontrada no início de um estudo ou outro valor conhecido inicial usado para comparação com dados posteriores. ii) Seu conceito é essencial para a prática da assistência à saúde, a fim de estabelecer um significado relativo e não absoluto dos dados. iii) Serve para medir a condição anterior à intervenção pública, municiando o gestor com informações da situação dos indicadores que deverão ser afetados com a implementação de tal intervenção. iv) É o ponto de referência a partir do qual será possível medir e comparar o planejamento com as alterações feitas no decorrer do projeto."
+        ],
+        "spanish": "línea de base",
+        "english": "baseline"
+    },
+    {
+        "concept": "Machine learning",
+        "classe": "",
+        "sinonimos": [
+            "Aprendizado de máquina Inteligência artificial que utiliza uma série de técnicas estatísticas, probabilísticas e de otimização para permitir que computadores possam iniciar e executar processos de aprendizagem e detectar padrões difíceis de discernir quando expostos a novos dados"
+        ],
+        "description": "masc Ver Big data; Ciência de dados Dado",
+        "notes": [],
+        "spanish": "aprendizaje automático; machine learning",
+        "english": "machine learning"
+    },
+    {
+        "concept": "Marco lógico",
+        "classe": "masc",
+        "sinonimos": [
+            "Matriz lógica"
+        ],
+        "description": "Conjunto de elementos que definem os componentes ou os estágios de uma intervenção.",
+        "notes": [
+            "é utilizado no início ou em momentos-chave do planejamento, do monitoramento ou da avaliação de uma intervenção."
+        ],
+        "spanish": "marco lógico",
+        "english": "logical framework"
+    },
+    {
+        "concept": "Matriz de indicadores",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Conjunto organizado de indicadores que permitem a visualização de suas características essenciais de forma padronizada. Ver Indicador Matriz de informação estratégica",
+        "notes": [
+            "i) Pressupõe a necessidade de revisão periódica e aperfeiçoamento continuado. ii) Geralmente, é estabelecida a partir de linhas e colunas."
+        ],
+        "spanish": "matriz de indicadores",
+        "english": "matrix of indicators"
+    },
+    {
+        "concept": "Matriz de informação estratégica",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Ferramenta de organização das informações destinadas a subsidiar o processo de tomada de decisão, permitindo a uma instituição aprender e se adaptar a mudanças internas e externas.",
+        "notes": [
+            "dispõe elementos ordenadamente, como: resultados dos indicadores atrelados às políticas de saúde, atores envolvidos, e outras variáveis táticas."
+        ],
+        "spanish": "matriz de información estratégica",
+        "english": "strategic information matrix"
+    },
+    {
+        "concept": "Matriz lógica",
+        "classe": "fem",
+        "sinonimos": [
+            "Marco lógico"
+        ],
+        "description": "",
+        "notes": [],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Medida-síntese",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Composição parametrizada que contém informações relevantes sobre determinados atributos e dimensões. Ver Indicador Parâmetro",
+        "notes": [
+            "os indicadores são considerados medidas-síntese."
+        ],
+        "spanish": "medida de síntesis",
+        "english": "synthesis measure"
+    },
+    {
+        "concept": "Memória de cálculo",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Detalhamento do método utilizado para calcular um indicador. Ver Cálculo do indicador Elaboração de indicadores Fórmula de cálculo",
+        "notes": [],
+        "spanish": "memoria de cálculo",
+        "english": "calculation method"
+    },
+    {
+        "concept": "Mensuração",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Cálculo ou medição realizada a partir de uma padronização de medidas.",
+        "notes": [],
+        "spanish": "medición; mensuración",
+        "english": "measurement"
+    },
+    {
+        "concept": "Meta",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Especificação e quantificação de um objetivo que representa o estado futuro do desempenho esperado nas ações governamentais com recortes temporais e territoriais. Ver Objetivo",
+        "notes": [
+            "é uma ação temporal e estritamente ligada a prazos, ou seja, precisa ser realizada de forma regular para alcançar o objetivo proposto, de forma organizada e planejada."
+        ],
+        "spanish": "meta",
+        "english": "goal"
+    },
+    {
+        "concept": "Metadados",
+        "classe": "pl",
+        "sinonimos": [],
+        "description": "Registros básicos, de baixa granularidade, utilizados para identificar, localizar, compreender e gerenciar determinado conjunto de dados, podendo conter informações sobre a estrutura ou a descrição do seu conteúdo. Ver Dado; Informação",
+        "notes": [
+            "i) São considerados os dados dentro do dado. ii) Podem ser relacionados em diferentes categorias, de acordo com a funcionalidade, tais como: descritividade, padronização, interoperabilidade, modularidade, reflexibilidade, visibilidade, flexibilidade, automatização, administração e preservação."
+        ],
+        "spanish": "metadatos",
+        "english": "metadata"
+    },
+    {
+        "concept": "Método",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Forma de proceder, sistemática e racionalmente, ao longo de um caminho, visando alcançar um resultado desejado que se impõe aos diferentes processos necessários. Ver Metodologia",
+        "notes": [
+            "apresenta característica e possibilidade de reprodutibilidade passível de refutação ou antítese dos resultados obtidos."
+        ],
+        "spanish": "método",
+        "english": "method"
+    },
+    {
+        "concept": "Metodologia",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Estudo científico organizado dos métodos. Ver Método",
+        "notes": [
+            "não deve ser confundida com os métodos propriamente ditos."
+        ],
+        "spanish": "metodología",
+        "english": "methodology"
+    },
+    {
+        "concept": "Metodologia de avaliação",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Percurso fundamentado em regras básicas, estabelecidas cientificamente, para desenvolver uma avaliação. Ver Método; Metodologia",
+        "notes": [
+            "o aspecto científico refere-se à adoção de teorias e conceitos reconhecidos."
+        ],
+        "spanish": "metodología de evaluación",
+        "english": "evaluation methodology"
+    },
+    {
+        "concept": "Modelo de avaliação",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Instrumento estruturado de gestão que objetiva auxiliar na emissão de juízo de valor sobre uma intervenção ou um sistema. Ver Avaliação Avaliação em saúde",
+        "notes": [
+            "i) É o vocabulário e a expressão simbólica máxima de uma linguagem sistêmica. ii) Permite simular o comportamento de uma intervenção ou sistema a partir de alterações em uma ou mais variáveis e, com isso, planejar ações e reações específicas para alcançar situações desejadas. iii) Pode ser voltado à avaliação de políticas públicas, a partir de matriz de indicadores, contemplando as distintas fases do processo de implementação dos programas e dos objetivos a que se destinam. iv) O modelo de avaliação da Organização Mundial da Saúde (OMS) identifica quatro funções para o alcance dos objetivos de um sistema de saúde: prestação de serviços de saúde; geração de recursos; financiamento; e condução e orientação do sistema."
+        ],
+        "spanish": "modelo de evaluación",
+        "english": "assessment model; evaluation model"
+    },
+    {
+        "concept": "Modelo de gestão",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Conjunto de estratégias adotadas por uma organização para coordenar a equipe na execução das tarefas e na obtenção de resultados.",
+        "notes": [],
+        "spanish": "modelo de gestión",
+        "english": "management model"
+    },
+    {
+        "concept": "Modelo lógico",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Representação visual da estrutura lógica de uma intervenção. Ver Marco lógico",
+        "notes": [
+            "i) É composto por insumos, atividades, produtos, resultados e impactos. ii) Descreve como os componentes essenciais de uma intervenção levam aos resultados esperados e a subsequentes impactos, articulando as ligações causais entre o trabalho a ser realizado e o que se deseja alcançar com ele. iii) Permite a identificação de falhas lógicas na concepção da intervenção, como redundâncias, atividades inconsistentes e/ou expectativas causais irrealistas."
+        ],
+        "spanish": "modelo lógico",
+        "english": "logic model"
+    },
+    {
+        "concept": "Monitoramento",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Acompanhamento sistemático e contínuo da evolução de um processo ou fenômeno, realizado por observação, medição e análise constantes.",
+        "notes": [
+            "além de identificar, solucionar e reduzir problemas para a correção de rumos, o monitoramento visa obter informações, em tempo oportuno, para subsidiar a tomada de decisão."
+        ],
+        "spanish": "monitoreo",
+        "english": "monitoring"
+    },
+    {
+        "concept": "Normativa",
+        "classe": "fem",
+        "sinonimos": [
+            "Normativo"
+        ],
+        "description": "",
+        "notes": [],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Normativo",
+        "classe": "masc",
+        "sinonimos": [
+            "Normativa"
+        ],
+        "description": "Instrumento utilizado para determinar regras, preceitos, padrões e modelos que caracterizam normas e condutas.",
+        "notes": [
+            "i) Os atos normativos têm uma ordem geral do executivo que visa à aplicação correta da lei. Por exemplo: emendas à Constituição, leis complementares, leis delegadas, leis ordinárias, decretos-lei, medidas provisórias, decretos legislativos, resoluções, portarias e instruções normativas. ii) As instruções normativas são atos meramente administrativos, que têm por finalidade completar o que já está posto em uma portaria de um superior hierárquico, em um decreto presidencial ou em uma portaria interministerial, não podendo inovar o ordenamento jurídico. iii) Os textos normativos são constituições, declarações, códigos penais, regulamentos, estatutos, entre outros."
+        ],
+        "spanish": "norma; normativo",
+        "english": "regulation"
+    },
+    {
+        "concept": "Objetivo",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Resultado que se quer alcançar. Ver Ação; Meta",
+        "notes": [
+            "i) Corresponde à transformação ou à mudança da realidade que se propõe modificar. ii) De forma ampla, pode ser considerado como valor, finalidade ou expectativa de um órgão, que determina o tipo de estratégia e de estrutura a ser adotada."
+        ],
+        "spanish": "objetivo",
+        "english": "target; objective"
+    },
+    {
+        "concept": "Objetivos estratégicos",
+        "classe": "pl",
+        "sinonimos": [],
+        "description": "Objetivos definidos a partir do processamento de grandes premissas que declaram as escolhas políticas orientadoras de uma administração. Ver Estratégia Objetivo",
+        "notes": [
+            "i) Declaram e comunicam quais aspectos da realidade se pretende transformar diretamente. ii) Referem-se à declaração do que se quer ao final de um período considerado."
+        ],
+        "spanish": "objetivos estratégicos",
+        "english": "strategic objectives"
+    },
+    {
+        "concept": "Orçamento",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Instrumento de planejamento constituído de plano financeiro detalhado que representa uma projeção e um fluxo previsto dos ingressos e das aplicações de recursos a serem usados na execução de atividades específicas, em determinado período.",
+        "notes": [],
+        "spanish": "presupuesto",
+        "english": "budget"
+    },
+    {
+        "concept": "Órgãos colegiados",
+        "classe": "pl",
+        "sinonimos": [],
+        "description": "Instâncias permanentes, de deliberação e pactuação, existentes em cada esfera de governo e integrantes da estrutura básica dos ministérios, das secretarias dos estados, do Distrito Federal e dos municípios.",
+        "notes": [
+            "i) No Ministério da Saúde, os Conselhos de Saúde devem assegurar a participação (da população, dos trabalhadores e dos gestores) no planejamento, no acompanhamento, na fiscalização, na avaliação e no controle da execução das políticas, dos serviços e das ações de saúde, no âmbito de atuação de cada unidade, em conformidade com os princípios e as diretrizes dispostos na legislação sanitária. ii) As Comissões Intergestores Regional, Bipartite e Tripartite são instâncias colegiadas de pactuação consensual entre os entes federativos para definição das regras da gestão compartilhada do Sistema Único de Saúde (SUS). Em espanhol: órganos colegiados Em inglês: collegiate bodies"
+        ],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Pacto",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Acordo ou convenção, realizado entre pessoas ou instituições, com um objetivo em comum. Ver Pactuação",
+        "notes": [],
+        "spanish": "pacto",
+        "english": "pact"
+    },
+    {
+        "concept": "Pactuação",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Compromisso mútuo estabelecido em uma parceria de pessoas ou instituições com um objetivo comum. Ver Órgãos colegiados; Pacto",
+        "notes": [
+            "a instituição do Sistema Único de Saúde (SUS) e o estabelecimento de competências conjuntas a todos os entes federados implicaram a criação de comissões intergestores (tripartite, bipartites e regionais), como fóruns para discussão e planejamento de políticas públicas, em regime de cooperativismo e de pactuação."
+        ],
+        "spanish": "negociación",
+        "english": "agreement; negotiation"
+    },
+    {
+        "concept": "Painel de informação",
+        "classe": "masc",
+        "sinonimos": [
+            "Dashboard"
+        ],
+        "description": "Ferramenta de gestão que apresenta informações visualmente organizadas de um conjunto de indicadores que devem ser acompanhados de forma sistemática e contínua, a fim de facilitar o monitoramento, a análise e a avaliação do desempenho de uma intervenção e contribuir para o processo de tomada de decisão.",
+        "notes": [],
+        "spanish": "panel de información",
+        "english": "dashboard; information panel"
+    },
+    {
+        "concept": "Painel de monitoramento",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Ferramenta de gestão que permite o acompanhamento sistemático, contínuo e oportuno de uma intervenção a partir da visualização de indicadores específicos cuja variação temporal pode auxiliar na verificação da situação. Ver Indicador Monitoramento Painel de informação Tomada de decisão",
+        "notes": [
+            "i) Possibilita a identificação de ocorrências ou desempenhos fora do esperado, municiando o gestor a tomar decisões apropriadas de forma a manter ou promover mudanças nas situações encontradas.",
+            "ii) Apresenta a disposição de uma série histórica, possibilitando a observação de tendências capazes de orientar, a partir da verificação de decréscimos ou incrementos, correções na direção desejada."
+        ],
+        "spanish": "panel de monitoreo",
+        "english": "monitoring panel"
+    },
+    {
+        "concept": "Parâmetro",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Padrão ou regra que estabelece critério, relação ou comparação entre termos.",
+        "notes": [
+            "é necessário para avaliar e julgar a evolução de um indicador."
+        ],
+        "spanish": "parámetro",
+        "english": "baseline; parameter"
+    },
+    {
+        "concept": "Partes interessadas",
+        "classe": "",
+        "sinonimos": [
+            "Stakeholders"
+        ],
+        "description": "Atores internos e externos, sejam pessoas, grupos ou organizações, que podem impactar ou ser impactados pelas ações da instituição, com o intuito de promover um envolvimento eficaz dos agentes.",
+        "notes": [
+            "exemplos: clientes, fornecedores, parceiros, empregados, comunidade."
+        ],
+        "spanish": "partes interesadas; stakeholders",
+        "english": "stakeholders"
+    },
+    {
+        "concept": "Pesquisa avaliativa",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Investigação crítica que utiliza a aplicação sistemática de métodos científicos para avaliar uma situação problemática ou uma intervenção. Ver Avaliação",
+        "notes": [],
+        "spanish": "investigación evaluativa",
+        "english": "evaluation research"
+    },
+    {
+        "concept": "Planejamento",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Instrumento de gestão constituído por um processo de elaboração de um plano para estabelecer antecipadamente ações que visem organizar soluções para alcançar objetivos. Ver Plano",
+        "notes": [
+            "i) Envolve a identificação de adversidades, prioridades de intervenção, ações, tempos, recursos e atores interessados. ii) Tarefa de gestão que consiste em prospectar o que é necessário fazer para mudar condições insatisfatórias, evitar que condições satisfatórias se deteriorem e melhorá-las no futuro."
+        ],
+        "spanish": "planificación",
+        "english": "planning"
+    },
+    {
+        "concept": "Planejamento em saúde",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Prática de gestão e racionalização das ações de saúde, constituída por processo que permite avaliar o passado e definir o futuro a partir de proposições viáveis, orientadas por metas e objetivos, para alcançar melhor qualidade de vida e maiores níveis de saúde e bem-estar da população. Ver Meta; Objetivo; Planejamento",
+        "notes": [
+            "consiste em desenhar, executar, acompanhar e avaliar um conjunto de propostas para o setor de saúde, visando à intervenção sobre um recorte de realidade."
+        ],
+        "spanish": "planificación en salud",
+        "english": "health planning"
+    },
+    {
+        "concept": "Planejamento estratégico",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Método de planejamento constituído por um processo sistêmico de estabelecimento e articulação de decisões e trajetórias, a partir de uma condição presente, para alcançar objetivos de longo prazo, com maior efetividade dos resultados e mais eficiência na administração dos recursos. Ver Estratégia; Meta; Objetivo; Planejamento",
+        "notes": [
+            "i) Considera a análise das condições externas e internas à organização, suas premissas e evolução esperada. ii) Deve levar em conta a complexidade, as variações e as situações imprevisíveis da realidade social. iii) Comumente observa as seguintes etapas:",
+            "a) identificação, seleção e priorização dos problemas; b) descrição do problema; c) explicação do problema; d) definição da situação objetivada; e) identificação das operações necessárias ao enfrentamento do problema; f) análise de viabilidade; e",
+            "g) implementação."
+        ],
+        "spanish": "planificación estratégica",
+        "english": "strategic planning"
+    },
+    {
+        "concept": "Planejamento governamental",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Processo sistemático e permanente da Administração Pública voltado para a definição e a implementação de intervenções públicas.",
+        "notes": [
+            "o Plano Plurianual (PPA), a Lei de Diretrizes Orçamentárias (LDO) e a Lei Orçamentária Anual (LOA) são instrumentos do planejamento e do orçamento governamental."
+        ],
+        "spanish": "planificación gubernamental",
+        "english": "government planning"
+    },
+    {
+        "concept": "Plano",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Agrupamento sistematizado de medidas e ações políticas, sociais ou econômicas, estabelecidas com um propósito específico. Ver Ação",
+        "notes": [
+            "é elaborado antes de se realizar uma ação, com o objetivo de dirigi-la e encaminhá-la."
+        ],
+        "spanish": "plan",
+        "english": "plan"
+    },
+    {
+        "concept": "Política",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Articulação de ações, metas, planos e programas traçados para solucionar um problema identificado a partir de uma demanda social ou nas esferas de governo. Ver Meta; Plano; Programa; Projeto",
+        "notes": [
+            "é uma atividade da governança, do Estado e das relações de poder."
+        ],
+        "spanish": "política",
+        "english": "policy"
+    },
+    {
+        "concept": "Política implementada",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Política com instrumento normativo próprio e plano de trabalho com objetivos, metas e indicadores definidos, cuja execução é acompanhada regularmente por seus gestores. Ver Política; Política pública; Política pública de saúde",
+        "notes": [
+            "i) A publicação do normativo deve estar válida e conter a definição das diretrizes e dos objetivos da política. ii) No âmbito do Ministério da Saúde, deve ser previamente pactuada na Comissão Intergestores Tripartite (CIT)."
+        ],
+        "spanish": "política implementada",
+        "english": "implemented policy"
+    },
+    {
+        "concept": "Política pública",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Conjunto de intervenções e diretrizes provenientes de atores governamentais, com o objetivo de resolver um problema público que requer, utiliza ou afeta os recursos públicos. Ver Política Política implementada Política pública de saúde",
+        "notes": [
+            "i) É uma ação intencional, geralmente envolvendo vários atores e níveis de decisão, com objetivos a serem alcançados. ii) Sua proposição implica estratégias de execução e alocação de recursos."
+        ],
+        "spanish": "política pública",
+        "english": "public policy"
+    },
+    {
+        "concept": "Política pública de saúde",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Aparato conceitual, no âmbito legal ou programático, destinado a definir regulamentos e incentivos que possibilitem a prestação de serviços de saúde, a elaboração e a execução de programas de saúde e o acesso a eles, com a responsabilidade de melhorar a qualidade de vida da população. Ver Política; Política implementada; Política pública",
+        "notes": [
+            "i) Orienta-se pela definição de objetivos, diretrizes, responsabilidades institucionais e parâmetros de monitoramento e avaliação, cujo desdobramento se traduz no conjunto de programas, projetos e ações de promoção, de prevenção e de recuperação da saúde da população. ii) É fruto de uma construção coletiva, pactuada na Comissão Intergestores Tripartite (CIT) e destinada a tornar públicas as intenções de atuação da União, dos estados, dos municípios e do Distrito Federal que dizem respeito ao Sistema Único de Saúde (SUS)."
+        ],
+        "spanish": "política pública de salud",
+        "english": "health public policy"
+    },
+    {
+        "concept": "Política social",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Conjunto de propostas de intervenção sobre problemas relacionados com o desenvolvimento social de determinado país, estado ou município, incluindo as políticas de educação, saúde, habitação, transporte, cultura, esporte e lazer. Ver Política Política pública",
+        "notes": [
+            "i) Tem potencial de impactar positivamente as condições de vida, trabalho e saúde da população, atuando, principalmente, nas áreas de seguridade social, saúde, educação, emprego, saneamento, habitação e estrutura fundiária. ii) Deve ser redistributiva, equalizadora de oportunidades, emancipatória e preventiva."
+        ],
+        "spanish": "política social",
+        "english": "social policy"
+    },
+    {
+        "concept": "Problema",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Situação indesejável ou fora dos padrões da normalidade a ser solucionada e que geralmente se configura como um sintoma ou um efeito resultante de uma causa raiz.",
+        "notes": [
+            "i) Pode ser identificado como uma dificuldade superável no alcance de determinado objetivo, demanda não satisfeita ou carência. ii) Uma boa identificação do problema e de seus descritores é fundamental para definir ações aptas a solucioná-lo."
+        ],
+        "spanish": "problema",
+        "english": "problem; issue"
+    },
+    {
+        "concept": "Processo",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Sequência de atividades, contínuas, sucessivas e interligadas, com o objetivo de alcançar um efeito final previsto.",
+        "notes": [],
+        "spanish": "proceso",
+        "english": "process"
+    },
+    {
+        "concept": "Processo decisório",
+        "classe": "masc",
+        "sinonimos": [
+            "Tomada de decisão"
+        ],
+        "description": "",
+        "notes": [],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Produção de conhecimento",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo cognitivo de construção de conteúdo e atribuição de sentido a partir de saberes científicos e populares, por meio de interações entre os atores.",
+        "notes": [
+            "i) Ocorre em alianças de aprendizagem que podem influenciar seu processo e os resultados. ii) Não é considerada algo neutro, mas cheio de conflitos, concessões e interesses em disputa."
+        ],
+        "spanish": "produción de conocimiento",
+        "english": "knowledge production"
+    },
+    {
+        "concept": "Produto",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Bem ou serviço quantificável resultante de uma ação. Ver Ação; Atividades",
+        "notes": [],
+        "spanish": "producto",
+        "english": "product"
+    },
+    {
+        "concept": "Programa",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Instrumento de organização da ação governamental, mensurado por indicadores, com vistas ao enfrentamento de um problema e à concretização de um objetivo. Ver Atividades; Projeto",
+        "notes": [
+            "i) Como parte de uma política, articula um conjunto coerente de ações (orçamentárias ou não) necessárias e suficientes para enfrentar um problema, de modo a superar ou evitar as causas identificadas e aproveitar as oportunidades existentes. ii) É estruturado por projetos e atividades com variados graus de interdependência."
+        ],
+        "spanish": "programa",
+        "english": "program"
+    },
+    {
+        "concept": "Projeto",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Instrumento de programação, com prazo definido, que envolve um conjunto de atividades para alcançar o objetivo de um programa, do qual resultam produtos ou serviços voltados para a expansão ou o aperfeiçoamento da atuação do governo. Ver Atividades; Programa",
+        "notes": [],
+        "spanish": "proyecto",
+        "english": "project"
+    },
+    {
+        "concept": "Público-alvo",
+        "classe": "masc",
+        "sinonimos": [
+            "Público estratégico; Público sujeito Conjunto de indivíduos com interesses ou características em comum aos quais se destinam ações, serviços ou produtos. Em espanhol público objetivo Em inglês target audience"
+        ],
+        "description": "",
+        "notes": [],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Público estratégico",
+        "classe": "masc",
+        "sinonimos": [
+            "Público-alvo"
+        ],
+        "description": "",
+        "notes": [],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Público sujeito",
+        "classe": "masc",
+        "sinonimos": [
+            "Público-alvo"
+        ],
+        "description": "",
+        "notes": [],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Qualidade da informação",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Medida multidimensional inserida no processo informacional pela qual se avalia o alcance da aprendizagem e do conhecimento nos contextos organizacional e acadêmico.",
+        "notes": [
+            "i) Envolve dimensões como: acuracidade, temporalidade, relevância, interpretabilidade, acessibilidade, segurança.",
+            "ii) É observada na relação entre o valor atribuído pelo usuário às propriedades presentes na informação e o padrão de qualidade desejável."
+        ],
+        "spanish": "calidad de la información",
+        "english": "information quality"
+    },
+    {
+        "concept": "Recursos",
+        "classe": "pl",
+        "sinonimos": [],
+        "description": "Meios necessários para realizar uma intervenção.",
+        "notes": [
+            "i) Podem se referir à estrutura física ou organizacional.",
+            "ii) Podem ser físicos, materiais, financeiros, humanos, mercadológicos e administrativos."
+        ],
+        "spanish": "recursos",
+        "english": "resources"
+    },
+    {
+        "concept": "Rede",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Conjunto de pessoas, instituições ou serviços que trabalham interligados em esquema de cooperação e possibilitam a circulação de informações, conhecimentos e elementos materiais ou imateriais entre seus entes, para alcançar um objetivo comum.",
+        "notes": [],
+        "spanish": "red",
+        "english": "network"
+    },
+    {
+        "concept": "Referencial estratégico",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Fundamentos que orientam o planejamento e compreendem a definição da missão, da visão de futuro e dos valores institucionais.",
+        "notes": [],
+        "spanish": "marco estratégico",
+        "english": "strategic framework"
+    },
+    {
+        "concept": "Registro",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Atribuição de uma identificação a um dado, de maneira a possibilitar seu rastreamento.",
+        "notes": [
+            "i) Dá subsídio aos gestores para aprimorar os processos na Administração Pública e propor aperfeiçoamentos na prestação de serviços públicos. ii) Exemplos: históricos de pacientes, resultados de laboratórios, informações clínicas etc."
+        ],
+        "spanish": "registro",
+        "english": "record"
+    },
+    {
+        "concept": "Responsável pelo monitoramento",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Órgão, unidade administrativa, gestor ou colaborador encarregado de promover um acompanhamento sistemático e contínuo da evolução de processos ou fenômenos, por meio de observação, medição e análise constantes e periódicas. Ver Monitoramento",
+        "notes": [],
+        "spanish": "responsable de monitoreo",
+        "english": "monitoring authority"
+    },
+    {
+        "concept": "Resultados intermediários",
+        "classe": "pl",
+        "sinonimos": [
+            "Entregas intermediárias"
+        ],
+        "description": "Entregas, voltadas para o enfrentamento das causas de um problema, que precisam ser realizadas para a concretização do resultado final. Ver Atividades Indicador de produto; Produto",
+        "notes": [],
+        "spanish": "resultados intermedios",
+        "english": "interim results; intermediate results"
+    },
+    {
+        "concept": "Risco",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Eventos ou situações potenciais cuja ocorrência pode afetar o alcance dos objetivos institucionais. Ver Análise de risco Gestão de risco",
+        "notes": [],
+        "spanish": "",
+        "english": "risk"
+    },
+    {
+        "concept": "Sala de situação de saúde",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Instrumento informatizado de gerenciamento de dados e informações em saúde para a elaboração de diagnósticos situacionais que operacionalizam a construção de novas realidades ou situações. Ver Análise prospectiva Dado Disseminação de informação Evidências para tomada de decisão Informação Sistemas de informação em saúde Tomada de decisão",
+        "notes": [
+            "reúne informações advindas de diversos sistemas de saúde, tornando-as mais palatáveis e transformando-as em subsídio para: o monitoramento e a avaliação de intervenções, a criação de padrões de eficiência, a elaboração de planos de ação de melhoria contínua, a realização de inferências, prospecções e projeções situacionais, e a correção de trajetórias em busca de maior produtividade, qualidade e bons resultados assistenciais e econômicos."
+        ],
+        "spanish": "sala de situación de salud",
+        "english": "health situation room"
+    },
+    {
+        "concept": "Segurança da informação",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Proteção contra vários tipos de ameaças à integridade, à disponibilidade e à confidencialidade da informação, a fim de garantir a continuidade dos serviços, minimizar o risco e maximizar o retorno sobre os investimentos e as oportunidades das instituições.",
+        "notes": [
+            "i) Envolve o estabelecimento de medidas que visam proteger sistemas informacionais, de telecomunicações ou estruturas de dados, contra acessos sem autorização, interferências, modificações, eliminações, destruições ou liberações de dados em computadores.",
+            "ii) Inclui métodos para evitar a interferência por vírus de computador ou a invasão por pessoas não autorizadas que almejam comprometer os dados armazenados."
+        ],
+        "spanish": "seguridad de la información",
+        "english": "information security"
+    },
+    {
+        "concept": "Serviços de saúde",
+        "classe": "pl",
+        "sinonimos": [],
+        "description": "Ações de nível operacional por meio das quais se provêm os cuidados de saúde à população em um país.",
+        "notes": [
+            "i) A responsabilidade pelos serviços de saúde foi atribuída ao Sistema Único de Saúde (SUS) pelos artigos 196, 197 e 198 da Constituição Federal de 1988, complementada pelo artigo 6º da Lei n.º 8.080, de 19 de setembro de 1990. ii) São produtos das intervenções em saúde, prestados por estabelecimentos públicos ou privados, individual ou coletivamente."
+        ],
+        "spanish": "servicios de salud",
+        "english": "health services"
+    },
+    {
+        "concept": "Sistemas de informação em saúde",
+        "classe": "pl",
+        "sinonimos": [],
+        "description": "Componentes inter-relacionados que coletam, processam, armazenam e distribuem informações para apoiar o processo de tomada de decisão nos âmbitos estratégico e operacional em saúde. Ver Informação",
+        "notes": [],
+        "spanish": "sistemas de información de salud",
+        "english": "health information systems"
+    },
+    {
+        "concept": "Sistemática de monitoramento e avaliação em saúde",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Forma articulada de organização das atividades de produção, registro, acompanhamento e análise crítica de informações geradas na gestão de intervenções públicas de saúde, utilizada para a medição do grau de eficácia, de efetividade e de eficiência dessas intervenções, com a finalidade de subsidiar a tomada de decisão em saúde.",
+        "notes": [
+            "é implementada por meio de indicadores medidos regularmente, com base em diferentes fontes de dados, que oferecem aos gestores informações sobre o desempenho do sistema de saúde, permitindo medir o alcance de objetivos e metas."
+        ],
+        "spanish": "sistemática de seguimiento y evaluación en salud",
+        "english": "systematic approach for health monitoring and evaluation"
+    },
+    {
+        "concept": "Stakeholders",
+        "classe": "pl",
+        "sinonimos": [
+            "Partes interessadas"
+        ],
+        "description": "",
+        "notes": [],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Tempestade de ideias",
+        "classe": "fem",
+        "sinonimos": [
+            "Brainstorming"
+        ],
+        "description": "",
+        "notes": [],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Território",
+        "classe": "masc",
+        "sinonimos": [
+            "Base geográfica"
+        ],
+        "description": "Dimensão espacial e política, na qual é exercida a soberania nacional e são operadas ações passíveis de localização georreferenciada na superfície terrestre, por meio de pontos geográficos, polígonos, mapas, cartas, plantas etc.",
+        "notes": [
+            "pode também assumir uma dimensão social, incorporando um sentido proveniente de seu uso e de sua ocupação."
+        ],
+        "spanish": "territorio",
+        "english": "territory"
+    },
+    {
+        "concept": "Tomada de decisão",
+        "classe": "fem",
+        "sinonimos": [
+            "Processo decisório"
+        ],
+        "description": "Processo cognitivo, contínuo e dinâmico de seleção e escolha de um curso de ação para, a partir de alternativas possíveis, solucionar um problema. Ver Informação",
+        "notes": [
+            "i) Tem, na informação, instrumento fundamental para a elaboração de medidas capazes de atender adequadamente às demandas de uma população. ii) Em geral, é responsabilidade do gestor."
+        ],
+        "spanish": "toma de decisiones",
+        "english": "decision making"
+    },
+    {
+        "concept": "Transparência",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Compromisso da Administração Pública com a divulgação das suas atividades, a partir de informações confiáveis, relevantes e tempestivas, possibilitando a colaboração da sociedade com o controle das ações de seus governantes. Ver Acesso à informação Governo aberto Informação Em espanhol transparencia Em inglês transparency",
+        "notes": [
+            "i) É considerada um mecanismo indutor da responsabilidade nos gestores públicos. ii) É um dos princípios centrais que devem orientar a atividade pública e um dos pilares para a construção de um governo aberto."
+        ],
+        "spanish": "",
+        "english": ""
+    },
+    {
+        "concept": "Unidade de medida",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Padrão utilizado para expressar valor e empregado para informar o modo de mensuração da produção do bem ou do serviço, que permite a comparação entre grandezas.",
+        "notes": [
+            "por convenção, é definida e adotada na forma de nomes (exemplo: unidades) e símbolos (exemplo: %)."
+        ],
+        "spanish": "unidad de medida",
+        "english": "unit of measurement"
+    },
+    {
+        "concept": "Unidades",
+        "classe": "pl",
+        "sinonimos": [],
+        "description": "Componentes administrativos e organizacionais que integram a estrutura de um órgão ou de uma entidade.",
+        "notes": [
+            "i) Têm competências próprias que são desdobradas daquelas do órgão ou da entidade de que fazem parte e a que estão diretamente subordinadas. ii) Em geral, não têm autonomia administrativa e financeira, mas há casos em que, por força das competências que exercem, uma lei ou um regulamento lhes concede autonomias específicas necessárias ao adequado cumprimento dessas competências. iii) São secretarias, diretorias e outras subdivisões dos órgãos da Administração Pública."
+        ],
+        "spanish": "unidad administrativa",
+        "english": "administrative unit"
+    },
+    {
+        "concept": "Uso do indicador",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Forma e motivo principais de utilização dos dados e das informações apresentados por um indicador, devendo ser considerada para fins de análise e compreensão do indicador. Ver Indicador",
+        "notes": [],
+        "spanish": "uso del indicador",
+        "english": "use of the indicator"
+    },
+    {
+        "concept": "Valor em saúde",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Característica dos resultados provenientes das ações e dos serviços de saúde ofertados aos cidadãos, considerando custos e desperdícios, para além dos desfechos clínicos. Ver Valor público Valor público em saúde",
+        "notes": [
+            "i) Pode ser classificado como: valor de qualidade (profissional, organizacional e percebida por usuários e funcionários) e valor de aprendizagem. ii) Deve observar atributos importantes como: transparência, prestação de contas, equidade, qualidade, facilidade de acesso, acessibilidade e satisfação do usuário."
+        ],
+        "spanish": "valor en salud",
+        "english": "health value"
+    },
+    {
+        "concept": "Valor público",
+        "classe": "masc",
+        "sinonimos": [],
+        "description": "Atributo de um produto ou serviço que atende a necessidades ou demandas de interesse público, gerando resultado para a sociedade. Ver Valor em saúde Valor público em saúde",
+        "notes": [],
+        "spanish": "valor público",
+        "english": "public value"
+    },
+    {
+        "concept": "Valor público em saúde",
+        "classe": "",
+        "sinonimos": [],
+        "description": "masc. Característica das ações e dos serviços relacionados à promoção, à proteção e à recuperação da saúde, entregues ou a serem entregues, de forma universal e igualitária, aos usuários do Sistema Único de Saúde (SUS). Ver Valor em saúde Valor público",
+        "notes": [],
+        "spanish": "valor público en salud",
+        "english": "health public value"
+    },
+    {
+        "concept": "Visualização de dados",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Representação visual de comunicação e apresentação de dados ou de conjuntos de dados, de modo a fornecer aos usuários elementos para analisá-los e melhor compreendê-los. Ver Dados Informação ; Dashboard; Painel de informação",
+        "notes": [
+            "i) Utiliza elementos visuais, com formatos imagéticos ou gráficos, como diagramas, mapas, infográficos, painéis, com o objetivo de facilitar a observação de tendências, exceções e padrões nos dados. ii) Pode ser usada para: tornar os dados atrativos e fáceis de entender, identificar tendências e situações atípicas dentro de um conjunto de dados, descrever um fato ou uma ocorrência encontrada nos dados, reforçar argumentos e destacar pontos importantes."
+        ],
+        "spanish": "visualización de datos",
+        "english": "data visualizaton acceso a la información – acesso à informação acción – ação acciones de salud – ações de saúde acciones intersectoriales – ações intersetoriais actividades – atividades agenda política – agenda política agregación de datos – agregação de dados ámbito; alcance – escopo análisis – análise análisis de datos – análise de dados análisis de indicadores – análise de indicadores análisis de la situación – análise situacional análisis de la situación de salud – análise de situação em saúde análisis de riesgo – análise de risco análisis de viabilidad – análise de viabilidade análisis del impacto regulatorio – análise de impacto regulatório análisis estratégico – análise estratégica análisis ex-ante – análise ex-ante análisis ex-post – análise ex-post análisis prospectivo – análise prospectiva aprendizaje automático; machine learning – machine learning área final – área finalística área intermedia – área meio asignación de recursos – alocação de recursos auditoría – auditoria banco de datos – banco de dados base de datos – base de dados base legal – base legal base poblacional – base populacional benchmarking – benchmarking big data – big data brainstoming ; lluvia de ideas – brainstorming buenas practicas – boas práticas business intelligence ; inteligencia de negocios – business intelligence cadena de valor – cadeia de valor cálculo del indicador – cálculo do indicador calidad de la información – qualidade da informação catálogo de intervenciones – catálogo de intervenções centro de salud – estabelecimento assistencial de saúde ciclo de políticas públicas – ciclo de políticas públicas ciencia de datos – ciência de dados ciencia de la información – ciência da informação comité consultivo; comité asesor – comitê consultivo competencias organizacionales – competências organizacionais compliance; cumplimiento – compliance confiabilidad; fiabilidad – confiabilidade conjunto de datos – conjunto de dados conjunto mínimo básico de datos – conjunto mínimo de dados control social – controle social coordinación – articulação costo-beneficio – custo-benefício costo-efectividad – custo-efetividade cuerpo colegiado – colegiado cultura de seguimiento y evaluación – cultura de monitoramento e avaliação datalake – datalake dato – dado datos abiertos – dados abertos datos cualitativos – dados qualitativos datos cuantitativos – dados quantitativos decisiones basadas en evidencias – evidências para tomada de decisão desempeño institucional – desempenho institucional diseminación de la información; difusión de la información – disseminação da informação documentación de información – documentação da informação ejecución de política – execução da política elaboración de indicadores – elaboração de indicadores entidades vinculadas – entidades vinculadas escenario – cenário estrategia – estratégia estudio basado en la evidencia – análise baseada em evidências evaluación – avaliação evaluación de resultados – avaliação de resultados evaluación del desempeño individual y institucional – avaliação de desempenho individual e institucional evaluación del impacto – avaliação de impacto evaluación del processo – avaliação de processo evaluación en salud – avaliação em saúde fiscalización; control – controle forma de implementación – forma de implementação fórmula de cálculo – fórmula de cálculo formulación de políticas – formulação de políticas fuente; origen – fonte fuentes de datos – fontes de dados fuentes de información – fontes de informação gestión de la información – gestão da informação gestión de riesgos – gestão de risco gestión del conocimiento – gestão do conhecimento gestión estratégica – gestão estratégica gestión tripartita – gestão tripartite gestor de información en salud – gestor de informação em saúde gobernabilidad – governabilidade gobernanza publica – governança pública gobierno abierto – governo aberto grado de implantación – grau de implantação guardián de la información – custodiante da informação hoja de calificación del indicador – ficha de qualificação do indicador hoja de descripción de la intervención – ficha de descrição da intervenção implantación – implantação implementación – implementação indicador – indicador indicador analítico – indicador analítico indicador de desempeño – indicador de desempenho indicador de economicidad – indicador de economicidade indicador de efectividad – indicador de efetividade indicador de eficácia – indicador de eficácia indicador de eficiencia – indicador de eficiência indicador de ejecución; indicador de implementación – indicador de execução indicador de esfuerzo – indicador de esforço indicador de excelencia – indicador de excelência indicador de gestión – indicador de gestão indicador de impacto – indicador de impacto indicador de infraestructura – indicador de infraestrutura indicador de insumo; indicador de aporte – indicador de insumo indicador de proceso – indicador de processo indicador de producto – indicador de produto indicador de resultado – indicador de resultado indicador de salud – indicador de saúde indicador sintético – indicador sintético indicador social – indicador social índice – índice índice de referencia – índice de referência información – informação información de salud – informação em saúde información estratégica – informação estratégica institucionalización del seguimiento y evaluación – institucionalização do monitoramento e avaliação instrumentos de gestión – instrumentos de gestão intercambio de información – intercâmbio de informação interoperabilidad de la información en salud – interoperabilidade da informação em saúde interpretación del indicador – interpretação do indicador intervención – intervenção investigación evaluativa – pesquisa avaliativa limitación del indicador – limitação do indicador línea de base – linha de base línea directriz – diretrizes marco estratégico – referencial estratégico marco lógico – marco lógico matriz de indicadores – matriz de indicadores matriz de información estratégica – matriz de informação estratégica medición; mensuración – mensuração medida de síntesis – medida-síntese memoria de cálculo – memória de cálculo meta – meta metadatos – metadados método – método metodología – metodologia metodología de evaluación – metodologia de avaliação modelo de evaluación – modelo de avaliação modelo de gestión – modelo de gestão modelo lógico – modelo lógico monitoreo – monitoramento negociación – pactuação nível de manejo; ámbito de gestión – esferas de gestão norma; normativo – normativo objetivo – objetivo objetivos estratégicos – objetivos estratégicos órganos colegiados – órgãos colegiados pacto – pacto panel de información – painel de informação panel de monitoreo – painel de monitoramento parámetro – parâmetro partes interesadas; stakeholders – partes interessadas plan – plano planificación – planejamento planificación en salud – planejamento em saúde planificación estratégica – agenda estratégica planificación estratégica – planejamento estratégico planificación gubernamental – planejamento governamental política – política política implementada – política implementada política pública – política pública política pública de salud – política pública de saúde política social – política social presupuesto – orçamento problema – problema proceso – processo produción de conocimiento – produção de conhecimento producto – produto programa – programa proyecto – projeto público objetivo – público-alvo recolección de datos – coleta de dados recursos – recursos red – rede registro – registro rendición de cuentas; accountability – accountability responsable de monitoreo – responsável pelo monitoramento resultados intermedios – resultados intermediários riesgo – risco sala de situación de salud – sala de situação de saúde seguimiento – acompanhamento seguridad de la información – segurança da informação servicios de salud – serviços de saúde sistemas de información de salud – sistemas de informação em saúde sistemática de seguimiento y evaluación en salud – sistemática de monitoramento e avaliação em saúde territorio – território toma de decisiones – tomada de decisão transparencia – transparência unidad administrativa – unidades unidad de medida – unidade de medida uso del indicador – uso do indicador valor en salud – valor em saúde valor público – valor público valor público en salud – valor público em saúde visualización de datos – visualização de dados"
+    }
+]

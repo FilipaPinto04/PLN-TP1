@@ -1,84 +1,104 @@
-import fitz
+import xml.etree.ElementTree as ET
 import json
 import os
 import re
 
-def processar_termos_finais():
-    pasta_do_script = os.path.dirname(os.path.abspath(__file__))
-    os.chdir(pasta_do_script)
-    
-    pdf_name = "Glossário de Termos Médicos Técnicos e Populares.pdf"
-    json_name = "termos.json"
-    xml_name = "termos.xml"
-
-    if not os.path.exists(pdf_name):
-        print(f"❌ Erro: '{pdf_name}' não encontrado.")
+def processar_termos_medicos(xml_input="termos.xml", json_output="termos.json"):
+    if not os.path.exists(xml_input):
+        print(f"❌ Erro: '{xml_input}' não encontrado.")
         return
 
-    print(f"⏳ A processar... O primeiro termo será 'micrograma'.")
+    print(f"⏳ Processando XML através de segmentação por margem...")
     
-    doc = fitz.open(pdf_name)
+    try:
+        tree = ET.parse(xml_input)
+        root = tree.getroot()
+    except Exception as e:
+        print(f"❌ Erro ao ler XML: {e}")
+        return
+
+    # 1. Agrupar chunks de texto por "entradas" (linhas do PDF)
+    # No seu PDF, cada entrada nova começa na margem esquerda (left=128)
+    linhas_pdf = []
+    buffer_linha = []
+    MARGEM_ESQUERDA = 135 # Valor de segurança baseado no seu left=128
+
+    for page in root.findall(".//page"):
+        for t in page.findall(".//text"):
+            content = "".join(t.itertext())
+            left = int(t.get("left", 0))
+            is_bold = (t.find("b") is not None) or (t.get("font") in ["0", "1", "3"])
+            
+            # Se voltamos à margem esquerda, começou uma nova linha/termo no PDF
+            if left < MARGEM_ESQUERDA and buffer_linha:
+                linhas_pdf.append(buffer_linha)
+                buffer_linha = []
+            
+            buffer_linha.append({"text": content, "bold": is_bold})
+            
+    if buffer_linha:
+        linhas_pdf.append(buffer_linha)
+
+    # 2. Processar cada linha para extrair Conceito e Descrição
     entries = []
-    xml_lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<pdf2xml>']
-    
-    # Gatilho para ignorar o lixo do topo da página 1
     encontrou_inicio = False
 
-    for i in range(len(doc)):
-        page = doc[i]
-        xml_lines.append(f'  <page number="{i+1}">')
-        blocks = page.get_text("dict")["blocks"]
+    for chunks in linhas_pdf:
+        concept_parts = []
+        desc_parts = []
         
-        for b in blocks:
-            if "lines" in b:
-                for l in b["lines"]:
-                    line_concept = ""
-                    line_description = ""
-                    
-                    for s in l["spans"]:
-                        txt = s["text"].strip()
-                        if not txt or "Glossário" in txt or "Fonte:" in txt:
-                            continue
-                        
-                        is_bold = "Bold" in s["font"] or (s["flags"] & 2**4)
-                        
-                        # XML continua a registar tudo para manter a estrutura
-                        clean_txt = txt.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-                        xml_lines.append(f'    <text bold="{is_bold}">{clean_txt}</text>')
-                        
-                        if is_bold:
-                            line_concept = txt.strip().rstrip(',')
-                        else:
-                            line_description += " " + txt
+        for chunk in chunks:
+            txt = chunk["text"]
+            if chunk["bold"]:
+                concept_parts.append(txt)
+            else:
+                # Remove o marcador (pop) e limpa pontuação
+                clean_txt = txt.replace("(pop)", "").strip()
+                if clean_txt and clean_txt != ",":
+                    desc_parts.append(clean_txt)
+        
+        # Limpeza final das strings
+        concept = " ".join(concept_parts).strip().strip(",; ")
+        description = " ".join(desc_parts).strip().strip(",; ")
+        # Normaliza espaços duplos e vírgulas coladas
+        description = re.sub(r'\s+', ' ', description)
+        description = re.sub(r'\s*,\s*', ', ', description)
 
-                    # --- FILTRO DE INÍCIO REAL ---
-                    if not encontrou_inicio:
-                        if "micrograma" in line_concept.lower():
-                            encontrou_inicio = True
-                        else:
-                            continue # Salta para a próxima linha até achar o micrograma
+        # --- FILTRO DE INÍCIO (MICROGRAMA) ---
+        if not encontrou_inicio:
+            # Verifica se micrograma aparece em qualquer parte da linha
+            if "micrograma" in concept.lower() or "micrograma" in description.lower():
+                encontrou_inicio = True
+                # Ajuste para o primeiro caso (Desc, Concept)
+                if "micrograma" in description.lower() and not concept:
+                    concept = "micrograma"
+                    description = description.lower().replace("micrograma", "").strip().strip(", ")
+            else:
+                continue
 
-                    if line_concept and len(line_concept) > 1:
-                        entries.append({
-                            "concept": line_concept,
-                            "description": line_description.strip().lstrip(', '),
-                            "source": "Glossário de Termos Médicos Técnicos e Populares"
-                        })
+        if concept and description:
+            entries.append({
+                "concept": concept,
+                "description": description,
+                "source": "Glossário de Termos Médicos Técnicos e Populares"
+            })
 
-        xml_lines.append('  </page>')
+    # 3. Gravação e Desduplicação
+    # O PDF inverte termos (A->B e B->A), vamos manter apenas um de cada
+    vistos = set()
+    resultado_final = []
+    for e in entries:
+        key = e["concept"].lower()
+        if key not in vistos:
+            resultado_final.append(e)
+            vistos.add(key)
 
-    xml_lines.append('</pdf2xml>')
-
-    # Gravação
-    with open(xml_name, 'w', encoding='utf-8') as f:
-        f.write("\n".join(xml_lines))
-    with open(json_name, 'w', encoding='utf-8') as f:
-        json.dump(entries, f, ensure_ascii=False, indent=4)
+    with open(json_output, 'w', encoding='utf-8') as f:
+        json.dump(resultado_final, f, ensure_ascii=False, indent=4)
     
-    doc.close()
-    print(f"✅ SUCESSO!")
-    if entries:
-        print(f"🚀 O primeiro conceito no JSON é: '{entries[0]['concept']}'")
+    print(f"✅ SUCESSO! {len(resultado_final)} termos extraídos sem misturas.")
+    if resultado_final:
+        print(f"🚀 Primeiro termo: {resultado_final[0]['concept']} -> {resultado_final[0]['description']}")
 
 if __name__ == "__main__":
-    processar_termos_finais()
+    processar_termos_medicos()
