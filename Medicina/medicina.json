@@ -9,11 +9,11 @@
       "termo_gl": "ablación      f 11  abordaxe      f 12  absceso      m 13  abulia      f 14  abuso de substancias      m ablación do clítoris Ac abrasión ACA",
       "genero": null,
       "areas": [
+        "Anatomía patolóxica",
         "Termos xerais",
-        "Terapéutica",
-        "Anatomía",
         "Semioloxía",
-        "Anatomía patolóxica"
+        "Terapéutica",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -120,10 +120,10 @@
       "termo_gl": "45  aciduria      f 46  acinesia      f 47  ácino      m 48  aclorhidria      f 49  acne      f *aclaramento *aclaramento de creatinina *aclaramento de urea ACM",
       "genero": null,
       "areas": [
-        "Patoloxías",
+        "Etiopatoxenia",
         "Semioloxía",
         "Histoloxía",
-        "Etiopatoxenia"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -185,9 +185,9 @@
       "termo_gl": "ácido acetilsalicílico      m 29  ácido aminosalicílico      m 30  ácido araquidónico      m 31  ácido aspártico      m 32  ácido biliar      m 33  ácido clorhídrico      m ácido aminoacético ácido ascórbico",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
         "Fisioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Farmacoloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -405,8 +405,8 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Farmacoloxía",
         "Terapéutica",
+        "Farmacoloxía",
         "Patoloxías"
       ],
       "sinonimos_gl": [],
@@ -470,12 +470,12 @@
       "termo_gl": "218  aneuploidía      f 219  aneurisma      m 220  aneurisma aórtico      m 221  anfetamina      f 222  anfiartrose      f 223  anhidrase carbónica      f aneurisma de aorta",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Xenética",
-        "Patoloxías",
-        "Bioquímica",
+        "Anatomía patolóxica",
         "Etiopatoxenia",
-        "Anatomía patolóxica"
+        "Xenética",
+        "Bioquímica",
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -493,10 +493,10 @@
       "termo_gl": "230  anomalía cromosómica      f 231  anomia      f 232  anorexia      f 233  anorexia nerviosa      f 234  anoscopia      f anodmia anosfrasia",
       "genero": null,
       "areas": [
+        "Semioloxía",
         "Terapéutica",
         "Xenética",
-        "Patoloxías",
-        "Semioloxía"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -657,9 +657,9 @@
       "termo_gl": "acne rosácea      f 51  acolia      f 52  acomodación      f 53  acomodación      f 54  acondroplasia      f *acné acne vulgar",
       "genero": null,
       "areas": [
-        "Patoloxías",
+        "Etiopatoxenia",
         "Fisioloxía",
-        "Etiopatoxenia"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -1063,11 +1063,11 @@
       "termo_gl": "511  asociación causal      f 512  asparaxina      f 513  aspecto en ceo estrelado      m 514  aspecto en vidro deslustrado    m 515  asperxiloma      m asomnia Asp",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Epidemioloxía",
+        "Anatomía patolóxica",
         "Semioloxía",
         "Bioquímica",
-        "Anatomía patolóxica"
+        "Epidemioloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -1130,10 +1130,10 @@
       "termo_gl": "acueduto      m 73  acúfeno      m 74  acuidade visual      f 75  acupuntura      f 76  adaptación      f ACV adamantinoma pituitario adamantoblastoma addución",
       "genero": null,
       "areas": [
-        "Terapéutica",
-        "Anatomía",
         "Semioloxía",
-        "Fisioloxía"
+        "Terapéutica",
+        "Fisioloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -1193,9 +1193,9 @@
       "termo_gl": "571  avitaminose      f 572  axe      m 573  axenesia      f axénese axente anabólico axente anabolizante axente anticestodo axente antinematodos axente antitiroide axente antitrematodos",
       "genero": null,
       "areas": [
-        "Anatomía",
+        "Anatomía patolóxica",
         "Etiopatoxenia",
-        "Anatomía patolóxica"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -1235,11 +1235,11 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Farmacoloxía",
-        "Patoloxías",
+        "Etiopatoxenia",
         "Semioloxía",
         "Fisioloxía",
-        "Etiopatoxenia"
+        "Farmacoloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -1302,11 +1302,11 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Farmacoloxía",
-        "Terapéutica",
         "Semioloxía",
+        "Terapéutica",
         "Fisioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Farmacoloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -1345,10 +1345,10 @@
       "termo_gl": "644  bloqueo      m 645  bloqueo de rama      m 646  boca      f 647  bocio      m 648  bocio simple      m bloqueante adrenérxico bloqueante dos canais de calcio bloqueante ganglionar bocha",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Patoloxías",
+        "Etiopatoxenia",
         "Semioloxía",
-        "Etiopatoxenia"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -1482,11 +1482,11 @@
       "termo_gl": "706  cafeína      f 707  calacio      m 708  calafrío      m 709  calcáneo      m 710  calcificación      f cadro de lectura cairo caixa do tímpano calazio calcañar calcaño",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Patoloxías",
-        "Semioloxía",
+        "Anatomía patolóxica",
         "Etiopatoxenia",
-        "Anatomía patolóxica"
+        "Semioloxía",
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -1524,9 +1524,9 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Anatomía",
         "Semioloxía",
-        "Fisioloxía"
+        "Fisioloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -1567,11 +1567,11 @@
       "termo_gl": "adipocito      m 93  adolescencia      f 94  adrenalina      f 95  adrenalite      f 96  adsorbente      m ADN adrenalectomía adrenite adrenocorticotropina",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
-        "Patoloxías",
         "Fisioloxía",
         "Bioquímica",
-        "Histoloxía"
+        "Histoloxía",
+        "Farmacoloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -1651,11 +1651,11 @@
       "termo_gl": "788  cardiotomía      f 789  cardioversión      f 790  carga viral      f 791  carga xenética      f 792  carie dentaria      f 793  carina traqueal      f carie",
       "genero": null,
       "areas": [
+        "Etiopatoxenia",
         "Terapéutica",
-        "Anatomía",
         "Xenética",
         "Patoloxías",
-        "Etiopatoxenia"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -1696,10 +1696,10 @@
       "genero": null,
       "areas": [
         "Termos xerais",
+        "Bioquímica",
         "Farmacoloxía",
         "Epidemioloxía",
-        "Patoloxías",
-        "Bioquímica"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -1815,8 +1815,8 @@
       "termo_gl": "872  célula plasmática      f 873  célula principal      f 874  célula reticular      f 875  celulite      f 876  cemento      m célula T célula troncal célula tronco",
       "genero": null,
       "areas": [
-        "Patoloxías",
-        "Histoloxía"
+        "Histoloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -1922,9 +1922,9 @@
       "genero": null,
       "areas": [
         "Terapéutica",
-        "Anatomía",
+        "Bioquímica",
         "Patoloxías",
-        "Bioquímica"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -1986,8 +1986,8 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Patoloxías",
-        "Semioloxía"
+        "Semioloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -2201,12 +2201,12 @@
       "termo_gl": "alcalinización      f 123  alcaloide      m 124  alcalose      f 125  alcatrán      m 126  alcohol      m 127  alcoholemia      f 128  alcoholismo      m alcalización",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
-        "Terapéutica",
-        "Patoloxías",
+        "Etiopatoxenia",
         "Semioloxía",
+        "Terapéutica",
         "Bioquímica",
-        "Etiopatoxenia"
+        "Farmacoloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -2459,10 +2459,10 @@
       "genero": "m",
       "areas": [
         "Termos xerais",
-        "Patoloxías",
+        "Etiopatoxenia",
         "Semioloxía",
         "Bioquímica",
-        "Etiopatoxenia"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -2867,9 +2867,9 @@
       "termo_gl": "1378  determinante antixénico      m 1379  dextrocardia      f 1380  diabetes insípida      f 1381 detección dexección dexeneración adiposa dexiocardia diabetes insipidus diabetes mellitus",
       "genero": "f",
       "areas": [
-        "Patoloxías",
         "Semioloxía",
-        "Fisioloxía"
+        "Fisioloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -2909,9 +2909,9 @@
       "genero": null,
       "areas": [
         "Termos xerais",
+        "Etiopatoxenia",
         "Semioloxía",
-        "Fisioloxía",
-        "Etiopatoxenia"
+        "Fisioloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -2952,12 +2952,12 @@
       "termo_gl": "ambulancia      f 158  ameaza de aborto      f 159  amebíase      f 160  amebicida      m 161  ameloblasto      m 162  ameloblastoma      m 163  amenorrea      f ambulatorio",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
-        "Anatomía",
-        "Patoloxías",
+        "Anatomía patolóxica",
         "Semioloxía",
         "Histoloxía",
-        "Anatomía patolóxica"
+        "Farmacoloxía",
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -3101,8 +3101,8 @@
       "areas": [
         "Termos xerais",
         "Terapéutica",
-        "Anatomía",
-        "Patoloxías"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -3669,11 +3669,11 @@
       "termo_gl": "anaplasia      f 191  anartria      f 192  anasarca      m 193  anastomose      f 194  anatomía      f 195  anatomía patolóxica",
       "genero": "f",
       "areas": [
+        "Anatomía patolóxica",
         "Termos xerais",
-        "Terapéutica",
-        "Anatomía",
         "Semioloxía",
-        "Anatomía patolóxica"
+        "Terapéutica",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -3844,9 +3844,9 @@
       "areas": [
         "Termos xerais",
         "Terapéutica",
-        "Anatomía",
+        "Fisioloxía",
         "Patoloxías",
-        "Fisioloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -3887,8 +3887,8 @@
       "areas": [
         "Termos xerais",
         "Terapéutica",
-        "Anatomía",
-        "Patoloxías"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -3929,10 +3929,10 @@
       "termo_gl": "anel corneal      m 203  anel femoral      m 204  anel vaxinal      m 205  anemia      f 206  anemia aplásica      f anel crural anemia aplástica anemia carencial anemia drepanocítica",
       "genero": null,
       "areas": [
+        "Semioloxía",
         "Farmacoloxía",
-        "Anatomía",
         "Patoloxías",
-        "Semioloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -4210,11 +4210,11 @@
       "termo_gl": "2016  fiabilidade      f 2017  fibra muscular      f 2018  fibra nerviosa      f 2019  fibrato      m 2020  fibrilación      f 2021  fibrilación auricular      f fibrilación atrial fetor uremicus",
       "genero": null,
       "areas": [
+        "Etiopatoxenia",
         "Farmacoloxía",
-        "Anatomía",
         "Epidemioloxía",
         "Patoloxías",
-        "Etiopatoxenia"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -4396,9 +4396,9 @@
       "termo_gl": "anhidrose      f 225  anisocitose      f 226  anisocoria      f 227  anisocromía      f 228  ano      m 229  ano imperforado      m anhídrico carbónico anhidrótico anion gap",
       "genero": null,
       "areas": [
-        "Anatomía",
+        "Semioloxía",
         "Patoloxías",
-        "Semioloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -4630,10 +4630,10 @@
       "termo_gl": "anosmia      f 236  anosognosia      f 237  anovulación      f 238  anovulatorio      m 239  anoxia      f 240  anquilose      f anoxemia anquilose artificial",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
-        "Patoloxías",
+        "Etiopatoxenia",
         "Semioloxía",
-        "Etiopatoxenia"
+        "Farmacoloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -5294,9 +5294,9 @@
       "termo_gl": "2567  ilio      m 2568  illamento      m 2569  illamento      m 2570  imaxe de adición      f iliopsoas illarga illó IMAO",
       "genero": null,
       "areas": [
-        "Anatomía",
+        "Etiopatoxenia",
         "Semioloxía",
-        "Etiopatoxenia"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -5316,8 +5316,8 @@
       "areas": [
         "Termos xerais",
         "Xenética",
-        "Patoloxías",
-        "Fisioloxía"
+        "Fisioloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -5354,13 +5354,13 @@
       "termo_gl": "2596  índice de masculinidade      m 2597  índice de xuventude      m 2598  indución enzimática      f 2599  induración      f 2600  inestabilidade cromosómica    f 2601  infancia      f 2602  infarto",
       "genero": "m",
       "areas": [
-        "Anatomía",
-        "Epidemioloxía",
+        "Anatomía patolóxica",
+        "Etiopatoxenia",
         "Semioloxía",
         "Fisioloxía",
         "Bioquímica",
-        "Etiopatoxenia",
-        "Anatomía patolóxica"
+        "Epidemioloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -5378,10 +5378,10 @@
       "termo_gl": "anticipación      f 271  anticipación      f 272  anticoagulación      f 273  anticoagulante      m 274  anticodón      m anticipación xenética",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
         "Terapéutica",
         "Xenética",
-        "Fisioloxía"
+        "Fisioloxía",
+        "Farmacoloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -5439,10 +5439,10 @@
       "termo_gl": "2639  inhibidor selectivo da 2640  iniciador      m 2641  inmobilización      f 2642  inmunidade      f 2643  inmunidade adquirida      f 2644  inmunidade celular      f recaptación da serotonina",
       "genero": "m",
       "areas": [
-        "Farmacoloxía",
         "Terapéutica",
         "Xenética",
-        "Fisioloxía"
+        "Fisioloxía",
+        "Farmacoloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -6267,10 +6267,10 @@
       "termo_gl": "3056  megacolon tóxico      m 3057  megaduodeno      m 3058  megarrecto      m 3059  megauréter      m 3060  meibomite      f 3061  meiose      f 3062  melanina",
       "genero": "f",
       "areas": [
-        "Patoloxías",
         "Semioloxía",
         "Bioquímica",
-        "Histoloxía"
+        "Histoloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -6729,9 +6729,9 @@
       "genero": null,
       "areas": [
         "Termos xerais",
+        "Semioloxía",
         "Terapéutica",
-        "Anatomía",
-        "Semioloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -6858,8 +6858,8 @@
       "termo_gl": "3339  músculo infraespiñoso      m 3340  músculo intercostal      m 3341  músculo isquiococcíxeo      m 3342  músculo liso      m músculo infraespiñal",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Histoloxía"
+        "Histoloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -7107,9 +7107,9 @@
       "termo_gl": "3444  náusea      f 3445  nebulización      f 3446  nebulizador      m 3447  necrólise epidérmica tóxica      f NC",
       "genero": null,
       "areas": [
+        "Semioloxía",
         "Farmacoloxía",
-        "Patoloxías",
-        "Semioloxía"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -7304,12 +7304,12 @@
       "termo_gl": "3527  neuralxia      f 3528  neuralxia do hipogloso      f 3529  neuralxia do trixémino      f 3530  neuraminidase      f 3531  neurapraxia      f 3532  neurectomía      f neuralxia ciática neuralxia do ciático neuraxite",
       "genero": null,
       "areas": [
-        "Terapéutica",
-        "Anatomía",
-        "Patoloxías",
+        "Anatomía patolóxica",
         "Semioloxía",
+        "Terapéutica",
         "Bioquímica",
-        "Anatomía patolóxica"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -7749,10 +7749,10 @@
       "termo_gl": "3747  osteomielite      f 3748  osteona      f 3749  osteonecrose      f 3750  osteopatía      f 3751  osteopatía metabólica      f osteomalacía infantil osteomalacose osteonose",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Patoloxías",
+        "Anatomía patolóxica",
         "Histoloxía",
-        "Anatomía patolóxica"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -7879,10 +7879,10 @@
       "termo_gl": "3810 3811  papaverina      f 3812  papila gustativa      f pano pano panza papeira papeiras papila da mama papila óptica pannus papila do nervio óptico",
       "genero": "m",
       "areas": [
-        "Farmacoloxía",
-        "Anatomía",
+        "Anatomía patolóxica",
         "Histoloxía",
-        "Anatomía patolóxica"
+        "Farmacoloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -8002,8 +8002,8 @@
       "termo_gl": "3870  pedículo vertebral      m 3871  pediculose      f 3872  pedúnculo cerebeloso      m 3873  pedúnculo cerebral      m pedículo do arco vertebral pedículo pulmonar pedúnculo cerebelar",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Patoloxías"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -8303,8 +8303,8 @@
       "genero": "f",
       "areas": [
         "Terapéutica",
-        "Anatomía",
-        "Patoloxías"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -8908,8 +8908,8 @@
       "termo_gl": "4324  razón de feminidade      f 4325  razón de masculinidade      f 4326  razón de probabilidade      f 4327  reabsorción ósea      f razón de mulleres razón de prevalencia razón de risco RCC reabsorción do óso",
       "genero": null,
       "areas": [
-        "Epidemioloxía",
-        "Fisioloxía"
+        "Fisioloxía",
+        "Epidemioloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -9176,9 +9176,9 @@
       "termo_gl": "4462  risco individual      m 4463  risco relativo      m 4464  riso sardónico      m 4465  ritmo circadiano      m 4466  ritmo sinusal      m 4467  rixidez      f risco excesivo",
       "genero": null,
       "areas": [
-        "Epidemioloxía",
         "Semioloxía",
-        "Fisioloxía"
+        "Fisioloxía",
+        "Epidemioloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -9232,9 +9232,9 @@
       "termo_gl": "4496  sal biliar      m 4497  sala de partos      f 4498  sala de reanimación      f 4499  salicilato      m 4500  saliva      f 4501  salmonelose      f SAHS sala de operacións",
       "genero": null,
       "areas": [
+        "Fisioloxía",
         "Farmacoloxía",
-        "Patoloxías",
-        "Fisioloxía"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -9380,10 +9380,10 @@
       "termo_gl": "4571  serina      f 4572  seroloxía      f 4573  seroprofilaxe      f 4574  serosa      f 4575  serosite      f 4576  serotonina      f Ser SERM serodiagnóstico",
       "genero": null,
       "areas": [
-        "Patoloxías",
         "Fisioloxía",
         "Bioquímica",
-        "Histoloxía"
+        "Histoloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -9424,9 +9424,9 @@
       "genero": null,
       "areas": [
         "Termos xerais",
+        "Semioloxía",
         "Terapéutica",
-        "Patoloxías",
-        "Semioloxía"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -9605,8 +9605,8 @@
       "genero": null,
       "areas": [
         "Terapéutica",
-        "Anatomía",
-        "Patoloxías"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -9643,8 +9643,8 @@
       "termo_gl": "4694  sistema endócrino      m 4695  sistema HLA      m 4696  sistema inmunitario      m 4693  sistema dixestivo      m sistema de saúde sistema do grupo sanguíneo ABO sistema do grupo sanguíneo Rh sistema haversiano sistema inmune",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Fisioloxía"
+        "Fisioloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -9712,8 +9712,8 @@
       "genero": null,
       "areas": [
         "Terapéutica",
-        "Anatomía",
-        "Patoloxías"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -9909,10 +9909,10 @@
       "termo_gl": "articulación trocoide      f 486  artralxia      f 487  artrectomía      f 488  artrite      f 489  artrite reumatoide      f artrectomía artrite bacteriana artrite infecciosa",
       "genero": null,
       "areas": [
+        "Semioloxía",
         "Terapéutica",
-        "Anatomía",
         "Patoloxías",
-        "Semioloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -9993,9 +9993,9 @@
       "genero": null,
       "areas": [
         "Termos xerais",
+        "Etiopatoxenia",
         "Xenética",
-        "Patoloxías",
-        "Etiopatoxenia"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -10097,10 +10097,10 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Anatomía",
         "Semioloxía",
         "Fisioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -10119,8 +10119,8 @@
       "genero": null,
       "areas": [
         "Terapéutica",
-        "Patoloxías",
-        "Bioquímica"
+        "Bioquímica",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -10339,8 +10339,8 @@
       "termo_gl": "5015  traumatoloxía      f 5016  tremor      m 5017  treonina      f 5018  trepanación      f trefinación TRH TRH triángulo de Scarpa triángulo femoral",
       "genero": null,
       "areas": [
-        "Terapéutica",
         "Semioloxía",
+        "Terapéutica",
         "Bioquímica"
       ],
       "sinonimos_gl": [],
@@ -10422,9 +10422,9 @@
       "termo_gl": "5052  tronco simpático      m 5053  tropismo      m 5054  troponina      f tronco venoso braquiocefálico troquino troquíter Trp TSH",
       "genero": null,
       "areas": [
-        "Anatomía",
         "Fisioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -10650,10 +10650,10 @@
       "termo_gl": "5160  vasoconstritor      m 5161  vasodilatación      f 5162  vasodilatador      m 5163  vasoligadura      f 5164  vasoprotector      m 5165  vasospasmo      m vasopresina vasorrafia",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
+        "Etiopatoxenia",
         "Terapéutica",
         "Fisioloxía",
-        "Etiopatoxenia"
+        "Farmacoloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -10921,8 +10921,8 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Patoloxías",
-        "Etiopatoxenia"
+        "Etiopatoxenia",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -10988,11 +10988,11 @@
       "termo_gl": "atención primaria      f 538  ateroma      m 539  aterosclerose      f 540  aterotrombose      f 541  atetose      f 542  atipia      f 543  atlas",
       "genero": "m",
       "areas": [
-        "Anatomía",
-        "Patoloxías",
-        "Semioloxía",
+        "Anatomía patolóxica",
         "Etiopatoxenia",
-        "Anatomía patolóxica"
+        "Semioloxía",
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -11010,9 +11010,9 @@
       "termo_gl": "5329  vómito      m 5330  vulva      f 5331  vulvectomía      f vómito de sangue vómito negro VPH VR VRE VRI VSG VT",
       "genero": null,
       "areas": [
+        "Semioloxía",
         "Terapéutica",
-        "Anatomía",
-        "Semioloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -11117,10 +11117,10 @@
       "termo_gl": "5379  xexuno      m 5380  xexunostomía      f 5381  xiardíase      f 5382  xiba      f 5383  xigantismo      m xestación xestión de riscos XI par cranial",
       "genero": null,
       "areas": [
+        "Semioloxía",
         "Terapéutica",
-        "Anatomía",
         "Patoloxías",
-        "Semioloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -11248,8 +11248,8 @@
       "termo_gl": "axeusia      f 575  axila      f 576  axitación      f axente fibrinolítico axente hemostático axente infeccioso axente mutáxeno axente tensioactivo axis axon",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Semioloxía"
+        "Semioloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -11267,9 +11267,9 @@
       "termo_gl": "bacilo ácido-alcol-resistente      m 584  bacteria      f 585  bactericida      m 586  bacteriemia      f 583  baciloscopia      f bacinete bacteremia",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
+        "Etiopatoxenia",
         "Semioloxía",
-        "Etiopatoxenia"
+        "Farmacoloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -11287,10 +11287,10 @@
       "termo_gl": "balance proteico      m 594  balanite      f 595  balanoplastia      f 596  balanopostite      f 597  balismo      m 598  balneoterapia      f balance hidroelectrolítico baleirado",
       "genero": null,
       "areas": [
-        "Terapéutica",
-        "Patoloxías",
         "Semioloxía",
-        "Fisioloxía"
+        "Terapéutica",
+        "Fisioloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -11331,10 +11331,10 @@
       "termo_gl": "beriberi      m 616  betalactamase      f 617  betalactámico      m 618  bicarbonato      m 619  bifosfonato      m 620  bigornia      f benzodiazepina beta-lactamase bico do peito",
       "genero": null,
       "areas": [
+        "Bioquímica",
         "Farmacoloxía",
-        "Anatomía",
         "Patoloxías",
-        "Bioquímica"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -11376,9 +11376,9 @@
       "termo_gl": "blenorraxia      f 641  bloqueador adrenérxico      m 642  bloqueador da vía do calcio   m 643  bloqueador ganglionar      m blenorrea bloqueador dos canais de calcio",
       "genero": null,
       "areas": [
+        "Semioloxía",
         "Farmacoloxía",
-        "Patoloxías",
-        "Semioloxía"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -11420,11 +11420,11 @@
       "termo_gl": "bomba Na+K+ATPase      f 659  bombeo      m 660  borborigmo      m 661  bordo      m 662  borreliose      f *boneca borreca bostela",
       "genero": null,
       "areas": [
-        "Terapéutica",
-        "Anatomía",
-        "Patoloxías",
         "Semioloxía",
-        "Bioquímica"
+        "Terapéutica",
+        "Bioquímica",
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -11461,11 +11461,11 @@
       "termo_gl": "broncospasmo      m 681  broncotomía      f 682  bronquiectasia      f 683  bronquio      m 684  bronquiolite      f 685  bronquíolo",
       "genero": "m",
       "areas": [
-        "Terapéutica",
-        "Anatomía",
-        "Patoloxías",
+        "Etiopatoxenia",
         "Semioloxía",
-        "Etiopatoxenia"
+        "Terapéutica",
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -11508,8 +11508,8 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Anatomía",
-        "Patoloxías"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -11527,10 +11527,10 @@
       "termo_gl": "calcifilaxia      f 712  calcinose      f 713  calcio      m 714  calcitonina      f 715  calciúria      f 716  cálculo      m 717  cálculo coraliforme",
       "genero": "m",
       "areas": [
-        "Patoloxías",
         "Semioloxía",
         "Fisioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -11567,9 +11567,9 @@
       "termo_gl": "canal      m 736  canal atrioventricular      m 737  canal inguinal      m 738  canal iónico      m 739  canal vertebral      m canal auriculoventricular canal AV canal basilar",
       "genero": null,
       "areas": [
-        "Anatomía",
         "Fisioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -11587,9 +11587,9 @@
       "termo_gl": "candidose      f 745  cannabis      m 746  capacidade inspiratoria      f 747  capacidade pulmonar      f canela *cangrena canino canteiro cánula capa vascular do globo ocular",
       "genero": null,
       "areas": [
-        "Patoloxías",
+        "Etiopatoxenia",
         "Fisioloxía",
-        "Etiopatoxenia"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -11626,8 +11626,8 @@
       "termo_gl": "cara      f 765  carácter adquirido      m 766  carácter conxénito      m cara cara acromegálica cara articular cara de lúa chea cara de máscara cara de querubín cara leonina",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Xenética"
+        "Xenética",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -11667,9 +11667,9 @@
       "termo_gl": "cardiomegalia      f 784  cardiopatía      f 785  cardioplastia      f 786  cardiorrafia      f 787  cardiotomía      f cardiomiopatía cardiomiopatía dilatada cardiomiopatía hipertrófica",
       "genero": null,
       "areas": [
+        "Semioloxía",
         "Terapéutica",
-        "Patoloxías",
-        "Semioloxía"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -11755,10 +11755,10 @@
       "genero": "f",
       "areas": [
         "Termos xerais",
-        "Anatomía",
+        "Semioloxía",
         "Epidemioloxía",
         "Patoloxías",
-        "Semioloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -11797,10 +11797,10 @@
       "termo_gl": "cefalea      f 848  cefalea en salvas      f 849  cefalea tensional      f 850  cefalosporina      f 851  cego      m cefalea histamínica cefalite cefalocele",
       "genero": null,
       "areas": [
+        "Semioloxía",
         "Farmacoloxía",
-        "Anatomía",
         "Patoloxías",
-        "Semioloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -11878,9 +11878,9 @@
       "termo_gl": "cervicalxia      f 889  cervicectomía      f 890  cervicite      f 891  cervicobraquialxia      f 892  cesárea      f 893  cestodíase",
       "genero": "f",
       "areas": [
+        "Semioloxía",
         "Terapéutica",
-        "Patoloxías",
-        "Semioloxía"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -11919,13 +11919,13 @@
       "termo_gl": "cianose      f 910  ciática      f 911  cicatriz      f 912  cicatrizante      m 913  ciclo cardíaco      m 914  ciclo celular      m ciatalxia",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
-        "Anatomía",
-        "Patoloxías",
+        "Anatomía patolóxica",
         "Semioloxía",
         "Fisioloxía",
         "Histoloxía",
-        "Anatomía patolóxica"
+        "Farmacoloxía",
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -11964,9 +11964,9 @@
       "termo_gl": "cintura pectoral      f 933  cintura pélvica      f 934  circulación      f 935  circulacion colateral      f cintura do membro inferior cintura do membro superior cintura escapular cintura torácica",
       "genero": null,
       "areas": [
-        "Anatomía",
+        "Etiopatoxenia",
         "Fisioloxía",
-        "Etiopatoxenia"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12080,8 +12080,8 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Terapéutica",
-        "Semioloxía"
+        "Semioloxía",
+        "Terapéutica"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12122,9 +12122,9 @@
       "termo_gl": "cocaína      f 1018  cóccix      m 1019  código xenético      m 1020  codominante      a 1021  codón      m cobalamina cociente de probabilidades",
       "genero": null,
       "areas": [
-        "Anatomía",
+        "Etiopatoxenia",
         "Xenética",
-        "Etiopatoxenia"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12165,9 +12165,9 @@
       "termo_gl": "colapso      m 1039  colar ortopédico      m 1040  colaxenase      f 1041  coláxeno      m 1042  colaxenopatía      f colapso pulmonar parcial colar cervical *colariño",
       "genero": null,
       "areas": [
-        "Patoloxías",
+        "Etiopatoxenia",
         "Bioquímica",
-        "Etiopatoxenia"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12204,10 +12204,10 @@
       "termo_gl": "cólico      m 1062  colículo inferior      m 1063  colículo superior      m 1064  colirio      m 1065  colite",
       "genero": "f",
       "areas": [
+        "Semioloxía",
         "Farmacoloxía",
-        "Anatomía",
         "Patoloxías",
-        "Semioloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12247,8 +12247,8 @@
       "termo_gl": "colpopexia      f 1083  colpoplastia      f 1084  colporrafia      f 1085  colposuspensión      f 1086  colpotomía      f 1087  colquicina      f colpite",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
-        "Terapéutica"
+        "Terapéutica",
+        "Farmacoloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12288,8 +12288,8 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Farmacoloxía",
-        "Fisioloxía"
+        "Fisioloxía",
+        "Farmacoloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12325,11 +12325,11 @@
       "termo_gl": "condrocalcinose      f 1123  condrocito      m 1124  condrodisplasia      f 1125  condroma      m 1126  condromalacía      f 1127  condromatose      f 1128  condroplastia",
       "genero": "f",
       "areas": [
+        "Anatomía patolóxica",
         "Terapéutica",
-        "Anatomía",
-        "Patoloxías",
         "Histoloxía",
-        "Anatomía patolóxica"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12369,8 +12369,8 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Epidemioloxía",
-        "Semioloxía"
+        "Semioloxía",
+        "Epidemioloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12409,9 +12409,9 @@
       "termo_gl": "cooxímetro      m 1167  coprocultivo      m 1168  coprolalia      f 1169 1170  corazón      m conxuntivite granular coprofrasia corcova corda corda do tímpano cor pulmonale",
       "genero": "m",
       "areas": [
-        "Anatomía",
+        "Etiopatoxenia",
         "Semioloxía",
-        "Etiopatoxenia"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12451,9 +12451,9 @@
       "termo_gl": "corion      m 1187  coriorretinite      f 1188  córnea      f corioblastoma coriocarcinoma corioepitelioma coriza corneíte corneto inferior corneto medio corneto superior",
       "genero": null,
       "areas": [
-        "Anatomía",
+        "Histoloxía",
         "Patoloxías",
-        "Histoloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12491,8 +12491,8 @@
       "termo_gl": "corpo vertebral      m 1204  corpo vertebral      m 1205 1206 1207  corpúsculo de Meissner      m corpo vítreo corpus albicans corpus luteum m",
       "genero": "m",
       "areas": [
-        "Anatomía",
-        "Histoloxía"
+        "Histoloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12533,10 +12533,10 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Anatomía",
+        "Etiopatoxenia",
         "Semioloxía",
         "Fisioloxía",
-        "Etiopatoxenia"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12578,9 +12578,9 @@
       "genero": null,
       "areas": [
         "Termos xerais",
+        "Semioloxía",
         "Terapéutica",
-        "Patoloxías",
-        "Semioloxía"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12657,8 +12657,8 @@
       "termo_gl": "deda      f 1284  dedo anular      m 1285  dedo da man      m 1286  dedo en gatillo      m dedo auricular dedo cordial dedo do aro dedo do pé",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Semioloxía"
+        "Semioloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12710,11 +12710,11 @@
       "termo_gl": "deglutición      f 1301  deleción      f 1302  delirio      m 1303  demencia      f 1304  demografía      f *deglución degranulación deltoide demulcente",
       "genero": null,
       "areas": [
-        "Epidemioloxía",
-        "Xenética",
-        "Patoloxías",
         "Semioloxía",
-        "Fisioloxía"
+        "Xenética",
+        "Fisioloxía",
+        "Epidemioloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12765,10 +12765,10 @@
       "termo_gl": "dentina      f 1318  dependencia      f 1319  depresor      m 1320  depuración      f 1321  depuración de creatinina      f dentista dependencia física depresión bipolar",
       "genero": null,
       "areas": [
-        "Patoloxías",
+        "Etiopatoxenia",
         "Fisioloxía",
         "Histoloxía",
-        "Etiopatoxenia"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12809,11 +12809,11 @@
       "termo_gl": "dermatotomía      f 1338  derme      f 1339  dermografismo      m 1340  dermopatía      f dermatose inflamatoria dermite dermoplastia",
       "genero": null,
       "areas": [
-        "Terapéutica",
-        "Anatomía",
-        "Patoloxías",
         "Semioloxía",
-        "Histoloxía"
+        "Terapéutica",
+        "Histoloxía",
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12853,10 +12853,10 @@
       "termo_gl": "desgranulación      f 1359  deshabituación      f 1360  deshidratación      f 1361  deshidroxenase      f 1362  desinfección      f 1363  desinfectante      m 1364  desinfestación",
       "genero": "f",
       "areas": [
+        "Etiopatoxenia",
         "Terapéutica",
         "Fisioloxía",
-        "Bioquímica",
-        "Etiopatoxenia"
+        "Bioquímica"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12874,10 +12874,10 @@
       "termo_gl": "desorientación      f 1372  desoxirribosa      f 1373  despersonalización      f 1374  despolarización celular      f 1375  desprazamento      m 1376  desratización      f 1377  desrealización",
       "genero": "f",
       "areas": [
+        "Etiopatoxenia",
         "Semioloxía",
         "Fisioloxía",
-        "Bioquímica",
-        "Etiopatoxenia"
+        "Bioquímica"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12895,8 +12895,8 @@
       "termo_gl": "diáfise      f 1383  diaforese      f 1384  diafragma      m 1385  diafragma      m diabetes sacarina",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Fisioloxía"
+        "Fisioloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12934,10 +12934,10 @@
       "termo_gl": "dietilamida do ácido lisérxico    f 1404  diferenciación celular      f 1405  diferenciación sexual      f 1406  difteria      f 1407  difusión      f 1408  difusión alvéolo-capilar      f DII",
       "genero": null,
       "areas": [
-        "Patoloxías",
+        "Etiopatoxenia",
         "Fisioloxía",
         "Bioquímica",
-        "Etiopatoxenia"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12956,10 +12956,10 @@
       "genero": "f",
       "areas": [
         "Termos xerais",
-        "Xenética",
-        "Patoloxías",
         "Semioloxía",
-        "Bioquímica"
+        "Xenética",
+        "Bioquímica",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -12978,9 +12978,9 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Patoloxías",
         "Semioloxía",
-        "Fisioloxía"
+        "Fisioloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -13016,8 +13016,8 @@
       "termo_gl": "disosmia      f 1450  dispareunia      f 1451  dispepsia      f 1452  dispersión      f 1454  dispositivo intrauterino      m 1453  dispnea      f disomía uniparental",
       "genero": null,
       "areas": [
-        "Epidemioloxía",
-        "Semioloxía"
+        "Semioloxía",
+        "Epidemioloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -13054,9 +13054,9 @@
       "genero": null,
       "areas": [
         "Termos xerais",
+        "Fisioloxía",
         "Farmacoloxía",
-        "Patoloxías",
-        "Fisioloxía"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -13074,8 +13074,8 @@
       "termo_gl": "dorso      m 1487  dorso da sela      m 1488  dose      f 1489  draxea      f 1490  drenaxe      f dorsal doutor -ra DPOC drepanocitose",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
         "Terapéutica",
+        "Farmacoloxía",
         "Anatomía"
       ],
       "sinonimos_gl": [],
@@ -13155,10 +13155,10 @@
       "termo_gl": "eficiencia      f 1529  egofonía      f 1530  eicosanoide      m 1531  eixe anatómico      m 1532  eixe hipotálamo-hipofisario   m efusión EII EIP",
       "genero": null,
       "areas": [
-        "Anatomía",
         "Semioloxía",
         "Fisioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -13288,9 +13288,9 @@
       "areas": [
         "Termos xerais",
         "Terapéutica",
+        "Histoloxía",
         "Epidemioloxía",
-        "Patoloxías",
-        "Histoloxía"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -13408,9 +13408,9 @@
       "termo_gl": "enfisema mediastínico      m 1655  enlace      m 1656  enmascaramento      m 1657  ensaio aleatorizado 1658  ensaio clínico      m enfisema do mediastino éngoa controlado",
       "genero": "m",
       "areas": [
+        "Bioquímica",
         "Epidemioloxía",
-        "Patoloxías",
-        "Bioquímica"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -13428,10 +13428,10 @@
       "termo_gl": "enterocito      m 1665  enterococo      m 1666  enterocolite      f 1667  enteropatía      f 1668  enteropexia      f 1669  enteroplastia      f 1670  enterorrafia",
       "genero": "f",
       "areas": [
+        "Etiopatoxenia",
         "Terapéutica",
-        "Patoloxías",
         "Histoloxía",
-        "Etiopatoxenia"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -13450,10 +13450,10 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Terapéutica",
-        "Patoloxías",
         "Semioloxía",
-        "Fisioloxía"
+        "Terapéutica",
+        "Fisioloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -13492,9 +13492,9 @@
       "areas": [
         "Termos xerais",
         "Terapéutica",
-        "Anatomía",
+        "Histoloxía",
         "Patoloxías",
-        "Histoloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -13531,9 +13531,9 @@
       "termo_gl": "epúlide      f 1723  equilibrio ácido-básico      m 1724  equilibrio hidroelectrolítico      m 1725  equimose      f equilibrio ácido-base equilibrio enerxético equilibrio proteico equinococose",
       "genero": null,
       "areas": [
-        "Patoloxías",
         "Semioloxía",
-        "Fisioloxía"
+        "Fisioloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -13551,9 +13551,9 @@
       "termo_gl": "eritema nodoso      m 1733  eritrasma      m 1734  eritroblastopenia      f 1735  eritroblastose      f 1736  eritrocito      m eritema malar eritema pernio eritroblastose fetal",
       "genero": null,
       "areas": [
-        "Patoloxías",
         "Semioloxía",
-        "Histoloxía"
+        "Histoloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -13571,9 +13571,9 @@
       "termo_gl": "erosión      f 1743  erro aleatorio      m 1744  erro sistemático      m 1745  erro sistemático de 1746  escabicida      m información      m esbirro escabiose escafoide",
       "genero": null,
       "areas": [
+        "Semioloxía",
         "Farmacoloxía",
-        "Epidemioloxía",
-        "Semioloxía"
+        "Epidemioloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -13619,9 +13619,9 @@
       "termo_gl": "esclerodermia      f 1761  esclerosante      m 1762  esclerose      f 1763  esclerose lateral amiotrófica     f 1764  esclerose múltiple      f esclerose en placas",
       "genero": null,
       "areas": [
+        "Semioloxía",
         "Farmacoloxía",
-        "Patoloxías",
-        "Semioloxía"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -13658,9 +13658,9 @@
       "termo_gl": "esfingolípido      m 1781  esfingolipidose      f 1782  esfínter      m 1783  esfínter anal      m esfíncter esofáxico inferior esfíncter esofáxico superior esfíncter pilórico esfínter esfínter anorrectal",
       "genero": null,
       "areas": [
-        "Anatomía",
+        "Bioquímica",
         "Patoloxías",
-        "Bioquímica"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -13699,8 +13699,8 @@
       "termo_gl": "espasticidade      f 1800  espazo epidural      m 1801  espazo intercostal      m 1802  espazo retroperitoneal      m 1803  espazo subaracnoide      m espazo leptomenínxeo espazo peridural",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Semioloxía"
+        "Semioloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -13779,12 +13779,12 @@
       "termo_gl": "espondilose      f 1839  espondiloterapia      f 1840  esponxa      f 1841  esponxiose      f 1842  espuma      f 1843  esputo      f esprú non tropical espulla",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
-        "Terapéutica",
-        "Anatomía",
-        "Patoloxías",
+        "Anatomía patolóxica",
         "Semioloxía",
-        "Anatomía patolóxica"
+        "Terapéutica",
+        "Farmacoloxía",
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -13822,10 +13822,10 @@
       "termo_gl": "estenose      f 1862  estenose aórtica      f 1863  estenose mitral      f 1864  estenose pilórica      f 1865  estenose pulmonar      f 1866  estenose tricúspide      f 1867  esterase",
       "genero": "f",
       "areas": [
-        "Anatomía",
-        "Patoloxías",
+        "Anatomía patolóxica",
         "Bioquímica",
-        "Anatomía patolóxica"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -13862,11 +13862,11 @@
       "termo_gl": "estranguria      f 1884  estratificación      f 1885  estreptococo      m 1886  estreptomicina      f 1887  estreptoquinase      f estreito inferior da pelve estreito superior da pelve estreptocinase",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
-        "Epidemioloxía",
+        "Etiopatoxenia",
         "Semioloxía",
         "Bioquímica",
-        "Etiopatoxenia"
+        "Farmacoloxía",
+        "Epidemioloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -13907,9 +13907,9 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Epidemioloxía",
         "Semioloxía",
-        "Histoloxía"
+        "Histoloxía",
+        "Epidemioloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -13928,9 +13928,9 @@
       "genero": null,
       "areas": [
         "Termos xerais",
+        "Semioloxía",
         "Epidemioloxía",
-        "Patoloxías",
-        "Semioloxía"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -13948,12 +13948,12 @@
       "termo_gl": "exérese      f 1924  exocitose      f 1925  exoftalmía      f 1926  exón      m 1927  exostose cartilaxinosa exoderma exoftalmo múltiple      f exitus",
       "genero": null,
       "areas": [
+        "Semioloxía",
         "Terapéutica",
         "Xenética",
-        "Patoloxías",
-        "Semioloxía",
         "Bioquímica",
-        "Histoloxía"
+        "Histoloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -13992,8 +13992,8 @@
       "termo_gl": "face      f 1944  face articular      f 1945  facies acromegálica      f extremidade superior face faceta articular facies",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Semioloxía"
+        "Semioloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14011,12 +14011,12 @@
       "termo_gl": "facies mixedematosa      f 1951  facocistectomía      f 1952  facomatose      f 1953  factor causal      m 1954  factor de coagulación      m 1955  factor de confusión      m facies parkinsoniana",
       "genero": null,
       "areas": [
-        "Terapéutica",
-        "Epidemioloxía",
-        "Patoloxías",
         "Semioloxía",
+        "Terapéutica",
         "Fisioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Epidemioloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14034,9 +14034,9 @@
       "termo_gl": "factor precipitante      m 1962  factor predispoñente      m 1963  factor protector      m 1964  factor quimiotáctico      m 1965  factor reumatoide      m factor precipitador",
       "genero": null,
       "areas": [
-        "Epidemioloxía",
         "Fisioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Epidemioloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14073,9 +14073,9 @@
       "genero": null,
       "areas": [
         "Termos xerais",
+        "Semioloxía",
         "Farmacoloxía",
-        "Anatomía",
-        "Semioloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14114,10 +14114,10 @@
       "termo_gl": "fenda      f 2001  fenda palatina      f 2002  fenilalanina      f 2003  fenilcetonuria      f 2004  fenómeno on-off      m fémur fendedura fenómeno da roda dentada",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Patoloxías",
         "Semioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14158,14 +14158,14 @@
       "termo_gl": "fibrilación ventricular      f 2023  fibrina      f 2024  fibrinólise      f 2025  fibrinolítico      m 2026  fibrinóxeno      m 2027  fibroadenoma      m 2028  fibroblasto",
       "genero": "m",
       "areas": [
-        "Farmacoloxía",
+        "Anatomía patolóxica",
         "Terapéutica",
-        "Anatomía",
-        "Patoloxías",
         "Fisioloxía",
         "Bioquímica",
         "Histoloxía",
-        "Anatomía patolóxica"
+        "Farmacoloxía",
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14207,8 +14207,8 @@
       "areas": [
         "Termos xerais",
         "Terapéutica",
-        "Anatomía",
-        "Patoloxías"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14248,10 +14248,10 @@
       "termo_gl": "fleborrafia      f 2067  flebotomía      f 2068  flegmón      m 2069  flexión      f 2070  flexión dorsal      f 2071  flexión ventral      f flictena",
       "genero": null,
       "areas": [
+        "Anatomía patolóxica",
         "Terapéutica",
-        "Anatomía",
         "Fisioloxía",
-        "Anatomía patolóxica"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14270,9 +14270,9 @@
       "genero": null,
       "areas": [
         "Xenética",
-        "Patoloxías",
         "Fisioloxía",
-        "Histoloxía"
+        "Histoloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14290,8 +14290,8 @@
       "termo_gl": "fonte de infección      f 2088  forame intervertebral      m 2089  forame nutricio      m 2090  fórceps      m 2091  forense      s fontanela cranial fontela forame",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Epidemioloxía"
+        "Epidemioloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14329,10 +14329,10 @@
       "termo_gl": "fototoxicidade      f 2111  fouce do cerebelo      f 2112  fouce do cerebro      f 2113  fóvea      f 2114  fóvea      f 2115  fóvea",
       "genero": "f",
       "areas": [
-        "Anatomía",
+        "Etiopatoxenia",
         "Semioloxía",
         "Histoloxía",
-        "Etiopatoxenia"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14373,9 +14373,9 @@
       "termo_gl": "fungo      m 2132  funxemia      f 2133  furúnculo      m 2134  furunculose      f funículo anterior da medula funículo lateral da medula funículo posterior da medula funiculocentese furabolos furuncho",
       "genero": null,
       "areas": [
-        "Patoloxías",
+        "Etiopatoxenia",
         "Semioloxía",
-        "Etiopatoxenia"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14412,10 +14412,10 @@
       "termo_gl": "garganta      f 2153  gargarismo      m 2154  gasa      f 2155  gasometría      f 2156  gasto cardíaco      m 2157  gastrectomía      f garxola",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
         "Terapéutica",
-        "Anatomía",
-        "Fisioloxía"
+        "Fisioloxía",
+        "Farmacoloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14454,8 +14454,8 @@
       "termo_gl": "glande      f 2178  glándula      f 2179  glándula lacrimal      f 2180  glándula mamaria      f 2181  glándula paratiroide      f glándula adrenal",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Histoloxía"
+        "Histoloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14497,9 +14497,9 @@
       "termo_gl": "glicocorticoide      m 2197  glicólise      f 2198  gliconeoxénese      f 2199  glicopéptido      m 2200  glicosa      f 2201  glicosa-6-fosfato deshidroxenase",
       "genero": "f",
       "areas": [
-        "Farmacoloxía",
         "Fisioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Farmacoloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14538,10 +14538,10 @@
       "termo_gl": "glomerulonefrite      f 2219  glomerulopatía      f 2220  glomerulosclerose      f 2221  glosectomía      f 2222  glosite      f 2223  glosoplastia      f glosite migratoria benigna glosopeda",
       "genero": null,
       "areas": [
+        "Anatomía patolóxica",
         "Terapéutica",
-        "Anatomía",
         "Patoloxías",
-        "Anatomía patolóxica"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14559,12 +14559,12 @@
       "termo_gl": "golpe de calor      m 2230  gonadectomía      f 2231  gonadoblastoma      m 2232  gonadotropina      f GnRH gonadotrofina gonadotrofina coriónica humana",
       "genero": null,
       "areas": [
+        "Anatomía patolóxica",
         "Terapéutica",
-        "Anatomía",
-        "Patoloxías",
         "Fisioloxía",
         "Bioquímica",
-        "Anatomía patolóxica"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14623,9 +14623,9 @@
       "termo_gl": "haptoglobina      f 2261  helminto      m 2262  hemanxioma      m 2263  hemanxiomatose      f hasta Hb hCG HCl HDL hedra hemacia hemacias en rima de moedas",
       "genero": null,
       "areas": [
-        "Patoloxías",
+        "Etiopatoxenia",
         "Bioquímica",
-        "Etiopatoxenia"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14662,10 +14662,10 @@
       "termo_gl": "hemisferio do cerebelo      m 2281  hemobilia      f 2282  hemocromatose      f 2283  hemocultivo      m 2284  hemodiálise      f 2285  hemofilia      f hemo hemocitopoese",
       "genero": null,
       "areas": [
+        "Semioloxía",
         "Terapéutica",
-        "Anatomía",
         "Patoloxías",
-        "Semioloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14703,12 +14703,12 @@
       "termo_gl": "hemostase      f 2304  hemoterapia      f 2305  hemotórax      m 2306  hepadnavirus      m 2307  heparina      f hemostasia hemostático",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
-        "Terapéutica",
-        "Patoloxías",
+        "Etiopatoxenia",
         "Semioloxía",
+        "Terapéutica",
         "Fisioloxía",
-        "Etiopatoxenia"
+        "Farmacoloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14784,8 +14784,8 @@
       "termo_gl": "herpes simple      m 2349  herpes xenital      m 2350  herpes xestacional      m 2351  herpes zóster      m 2352  herpesvirus      m herpes simple oral herpes simple xenital",
       "genero": null,
       "areas": [
-        "Patoloxías",
-        "Etiopatoxenia"
+        "Etiopatoxenia",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14824,10 +14824,10 @@
       "termo_gl": "hidrocefalia      f 2372  hidrocelectomía      f 2373  hidrolase      f 2374  hidronefrose      f 2375  hidropatía      f hidroadenite hidrofobia hidropisía",
       "genero": null,
       "areas": [
-        "Terapéutica",
-        "Patoloxías",
         "Semioloxía",
-        "Bioquímica"
+        "Terapéutica",
+        "Bioquímica",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14869,9 +14869,9 @@
       "termo_gl": "hipercapnia      f 2394  hiperclaridade      f 2395  hipercoagulabilidade      f 2396  hipercolesterolemia      f 2397  hiperdensidade      f 2398  hiperecoxenicidade      f hipercarbia",
       "genero": null,
       "areas": [
-        "Patoloxías",
+        "Etiopatoxenia",
         "Semioloxía",
-        "Etiopatoxenia"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14910,9 +14910,9 @@
       "termo_gl": "hipernatremia      f 2418  hiperosmolalidade      f 2419  hiperosmolaridade      f 2420  hiperparatiroidismo      m 2421  hiperpigmentación      f 2422  hiperpirexia      f hiperopía hiperosmia",
       "genero": null,
       "areas": [
-        "Patoloxías",
+        "Etiopatoxenia",
         "Semioloxía",
-        "Etiopatoxenia"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14953,8 +14953,8 @@
       "termo_gl": "hipertiroidismo      m 2441  hipertonía      f 2442  hipertricose      f 2443  hipertrigliceridemia      f 2444  hiperuricemia      f 2445  hiperventilación      f hipertermia hipnagogo",
       "genero": null,
       "areas": [
-        "Patoloxías",
-        "Semioloxía"
+        "Semioloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -14991,11 +14991,11 @@
       "termo_gl": "hipófise      f 2464  hipofisectomía      f 2465  hipofisite      f 2466  hipofosfatemia      f 2467  hipofunción      f 2468  hipogammaglobulinemia      f hipogastrio",
       "genero": null,
       "areas": [
-        "Terapéutica",
-        "Anatomía",
-        "Patoloxías",
+        "Etiopatoxenia",
         "Semioloxía",
-        "Etiopatoxenia"
+        "Terapéutica",
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -15034,10 +15034,10 @@
       "termo_gl": "hipospadia      f 2488  hipotálamo      m 2489  hipotensión      f 2490  hipotensión ortostática      f 2491  hipotermia      f 2492  hipótese alternativa      f hipotensión postural",
       "genero": null,
       "areas": [
-        "Anatomía",
+        "Semioloxía",
         "Epidemioloxía",
         "Patoloxías",
-        "Semioloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -15055,11 +15055,11 @@
       "termo_gl": "hipoxeusia      f 2500  hipoxia      f 2501  histamina      f 2502  histerectomía      f 2503  histeropexia      f hirsutismo His histeria",
       "genero": null,
       "areas": [
-        "Terapéutica",
+        "Etiopatoxenia",
         "Semioloxía",
+        "Terapéutica",
         "Fisioloxía",
-        "Bioquímica",
-        "Etiopatoxenia"
+        "Bioquímica"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -15077,12 +15077,12 @@
       "termo_gl": "histiocito      m 2512  histiocitoma      m 2513  histiocitose      f 2514  histiocitose X      f 2515  histocompatibilidade      f 2516  histoloxía      f histocito histocitose",
       "genero": null,
       "areas": [
+        "Anatomía patolóxica",
         "Termos xerais",
-        "Anatomía",
-        "Patoloxías",
         "Fisioloxía",
         "Histoloxía",
-        "Anatomía patolóxica"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -15215,8 +15215,8 @@
       "genero": "f",
       "areas": [
         "Terapéutica",
-        "Anatomía",
-        "Patoloxías"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -15234,9 +15234,9 @@
       "termo_gl": "imaxe en ás de bolboreta      f 2572  impersistencia motora      f 2573  impetixe      f 2574  implantación      f 2575  implante      f IMC imperforación anal",
       "genero": null,
       "areas": [
+        "Semioloxía",
         "Terapéutica",
-        "Patoloxías",
-        "Semioloxía"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -15254,11 +15254,11 @@
       "termo_gl": "inactivación do cromosoma X     f 2581  inanición      f 2582  incidencia acumulada      f 2583  incisión      f 2584  incisura      f inchazo inchazón incidencia incisivo",
       "genero": null,
       "areas": [
+        "Etiopatoxenia",
         "Terapéutica",
-        "Anatomía",
-        "Epidemioloxía",
         "Xenética",
-        "Etiopatoxenia"
+        "Epidemioloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -15299,8 +15299,8 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Patoloxías",
-        "Etiopatoxenia"
+        "Etiopatoxenia",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -15408,9 +15408,9 @@
       "termo_gl": "inspección      f 2671  inspiración      f 2672  insuficiencia      f 2673  insuficiencia aórtica      f 2674  insuficiencia cardíaca      f 2675  insuficiencia coronaria",
       "genero": "f",
       "areas": [
-        "Patoloxías",
+        "Etiopatoxenia",
         "Fisioloxía",
-        "Etiopatoxenia"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -15446,10 +15446,10 @@
       "termo_gl": "insuficiencia venosa      f 2688  insulina      f 2689  insulinoma      m 2690  insulinoterapia      f 2691  intensivista      s ínsula",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
         "Terapéutica",
-        "Patoloxías",
-        "Bioquímica"
+        "Bioquímica",
+        "Farmacoloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -15488,10 +15488,10 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Anatomía",
         "Xenética",
+        "Fisioloxía",
         "Patoloxías",
-        "Fisioloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -15529,10 +15529,10 @@
       "termo_gl": "isómero      m 2733  isostenuria      f 2734  isquemia      f 2735  isquion      m ISRS ITS IV par cranial IX par cranial K",
       "genero": null,
       "areas": [
-        "Anatomía",
+        "Anatomía patolóxica",
         "Semioloxía",
         "Bioquímica",
-        "Anatomía patolóxica"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -15573,9 +15573,9 @@
       "termo_gl": "lagoftalmía      m 2756  lámina cribosa      f 2757  lámina cuadrixémina      f 2758  lámina externa      f 2759  lámina perpendicular do lagoftalmos lagrimexo lamblíase lámina cuadrilátera etmoide",
       "genero": "f",
       "areas": [
-        "Anatomía",
+        "Histoloxía",
         "Patoloxías",
-        "Histoloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -15615,8 +15615,8 @@
       "genero": null,
       "areas": [
         "Terapéutica",
-        "Anatomía",
-        "Fisioloxía"
+        "Fisioloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -15659,9 +15659,9 @@
       "termo_gl": "lesión      f 2801  lesión en sacabocados      f 2802  letargo      m 2803  leucaférese      f 2804  leucemia      f LES lesión en caviar letalidade letarxia Leu",
       "genero": null,
       "areas": [
-        "Patoloxías",
+        "Etiopatoxenia",
         "Semioloxía",
-        "Etiopatoxenia"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -15699,11 +15699,11 @@
       "termo_gl": "leucotomía      f 2820  leucotrieno      m 2821  levodopa      f 2822  lexionelose      f lévedo levulosa LGV LH Li",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
         "Terapéutica",
-        "Patoloxías",
         "Fisioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Farmacoloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -15740,8 +15740,8 @@
       "genero": null,
       "areas": [
         "Terapéutica",
-        "Anatomía",
-        "Bioquímica"
+        "Bioquímica",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -15778,10 +15778,10 @@
       "termo_gl": "linfocitoma      m 2860  linfocitopenia      f 2861  linfocitose      f 2862  linfografía      f 2863  linfogranuloma venéreo      m 2864  linfoma      m linfoedema",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Patoloxías",
+        "Anatomía patolóxica",
         "Semioloxía",
-        "Anatomía patolóxica"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -15821,12 +15821,12 @@
       "termo_gl": "liña media      f 2881  liñaxe celular      f 2882  lipase      f 2883  lipectomía      f 2884  lípido      m 2885  lipiduria      f 2886  lipodistrofia",
       "genero": "f",
       "areas": [
-        "Terapéutica",
-        "Anatomía",
-        "Patoloxías",
         "Semioloxía",
+        "Terapéutica",
         "Fisioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -16059,10 +16059,10 @@
       "termo_gl": "mastoidectomía      f 3015  mastoidite      f 3016  mastopexia      f 3017  matidez      f 3018  matriz extracelular      f mastoplastia mastotomía matapiollos matriz",
       "genero": null,
       "areas": [
-        "Terapéutica",
-        "Patoloxías",
         "Semioloxía",
-        "Histoloxía"
+        "Terapéutica",
+        "Histoloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -16141,10 +16141,10 @@
       "termo_gl": "medula ósea vermella      f 3052  meduloblastoma      m 3053  megacariocito      m 3054  megacolon      m 3055  megacolon conxénito      m medula raquídea medula vermella medula vertebral",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Patoloxías",
         "Semioloxía",
-        "Histoloxía"
+        "Histoloxía",
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -16181,9 +16181,9 @@
       "termo_gl": "membrana obturatriz      f 3073  membrana plasmática      f 3074  membrana sinovial      f 3075  membranopatía      f 3076  membro      m membrana timpánica",
       "genero": null,
       "areas": [
-        "Anatomía",
+        "Histoloxía",
         "Patoloxías",
-        "Histoloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -16220,10 +16220,10 @@
       "termo_gl": "menstruación      f 3094  mesanxio      m 3095  mesenterio      m 3096  mesenterite      f 3097  mesoderma      m mento *mentón merocele mesoblasto",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Patoloxías",
         "Fisioloxía",
-        "Histoloxía"
+        "Histoloxía",
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -16241,10 +16241,10 @@
       "termo_gl": "metáfise      f 3105  metahemoglobinemia      f 3106  metaplasia      f 3107  metástase      f 3108  metatarsalxia      f 3109  metatarso      m 3110 meteorismo",
       "genero": "m",
       "areas": [
-        "Anatomía",
-        "Semioloxía",
+        "Anatomía patolóxica",
         "Etiopatoxenia",
-        "Anatomía patolóxica"
+        "Semioloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -16263,9 +16263,9 @@
       "genero": "f",
       "areas": [
         "Termos xerais",
-        "Patoloxías",
+        "Etiopatoxenia",
         "Semioloxía",
-        "Etiopatoxenia"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -16284,10 +16284,10 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Terapéutica",
-        "Xenética",
+        "Etiopatoxenia",
         "Semioloxía",
-        "Etiopatoxenia"
+        "Terapéutica",
+        "Xenética"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -16305,12 +16305,12 @@
       "termo_gl": "miectomía      f 3145  mielina      f 3146  mielite transversa      f 3147  mieloblasto      m 3148  mieloblastoma      m 3149  mielocito",
       "genero": "m",
       "areas": [
+        "Anatomía patolóxica",
         "Terapéutica",
-        "Anatomía",
-        "Patoloxías",
         "Bioquímica",
         "Histoloxía",
-        "Anatomía patolóxica"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -16354,9 +16354,9 @@
       "termo_gl": "miocardiopatía hipertrófica     f 3166  miocardite      f 3167  miocito      m 3168  mioclonía      f 3169 3170  miofibrila      f mioclono miodinia miofascite",
       "genero": "f",
       "areas": [
-        "Patoloxías",
         "Semioloxía",
-        "Histoloxía"
+        "Histoloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -16397,8 +16397,8 @@
       "termo_gl": "miotonía      f 3191  miringocentese      f 3192  miringoplastia      f 3193  mitocondria      f 3194  mitose      f miringotomía miringuectomía",
       "genero": null,
       "areas": [
-        "Terapéutica",
         "Semioloxía",
+        "Terapéutica",
         "Histoloxía"
       ],
       "sinonimos_gl": [],
@@ -16440,12 +16440,12 @@
       "termo_gl": "monitorización      f 3209  monobactámico      m 3210  monocito      m 3211  monocitopenia      f 3212  monofosfato cíclico de 3213  monomorfismo      m guanosina",
       "genero": "m",
       "areas": [
-        "Farmacoloxía",
+        "Semioloxía",
         "Terapéutica",
         "Xenética",
-        "Semioloxía",
         "Bioquímica",
-        "Histoloxía"
+        "Histoloxía",
+        "Farmacoloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -16481,10 +16481,10 @@
       "termo_gl": "mosaicismo      m 3231  mosaicoplastia      f 3232  mostaza nitroxenada      f 3233  mostra      f 3234  mostraxe      f mosaicismo celular mosaico",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
         "Terapéutica",
-        "Epidemioloxía",
-        "Xenética"
+        "Xenética",
+        "Farmacoloxía",
+        "Epidemioloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -16650,8 +16650,8 @@
       "termo_gl": "músculo estilofarínxeo      m 3301  músculo estilogloso      m 3302  músculo estilohioide      m 3303  músculo estriado      m 3304  músculo extensor curto da músculo extensor cubital do carpo primeira deda",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Histoloxía"
+        "Histoloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -16960,10 +16960,10 @@
       "genero": null,
       "areas": [
         "Termos xerais",
+        "Semioloxía",
         "Terapéutica",
-        "Anatomía",
         "Epidemioloxía",
-        "Semioloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -17002,10 +17002,10 @@
       "termo_gl": "nefropexia      f 3460  nefrorrafia      f 3461  nefrosclerose      f 3462  nefrose      f 3463  nefrostomía      f 3464  nefrotomía      f 3465  nefrotoxicidade      f nefropielite",
       "genero": null,
       "areas": [
-        "Terapéutica",
-        "Anatomía",
+        "Anatomía patolóxica",
         "Etiopatoxenia",
-        "Anatomía patolóxica"
+        "Terapéutica",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -17161,9 +17161,9 @@
       "termo_gl": "neurite óptica      f 3535  neuroblastoma      m 3536  neurocirurxía      f 3537  neurocirurxián -á      s 3538  neurocitoma      m 3533  neurite      f neurinoma neurite múltiple neurodendrita",
       "genero": null,
       "areas": [
-        "Anatomía",
+        "Anatomía patolóxica",
         "Patoloxías",
-        "Anatomía patolóxica"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -17204,13 +17204,13 @@
       "termo_gl": "neurotmese      f 3556  neurotomía      f 3557  neurotransmisor      m 3558  neutrofilia      f 3559  neutrófilo      m 3560  neutrófilo en banda      m 3561  neutropenia",
       "genero": "f",
       "areas": [
-        "Terapéutica",
-        "Anatomía",
+        "Anatomía patolóxica",
         "Semioloxía",
+        "Terapéutica",
         "Fisioloxía",
         "Bioquímica",
         "Histoloxía",
-        "Anatomía patolóxica"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -17228,9 +17228,9 @@
       "termo_gl": "nistagmo      m 3568  nitrato      m 3569  nitrofurano      m 3570  nitroimidazol      m 3571  nitrosourea      f 3572  nitróxeno      m niño de células nistaxe",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
         "Semioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Farmacoloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -17248,11 +17248,11 @@
       "termo_gl": "nocardiose      f 3578  nocello      m 3579  nociceptor      m 3580  nódulo      m 3581  nódulo      m 3582  noma      m nocirreceptor",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Patoloxías",
+        "Anatomía patolóxica",
         "Semioloxía",
         "Fisioloxía",
-        "Anatomía patolóxica"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -17290,10 +17290,10 @@
       "termo_gl": "nutricionista      s 3601  nutriente      m 3602  obesidade      f 3603  óbex      m 3604  obnubilación      f 3605  obsesión      f 3606  obstetra      s O",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Patoloxías",
         "Semioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -17334,9 +17334,9 @@
       "genero": null,
       "areas": [
         "Terapéutica",
-        "Anatomía",
+        "Fisioloxía",
         "Patoloxías",
-        "Fisioloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -17373,11 +17373,11 @@
       "termo_gl": "omentoplastia      f 3646  omentorrafia      f 3647  oncocercose      f 3648  oncocito      m 3649  oncocitoma      m omoplata oncocercíase oncólogo -ga",
       "genero": null,
       "areas": [
+        "Anatomía patolóxica",
         "Terapéutica",
-        "Anatomía",
-        "Patoloxías",
         "Histoloxía",
-        "Anatomía patolóxica"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -17415,10 +17415,10 @@
       "termo_gl": "opioide      m 3668  opistótono      m 3669  opsoclonía      f 3670  opsonificación      f 3671  opsonina      f opistocranio opsoclono opsonización",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
         "Semioloxía",
         "Fisioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Farmacoloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -17457,8 +17457,8 @@
       "termo_gl": "ortopedia      f 3688  ortopnea      f 3689  oscilometría      f 3690  osixenación      f 3691  osíxeno      m 3692  osixenoterapia      f osificación osmoceptor",
       "genero": null,
       "areas": [
-        "Terapéutica",
         "Semioloxía",
+        "Terapéutica",
         "Fisioloxía",
         "Bioquímica"
       ],
@@ -17547,12 +17547,12 @@
       "termo_gl": "ostectomía      f 3729  osteíte      f 3730  osteoartrite      f 3731  osteoblasto      m 3732  osteoblastoma      m 3733  osteocalcina      f 3734  osteocito      m ostartrite",
       "genero": null,
       "areas": [
+        "Anatomía patolóxica",
         "Terapéutica",
-        "Anatomía",
-        "Patoloxías",
         "Bioquímica",
         "Histoloxía",
-        "Anatomía patolóxica"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -17589,11 +17589,11 @@
       "termo_gl": "osteopenia      f 3753  osteopetrose      f 3754  osteoplastia      f 3755  osteoporose      f 3756  osteorrafia      f 3757  osteosarcoma",
       "genero": "m",
       "areas": [
-        "Terapéutica",
-        "Anatomía",
-        "Patoloxías",
+        "Anatomía patolóxica",
         "Etiopatoxenia",
-        "Anatomía patolóxica"
+        "Terapéutica",
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -17630,9 +17630,9 @@
       "termo_gl": "ototoxicidade      f 3778  ovariectomía      f 3779  ovario      m 3780  ovariopexia      f otosponxiose ouriños ovariostomía ovariotomía ovarite oviducto ovo",
       "genero": null,
       "areas": [
+        "Etiopatoxenia",
         "Terapéutica",
-        "Anatomía",
-        "Etiopatoxenia"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -17670,8 +17670,8 @@
       "termo_gl": "palidez      f 3794  palma      f 3795  palpación      f 3796  pálpebra      f 3797  palpitación      f palescencia paleta palma da man palpebrexo pallidum",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Semioloxía"
+        "Semioloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -17711,10 +17711,10 @@
       "termo_gl": "papila renal      f 3814  papiledema      m 3815  papilite      f 3816  papiloma      m 3817  papilomatose      f 3818  papovavirus      m papilite óptica papo papo da perna",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Patoloxías",
+        "Etiopatoxenia",
         "Semioloxía",
-        "Etiopatoxenia"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -17751,9 +17751,9 @@
       "termo_gl": "parasimpaticomimético      m 3836  parasitismo      m 3837  parasito      m 3838  parasitólogo -ga      s 3839  parasitoloxía      f 3840  parasitose      f *parásito",
       "genero": null,
       "areas": [
+        "Etiopatoxenia",
         "Farmacoloxía",
-        "Patoloxías",
-        "Etiopatoxenia"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -17794,8 +17794,8 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Farmacoloxía",
-        "Etiopatoxenia"
+        "Etiopatoxenia",
+        "Farmacoloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -17835,8 +17835,8 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Anatomía",
-        "Patoloxías"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -17854,10 +17854,10 @@
       "termo_gl": "pénfigo      m 3885  penfigoide ampuloso      m 3886  penicilamina      f 3887  penicilina      f 3888  pepsina      f 3889  pepsinóxeno      m 3890  peptidase",
       "genero": "f",
       "areas": [
-        "Farmacoloxía",
-        "Patoloxías",
         "Fisioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Farmacoloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -17876,9 +17876,9 @@
       "genero": "f",
       "areas": [
         "Terapéutica",
-        "Patoloxías",
         "Fisioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -17916,10 +17916,10 @@
       "termo_gl": "período refractario      m 3920  periodontite      f 3921  periodonto      m 3922  periósteo      m 3923  peristalse      f *periostio peristaltismo *peritoné",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Patoloxías",
         "Fisioloxía",
-        "Histoloxía"
+        "Histoloxía",
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -17959,10 +17959,10 @@
       "termo_gl": "pestanexo      m 3940  peste      f 3941  petequia      f 3942  pH      sb peste bubónica peste pneumónica PET peumonite intersticial común PG PG I2",
       "genero": null,
       "areas": [
-        "Patoloxías",
         "Semioloxía",
         "Fisioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -17980,10 +17980,10 @@
       "termo_gl": "pica      f 3948  picornavirus      m 3949  pielografía      f 3950  pielonefrite      f 3951  pieloplastia      f 3952  pielostomía      f piar esquerdo do diafragma",
       "genero": null,
       "areas": [
-        "Terapéutica",
-        "Patoloxías",
+        "Etiopatoxenia",
         "Semioloxía",
-        "Etiopatoxenia"
+        "Terapéutica",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18001,12 +18001,12 @@
       "termo_gl": "pinealoma      m 3961  pineoblastoma      m 3962  pineocitoma      m 3963  pinguécula      f 3964  pinocitose      f 3965  pinzas      f pl pimeloma pingallón pinguelo",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Patoloxías",
+        "Anatomía patolóxica",
         "Semioloxía",
         "Fisioloxía",
         "Histoloxía",
-        "Anatomía patolóxica"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18045,10 +18045,10 @@
       "termo_gl": "pirámide regresiva      f 3978  pirazolona      f 3979  piretoterapia      f 3980  piretrina      f 3981  pirimidina      f piretóxeno piridoxina",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
         "Terapéutica",
-        "Epidemioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Farmacoloxía",
+        "Epidemioloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18087,12 +18087,12 @@
       "termo_gl": "plasmina      f 3999  plasminóxeno      m 4000  plasmocitoma      m 4001  plasmocitose      f 4002  plausibilidade biolóxica      f 4003  pleiotropía      f plasmocito platisma",
       "genero": null,
       "areas": [
-        "Epidemioloxía",
-        "Xenética",
-        "Patoloxías",
         "Semioloxía",
+        "Xenética",
         "Fisioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Epidemioloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18130,11 +18130,11 @@
       "termo_gl": "pluma      f 4021  pneumectomía      f 4022  pneumocito      m 4023  pneumococo      m 4024  pneumoconiose      f plumbismo plurigrávida plurípara PNA",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
+        "Etiopatoxenia",
         "Terapéutica",
-        "Patoloxías",
         "Histoloxía",
-        "Etiopatoxenia"
+        "Farmacoloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18171,8 +18171,8 @@
       "termo_gl": "poiquilocitose      f 4042  polaquiúria      f 4043  poliarterite nodosa      f 4044  poliartrite      f 4045  policitemia vera      f polgar policitemia policitemia rubra",
       "genero": null,
       "areas": [
-        "Patoloxías",
-        "Semioloxía"
+        "Semioloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18192,8 +18192,8 @@
       "areas": [
         "Termos xerais",
         "Xenética",
-        "Patoloxías",
-        "Bioquímica"
+        "Bioquímica",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18211,9 +18211,9 @@
       "termo_gl": "polipose colónica familiar      f 4063  polisacárido      m 4064  polisomnografía      f 4065  política sanitaria      f 4066  poliúria      f política de saúde pollex",
       "genero": null,
       "areas": [
-        "Patoloxías",
         "Semioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18252,9 +18252,9 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Epidemioloxía",
         "Fisioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Epidemioloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18366,8 +18366,8 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Anatomía",
-        "Histoloxía"
+        "Histoloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18406,11 +18406,11 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Patoloxías",
+        "Etiopatoxenia",
         "Semioloxía",
         "Fisioloxía",
         "Bioquímica",
-        "Etiopatoxenia"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18448,10 +18448,10 @@
       "termo_gl": "prostatite      f 4177  prostatodinia      f 4178  prostatotomía      f 4179  prostración      f 4180  protease      f 4181  protección da saúde      f prostese",
       "genero": null,
       "areas": [
-        "Terapéutica",
-        "Patoloxías",
         "Semioloxía",
-        "Bioquímica"
+        "Terapéutica",
+        "Bioquímica",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18490,11 +18490,11 @@
       "termo_gl": "prurito      m 4201  pseudoaneurisma      m 4202  pseudoartrose      f 4203  pseudohermafroditismo      m 4204  pseudópodo      m pseudoobstrución intestinal",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Patoloxías",
+        "Anatomía patolóxica",
         "Semioloxía",
         "Histoloxía",
-        "Anatomía patolóxica"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18530,10 +18530,10 @@
       "termo_gl": "ptose      f 4225  pube      f 4226  puberdade      f 4227  puberdade atrasada      f 4228  puberdade precoz      f ptialismo ptialografía ptisma PTT",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Patoloxías",
         "Semioloxía",
-        "Fisioloxía"
+        "Fisioloxía",
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18571,8 +18571,8 @@
       "termo_gl": "punción aspirativa con agulla 4244  punción lumbar      f 4245  pupila      f 4246  purina      f fina      f punción-aspiración con agulla fina punto de osificación purgacións",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Bioquímica"
+        "Bioquímica",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18613,11 +18613,11 @@
       "termo_gl": "queloide      m 4262  quemodectoma      m 4263  queratinocito      m 4264  queratite      f 4265  queratoacantoma      m quelotomía quentura",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Patoloxías",
+        "Anatomía patolóxica",
         "Semioloxía",
         "Histoloxía",
-        "Anatomía patolóxica"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18635,10 +18635,10 @@
       "termo_gl": "quiasma      m 4273  quiasma óptico      m 4274  quilomicron      m 4275  quilotórax      m 4276  quiluria      f 4277  quimiocina      f quifose *quilomicrón",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Xenética",
         "Semioloxía",
-        "Bioquímica"
+        "Xenética",
+        "Bioquímica",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18656,9 +18656,9 @@
       "termo_gl": "quimioterápico      m 4284  quimo      m 4285  quimotripsina      f 4286  quinina      f 4287  quinoleína      f 4288  quinolona      f 4289  quirófano",
       "genero": "m",
       "areas": [
-        "Farmacoloxía",
         "Fisioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Farmacoloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18696,8 +18696,8 @@
       "termo_gl": "radiografía      f 4311  radiólogo -ga      s 4312  radioloxía      f 4313  radioopacidade      f 4314  radioterapia      f 4315  radiotransparencia      f radiolucidez radioterapeuta",
       "genero": null,
       "areas": [
-        "Terapéutica",
-        "Semioloxía"
+        "Semioloxía",
+        "Terapéutica"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18715,9 +18715,9 @@
       "termo_gl": "raíz pulmonar      f 4322  raquitismo      m 4323  rastrexo      m raíz sensitiva raíz ventral rampla timpánica rampla vestibular raña raque raspado rastreamento rastrexamento",
       "genero": null,
       "areas": [
-        "Anatomía",
         "Epidemioloxía",
-        "Patoloxías"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18735,9 +18735,9 @@
       "termo_gl": "reabsorción tubular      f 4329  reacción      f 4330  reacción alérxica      f 4331  reacción anafiláctica      f 4332  reacción antíxeno-anticorpo     f 4333  reacción catastrófica",
       "genero": "f",
       "areas": [
+        "Etiopatoxenia",
         "Fisioloxía",
-        "Bioquímica",
-        "Etiopatoxenia"
+        "Bioquímica"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18778,9 +18778,9 @@
       "termo_gl": "recto      m 4350  rectorraxia      f 4351  recursos sanitarios      m pl 4352  rede testicular      f recorrencia rectectomía rectite rectopexia rectoscopia rectotomía recursos para a saúde",
       "genero": null,
       "areas": [
-        "Anatomía",
         "Semioloxía",
-        "Histoloxía"
+        "Histoloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18819,9 +18819,9 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Patoloxías",
+        "Etiopatoxenia",
         "Semioloxía",
-        "Etiopatoxenia"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18857,9 +18857,9 @@
       "termo_gl": "repouso      m 4393  represión      f 4394  reprodución      f 4395  resección      f 4396  resistencia arterial      f 4397  resistencia das vías aéreas      f RER residente",
       "genero": null,
       "areas": [
+        "Etiopatoxenia",
         "Terapéutica",
-        "Fisioloxía",
-        "Etiopatoxenia"
+        "Fisioloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -18975,10 +18975,10 @@
       "termo_gl": "rinotomía      f 4457  rinovirus      m 4458  risco      m 4459  risco atribuíble      m 4460  risco de ocorrencia      m 4461  risco de recorrencia      m risa canina risa sardónica risco absoluto",
       "genero": null,
       "areas": [
+        "Etiopatoxenia",
         "Terapéutica",
-        "Epidemioloxía",
         "Xenética",
-        "Etiopatoxenia"
+        "Epidemioloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -19017,10 +19017,10 @@
       "termo_gl": "rotavirus      m 4480  rótula      f 4481  rozamento pericárdico      m 4482  rozamento pleural      m 4483  rubéola      f 4484  rubor      m rubefacción",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Patoloxías",
+        "Etiopatoxenia",
         "Semioloxía",
-        "Etiopatoxenia"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -19139,12 +19139,12 @@
       "termo_gl": "seminoma      m 4547  semioloxía      f 4548  senilidade      f 4549  sensibilidade      f 4550  sensibilidade      f 4551  sentido      m sen sensibilinóxeno",
       "genero": null,
       "areas": [
+        "Anatomía patolóxica",
         "Termos xerais",
-        "Anatomía",
-        "Epidemioloxía",
-        "Fisioloxía",
         "Etiopatoxenia",
-        "Anatomía patolóxica"
+        "Fisioloxía",
+        "Epidemioloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -19223,8 +19223,8 @@
       "termo_gl": "sialorrea      f 4588  sialuria      f 4589  sibilancia      f 4590  sideremia      f 4591  siderose      f siameses sibilación sida sífile da columna vertebral",
       "genero": null,
       "areas": [
-        "Patoloxías",
-        "Semioloxía"
+        "Semioloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -19279,9 +19279,9 @@
       "termo_gl": "sinal do obturador      m 4613  sinal do psoas      m pl 4614  sinal vital      m 4615  sinapse      f 4616  sinartrose      f sinal do caixón sinal do solpor sincinese",
       "genero": null,
       "areas": [
-        "Anatomía",
         "Semioloxía",
-        "Fisioloxía"
+        "Fisioloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -19377,8 +19377,8 @@
       "termo_gl": "síndrome do encarceramento      f 4656  síndrome do feto morto      f 4657  síndrome do intestino curto     f 4658  síndrome do membro 4659  síndrome do ollo húmido      f síndrome do intestino irritable fantasma      f síndrome do membro pantasma",
       "genero": null,
       "areas": [
-        "Patoloxías",
-        "Etiopatoxenia"
+        "Etiopatoxenia",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -19417,8 +19417,8 @@
       "areas": [
         "Termos xerais",
         "Terapéutica",
-        "Patoloxías",
-        "Fisioloxía"
+        "Fisioloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -19463,8 +19463,8 @@
       "termo_gl": "sistema linfático      m 4698  sistema locomotor      m 4699  sistema nervioso autónomo   m 4700  sistema nervioso central",
       "genero": "m",
       "areas": [
-        "Anatomía",
-        "Fisioloxía"
+        "Fisioloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -19510,8 +19510,8 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Bioquímica",
-        "Etiopatoxenia"
+        "Etiopatoxenia",
+        "Bioquímica"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -19548,8 +19548,8 @@
       "termo_gl": "soro      m 4735  soro fisiolóxico      m 4736  soro glicosado      m 4737  suavizante      m sopro tubárico sopro tubario soro inmune soro salino SPECT spray SRIS",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
-        "Fisioloxía"
+        "Fisioloxía",
+        "Farmacoloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -19588,11 +19588,11 @@
       "termo_gl": "supervivencia media      f 4756  supinación      f 4757  suplemento      m 4758  supositorio      m 4759  suprarrenalectomía      f supositorio vaxinal",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
         "Terapéutica",
-        "Anatomía",
+        "Fisioloxía",
+        "Farmacoloxía",
         "Epidemioloxía",
-        "Fisioloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -19630,8 +19630,8 @@
       "termo_gl": "tableta      f 4773  tableta de disolución oral      f 4774  tacrolimo      m 4775  tacto      m tabique interauricular tabique interventricular tabique nasal tableta bucodispersable tacrolimus",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
-        "Fisioloxía"
+        "Fisioloxía",
+        "Farmacoloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -19672,8 +19672,8 @@
       "termo_gl": "tarso      m 4794  taxa de ataque      f 4795  taxa de crecemento vexetativo    f 4796  taxa de fecundidade      f 4797  taxa de fertilidade      f tarsoplastia tarsorrafia tarsotomía taxa de crecemento natural",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Epidemioloxía"
+        "Epidemioloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -19710,9 +19710,9 @@
       "termo_gl": "tecido cartilaxinoso      m 4813  tecido conectivo      m 4814  tecido de granulación      m 4815  tecido epitelial      m 4816  tecido linfoide      m tecido conxuntivo tecido linfático",
       "genero": null,
       "areas": [
-        "Anatomía",
+        "Anatomía patolóxica",
         "Histoloxía",
-        "Anatomía patolóxica"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -19752,10 +19752,10 @@
       "termo_gl": "tenectomía      f 4835  tenesmo      m 4836  tenia      f 4837  teníase      f 4838  tenoplastia      f tendón rotuliano tendonite tenonectomía",
       "genero": null,
       "areas": [
-        "Terapéutica",
-        "Patoloxías",
+        "Etiopatoxenia",
         "Semioloxía",
-        "Etiopatoxenia"
+        "Terapéutica",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -19796,9 +19796,9 @@
       "termo_gl": "teratozoospermia      f 4851  terceiro ruído cardíaco      m 4852  terceiro ventrículo      m 4853  termocoagulación      f 4854  termómetro      m terceiro molar termalxia terminador",
       "genero": null,
       "areas": [
+        "Semioloxía",
         "Terapéutica",
-        "Anatomía",
-        "Semioloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -19892,10 +19892,10 @@
       "termo_gl": "tétano      m 4898  tetraciclina      f 4899  tetraparesia      f 4900  tetraplexía      f 4901  tetraploidía      f *tétanos tetraiodotironina Thr THS",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
+        "Semioloxía",
         "Xenética",
-        "Patoloxías",
-        "Semioloxía"
+        "Farmacoloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -19913,13 +19913,13 @@
       "termo_gl": "timectomía      f 4908  timina      f 4909  timo      m 4910  timocito      m 4911  timoma      m 4912  timpanectomía      f 4913  timpanismo",
       "genero": "m",
       "areas": [
-        "Terapéutica",
-        "Anatomía",
-        "Patoloxías",
+        "Anatomía patolóxica",
         "Semioloxía",
+        "Terapéutica",
         "Bioquímica",
         "Histoloxía",
-        "Anatomía patolóxica"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -19956,11 +19956,11 @@
       "termo_gl": "tirotomía      f 4930  tirotoxicose      f 4931  tiroxina      f 4932  toalliña      f tirotropina tise TNF toco tocoferol",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
         "Terapéutica",
-        "Patoloxías",
         "Fisioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Farmacoloxía",
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -20005,9 +20005,9 @@
       "termo_gl": "toracotomía      f 4947  tórax      m 4948  tórax en quilla      m 4949  tórax en tonel      m tórax en funil tórax enfisematoso",
       "genero": null,
       "areas": [
+        "Semioloxía",
         "Terapéutica",
-        "Anatomía",
-        "Semioloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -20044,9 +20044,9 @@
       "termo_gl": "tracto olfactorio      m 4967  tracto óptico      m 4968  tradución      f 4969  tranquilizante      m tracto respiratorio tracto uveal tractotomía tragofonía tranquilizante menor",
       "genero": null,
       "areas": [
+        "Xenética",
         "Farmacoloxía",
-        "Anatomía",
-        "Xenética"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -20084,9 +20084,9 @@
       "termo_gl": "transposición dos grandes 4992  transposón      m 4993  traquea      f 4994  traqueíte      f transposición das grandes arterias vasos      f trapecio *tráquea traquelectomía",
       "genero": null,
       "areas": [
-        "Anatomía",
         "Xenética",
-        "Patoloxías"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -20127,8 +20127,8 @@
       "termo_gl": "tratamento      m 5012  trauma      m 5013  traumatismo      m 5014  traumatólogo -ga      s trauma psicolóxico trauma psíquico",
       "genero": null,
       "areas": [
-        "Terapéutica",
-        "Etiopatoxenia"
+        "Etiopatoxenia",
+        "Terapéutica"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -20146,10 +20146,10 @@
       "termo_gl": "tricomoníase      f 5020  triglicérido      m 5021  trígono femoral      m 5022  trígono vesical      m 5023  triiodotironina      f trifosfato de adenosina trígono cerebral trígono da vexiga",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Patoloxías",
         "Fisioloxía",
-        "Bioquímica"
+        "Bioquímica",
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -20168,8 +20168,8 @@
       "genero": null,
       "areas": [
         "Terapéutica",
-        "Anatomía",
-        "Xenética"
+        "Xenética",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -20187,9 +20187,9 @@
       "termo_gl": "trombocitopenia esencial      f 5040  trombocitose esencial      f 5041  tromboembolia      f 5042  tromboembolia pulmonar      f 5043  trombofilia      f trombocitose tromboembolismo tromboembolismo pulmonar",
       "genero": null,
       "areas": [
-        "Patoloxías",
+        "Etiopatoxenia",
         "Semioloxía",
-        "Etiopatoxenia"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -20251,8 +20251,8 @@
       "genero": null,
       "areas": [
         "Farmacoloxía",
-        "Anatomía",
-        "Patoloxías"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -20295,8 +20295,8 @@
       "termo_gl": "ultrasón      m 5082  ultrasonografía Doppler      f 5083  úmero      m 5084  uncus      m 5085  ungüento      m ultrasonografía ungüe",
       "genero": null,
       "areas": [
-        "Farmacoloxía",
         "Terapéutica",
+        "Farmacoloxía",
         "Anatomía"
       ],
       "sinonimos_gl": [],
@@ -20340,8 +20340,8 @@
       "genero": null,
       "areas": [
         "Terapéutica",
-        "Anatomía",
-        "Patoloxías"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -20380,9 +20380,9 @@
       "genero": null,
       "areas": [
         "Terapéutica",
-        "Anatomía",
+        "Histoloxía",
         "Epidemioloxía",
-        "Histoloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -20420,8 +20420,8 @@
       "genero": null,
       "areas": [
         "Terapéutica",
-        "Anatomía",
-        "Patoloxías"
+        "Patoloxías",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -20461,10 +20461,10 @@
       "termo_gl": "vasotomía      f 5167  vaxina      f 5168  vaxinismo      m 5169  vaxinite      f 5170  vaxinose      f vaxinoplastia vaxinotomía VC VD",
       "genero": null,
       "areas": [
+        "Semioloxía",
         "Terapéutica",
-        "Anatomía",
         "Patoloxías",
-        "Semioloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -20579,8 +20579,8 @@
       "genero": null,
       "areas": [
         "Terapéutica",
-        "Anatomía",
-        "Fisioloxía"
+        "Fisioloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -20697,9 +20697,9 @@
       "termo_gl": "vilosidade      f 5284  vilosidade coriónica      f 5285  viremia      f 5286  virión      m VII par cranial VIII par cranial vilosidade placentaria VIP viríase virilla",
       "genero": null,
       "areas": [
+        "Etiopatoxenia",
         "Semioloxía",
-        "Histoloxía",
-        "Etiopatoxenia"
+        "Histoloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -20786,9 +20786,9 @@
       "termo_gl": "volume de reserva 5325  volume pulmonar      m 5326  volume residual      m 5327  vólvulo      m 5328  vómer      m inspiratoria      m volume tidal vólvulo intestinal",
       "genero": null,
       "areas": [
-        "Anatomía",
+        "Fisioloxía",
         "Patoloxías",
-        "Fisioloxía"
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -20828,8 +20828,8 @@
       "genero": null,
       "areas": [
         "Termos xerais",
-        "Farmacoloxía",
-        "Etiopatoxenia"
+        "Etiopatoxenia",
+        "Farmacoloxía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -20885,9 +20885,9 @@
       "genero": null,
       "areas": [
         "Termos xerais",
+        "Semioloxía",
         "Terapéutica",
-        "Patoloxías",
-        "Semioloxía"
+        "Patoloxías"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
@@ -20905,8 +20905,8 @@
       "termo_gl": "xinecólogo -ga      s 5385  xinecoloxía      f 5386  xinecomastia      f 5387  xínglimo      m 5388  xiringa      f XII par cranial xiro",
       "genero": null,
       "areas": [
-        "Anatomía",
-        "Semioloxía"
+        "Semioloxía",
+        "Anatomía"
       ],
       "sinonimos_gl": [],
       "variantes_gl": [],
