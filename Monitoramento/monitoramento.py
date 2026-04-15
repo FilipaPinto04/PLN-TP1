@@ -3,7 +3,7 @@ import json
 import re
 
 DECORATIVE_FONTS = {"4", "5", "6", "7", "8", "10", "11", "12", "13"}
-TERM_FONTS = {"0", "3"}   # bold-red  ou  bold-italic-red
+TERM_FONTS = {"0", "3"} 
 
 
 def nova_entrada(conceito):
@@ -18,17 +18,12 @@ def nova_entrada(conceito):
     }
 
 def e_termo(font, left):
-    """Devolve True se o elemento parece o início de um novo termo."""
     if font not in TERM_FONTS:
         return False
     return (60 <= left <= 70) or (100 <= left <= 115)
 
 
 def extrair_sinonimo_inline(texto):
-    """
-    Se o texto for 'Sin. Algo' ou 'Sin Algo', devolve lista de sinónimos.
-    Trata também múltiplos sinónimos separados por ';'.
-    """
     m = re.match(r'^Sin\.?\s+(.+)', texto, re.IGNORECASE)
     if m:
         partes = [p.strip().rstrip('.') for p in m.group(1).split(';')]
@@ -37,7 +32,6 @@ def extrair_sinonimo_inline(texto):
 
 
 def limpar_prefixo_rotulo(texto):
-    """Remove ': ' ou '. ' no início do texto (valor após rótulo)."""
     return re.sub(r'^[:\s,.]+', '', texto).strip()
 
 
@@ -45,7 +39,7 @@ def processar_glossario(xml_path, json_out):
     tree = ET.parse(xml_path)
     root = tree.getroot()
 
-    # MUDANÇA: Iniciamos como dicionário
+    # dicionario
     entries = {}
     current = None
     modo = None   
@@ -60,13 +54,12 @@ def processar_glossario(xml_path, json_out):
             if font in DECORATIVE_FONTS or not content:
                 continue
 
-            # Novo TERMO
+            # termo
             if e_termo(font, left):
                 termo = content.strip(" .,;:")
                 if not termo:
                     continue
                 if current:
-                    # MUDANÇA: Salva no dicionário usando o conceito como chave
                     entries[current["concept"]] = current
                 current = nova_entrada(termo)
                 modo = "desc"
@@ -78,39 +71,30 @@ def processar_glossario(xml_path, json_out):
 
             low = content.lower()
 
-            # --- Lógica de processamento de fontes (font 9, 2, 1) ---
-            # (Manter toda a lógica interna de processamento de 'modo' igual ao seu original)
-            # ... [Omitido para brevidade, permanece idêntico ao seu script original] ...
-            # ── 3. Símbolo ⇒ (font=9): este termo é uma sigla ────────────────
+            # processamento 
             if font == "9" and "⇒" in content:
                 modo = "sigla"
                 continue
 
-            # ── 4. Elementos em itálico (font=2) ─────────────────────────────
+            # itálicos (font=2) 
             if font == "2":
 
-                # 1. PRIORIDADE: Classe Gramatical (fem, masc, pl, misto)
-                # Se for uma destas palavras isoladas, É a classe.
+                # classe
                 if re.fullmatch(r'(fem|masc|pl|misto)(\.|\s)*', low.strip()):
                     current["classe"] = content.strip().strip('.')
-                    # Importante: mudamos o modo para algo que NÃO seja desc ou sinonimo
-                    # para evitar que o font 1 seguinte (pontuação) estrague tudo
                     modo = "pos_classe"
                     continue
-                # SAÍDA DE EMERGÊNCIA: Se encontrarmos um rótulo conhecido, 
-                # mudamos o modo IMEDIATAMENTE antes de processar.
+                # notas
                 if re.match(r'^notas?\b', low):
                     modo = "notas"
-                    # Não damos continue aqui, deixamos descer para o bloco 4d
+                # traducao
                 elif re.match(r'^em (espanhol|ingl[eê]s)', low):
-                    # O modo vai ser definido nos blocos 4b/4c
                     pass 
                 elif re.match(r'^ver\b', low):
-                    modo = "ver" # Modo temporário para referências
+                    modo = "ver"
 
-                # 4f. Sinónimo (Corrigido para não comer a descrição)
+                # sinónimos 
                 if re.search(r'\bsin\.?\b', low):
-                    # Se "ver" ficou na descrição, limpamos
                     current["description"] = re.sub(r'\s*ver$', '', current["description"], flags=re.IGNORECASE).strip()
                     parts = re.split(r'sin\.?\s*', content, flags=re.IGNORECASE)
                     if len(parts) > 1 and parts[1].strip():
@@ -118,7 +102,7 @@ def processar_glossario(xml_path, json_out):
                     modo = "sinonimo"
                     continue
 
-                # Se estamos no modo sinónimo e o texto é itálico, é continuação (ex: Metas Intermediárias)
+                # modo sinónimo passa a itálico - continuação
                 if modo == "sinonimo":
                     if current["sinonimos"]:
                         current["sinonimos"][-1] = (current["sinonimos"][-1] + " " + content.strip()).strip().rstrip('.')
@@ -140,7 +124,7 @@ def processar_glossario(xml_path, json_out):
                     espera_valor_rotulo = False
                     continue
 
-                # E. SIGLA (Vai para a descrição)
+                # sigla
                 if modo == "sigla":
                     alvo = content.strip().rstrip('.')
                     if alvo:
@@ -149,7 +133,7 @@ def processar_glossario(xml_path, json_out):
                     modo = "desc"
                     continue
 
-                # F. NOTAS E VER
+                #notas 
                 if re.match(r'^notas?\b', low):
                     modo = "notas"
                     continue
@@ -162,13 +146,13 @@ def processar_glossario(xml_path, json_out):
                         current["description"] = (current["description"] + " " + ref).strip()
                     continue
 
-                # G. TRADUÇÕES SEM RÓTULO (Continuações em itálico)
+                # lingua
                 if modo in ("espanhol", "ingles"):
                     lang_key = "spanish" if modo == "espanhol" else "english"
                     current[lang_key] = (current[lang_key] + " " + content.strip()).strip()
                     continue
 
-                # H. ITÁLICO GENÉRICO (Só entra aqui se não for nada do acima)
+                # fallback
                 clean = limpar_prefixo_rotulo(content)
                 if not clean: continue
                 if modo == "notas":
@@ -178,9 +162,8 @@ def processar_glossario(xml_path, json_out):
                     current["description"] = (current["description"] + " " + clean).strip()
                 continue
 
-            # ── 5. Texto normal (font=1): conteúdo/valores ───────────────────
+            # texto (font=1)
             if font == "1":
-                # A. Captura pontuação isolada (Mantém o ";" em Accountability)
                 if re.fullmatch(r'[\s,\.;:]+', content):
                     if modo in ("espanhol", "ingles"):
                         lang_key = "spanish" if modo == "espanhol" else "english"
@@ -191,13 +174,10 @@ def processar_glossario(xml_path, json_out):
                 if not clean:
                     continue
 
-                # B. Lógica de SINÓNIMO (Saída para Descrição)
+                # sinonimo (depois descrição)
                 if modo == "sinonimo":
-                    # Se o texto começa com letra maiúscula e é longo, 
-                    # ou se começa com ". ", é a descrição a começar.
                     if (len(clean) > 15 and clean[0].isupper()) or content.startswith(". "):
                         modo = "desc"
-                        # Não fazemos continue para ele cair no bloco de descrição abaixo
                     else:
                         if current["sinonimos"]:
                             current["sinonimos"][-1] = (current["sinonimos"][-1] + " " + clean).strip()
@@ -205,7 +185,7 @@ def processar_glossario(xml_path, json_out):
                             current["sinonimos"].append(clean)
                         continue
 
-                # C. TRADUÇÕES (Acumulação robusta)
+                # tradução
                 if modo == "espanhol":
                     current["spanish"] = (current["spanish"] + " " + clean).strip()
                     continue
@@ -213,9 +193,8 @@ def processar_glossario(xml_path, json_out):
                     current["english"] = (current["english"] + " " + clean).strip()
                     continue
 
-                # D. NOTAS (Mantendo a tua lógica de itens i, ii, a, b)
+                # notas
                 if modo == "notas":
-                    # Detecta i), ii), a), b) etc.
                     if re.match(r'^([ivxlcdm]+\)|[a-z]\))', clean.lower()):
                         current["notes"].append(clean)
                     elif current["notes"]:
@@ -224,18 +203,15 @@ def processar_glossario(xml_path, json_out):
                         current["notes"].append(clean)
                     continue
 
-                # E. DESCRIÇÃO (Modo Geral)
-                # Verifica se o modo é "ver" (referência) ou "desc"
+                # descrião - "ver" (referência) ou "desc"
                 if not current["description"].endswith(clean):
                     current["description"] = (current["description"] + " " + clean).strip()
                 continue
 
     if current:
-        # MUDANÇA: Salva o último termo no dicionário
         entries[current["concept"]] = current
 
-    # ── Pós-processamento ────────────────────────────────────────────────────
-    # MUDANÇA: Iteramos sobre os valores do dicionário
+    #dicionario
     for e in entries.values():
         e["description"] = re.sub(r'\s+', ' ', e["description"]).strip().lstrip('. ')
         
@@ -254,10 +230,9 @@ def processar_glossario(xml_path, json_out):
         e["classe"] = e["classe"].strip().strip('.')
 
     with open(json_out, "w", encoding="utf-8") as f:
-        # MUDANÇA: O arquivo agora conterá o objeto entries (dicionário)
         json.dump(entries, f, ensure_ascii=False, indent=4)
 
-    print(f"✓ {len(entries)} entradas extraídas → {json_out}")
+    print(f"{len(entries)} termos extraídos para {json_out}")
 
 if __name__ == "__main__":
     processar_glossario(

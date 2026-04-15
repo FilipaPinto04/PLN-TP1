@@ -6,7 +6,7 @@ import re
 XML_PATH  = "diccionari-multilinguee-de-la-covid-19.xml"
 JSON_PATH = "./dicionario_catala.json"
 
-COL_SPLIT = 442   # left >= este valor → coluna direita
+COL_SPLIT = 442   
 
 LANGS_LEFT  = ["oc", "eu", "gl", "es", "en", "fr", "it", "de"]
 LANGS_RIGHT = ["pt", "pt [PT]", "pt [BR]", "nl", "ar"]
@@ -29,7 +29,7 @@ def parse_xml(xml_path):
     entries = []
     current = None
     current_lang = None
-    modo = None          # None | "sigla" | "sinonimo"
+    modo = None         
     page_category = None
 
     def new_entry(id_val):
@@ -56,18 +56,15 @@ def parse_xml(xml_path):
             current["equivalentes"][lang]["classe"] = (c + " " + text).strip()
         else:
             t = current["equivalentes"][lang]["termo"]
-            # Separadores ';' fazem parte do termo (sinónimos da mesma língua)
             current["equivalentes"][lang]["termo"] = (t + " " + text).strip()
 
     for page in root.findall(".//page"):
 
-        # Categoria da página (font=0, não número)
         for t in page.findall(".//text[@font='0']"):
             txt = "".join(t.itertext()).strip()
             if txt and not txt.isdigit():
                 page_category = txt
 
-        # Recolher todos os elementos com conteúdo
         elements = []
         for t in page.findall(".//text"):
             content = "".join(t.itertext()).strip()
@@ -79,14 +76,12 @@ def parse_xml(xml_path):
             left = int(t.get("left", 0))
             elements.append((left, font, content))
 
-        # Separar em coluna esquerda e direita, mantendo a ordem original
+        # Separar em coluna esquerda e direita
         col_left  = [(f, c, l) for l, f, c in elements if l < COL_SPLIT]
         col_right = [(f, c, l) for l, f, c in elements if l >= COL_SPLIT]
 
-        # Processar primeiro a coluna esquerda, depois a direita
         for font, content, left in col_left + col_right:
 
-            # ── NOVO ID ───────────────────────────────────────────────
             if font == "1" and content.isdigit() and int(content) > 0:
                 if current:
                     entries.append(current)
@@ -98,24 +93,22 @@ def parse_xml(xml_path):
             if current is None:
                 continue
 
-            # ── RÓTULOS sigla / sin. ──────────────────────────────────
+            # sigla / sin
             if font == "1" and content.isdigit() and int(content) > 0:
                 col_atual = col_left + col_right
                 pos = col_atual.index((font, content, left))
                 proximo = next((f for f,c,l in col_atual[pos+1:pos+4] if c and f == "2"), None)
                 anterior = next(((f,c) for f,c,l in reversed(col_atual[:pos]) if c), (None,None))
                 if proximo is None or anterior[0] in ("4","10"):
-                    continue  # não é ID real
+                    continue  
 
-            # ── SEPARADOR ';' ─────────────────────────────────────────
+            # ;
             if is_separator(content):
-                # Se estamos numa língua, o ';' faz parte do termo dessa língua
                 if current_lang and current_lang in current["equivalentes"]:
                     add_to_lang(current_lang, ";")
-                # Se não há língua activa, é separador de siglas (ignorar)
                 continue
 
-            # ── TERMO PRINCIPAL / SIGLAS / SINÓNIMOS (font=2, negrito) ─
+            # termo ou sigla ou sin (font=2, negrito)
             if font == "2":
                 if not current["termo"]:
                     current["termo"] = content
@@ -132,13 +125,13 @@ def parse_xml(xml_path):
                     add_to_lang(current_lang, content)
                 continue
 
-            # ── LÍNGUAS E CLASSE GRAMATICAL (font=3, itálico) ──────────
+            # linguas e classe (font=3, itálico) 
             if font == "3":
                 if content in ALL_LANGS or "pt [" in content:
                     current_lang = content
                     if content not in current["equivalentes"]:
                         current["equivalentes"][content] = {"termo": "", "classe": ""}
-                    modo = None # Ao mudar de língua, sai do modo sigla/sinonimo
+                    modo = None 
                 elif content == "CAS":
                     current_lang = "CAS"
                     modo = None
@@ -159,24 +152,22 @@ def parse_xml(xml_path):
                         current["classe_gramatical"] = (g + " " + content).strip()
                 continue
 
-            # ── ÁRABE (font=4) — NUNCA é definição ────────────────────
+            # árabe (font=4)
             if font == "4":
                 if current_lang == "ar":
                     if "ar" not in current["equivalentes"]:
                         current["equivalentes"]["ar"] = {"termo": "", "classe": ""}
                     t_ar = current["equivalentes"]["ar"]["termo"]
                     current["equivalentes"]["ar"]["termo"] = (t_ar + " " + content).strip()
-                # Se não estamos em árabe, ignorar (pode ser artefacto)
                 continue
 
-            # ── NOTAS (font=5 e font=6) ───────────────────────────────
+            # notas (font=5 e font=6)
             if font in ["5", "6"]:
                 current_lang = None
                 modo = None
                 texto = content.strip()
                 
-                # Se o texto começa com "Nota:", "1." ou "2.", criamos uma nova entrada na lista
-                # Caso contrário, anexamos à última nota aberta para não partir frases
+                # texto começa com "Nota:", "1" ou "2" - nova entrada na lista
                 if texto.startswith("Nota:") or (texto[0:1].isdigit() and texto[1:2] == "."):
                     current["notas"].append(texto)
                 else:
@@ -186,13 +177,12 @@ def parse_xml(xml_path):
                         current["notas"].append(texto)
                 continue
 
-            # ── TEXTO NORMAL (font=1) ────────────────────────────────
+            # texto (font=1) 
             if font in ["1"]:
-                # Se estávamos em árabe e aparece font=1 → árabe terminou
                 if current_lang == "ar":
                     current_lang = None
 
-                # Cabeçalho de secção (maiúsculas + ponto)
+                # Cabeçalho secção (maiúsculas + ponto)
                 if content.isupper() and content.endswith(".") and len(content) > 4:
                     current_lang = None
                     current["categoria"] = content.rstrip(".")
@@ -217,25 +207,24 @@ def parse_xml(xml_path):
                     modo = "veg"
                     continue
 
-                # "CAS" especial
+                # "CAS" exceção
                 if current_lang == "CAS":
                     current["codigos"]["CAS"] = content
                     current_lang = None
                     continue
 
-                # Tradução activa (não árabe — árabe é só font=4)
+                # Tradução  
                 if current_lang and current_lang != "ar" and current_lang in current["equivalentes"]:
                     add_to_lang(current_lang, content)
                     continue
 
-                # Sem língua activa → definição
+                # Sem língua activa - definição
                 if not content.isdigit() and content not in ("veg.",):
                     current["definicao"] = (current["definicao"] + " " + content).strip()
-    # Adiciona a última entrada depois de processar todas as páginas
     if current:
         entries.append(current)
 
-    # ── Deduplicação: mantém a versão mais completa de cada id ────────
+    # tirar redundâncias
     seen_ids = {}
     for e in entries:
         id_val = e["id"]
@@ -247,14 +236,12 @@ def parse_xml(xml_path):
                 seen_ids[id_val] = e
     entries = sorted(seen_ids.values(), key=lambda e: e["id"])
 
-    # ── Limpeza final ─────────────────────────────────────────────────
+    # limpeza final 
     for e in entries:
-        # Remover ';' soltos no início/fim dos termos de cada língua
         for lang, t in e["equivalentes"].items():
             t["termo"] = t["termo"].strip(" ;").strip()
         e["definicao"] = e["definicao"].strip(" ;").strip()
 
-        # Remover campos vazios
         if not e.get("siglas"):             e.pop("siglas", None)
         if not e.get("sinonimos"):          e.pop("sinonimos", None)
         if not e.get("denominacio_comuna"): e.pop("denominacio_comuna", None)
@@ -266,18 +253,13 @@ def parse_xml(xml_path):
 
 def main():
     print("A iniciar o processamento do XML...")
-    # entries é a lista original devolvida pelo parse_xml
     entries = parse_xml(XML_PATH)
     
-    # --- NOVA LÓGICA: CONVERSÃO PARA DICIONÁRIO ---
     dicionario_final = {}
     for e in entries:
-        # Usamos o termo principal (Catalão) como chave
         termo_chave = e.get("termo", "").strip()
         
         if termo_chave:
-            # Se o termo já existir (homónimos), criamos uma chave única ou lista
-            # Para o TP1, o mais simples é usar o termo como chave
             dicionario_final[termo_chave] = {
                 "id": e.get("id"),
                 "classe_gramatical": e.get("classe_gramatical"),
@@ -285,29 +267,23 @@ def main():
                 "equivalentes": e.get("equivalentes"),
                 "categoria": e.get("categoria"),
                 "notas": e.get("notas", []),
-                # Incluímos os outros campos caso existam
                 "siglas": e.get("siglas"),
                 "sinonimos": e.get("sinonimos"),
                 "codigos": e.get("codigos")
             }
-            # Removemos campos que ficaram como None para manter o JSON limpo
             dicionario_final[termo_chave] = {k: v for k, v in dicionario_final[termo_chave].items() if v is not None}
 
     total_termos = len(dicionario_final)
     
-    # Garantir que a pasta existe
     diretorio = os.path.dirname(JSON_PATH)
     if diretorio:
         os.makedirs(diretorio, exist_ok=True)
     
-    # Guardar como objeto JSON { }
     with open(JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(dicionario_final, f, ensure_ascii=False, indent=2)
     
-    print("-" * 30)
-    print(f"Sucesso! Foram escritos {total_termos} termos únicos no dicionário.")
+    print(f"Foram escritos {total_termos} termos únicos no dicionário.")
     print(f"Destino: {JSON_PATH}")
-    print("-" * 30)
 
 if __name__ == "__main__":
     main()

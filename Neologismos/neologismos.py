@@ -9,13 +9,12 @@ def analisar():
     json_path = os.path.join(base_dir, "neologismos.json")
 
     if not os.path.exists(xml_path):
-        print(f"❌ Ficheiro {xml_path} não encontrado.")
+        print(f"Ficheiro {xml_path} não encontrado.")
         return
 
     tree = ET.parse(xml_path)
     root = tree.getroot()
 
-    # Alterado para dicionário
     entries = {}
     current_entry = None
 
@@ -30,7 +29,6 @@ def analisar():
 
             if is_concept_start:
                 if current_entry:
-                    # Processa e adiciona ao dicionário usando o conceito como chave
                     resultado = processar_campos(current_entry)
                     entries[resultado["concept"]] = resultado
                 
@@ -45,7 +43,6 @@ def analisar():
                 else:
                     current_entry["raw_text"] += " " + txt
 
-    # Processa o último termo
     if current_entry:
         resultado = processar_campos(current_entry)
         entries[resultado["concept"]] = resultado
@@ -53,7 +50,7 @@ def analisar():
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(entries, f, ensure_ascii=False, indent=4)
     
-    print(f"✅ Concluído! JSON gerado como dicionário com {len(entries)} termos.")
+    print(f"{len(entries)} termos encontrados.")
 
 def processar_campos(item):
     full_text = re.sub(r'\s+', ' ', item["raw_text"]).strip()

@@ -5,16 +5,14 @@ import re
 
 def processar_termos_medicos(xml_input="termos.xml", json_output="termos.json"):
     if not os.path.exists(xml_input):
-        print(f"❌ Erro: '{xml_input}' não encontrado.")
+        print(f"Erro: '{xml_input}' não encontrado.")
         return
-
-    print(f"⏳ Processando XML e gerando Dicionário...")
     
     try:
         tree = ET.parse(xml_input)
         root = tree.getroot()
     except Exception as e:
-        print(f"❌ Erro ao ler XML: {e}")
+        print(f"Erro ao ler XML: {e}")
         return
 
     linhas_pdf = []
@@ -36,7 +34,7 @@ def processar_termos_medicos(xml_input="termos.xml", json_output="termos.json"):
     if buffer_linha:
         linhas_pdf.append(buffer_linha)
 
-    # Mudança aqui: usamos um dicionário em vez de uma lista
+    # dicionário 
     resultado_final = {}
     encontrou_inicio = False
 
@@ -67,19 +65,14 @@ def processar_termos_medicos(xml_input="termos.xml", json_output="termos.json"):
             else:
                 continue
 
-        # Adicionando ao dicionário (a chave é o conceito)
+        # guardar
         if concept and description:
-            # O .strip() garante que não fiquem espaços sobrando na chave
             resultado_final[concept] = description
 
     with open(json_output, 'w', encoding='utf-8') as f:
-        # Salvando o dicionário diretamente
         json.dump(resultado_final, f, ensure_ascii=False, indent=4)
     
-    print(f"✅ SUCESSO! {len(resultado_final)} termos mapeados no dicionário.")
-    if resultado_final:
-        primeiro_termo = list(resultado_final.keys())[0]
-        print(f"🚀 Exemplo: {primeiro_termo} -> {resultado_final[primeiro_termo]}")
+    print(f"{len(resultado_final)} termos guardados no dicionário.")
 
 if __name__ == "__main__":
     processar_termos_medicos()

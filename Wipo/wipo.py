@@ -21,13 +21,10 @@ def parse_wipo_xml(xml_path, json_path):
     current_lang = None
     blacklist = ["MULTILINGUAL GLOSSARY", "WIPO PEARL", "COVID-19 GLOSSARY", "FOREWORD", "CONTENTS"]
 
-    print(f"[1/2] A analisar páginas usando filtro de fonte (font='9')...")
-
     for page in root.findall('.//page'):
         page_num = page.get('number')
         
         for text in page.findall('.//text'):
-            # Captura o texto e o atributo da fonte
             content = "".join(text.itertext()).strip()
             font_id = text.get('font')
             
@@ -37,20 +34,17 @@ def parse_wipo_xml(xml_path, json_path):
             content_upper = content.upper()
             is_bold = text.find('b') is not None
 
-            # --- ESTRATÉGIA BASEADA NA FONT="9" ---
-            # Se a fonte for 9, é categoricamente uma CATEGORIA
+            # categoria (font 9)
             if font_id == "9":
                 if current_entry:
-                    # Limpa colchetes se existirem e guarda
                     limpo = content.replace("[", "").replace("]", "").strip()
                     if current_entry["categoria"]:
                         current_entry["categoria"] += " " + limpo
                     else:
                         current_entry["categoria"] = limpo
-                continue # Salta para o próximo elemento para não tratar como termo/definição
+                continue 
 
-            # 1. NOVO TERMO (Negrito e não é sigla de língua)
-            # Geralmente termos EN têm uma fonte específica também (podes verificar se é a 4 ou 2)
+            # termo (negrito e não é sigla de língua)
             if is_bold and content_upper not in mapa_linguas and len(content) > 3:
                 if current_entry:
                     data["entradas"].append(current_entry)
@@ -64,11 +58,11 @@ def parse_wipo_xml(xml_path, json_path):
                 }
                 current_lang = "EN"
 
-            # 2. MUDANÇA DE LÍNGUA
+            # mudar lingua
             elif content_upper in mapa_linguas:
                 current_lang = content_upper
             
-            # 3. ACUMULAR CONTEÚDO (DEFINIÇÕES OU TRADUÇÕES)
+            # guardar campos
             elif current_entry:
                 if current_lang == "EN":
                     if content != current_entry["termo_en"]:
@@ -77,6 +71,7 @@ def parse_wipo_xml(xml_path, json_path):
                     lang_key = mapa_linguas[current_lang]
                     current_entry["traducoes"][lang_key] = (current_entry["traducoes"][lang_key] + " " + content).strip()
 
+    #guardar
     if current_entry:
         data["entradas"].append(current_entry)
 
@@ -84,7 +79,7 @@ def parse_wipo_xml(xml_path, json_path):
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print(f"Concluído! {data['total_entradas']} termos extraídos. A categoria deve estar preenchida!")
+    print(f"{data['total_entradas']} termos extraídos")
 
 if __name__ == "__main__":
     parse_wipo_xml("WIPOPearl_COVID-19_Glossary.xml", "wipo.json")

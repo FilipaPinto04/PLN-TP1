@@ -1,40 +1,21 @@
-"""
-icnp_xml_to_json.py
--------------------
-Analisa o XML gerado a partir do ICNP_2019_Português.pdf
-e produz um ficheiro JSON estruturado.
-
-Uso:
-    python icnp_xml_to_json.py
-"""
-
 import xml.etree.ElementTree as ET
 import json
 import re
 import os
 
-# ---------------------------------------------------------------------------
-# Configuração específica deste PDF
-# ---------------------------------------------------------------------------
-
 VOCAB_PAGE_START = 1
 VOCAB_PAGE_END   = 141
 
-# Thresholds horizontais das colunas (left)
-COL_CODE_MAX  = 230   # left < 230  → coluna code+axis
-COL_TERM_MAX  = 510   # 230 <= left < 510 → coluna term
-                      # left >= 510 → coluna description
+COL_CODE_MAX  = 230   
+COL_TERM_MAX  = 510   
 
-FONT_HEADER = "2"     # cabeçalhos da tabela ("code", "axis term", "description")
-FONT_DATA   = "3"     # dados da tabela
-FONT_FOOTER = "0"     # rodapé ("CIPE", data, número de página)
+FONT_HEADER = "2"     
+FONT_DATA   = "3"    
+FONT_FOOTER = "0"    
 
-# Regex para extrair code e axis da coluna esquerda: "10041692  F"
+# extrair code e axis da coluna esquerda: "10041692  F"
 CODE_AXIS_RE = re.compile(r"^(\d+)\s+([A-Z]+)$")
 
-# ---------------------------------------------------------------------------
-# Pipeline
-# ---------------------------------------------------------------------------
 
 def get_text(elem):
     return "".join(elem.itertext()).strip()
@@ -45,10 +26,8 @@ def xml_to_json(xml_path, json_path):
     root = tree.getroot()
 
     entries   = []
-    current   = None  # entrada em curso
-    last_top  = None  # top da última linha de description (para continuações)
-
-    print(f"[2/3] A analisar...")
+    current   = None  
+    last_top  = None  
 
     for page in root.findall("page"):
         num = int(page.get("number"))
@@ -71,11 +50,10 @@ def xml_to_json(xml_path, json_path):
             if font != FONT_DATA:
                 continue
 
-            # --- Coluna code + axis ---
+            # coluna code + axis 
             if left < COL_CODE_MAX:
                 m = CODE_AXIS_RE.match(content)
                 if m:
-                    # Guarda entrada anterior
                     if current:
                         entries.append(current)
                     current = {
@@ -86,7 +64,7 @@ def xml_to_json(xml_path, json_path):
                     }
                     last_top = None
 
-            # --- Coluna term ---
+            # termo
             elif left < COL_TERM_MAX:
                 if current is not None:
                     if current["term"]:
@@ -94,7 +72,7 @@ def xml_to_json(xml_path, json_path):
                     else:
                         current["term"] = content
 
-            # --- Coluna description ---
+            # descrição
             else:
                 if current is not None:
                     if current["description"]:
@@ -103,11 +81,10 @@ def xml_to_json(xml_path, json_path):
                         current["description"] = content
                     last_top = top
 
-    # Adiciona a última entrada
     if current:
         entries.append(current)
 
-    print(f"      {len(entries)} entradas extraídas.")
+    print(f"{len(entries)} termos extraídos.")
 
     output = {
         "fonte":          "CIPE® 2019 - Classificação Internacional para a Prática de Enfermagem",
@@ -118,11 +95,9 @@ def xml_to_json(xml_path, json_path):
         "entradas":       entries
     }
 
-    print(f"[3/3] A guardar JSON: {json_path}")
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"Concluído!")
     return output
 
 
