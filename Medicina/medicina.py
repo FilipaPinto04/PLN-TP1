@@ -1,400 +1,165 @@
 import xml.etree.ElementTree as ET
-import json
-import re
-import sys
-import os
+import re, json, os
 
-# ---------------------------------------------------------------------------
-# Configuração
-# ---------------------------------------------------------------------------
+XML_PATH = "medicina.xml"
+JSON_OUT = "medicina.json"
 
-# Páginas do vocabulário principal (o índice do PDF indica página 21 a 546)
-VOCAB_PAGE_START = 21
-VOCAB_PAGE_END   = 546
+# Regex para ID, Termo e Classe
+ENTRY_RE = re.compile(r"^(\d+)\s+(.+?)\s+([mfas]|m/f|mpl|fpl|adj\.?|adv\.?|v\.?|s\.?|loc\.?|prep\.?)$")
+ID_TERMO_RE = re.compile(r"^(\d+)\s+(.+)$")
 
-# Threshold horizontal para separar coluna esquerda da direita
-COLUMN_SPLIT = 320  # left < 320 => coluna esquerda; left >= 320 => coluna direita
+# Regex para SIN, VAR e Notas (mais flexível)
+SIN_RE   = re.compile(r"^(SIN\.|VAR\.)[-\s]+(.*)", re.IGNORECASE)
+NOTA_RE  = re.compile(r"^Nota\.[-\s]+(.*)", re.IGNORECASE)
+LANGS    = {"es", "en", "pt"}
 
-# Áreas médicas conhecidas no dicionário
-AREAS_KNOWN = {
-    "Anatomía", "Anatomía patolóxica", "Bioquímica", "Cirurxía", "Dermatoloxía",
-    "Embrioloxía", "Endocrinoloxía", "Epidemioloxía", "Etiopatoxenia",
-    "Farmacoloxía", "Fisioloxía", "Genética", "Hematoloxía", "Histoloxía",
-    "Inmunoloxía", "Microbioloxía", "Neuroloxía", "Oncoloxía", "Patoloxías",
-    "Pediatría", "Psiquiatría", "Radioloxía", "Semioloxía", "Terapéutica",
-    "Termos xerais", "Uroloxía", "Xinecobstetricia", "Xinecoloxía",
-    "Obstetricia", "Oftalmoloxía", "Ortopedia", "Reumatoloxía", "Traumatoloxía",
-    "Medicina legal", "Saúde pública", "Xenética"
-}
+def gtext(el):
+    return "".join(el.itertext()).strip()
 
-# ---------------------------------------------------------------------------
-# Expressões regulares
-# ---------------------------------------------------------------------------
-
-GENDER_RE   = re.compile(r"\s+(m|f|m\s*/\s*f|f\s*/\s*m)\s*$")
-LANG_PREFIX = re.compile(r"^\s*(es|en|pt|la)\s+(.+)$", re.DOTALL)
-SIN_RE      = re.compile(r"^\s*SIN\.\-\s*(.+)$")
-VAR_RE      = re.compile(r"^\s*VAR\.\-\s*(.+)$")
-VID_RE      = re.compile(r"^\s*Vid\.\-\s*(.+)$")
-ACR_RE      = re.compile(r"^\s*([A-Z]{2,})\s+Vid\.\-\s*(.+)$")
-
-# ---------------------------------------------------------------------------
-# Funções auxiliares de extração do XML
-# ---------------------------------------------------------------------------
-
-def get_text(elem):
-    """Extrai texto limpo de um elemento XML (ignora tags internas)."""
-    return "".join(elem.itertext()).strip()
-
-def parse_page_to_lines(page):
-    """
-    Lê todos os <text> de uma página e devolve lista de
-    (top, coluna, left, conteúdo) ordenada por top e depois left.
-    """
-    lines = []
-    for text_elem in page.findall("text"):
-        top     = int(text_elem.get("top"))
-        left    = int(text_elem.get("left"))
-        content = get_text(text_elem)
-        if not content:
-            continue
-        col = "left" if left < COLUMN_SPLIT else "right"
-        lines.append((top, col, left, content))
-    lines.sort(key=lambda x: (x[0], x[2]))
-    return lines
-
-def merge_close_lines(lines, threshold=5):
-    """
-    Junta fragmentos de texto na mesma linha (top próximo) e mesma coluna.
-    Mantém o left mínimo do grupo.
-    """
-    merged = []
-    for top, col, left, content in lines:
-        if merged and abs(top - merged[-1][0]) <= threshold and col == merged[-1][1]:
-            prev_top, prev_col, prev_left, prev_content = merged[-1]
-            merged[-1] = (prev_top, prev_col, min(prev_left, left), prev_content + " " + content)
-        else:
-            merged.append((top, col, left, content))
-    return merged
-
-def split_columns(merged_lines):
-    """Separa as linhas em coluna esquerda e coluna direita."""
-    left_col  = [(top, left, txt) for top, col, left, txt in merged_lines if col == "left"]
-    right_col = [(top, left, txt) for top, col, left, txt in merged_lines if col == "right"]
-    return left_col, right_col
-
-def is_header_or_footer(text):
-    """Detecta cabeçalhos ('Vocabulario') e rodapés (número de página sozinho)."""
-    t = text.strip()
-    if t in ("Vocabulario", "V"):
-        return True
-    if re.fullmatch(r"\d{1,3}", t):
-        return True
-    return False
-
-def clean_col(col_lines):
-    """Remove cabeçalhos, rodapés e linhas vazias de uma coluna."""
-    return [(top, left, txt) for top, left, txt in col_lines
-            if txt.strip() and not is_header_or_footer(txt.strip())]
-
-# ---------------------------------------------------------------------------
-# Funções auxiliares de parsing de entradas
-# ---------------------------------------------------------------------------
-
-def parse_areas(text):
-    """Extrai áreas médicas de uma linha (podem estar separadas por espaços)."""
-    areas = []
-    parts = re.split(r"\s{2,}|\t", text.strip())
-    for p in parts:
-        if p.strip() in AREAS_KNOWN:
-            areas.append(p.strip())
-    if not areas:
-        for area in AREAS_KNOWN:
-            if area in text:
-                areas.append(area)
-    return list(dict.fromkeys(areas))
-
-def split_values(text):
-    """Divide múltiplos valores separados por ';', limpa espaços e artefactos."""
-    parts = [v.strip() for v in text.split(";") if v.strip()]
-    cleaned = []
-    for p in parts:
-        p = re.sub(r"\s+\([a-z]+\)$", "", p).strip()  # remove sufixo "(sg)"
-        p = re.sub(r"^\([a-z]+\)\s+", "", p).strip()  # remove prefixo "(sg)"
-        if p:
-            cleaned.append(p)
-    return cleaned
-
-# ---------------------------------------------------------------------------
-# Parsing de um bloco de entrada
-# ---------------------------------------------------------------------------
-
-def parse_entry_block(lines_block):
-    """
-    Recebe uma lista de strings (linhas de uma entrada numerada)
-    e devolve um dicionário com todos os campos extraídos.
-    """
-    if not lines_block:
-        return None
-
-    entry = {
-        "id": None,
-        "termo_gl": None,
-        "genero": None,
+def new_entry(num, termo, genero):
+    termo_limpo = termo.strip()
+    termo_limpo = re.sub(r"\s+[as]$", "", termo_limpo)
+    termo_limpo = re.sub(r"\s+", " ", termo_limpo)
+    
+    return {
+        "id": str(num) if num else "rem",
+        "termo": termo_limpo,
+        "genero": genero.strip() if genero else "",
         "areas": [],
-        "sinonimos_gl": [],
-        "variantes_gl": [],
-        "traduccions": {"es": [], "en": [], "pt": [], "la": []},
-        "remissoes": [],
-        "acronimos": []
+        "sinonimos": [],
+        "variantes": [],
+        "notas": [],
+        "traducoes": {l: [] for l in LANGS},
     }
 
-    # --- Linha principal: número + termo + género ---
-    first = lines_block[0].strip()
-    m = re.match(r"^(\d+)\s+(.+)$", first)
-    if not m:
-        return None
+def add_lang_term(current, lang, text):
+    if not text.strip() or text.strip() == ";": return
+    # Limpeza de caracteres residuais de formatação
+    text = text.replace("•", "").strip()
+    partes = [p.strip() for p in re.split(r"\s*;\s*", text) if p.strip()]
+    for p in partes:
+        if p and p not in current["traducoes"][lang]:
+            current["traducoes"][lang].append(p)
 
-    entry["id"] = int(m.group(1))
-    rest = m.group(2).strip()
-
-    gm = GENDER_RE.search(rest)
-    if gm:
-        entry["genero"] = gm.group(1).strip()
-        entry["termo_gl"] = rest[:gm.start()].strip()
-    else:
-        entry["termo_gl"] = rest
-
-    # --- Verifica se o termo continuou na linha seguinte ---
-    start_idx = 1
-    if len(lines_block) > 1:
-        second = lines_block[1].strip()
-        if (not LANG_PREFIX.match(second)
-                and not re.match(r"^\d+\s+", second)
-                and not SIN_RE.match(second)
-                and not VAR_RE.match(second)
-                and not VID_RE.match(second)
-                and not ACR_RE.match(second)
-                and not parse_areas(second)
-                and entry["genero"] is None):
-            combined = entry["termo_gl"] + " " + second
-            gm2 = GENDER_RE.search(combined)
-            if gm2:
-                entry["genero"] = gm2.group(1).strip()
-                entry["termo_gl"] = combined[:gm2.start()].strip()
-            else:
-                entry["termo_gl"] = combined
-            start_idx = 2
-
-    # --- Pré-processamento: detecta termos de remissão sem número ---
-    # São linhas sem prefixo de língua seguidas imediatamente de "Vid.-"
-    cleaned_lines = []
-    i = start_idx
-    while i < len(lines_block):
-        line = lines_block[i].strip()
-        if i + 1 < len(lines_block):
-            next_line = lines_block[i + 1].strip()
-            if (not LANG_PREFIX.match(line)
-                    and not re.match(r"^\d+\s+", line)
-                    and not SIN_RE.match(line)
-                    and not VAR_RE.match(line)
-                    and not ACR_RE.match(line)
-                    and VID_RE.match(next_line)):
-                vid_target = VID_RE.match(next_line).group(1)
-                cleaned_lines.append(f"__REMISSAO_TERM__ {line.strip()} -> {vid_target}")
-                i += 2
-                continue
-        cleaned_lines.append(line)
-        i += 1
-
-    # --- Parsing linha a linha ---
-    current_lang = None
-
-    for line in cleaned_lines:
-        line_s = line.strip()
-        if not line_s:
-            continue
-
-        # Abreviaturas isoladas como "(sg)" — ignorar
-        if re.fullmatch(r"\([a-z]+\)", line_s):
-            continue
-
-        # Termo de remissão pré-processado
-        if line_s.startswith("__REMISSAO_TERM__"):
-            entry["remissoes"].append(line_s.replace("__REMISSAO_TERM__ ", ""))
-            current_lang = None
-            continue
-
-        # Acrónimo com Vid.
-        acr_m = ACR_RE.match(line_s)
-        if acr_m:
-            entry["acronimos"].append({
-                "sigla": acr_m.group(1),
-                "vid": acr_m.group(2).strip()
-            })
-            current_lang = None
-            continue
-
-        # Remissão simples: "Vid.- termo"
-        vid_m = VID_RE.match(line_s)
-        if vid_m:
-            entry["remissoes"].append(vid_m.group(1).strip())
-            current_lang = None
-            continue
-
-        # Sinónimos: "SIN.- ..."
-        sin_m = SIN_RE.match(line_s)
-        if sin_m:
-            entry["sinonimos_gl"].extend(split_values(sin_m.group(1)))
-            current_lang = None
-            continue
-
-        # Variantes: "VAR.- ..."
-        var_m = VAR_RE.match(line_s)
-        if var_m:
-            entry["variantes_gl"].extend(split_values(var_m.group(1)))
-            current_lang = None
-            continue
-
-        # Prefixo de língua: "es ...", "en ...", "pt ...", "la ..."
-        lang_m = LANG_PREFIX.match(line_s)
-        if lang_m:
-            current_lang = lang_m.group(1)
-            vals = split_values(lang_m.group(2))
-            entry["traduccions"][current_lang].extend(vals)
-            continue
-
-        # Continuação de linha de tradução (fragmento que quebrou para a linha seguinte)
-        if current_lang:
-            is_remissao  = bool(re.search(r"Vid\.\-", line_s))
-            is_novo_acr  = bool(re.match(r"^[A-Z]{2,}\s", line_s))
-            is_lang_line = bool(LANG_PREFIX.match(line_s))
-            is_sin_var   = bool(SIN_RE.match(line_s) or VAR_RE.match(line_s))
-            if not is_remissao and not is_novo_acr and not is_lang_line and not is_sin_var:
-                trad = entry["traduccions"][current_lang]
-                # Se o último valor estava incompleto, concatena
-                if trad and len(trad[-1]) < 20 and not trad[-1].endswith("]") and not trad[-1].endswith(")"):
-                    trad[-1] = trad[-1] + " " + line_s.strip()
-                else:
-                    trad.extend(split_values(line_s))
-                continue
-            else:
-                current_lang = None
-
-        # Área médica
-        areas = parse_areas(line_s)
-        if areas:
-            entry["areas"].extend(areas)
-            entry["areas"] = list(dict.fromkeys(entry["areas"]))
-            continue
-
-        # Remissão inline (vid no meio da linha)
-        vid_inline = re.search(r"Vid\.\-\s*(.+)$", line_s)
-        if vid_inline:
-            entry["remissoes"].append(vid_inline.group(1).strip())
-            continue
-
-    # --- Deduplicação ---
-    for lang in entry["traduccions"]:
-        entry["traduccions"][lang] = list(dict.fromkeys(entry["traduccions"][lang]))
-    entry["remissoes"]    = list(dict.fromkeys(entry["remissoes"]))
-    entry["sinonimos_gl"] = list(dict.fromkeys(entry["sinonimos_gl"]))
-
-    return entry
-
-# ---------------------------------------------------------------------------
-# Extração dos blocos de uma coluna
-# ---------------------------------------------------------------------------
-
-def extract_column_blocks(col_lines):
-    """
-    Agrupa as linhas de uma coluna em blocos por entrada numerada.
-    Cada novo número de entrada inicia um bloco.
-    """
-    blocks   = []
-    current  = []
-
-    for _, left, txt in col_lines:
-        t = txt.strip()
-        if re.match(r"^\d+\s+", t):
-            if current:
-                blocks.append(current)
-            current = [t]
-        else:
-            current.append(t)
-
-    if current:
-        blocks.append(current)
-
-    return blocks
-
-# ---------------------------------------------------------------------------
-# Pipeline principal
-# ---------------------------------------------------------------------------
-
-def xml_to_dict(xml_path: str) -> dict:
-    """
-    Lê um ficheiro XML gerado pelo pdftohtml e extrai todas as entradas
-    do vocabulário médico, devolvendo um dicionário estruturado.
-    """
-    print(f"A carregar XML: {xml_path}")
+def parse_xml(xml_path):
     tree = ET.parse(xml_path)
     root = tree.getroot()
+    entries = []
+    current = None
+    current_lang = None
 
-    all_entries = []
-    seen_ids    = set()
+    def flush():
+        nonlocal current
+        if current:
+            if any(current["traducoes"].values()) or current["id"] != "rem":
+                entries.append(current)
+        current = None
 
-    vocab_pages = [
-        p for p in root.findall("page")
-        if VOCAB_PAGE_START <= int(p.get("number")) <= VOCAB_PAGE_END
-    ]
-    print(f"Páginas a processar: {len(vocab_pages)} ({VOCAB_PAGE_START}–{VOCAB_PAGE_END})")
+    for page in root.findall("page"):
+        elems = []
+        for t in page.findall("text"):
+            c = gtext(t)
+            if not c: continue
+            top, left, font = int(t.get("top")), int(t.get("left")), t.get("font")
+            if top < 50 or top > 950: continue 
+            elems.append((top, left, font, c))
 
-    for page in vocab_pages:
-        raw_lines           = parse_page_to_lines(page)
-        merged              = merge_close_lines(raw_lines)
-        left_col, right_col = split_columns(merged)
-        left_col            = clean_col(left_col)
-        right_col           = clean_col(right_col)
+        col_esq = sorted([e for e in elems if e[1] < 300], key=lambda x: (x[0], x[1]))
+        col_dir = sorted([e for e in elems if e[1] >= 300], key=lambda x: (x[0], x[1]))
 
-        for col in (left_col, right_col):
-            blocks = extract_column_blocks(col)
-            for block in blocks:
-                entry = parse_entry_block(block)
-                if entry and entry["id"] not in seen_ids and entry["id"] >= 10 and entry["termo_gl"]:
-                    seen_ids.add(entry["id"])
-                    all_entries.append(entry)
+        for top, left, font, content in col_esq + col_dir:
+            
+            # Novo Termo
+            m_full = ENTRY_RE.match(content)
+            m_id   = ID_TERMO_RE.match(content)
+            
+            if font == "3" or m_full or m_id:
+                if m_full:
+                    flush()
+                    current = new_entry(m_full.group(1), m_full.group(2), m_full.group(3))
+                    current_lang = None
+                    continue
+                elif m_id:
+                    flush()
+                    current = new_entry(m_id.group(1), m_id.group(2), "")
+                    current_lang = None
+                    continue
+                elif len(content) > 3 and not content.startswith(("es ", "en ", "pt ")):
+                    flush()
+                    current = new_entry(None, content, "")
+                    current_lang = None
+                    continue
 
-    all_entries.sort(key=lambda e: e["id"])
-    print(f"Entradas extraídas: {len(all_entries)}")
+            if not current: continue
 
-    return {
-        "fonte":          "Vocabulario de Medicina (galego-español-inglés-portugués)",
-        "editora":        "Universidade de Santiago de Compostela",
-        "ano":            2008,
-        "total_entradas": len(all_entries),
-        "entradas":       all_entries
-    }
+            # Áreas (font 6)
+            if font == "6":
+                # Divide por múltiplos espaços para limpar áreas como "Fisioloxía   Anatomía"
+                for a in re.split(r"\s{2,}", content):
+                    if a.strip() and a.strip() not in current["areas"]:
+                        current["areas"].append(a.strip())
+            
+            # Sinónimos e Notas (font 5)
+            elif font == "5" or "Nota" in content:
+                sm = SIN_RE.match(content)
+                nm = NOTA_RE.match(content)
+                if sm:
+                    tipo = "sinonimos" if "SIN" in sm.group(1).upper() else "variantes"
+                    for p in re.split(r"\s*;\s*", sm.group(2)):
+                        if p.strip(): current[tipo].append(p.strip())
+                elif nm:
+                    current["notas"].append(nm.group(1).strip())
+                elif "SIN.-" in content: # Fallback para formatos colados
+                    txt = content.replace("SIN.-", "").strip()
+                    for p in re.split(r"\s*;\s*", txt):
+                        if p.strip(): current["sinonimos"].append(p.strip())
 
+            # Traduções
+            elif content.strip()[:2] in LANGS and (content.strip()[2:3] == " " or len(content.strip()) == 2):
+                lang = content.strip()[:2]
+                current_lang = lang
+                resto = content.strip()[2:].strip()
+                if resto:
+                    add_lang_term(current, lang, resto)
+            
+            elif (font == "7" or font == "0") and current_lang:
+                add_lang_term(current, current_lang, content)
 
-def xml_to_json(xml_path: str, json_path: str = None) -> str:
-    """
-    Converte o XML para JSON e guarda o ficheiro.
-    Devolve o caminho do ficheiro JSON gerado.
-    """
-    if json_path is None:
-        json_path = os.path.splitext(xml_path)[0] + ".json"
+    flush()
+    return entries
 
-    dicionario = xml_to_dict(xml_path)
+def main():
+    print("[MED] A processar XML...")
+    entries = parse_xml(XML_PATH)
 
-    with open(json_path, "w", encoding="utf-8") as f:
-        json.dump(dicionario, f, ensure_ascii=False, indent=2)
+    dicionario_final = {}
+    for e in entries:
+        nome_chave = e["termo"]
+        
+        # Formata o género
+        gen = e["genero"]
+        if gen == "a": gen = "adj."
+        
+        trads = {l: "; ".join(e["traducoes"][l]) for l in ["es", "en", "pt"]}
 
-    print(f"JSON guardado: {json_path}")
-    return json_path
+        dicionario_final[nome_chave] = {
+            "id": e["id"],
+            "genero": gen,
+            "categoria": " ".join(e["areas"]), # Espaço simples entre áreas
+            "traducoes": trads,
+            "sinonimos": e["sinonimos"],
+            "variantes": e["variantes"],
+            "nota": " ".join(e["notas"]),
+            "entrada_extra": {}
+        }
 
+    diretorio = os.path.dirname(os.path.abspath(JSON_OUT))
+    if diretorio: os.makedirs(diretorio, exist_ok=True)
+
+    with open(JSON_OUT, "w", encoding="utf-8") as f:
+        json.dump(dicionario_final, f, ensure_ascii=False, indent=4)
+
+    print(f"Sucesso! {len(dicionario_final)} termos extraídos.")
 
 if __name__ == "__main__":
-    XML_PATH  = "medicina.xml"
-    JSON_PATH = "medicina.json"
-    xml_to_json(XML_PATH, JSON_PATH)
+    main()
