@@ -1,13 +1,12 @@
-============================================================
-   ESTATÍSTICAS DE CRUZAMENTO
-============================================================
+
+   ESTATÍSTICAS
+
   Total de termos únicos:            15377
   Termos em apenas 1 fonte:         13811  (89%)
   Termos em 2+ fontes (cruzados):    1566  (10%)
   Termos em 3+ fontes:                372  (2%)
   Máximo de fontes num só termo:        6
 
-  Quantidade de termos extraídos por fonte:
   Quantidade de termos extraídos por fonte:
     medicina                 :   8713 termos
     ICNP                     :   4471 termos

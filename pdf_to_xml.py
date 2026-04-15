@@ -1,3 +1,5 @@
+# Gera os ficheiros xml, apenas no intervalo de páginas selecionado para cada pdf
+
 import subprocess
 import sys
 import os
@@ -17,8 +19,6 @@ def pdf_to_xml(pdf_path: str, xml_path: str = None, first_page: int = None, last
         command.extend(["-l", str(last_page)])
         
     command.append(pdf_path)
-
-    print(f"A executar: {' '.join(command)}")
     
     result = subprocess.run(
         command,
@@ -29,7 +29,6 @@ def pdf_to_xml(pdf_path: str, xml_path: str = None, first_page: int = None, last
     if result.returncode != 0:
         raise RuntimeError(f"Erro ao converter PDF:\n{result.stderr}")
 
-    print(f"Conversão concluída com sucesso! Sem imagens geradas.")
     return xml_path
 
 if __name__ == "__main__":

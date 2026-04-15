@@ -1,5 +1,4 @@
 # Consolida todos os dicionários JSON num único ficheiro, cruzando informação pelo termo em português.
-# Uso: python final.py
 
 import json
 import os
@@ -39,9 +38,7 @@ def normalizar(texto):
     return t
 
 def chaves_validas(chave):
-    """Filtra chaves inválidas."""
-    invalidas = {"la", "en", "es", "pt", "fr", "de", "ar", "nl", "ja", "ko",
-                 "zh", "ru", "oc", "eu", "gl", "it", "pl", "s.f.", "s.m."}
+    invalidas = {"la", "en", "es", "pt", "fr", "de", "ar", "nl", "ja", "ko","zh", "ru", "oc", "eu", "gl", "it", "pl", "s.f.", "s.m."}
     if len(chave) < 3:
         return False
     if chave in invalidas:
@@ -114,7 +111,6 @@ def extrair_catala(dados):
     resultados = []
     for termo_ca, info in dados.items():
         eq = info.get("equivalentes", {})
-        # Tenta pt, pt [PT], pt [BR] por ordem de preferência
         pt_info = eq.get("pt") or eq.get("pt [PT]") or eq.get("pt [BR]") or {}
         pt_raw  = pt_info.get("termo", "") if isinstance(pt_info, dict) else ""
         termos_pt = [normalizar(t) for t in str(pt_raw).split(";") if t.strip()]
