@@ -1,5 +1,5 @@
-[
-    {
+{
+    "abeta": {
         "concept": "abeta",
         "grammar_category": "s.f.",
         "term_en": "abeta",
@@ -8,7 +8,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "ação vasoconstritora": {
         "concept": "ação vasoconstritora",
         "grammar_category": "s.f.",
         "term_en": "vasoconstriction",
@@ -17,7 +17,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "acidente vascular cerebral isquêmico": {
         "concept": "acidente vascular cerebral isquêmico",
         "grammar_category": "s.m.",
         "term_en": "ischemic cerebrovascular accident",
@@ -26,7 +26,7 @@
         "inf_encicl": "Uma vez privados do sangue, os neurônios morrem e liberam glutamato, uma substância química que realiza a comunicação entre as células nervosas. Em concentrações elevadas, porém, o glutamato torna- se tóxico e mata as células vizinhas, ampliando o estrago. O problema pode levar à imobilidade de braços e pernas bem como causar a perda da fala. “...Conhecido como acidente vascular cerebral isquêmico (AVCI) ou isquemia cerebral, esse problema pode levar à imobilidade de braços e pernas e até mesmo à perda da fala....” (37)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "ácido acetilsalicílico": {
         "concept": "ácido acetilsalicílico",
         "grammar_category": "s.m.",
         "term_en": "acetilsalicilic acid",
@@ -35,7 +35,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "ácido caínico": {
         "concept": "ácido caínico",
         "grammar_category": "s.m.",
         "term_en": "kainic acid",
@@ -44,7 +44,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "ácido gama-aminobutírico": {
         "concept": "ácido gama-aminobutírico",
         "grammar_category": "s.m.",
         "term_en": "gamma-aminobutyric acid",
@@ -53,7 +53,7 @@
         "inf_encicl": "o ácido está localizado no sistema nervoso central. A falta ou excesso deste ácido pode alterar o bem-estar emocional do ser humano. “...há outros neurotransmissores, a serotonina, a noradrenalina e o ácido gama-aminobutírico (Gaba), mais bem estudados, que também influenciam o funcionamento dos neurônios. A falta ou excesso de qualquer um deles altera o bem-estar emocional...” (39, 136)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "acidose metilmalônica": {
         "concept": "acidose metilmalônica",
         "grammar_category": "s.f.",
         "term_en": "metilmalonic acidose",
@@ -62,7 +62,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "adjuvante genético": {
         "concept": "adjuvante genético",
         "grammar_category": "s.m.",
         "term_en": "genetic adjuvant",
@@ -71,7 +71,7 @@
         "inf_encicl": "o adjuvante genético também pode ser utilizado em terapias genéticas em humanos. “...composta de um ou mais genes da bactéria causadora da doença, associados a um componente viral - o chamado adjuvante genético, que potencializa os efeitos da vacina....” (213)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "alergia asmática": {
         "concept": "alergia asmática",
         "grammar_category": "s.f.",
         "term_en": "asthmatic allergy",
@@ -80,7 +80,7 @@
         "inf_encicl": "a alergia asmática se desenvolve, sobretudo, em crianças, principalmente em bebês tratados com antibióticos durante os seis primeiros meses de vida, pois os antibióticos podem alterar as populações de bactérias do intestino, dificultando a tarefa do sistema imunológico em distinguir entre as bactérias nocivas e as benéficas ao organismo, facilitando assim o desenvolvimento da alergia asmática. “...Os testes constataram que 21 crianças tinham desenvolvido alergia asmática, com ataques desencadeados por fatores ambientais, e que as crianças tratadas com antibiótico tinham de 2,6 a 8,9 mais chances de apresentar o problema, dependendo do medicamento...” (245)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "alfa-tocoferol": {
         "concept": "alfa-tocoferol",
         "grammar_category": "s.m.",
         "term_en": "alfa-tocoferal",
@@ -89,7 +89,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "alumã": {
         "concept": "alumã",
         "grammar_category": "s.m.",
         "term_en": "vernonia condensata",
@@ -98,7 +98,7 @@
         "inf_encicl": "esta planta não apresenta qualquer efeito tóxico, além de não afetar a mucosa do estômago e inibir a formação de úlceras, um dos efeitos colaterais mais comuns dos analgésicos. “...Um tipo de boldo comum no Brasil, da espécie Vernonia condensata e conhecido como alumã, é a mais nova esperança para a criação de um novo analgésico e antiinflamatório...” (21)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "amiloidose sistêmica senil": {
         "concept": "amiloidose sistêmica senil",
         "grammar_category": "s.f.",
         "term_en": "senile systemic amyloidosis",
@@ -107,7 +107,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "análise biomecânica": {
         "concept": "análise biomecânica",
         "grammar_category": "s.f.",
         "term_en": "biomechanic analysis",
@@ -116,7 +116,7 @@
         "inf_encicl": "a análise quantifica as alterações nos padrões normais de movimentos, como, por exemplo, a capacidade de flexionar o joelho ou mover os braços durante o andar. Assim, é possível avaliar a evolução de processos de recuperação em pessoas que sofreram acidentes, são portadoras de paralisias ou utilizam próteses. “...A análise biomecânica permite, no contexto da reabilitação motora, a quantificação das alterações nos padrões normais de movimentos, como, por exemplo, a capacidade de flexionar o joelho ou mover os braços durante o andar...” (80)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "angina instável": {
         "concept": "angina instável",
         "grammar_category": "s.f.",
         "term_en": "unstable angina",
@@ -125,7 +125,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "angiografia de retina": {
         "concept": "angiografia de retina",
         "grammar_category": "s.f.",
         "term_en": "retina angiography",
@@ -134,7 +134,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "antimonial pentavalente": {
         "concept": "antimonial pentavalente",
         "grammar_category": "s.m.",
         "term_en": "pentavalent antimonial",
@@ -143,7 +143,7 @@
         "inf_encicl": "o composto pode causar dores musculares e alterações nos batimentos cardíacos. “...As novas formas de tratamento consistem em associar ao uso do composto tradicionalmente empregado - o antimonial pentavalente, que combate o parasita, mas pode causar dores musculares e alterações nos batimentos cardíacos...” (78)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "apicoplasto": {
         "concept": "apicoplasto",
         "grammar_category": "s.f.",
         "term_en": "apicoplast",
@@ -152,7 +152,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "apoptose": {
         "concept": "apoptose",
         "grammar_category": "s.f.",
         "term_en": "apoptose",
@@ -161,7 +161,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "araraquara": {
         "concept": "araraquara",
         "grammar_category": "s.m.",
         "term_en": "araraquara",
@@ -170,7 +170,7 @@
         "inf_encicl": "o hantavírus é assim denominado por ser essa a cidade do interior paulista em que foi encontrado pela primeira vez, em 1995. “...Mas o fato de terem encontrado o rato-de-rabo-peludo é um forte indício de que provavelmente o vírus que circula no Distrito Federal é o Araraquara, já que cada tipo de hantavírus está associado a uma espécie de roedor silvestre...” (179)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "artrodistrator": {
         "concept": "artrodistrator",
         "grammar_category": "s.m.",
         "term_en": "artrodistrator",
@@ -179,7 +179,7 @@
         "inf_encicl": "o artrodistrator é usado em crianças com idade entre 6 e 13 anos, substituindo tratamentos convencionais que incluem grandes cirurgias, principalmente na cabeça do fêmur, o maior osso da perna. Para a instalação do aparelho é preciso uma pequena cirurgia para fixação dos pinos nos ossos através da pele. O artrodistrator afasta o osso da cabeça do fêmur da região do quadril onde está articulado. Essa estratégia deixa a área lesada protegida e propicia a aceleração do processo de revascularização do local doente, acelerando também a regeneração dos ossos. “...Crianças e adolescentes entre 6 e 13 anos com problemas ortopédicos na região do quadril terão maior facilidade de recuperação com um aparelho chamado artrodistrator, desenvolvido na Faculdade de Medicina da USP de Ribeirão Preto (FMRP)...” (28)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "astemizol": {
         "concept": "astemizol",
         "grammar_category": "s.m.",
         "term_en": "astemizol",
@@ -188,7 +188,7 @@
         "inf_encicl": "o astemizol pode afetar os batimentos cardíacos. “...a difenidramina, ainda empregada contra enjôos na gravidez, e o astemizol, proibido no ano passado por afetar os batimentos do coração...” (105)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "atrofia espinhal progressiva tardia": {
         "concept": "atrofia espinhal progressiva tardia",
         "grammar_category": "s.f.",
         "term_en": "progressive spinal atrophy",
@@ -197,7 +197,7 @@
         "inf_encicl": "a forma infantil é relativamente comum, já a tardia é muito rara. Os sintomas aparecem por volta dos 50 anos e a evolução é vagarosa. Trata-se de uma doença hereditária. “... pesquisadores da Universidade de São Paulo (USP) mostram que uma mutação no gene VAP-B, presente no cromossomo humano 20, pode causar três tipos distintos de doenças degenerativas nos neurônios motores: atrofia espinhal progressiva tardia, esclerose lateral amiotrófica (ELA) e uma das formas atípicas de esclerose lateral amiotrófica, a ELA8...” (243)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "avium": {
         "concept": "avium",
         "grammar_category": "s.f.",
         "term_en": "avium",
@@ -206,7 +206,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "bacilo de koch": {
         "concept": "bacilo de koch",
         "grammar_category": "s.m.",
         "term_en": "koch’s bacillus",
@@ -215,7 +215,7 @@
         "inf_encicl": "esse bacilo anualmente leva a morte de 2 a 3 milhões pessoas, a maioria absoluta em países pobres. “...Em experimentos com animais, composto metálico mata o bacilo de Koch de forma mais rápida e com menos efeitos colaterais...” (97, 257)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "baciloscopia": {
         "concept": "baciloscopia",
         "grammar_category": "s.f.",
         "term_en": "baciloscopy",
@@ -224,7 +224,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "bactéria entero-hemorrágica": {
         "concept": "bactéria entero-hemorrágica",
         "grammar_category": "s.f.",
         "term_en": "entero-hemorragic bacteria",
@@ -233,7 +233,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "bainha de mielina": {
         "concept": "bainha de mielina",
         "grammar_category": "s.f.",
         "term_en": "myelin sheath",
@@ -242,7 +242,7 @@
         "inf_encicl": "Essa capa pode ser destruída por doenças como a esclerose múltipla. “...Três outros sofriam de esclerose múltipla, em que as células de defesa destroem a bainha de mielina, uma capa que protege os neurônios (células nervosas), e leva à incapacidade física progressiva...” (37)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "barriga d’água": {
         "concept": "barriga d’água",
         "grammar_category": "s.f.",
         "term_en": "water belly",
@@ -251,7 +251,7 @@
         "inf_encicl": "a denominação barriga d’água se dá em virtude do inchaço que provoca no abdômem. Essa doença é endêmica e atinge principalmente o Nordeste e trechos do Sudeste do Brasil. “...contraída por meio do contato com água contaminada com larvas do verme, também é chamada de barriga-d'água, em razão do inchaço que provoca no abdômen...” (201)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "barriga de cerveja": {
         "concept": "barriga de cerveja",
         "grammar_category": "s.f.",
         "term_en": "beer belly",
@@ -260,7 +260,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "bengala instrumentalizada": {
         "concept": "bengala instrumentalizada",
         "grammar_category": "s.f.",
         "term_en": "instrumentalized walking stick",
@@ -269,7 +269,7 @@
         "inf_encicl": "as informações colhidas pelos equipamentos são enviadas a um computador, onde são armazenadas e processadas. O instrumento pode ser útil a médicos e fisioterapeutas avaliarem as condições clínicas de seus pacientes. “...bengalas e muletas instrumentalizadas, aparelhos dotados de sensores capazes de medir a força aplicada pelas mãos dos paraplégicos sobre esse tipo de apoio...” (29)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "beta-amilóide": {
         "concept": "beta-amilóide",
         "grammar_category": "s.f.",
         "term_en": "beta-amiloide",
@@ -278,7 +278,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "beta-bloqueador": {
         "concept": "beta-bloqueador",
         "grammar_category": "s.m.",
         "term_en": "beta-blocker",
@@ -287,7 +287,7 @@
         "inf_encicl": "este medicamento pode provocar episódios de pressão arterial baixa. “...A incidência de tombos recorrentes foi duas vezes maior entre os consumidores de beta-bloqueadores e 4,9 vezes maior entre os usuários de sedativos, comparados às idosas que não usavam tais drogas...” (216)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "biochip": {
         "concept": "biochip",
         "grammar_category": "s.m.",
         "term_en": "biochip",
@@ -296,7 +296,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "bio feedback": {
         "concept": "bio feedback",
         "grammar_category": "s.m.",
         "term_en": "biofeedback",
@@ -305,7 +305,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "bioadesão": {
         "concept": "bioadesão",
         "grammar_category": "s.f.",
         "term_en": "bioadhesion",
@@ -314,7 +314,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "bioengenheiro": {
         "concept": "bioengenheiro",
         "grammar_category": "s.m.",
         "term_en": "bioengineer",
@@ -323,7 +323,7 @@
         "inf_encicl": "dentre as atividades do bioengenheiro estão o auxílio nas pesquisas aplicadas à bioengenharia; também pode realizar a manutenção de equipamentos de bioengenharia e médico-hospitalares. “...Evidências nesse sentido começam a se tornar mais freqüentes no grupo de cerca de 100 paraplégicos e tetraplégicos que participam de pesquisas do bioengenheiro Alberto Cliquet Junior, da Universidade de São Paulo (USP) em São Carlos...” (70)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "bioinformática": {
         "concept": "bioinformática",
         "grammar_category": "s.f.",
         "term_en": "bioinformatic",
@@ -332,7 +332,7 @@
         "inf_encicl": "a bioinformática desenvolveu-se para enfrentar os resultados das iniciativas de seqüenciamento de genes, que produzem uma quantidade cada vez maior de dados sobre proteínas, DNA e RNA. Desse modo, os biólogos moleculares passaram a utilizar métodos estatísticos capazes de analisar grandes quantidades de dados biológicos, a predizer funções dos genes e a demonstrar relações entre genes e proteínas. “...Pretende-se também tornar ainda mais eficiente a identificação de genes, uma etapa crucial do trabalho, realizada nos centros de bioinformática...” (120)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "biologia reprodutiva": {
         "concept": "biologia reprodutiva",
         "grammar_category": "s.f.",
         "term_en": "reproductive biology",
@@ -341,7 +341,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "biologia sistêmica": {
         "concept": "biologia sistêmica",
         "grammar_category": "s.f.",
         "term_en": "systemic biology",
@@ -350,7 +350,7 @@
         "inf_encicl": "a biologia sistêmica procura integrar a informação e tecnologias analíticas, e faz corresponder a informação acerca da estrutura química com informação específica das vias biológicas. Por exemplo, um programa típico pode extrair informação a partir da síntese de bibliotecas de compostos químicos que visam famílias específicas de proteínas. Ao ignorar os métodos empíricos tradicionais, a Biologia Sistêmica afasta-se do antiquado objetivo de um alvo para um medicamento e uma indicação de tratamento. Em vez disso, ao visar um número bem mais abrangente de entidades biológicas, está desenhado para produzir compostos que têm propriedades estruturais e funcionais semelhantes, e que partilham um mecanismo de ação comum. Ao visar especificamente as vias comuns que conduzem à doença, esta abordagem tem o potencial de desenvolver tratamentos versáteis, cada um dos quais pode servir para várias doenças. “...A autora reporta-se também à crescente complexidade da biologia sistêmica, que mapea redes de sinais de informações que se entrelaçam por meio de um número nunca antes imaginado de ligações específicas de proteínas, resultando em respostas finais temporalmente e mecanisticamente precisas... (17)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "biomarcador": {
         "concept": "biomarcador",
         "grammar_category": "s.m.",
         "term_en": "biomarker",
@@ -359,7 +359,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "biomembrana": {
         "concept": "biomembrana",
         "grammar_category": "s.f.",
         "term_en": "biomembrane",
@@ -368,7 +368,7 @@
         "inf_encicl": "o material poder utilizado, por exemplo, na reconstrução de tímpanos perfurados, no fechamento abdominal após a retirada de tumores extensos de parede, reconstrução de dentes e conjuntiva ocular. “...A trajetória que levou a essa biomembrana teve início em 1994, quando a então estudante de mestrado da Área Cirúrgica da FMRP Fátima Mrué, uma goiana que passou dois anos em Tóquio, no Japão, acompanhando cirurgias de pacientes com câncer...” (75, 94)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "bioprótese": {
         "concept": "bioprótese",
         "grammar_category": "s.f.",
         "term_en": "bioprotese",
@@ -377,7 +377,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "biópsia óptica": {
         "concept": "biópsia óptica",
         "grammar_category": "s.f.",
         "term_en": "optical biopsy",
@@ -386,7 +386,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "bipsoro eletrônico": {
         "concept": "bipsoro eletrônico",
         "grammar_category": "s.m.",
         "term_en": "eletronic bipserum",
@@ -395,7 +395,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "bisturi óptico": {
         "concept": "bisturi óptico",
         "grammar_category": "s.m.",
         "term_en": "optical scalpel",
@@ -404,7 +404,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "blockbuster": {
         "concept": "blockbuster",
         "grammar_category": "s.m.",
         "term_en": "blockbuster",
@@ -413,7 +413,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "brometo de piridostigmina": {
         "concept": "brometo de piridostigmina",
         "grammar_category": "s.m.",
         "term_en": "pyridostigmine Bromide",
@@ -422,7 +422,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "broncoconstrição": {
         "concept": "broncoconstrição",
         "grammar_category": "s.f.",
         "term_en": "bronchocontriction",
@@ -431,7 +431,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "broncodilatação": {
         "concept": "broncodilatação",
         "grammar_category": "s.f.",
         "term_en": "bronchodilatation",
@@ -440,7 +440,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "bronquiolite": {
         "concept": "bronquiolite",
         "grammar_category": "s.f.",
         "term_en": "bronchiolitis",
@@ -449,7 +449,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "bulimia nervosa": {
         "concept": "bulimia nervosa",
         "grammar_category": "s.f.",
         "term_en": "nervous bulimia",
@@ -458,7 +458,7 @@
         "inf_encicl": "diferentemente da anorexia nervosa, na bulimia não há perda de peso, e assim médicos e familiares têm dificuldade de detectar o problema. A doença ocorre mais freqüentemente em mulheres jovens, embora possa ocorrer mais raramente em homens e mulheres com mais idade. “...Embora não permitam o diagnóstico final, essas constatações indicam que essas pessoas correm sério risco de desenvolver um distúrbio alimentar grave: a bulimia nervosa, a ingestão incontrolável de comida em exagero, seguida da tentativa de se livrar do excesso de alimento...” (167)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "câmara de cintilação híbrida": {
         "concept": "câmara de cintilação híbrida",
         "grammar_category": "s.f.",
         "term_en": "hybrid scintillation chamber",
@@ -467,7 +467,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "câncer de boca": {
         "concept": "câncer de boca",
         "grammar_category": "s.m.",
         "term_en": "mouth cancer",
@@ -476,7 +476,7 @@
         "inf_encicl": "o câncer de lábio é mais freqüente em pessoas brancas, e registra maior ocorrência no lábio inferior em relação ao superior. O câncer em outras regiões da boca acomete principalmente tabagistas e os riscos aumentam quando o tabagista é também alcoólatra. “...Um grupo de pesquisadores da Universidade de Oslo - a maior e mais antiga instituição de ensino superior da Noruega, criada em 1811 - descobriu como diagnosticar o câncer de boca, que afeta cerca de 300 mil pessoas no mundo...” (164, 31,195, 139)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "câncer de colo de útero": {
         "concept": "câncer de colo de útero",
         "grammar_category": "s.m.",
         "term_en": "womb cancer",
@@ -485,7 +485,7 @@
         "inf_encicl": "este tipo de câncer somente é superado pelo câncer de pele (não-melanoma) e pelo câncer de mama . Vários são os fatores de risco identificados para o câncer do colo do útero , sendo que alguns dos principais estão associados às baixas condições sócio-econômicas, ao início precoce da atividade sexual, à multiplicidade de parceiros sexuais, ao tabagismo (diretamente relacionados à quantidade de cigarros fumados), à higiene íntima inadequada e ao uso prolongado de contraceptivos orais. “...Mais freqüentemente, o HPV está associado ao câncer de colo de útero, que, por si só, representa 10% dos casos de tumores malignos em mulheres no Brasil e, mundialmente, é a segunda maior causa de câncer após o câncer de mama...”. (194)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "câncer de estômago": {
         "concept": "câncer de estômago",
         "grammar_category": "s.m.",
         "term_en": "stomach cancer",
@@ -494,7 +494,7 @@
         "inf_encicl": "Cerca de 65% dos pacientes diagnosticados com câncer de estômago têm mais de 50 anos. O pico de incidência se dá em sua maioria em homens, por volta dos 70 anos de idade. Vários estudos têm demonstrado que a dieta é um fator preponderante no aparecimento do câncer de estômago. Uma alimentação pobre em vitamina A e C, carnes e peixes, ou ainda com um alto consumo de nitrato, alimentos defumados, enlatados, com corantes ou conservados no sal são fatores de risco para o aparecimento deste tipo de câncer. Outros fatores ambientais como a má conservação dos alimentos e a ingestão de água proveniente de poços que contém uma alta concentração de nitrato também estão relacionados com a incidência do câncer de estômago. “...Quedas significativas, em ambos os sexos, ocorreram somente com os índices de óbitos referentes ao câncer de estômago, tendência também verificada em outros países...” (184, 198, 52, 51)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "câncer de mama": {
         "concept": "câncer de mama",
         "grammar_category": "s.m.",
         "term_en": "mama cancer",
@@ -503,7 +503,7 @@
         "inf_encicl": "podem surgir alterações na pele que recobre a mama, como abaulamentos ou retrações ou um aspecto semelhante a casca de uma laranja. Podem também surgir nódulos palpáveis no seio ou na axila. História familiar é um importante fator de risco para o câncer de mama, especialmente se um ou mais parentes de primeiro grau (mãe ou irmã) foram acometidas antes dos 50 anos de idade. Entretanto, o câncer de mama de caráter familiar corresponde a aproximadamente 10% do total de casos de cânceres de mama. A idade constitui um outro importante fator de risco, havendo um aumento rápido da incidência com o aumento da idade. “...Uma câmera de raios X desenvolvida pela Agência Espacial Européia (ESA) para capturar imagens do espaço sideral é a mais nova arma no combate ao câncer de mama, o de maior incidência entre mulheres em todo o mundo...” . (2, 3, 67, 119, 120, 128, 139, 143, 147, 160, 169)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "câncer de pele": {
         "concept": "câncer de pele",
         "grammar_category": "s.m.",
         "term_en": "skin cancer",
@@ -512,7 +512,7 @@
         "inf_encicl": "a doença pode ser de dois tipos melanoma e não melanoma. O melanoma que tem origem nos melanócitos (células produtoras de melanina, substância que determina a cor da pele) e tem predominância em adultos brancos. O câncer de pele não melanoma é o tipo de câncer de pele mais frequente (70% e 25%, respectivamente). Porém, apesar das altas taxas de incidência, o câncer de pele não melanoma apresenta altos índices de cura, principalmente devido à facilidade do diagnóstico precoce. Indivíduos que trabalham com exposição direta ao sol são mais vulneráveis ao câncer de pele não melanoma. Esse tipo de câncer é mais comum em adultos, com picos de incidência por volta dos 40 anos. Porém, com a constante exposição de jovens aos raios solares, a média de idade dos pacientes vem diminuindo. “...Uma empresa de São José dos Campos desenvolveu um sistema computacional para análise de lesões cutâneas que ajudará a fazer um diagnóstico objetivo e precoce do câncer de pele, o de maior incidência no Brasil...” . (239, 32, 31, 226, 139, 108, 10)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "câncer de próstata": {
         "concept": "câncer de próstata",
         "grammar_category": "s.m.",
         "term_en": "prostate cancer",
@@ -521,7 +521,7 @@
         "inf_encicl": "trata-se de um dos tipos mais comuns de câncer entre os homens, afetando um em cada cinco indivíduos do sexo masculino durante a vida. Embora a incidência aumente com a idade, também pode ocorrer em indivíduos jovens. Muitos portadores da doença não apresentam sintomas. “...Os pesquisadores demonstraram que já é possível reconhecer um marcador do câncer de próstata no gene COL18A1 - o que abre caminho para o diagnóstico precoce...” (42, 1, 48, 224, 52, 171)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "câncer de pulmão": {
         "concept": "câncer de pulmão",
         "grammar_category": "s.m.",
         "term_en": "lung cancer",
@@ -530,7 +530,7 @@
         "inf_encicl": "trata-se da mais temível complicação associada ao cigarro. Em 90% dos casos, é uma doença que acomete os fumantes e, em apenas 10%, pessoas que nunca fumaram. No início do século XX, quando a epidemia do cigarro ainda não tinha se disseminado, era uma enfermidade raríssima. Hoje, é o câncer que mais mata homens e mulheres, já que elas também são suscetíveis desde que se tornaram dependentes dessa droga. “...Se fumar é normalmente prejudicial à saúde, esse hábito pode causar danos ainda mais graves para as pessoas com problemas de reparo no material genético (DNA) das células: os membros desse grupo apresentam uma probabilidade até 124 vezes maior de desenvolver câncer de pulmão do que as pessoas que não fumam...” (48, 168, 52, 165)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "câncer de tireóide": {
         "concept": "câncer de tireóide",
         "grammar_category": "s.m.",
         "term_en": "tireoide cancer",
@@ -539,7 +539,7 @@
         "inf_encicl": "Não é um tipo de câncer comum, entretanto, a maioria dos cânceres de tireóide pode ser tratada com sucesso e a taxa geral de sobrevida de cinco anos é de 96%, sendo que até 35% dos cânceres de tireóide pode voltar, e um terço de todas as recorrências geralmente surgem com mais de 10 anos após o tratamento inicial. “...Combinando os resultados do ultra-som e da biópsia, conseguiram um índice de acerto de 76% na detecção de câncer de tireóide...” (204)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "câncer gástrico": {
         "concept": "câncer gástrico",
         "grammar_category": "s.m.",
         "term_en": "gastric cancer",
@@ -548,7 +548,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "capsulotomia anterior estereotáxica por gamma-knife": {
         "concept": "capsulotomia anterior estereotáxica por gamma-knife",
         "grammar_category": "s.f.",
         "term_en": "stereotactic gamma-knife anterior capsulotomy",
@@ -557,7 +557,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "caramboleira": {
         "concept": "caramboleira",
         "grammar_category": "s.f.",
         "term_en": "carambole tree",
@@ -566,7 +566,7 @@
         "inf_encicl": "as folhas secas da caramboleira são muito utilizadas pela população de Manaus como antidiabético. Em experimentos realizados em ratos e camundongos, o extrato aquoso da Averrhoa, em diferentes concentrações, reduziu em 50% o teor de glicose no sangue, simulando um quadro de hiperglicemia, 15 minutos após a aplicação. “...Em busca da comprovação do conhecimento popular, pesquisadores da Universidade do Amazonas, sob a coordenação de Ivete de Araújo Roland, estudaram a ação da caramboleira, a Averrhoa carambola L...” (69)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "carcinogênese química": {
         "concept": "carcinogênese química",
         "grammar_category": "s.f.",
         "term_en": "quimical carcinosese",
@@ -575,7 +575,7 @@
         "inf_encicl": "produtos químicos carcinogênicos podem induzir carcinomas (tumores malignos dos tecidos epiteliais), sarcomas (tumores malignos dos tecidos conectivos) e tumores benignos em animais de laboratório. “...A primeira é a carcinogênese química, no qual as moléculas de alguns pesticidas se ligam ao código genético das células desencadeando um processo de multiplicação descontrolado...” (198)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "catuama": {
         "concept": "catuama",
         "grammar_category": "s.f.",
         "term_en": "catuama",
@@ -584,7 +584,7 @@
         "inf_encicl": "a catuama possui uma substância que inibe a fibrilação do músculo do coração, normalizando o ritmo cardíaco. Também pode ser utilizada no desenvolvimento de drogas injetáveis que podem substituir os desfibriladores, aparelhos que regularizam os batimentos do coração por meio de choques elétricos. “...Produzida pelo Laboratório Catarinense, uma indústria nacional sediada em Joinville, a Catuama é um composto natural inventado há mais de 15 anos...” (156, 53)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "cavidade pleural": {
         "concept": "cavidade pleural",
         "grammar_category": "s.f.",
         "term_en": "pleural cavity",
@@ -593,7 +593,7 @@
         "inf_encicl": "esse espaço é delimitado pela pleura, membrana que reveste os pulmões e a parede interna do tórax. “... Esse distúrbio, que se caracteriza pelo acúmulo de líquido na cavidade pleural - o espaço delimitado pelas pleuras, membranas que revestem os pulmões e a parede interna do tórax -, diminui a capacidade respiratória e a oxigenação do sangue, além de provocar muito desconforto no paciente... ” (174)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "célula multipotencial": {
         "concept": "célula multipotencial",
         "grammar_category": "s.f.",
         "term_en": "multipotential cell",
@@ -602,7 +602,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "ceratoscopia": {
         "concept": "ceratoscopia",
         "grammar_category": "s.f.",
         "term_en": "ceratoscopy",
@@ -611,7 +611,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "chá de quebra-pedra": {
         "concept": "chá de quebra-pedra",
         "grammar_category": "s.m.",
         "term_en": "stone breaker tea",
@@ -620,7 +620,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "chip de DNA": {
         "concept": "chip de DNA",
         "grammar_category": "s.m.",
         "term_en": "DNA chip",
@@ -629,7 +629,7 @@
         "inf_encicl": "o método proporciona mais rapidez na leitura e análise dos genes do protozoário. “...Laboratório de Expressão Gênica da Fiocruz, que trabalhou no desenvolvimento do biochip, ou chip de DNA, para estudar os genes do Trypanosoma cruzi , causador da doença de Chagas...” (48, 153,187)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "choque hemorrágico": {
         "concept": "choque hemorrágico",
         "grammar_category": "s.m.",
         "term_en": "hemorrhagic shock",
@@ -638,7 +638,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "choque séptico": {
         "concept": "choque séptico",
         "grammar_category": "s.m.",
         "term_en": "septic shock",
@@ -647,7 +647,7 @@
         "inf_encicl": "o choque séptico ocorre mais freqüentemente em recém- nascidos, em indivíduos com mais de 50 anos de idade e naqueles com comprometimento do sistema imune. “ ...A equipe de Clarice Sampaio Alho, pesquisadora da Faculdade de Biociências da PUC de Porto Alegre, analisou o DNA de um grupo de 40 homens e mulheres que tinham entrado em choque séptico (uma complicação da infecção generalizada), quando a pressão se reduz drasticamente...” (180)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "cingulotomia anterior": {
         "concept": "cingulotomia anterior",
         "grammar_category": "s.f.",
         "term_en": "anterior cingulotomy",
@@ -656,7 +656,7 @@
         "inf_encicl": "Por uma abertura no crânio, coloca-se um eletrodo com o formato de um fio, que, por meio de ondas de rádio, queima os neurônios de um trecho específico do cérebro integrante do circuito envolvido no TOC. “...outra técnica cirúrgica adotada com freqüência é a chamada cingulotomia anterior: por uma abertura no crânio, coloca-se um eletrodo com o formato de um fio, que, por meio de ondas de rádio, queima os neurônios de um trecho específico do cérebro integrante do circuito envolvido no TOC, como giro do cíngulo...” (61)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "cirurgia fetal a céu aberto": {
         "concept": "cirurgia fetal a céu aberto",
         "grammar_category": "s.f.",
         "term_en": "open-sky fetal surgery",
@@ -665,7 +665,7 @@
         "inf_encicl": "nessa cirurgia um médico faz um corte como o de uma cesárea no ventre e outro de 9 centímetros no útero materno. Em seguida, por meio dessa abertura, outro médico, um neurocirurgião, corrige o defeito na coluna do bebê, que continua na barriga da mãe até o nascimento. “...O Brasil é o segundo país, além dos Estados Unidos, a fazer esse tipo de operação, chamada de cirurgia fetal a céu aberto...” (19)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "cirurgia a céu aberto": {
         "concept": "cirurgia a céu aberto",
         "grammar_category": "s.f.",
         "term_en": "open-sky surgery",
@@ -674,7 +674,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "clonagem reprodutiva": {
         "concept": "clonagem reprodutiva",
         "grammar_category": "s.f.",
         "term_en": "reproductive cloning",
@@ -683,7 +683,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "clonagem terapêutica": {
         "concept": "clonagem terapêutica",
         "grammar_category": "s.f.",
         "term_en": "therapeutic cloning",
@@ -692,7 +692,7 @@
         "inf_encicl": "nesse procedimento células-tronco não são introduzidas em um útero. O DNA retirado de uma célula adulta do doador também é introduzido num óvulo \"vazio\", mas, depois de algumas divisões, as células-tronco são direcionadas no laboratório para fabricar tecidos idênticos aos do doador, tecidos que possivelmente não serão rejeitados por ele. “...A tecnologia de clonagem para gerar cópias de seres humanos, a clonagem reprodutiva, difere pouco daquela para fabricar tecidos ou órgãos, a clonagem terapêutica...” (62, 64, 65, 163, 200)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "coagulação intravascular disseminada": {
         "concept": "coagulação intravascular disseminada",
         "grammar_category": "s.f.",
         "term_en": "disseminated intravascular coagulation",
@@ -701,7 +701,7 @@
         "inf_encicl": "esta síndrome ocorre na proporção de 1 caso a cada 10.000 pessoas, acometendo igualmente ambos sexos e sem predominância por faixa etária. “...Isso provoca uma coagulação intravascular disseminada (que leva à trombose). O organismo reage à presença dos coágulos, promovendo uma fibrinólise (destruição de fibrina) secundária...” (252)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "coagulopatia de consumo": {
         "concept": "coagulopatia de consumo",
         "grammar_category": "s.f.",
         "term_en": "consumptive coagulopathy",
@@ -710,7 +710,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "cogumelo-do-sol": {
         "concept": "cogumelo-do-sol",
         "grammar_category": "s.m.",
         "term_en": "mushroom of the sun",
@@ -719,7 +719,7 @@
         "inf_encicl": "o medicamento contribui para a melhora do apetite dos pacientes, que costumam emagrecer muito. Ele também diminui os efeitos colaterais dos medicamentos antivirais, como fadiga e dores musculares, além de ser uma fonte de proteínas, sendo que cada 100 gramas do cogumelo contém 35 gramas de proteínas, além de ferro, fósforo, cálcio e vitaminas do complexo B. “...Eles verificaram ainda que muitos dos resultados divulgados pela mídia para o cogumelo-do-sol, como a diminuição de tumores, só são obtidos com o extrato concentrado do fungo e não com comprimidos e chás...” (193)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "colite hemorrágica": {
         "concept": "colite hemorrágica",
         "grammar_category": "s.f.",
         "term_en": "hemorrhagic colitis",
@@ -728,7 +728,7 @@
         "inf_encicl": "a enfermidade pode causar a falha aguda dos rins, levando à necessidade de diálise, transplante dos rins ou morte. “...O terceiro grupo é formado por bactérias que causam colites hemorrágicas (diarréias com sangue) e, em situações extremas, a síndrome hemolítica urêmica...” (98)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "complexo de vanádio": {
         "concept": "complexo de vanádio",
         "grammar_category": "s.m.",
         "term_en": "vanadyl complex",
@@ -737,7 +737,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "coréia de sydenham": {
         "concept": "coréia de sydenham",
         "grammar_category": "s.f.",
         "term_en": "sydenham chorea",
@@ -746,7 +746,7 @@
         "inf_encicl": "Ainda no século XIX a coréia de Sydenham foi associada a infecção estreptocócica prévia e é considerada atualmente uma das manifestações maiores da febre reumática. “...Em seguida é afirmado que em estágios mais avançados a febre reumática pode atingir o sistema nervoso central, produzindo coréia de Sydenham...” (111)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "córtex cingulado": {
         "concept": "córtex cingulado",
         "grammar_category": "s.m.",
         "term_en": "cingulated córtex",
@@ -755,7 +755,7 @@
         "inf_encicl": "é a região do cérebro ligada à percepção de sensações prazerosas. “...Só o líquido rico em gordura (óleo de canola) acionou o córtex cingulado, região do cérebro ligada à percepção de sensações prazerosas, revelaram os pesquisadores em artigo no Journal of Neuroscience de 24 de março...” (172)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "craniossinostose": {
         "concept": "craniossinostose",
         "grammar_category": "s.f.",
         "term_en": "craniossinostose",
@@ -764,7 +764,7 @@
         "inf_encicl": "a fusão precoce de uma sutura provoca deformidade craniana pelo crescimento compensador que ocorre nas regiões onde existia uma sutura aberta. Deve-se suspeitar de craniossinostose em toda criança que apresenta crânio malformado. O cérebro aumenta nos 6 primeiros meses, 85% em relação ao seu peso por ocasião do nascimento e 135% no fim do primeiro ano. Aos 3 anos atinge 80,6% de seu peso definitivo. A soldadura precoce das suturas, impedindo esse crescimento rápido, poderá provocar compressão cerebral, cegueira e deformidade craniana. Convulsões podem ocorrer. “...Um dos quadros clínicos mais graves associados a defeitos no MSX 1 é a craniossinostose, anomalia congênita anatômica que pode aumentar a pressão sobre o cérebro, caracterizada pelo fechamento prematuro de uma ou mais fendas cranianas...” (155)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "crise de pânico": {
         "concept": "crise de pânico",
         "grammar_category": "s.f.",
         "term_en": "panic crisis",
@@ -773,7 +773,7 @@
         "inf_encicl": "esse tipo de distúrbio aparece subitamente, sem nenhuma causa aparente, sendo que o diagnóstico é de difícil percepção. “...As transformações químicas e biológicas que disparam e, ao mesmo tempo, alimentam essas duas alterações emocionais - a mais amena, a ansiedade, e a mais profunda, a crise de pânico - são agora mais bem compreendidas e poderão ser combatidas de maneira mais eficiente, como resultado dos estudos sobre as substâncias glutamato e óxido nítrico feitos por pesquisadores da Faculdade de Medicina da Universidade de São Paulo (USP) em Ribeirão Preto...” (39)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "crise hipoglicêmica": {
         "concept": "crise hipoglicêmica",
         "grammar_category": "s.f.",
         "term_en": "hypoglycemic crisis",
@@ -782,7 +782,7 @@
         "inf_encicl": "geralmente acontece com pessoas que tem diabetes. “...A Britsh Journal of Sports Medicine de 1º de agosto relata o caso de um homem de 31 anos que chegou a um hospital inconsciente com crise hipoglicêmica, aparentemente de origem diabética...” (133)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "cristalografia de proteínas": {
         "concept": "cristalografia de proteínas",
         "grammar_category": "s.f.",
         "term_en": "protein cristalography",
@@ -791,7 +791,7 @@
         "inf_encicl": "esta técnica tem sido muito utilizada na indústria farmacêutica no desenvolvimento de fármacos. “...o LNLS já realizou 800 projetos científicos, sendo 221 em cristalografia de proteínas. Em 1998, ampliou sua atuação na área de biologia molecular implantando o Centro de Biologia Molecular Estrutural (CBME)...” (6, 77)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "cromoblastomicose": {
         "concept": "cromoblastomicose",
         "grammar_category": "s.f.",
         "term_en": "cromoblastomicose",
@@ -800,7 +800,7 @@
         "inf_encicl": "com a penetração do fungo no tecido inicia-se um processo de infecção micótica com erupção de pápulas, verrugas ou nódulos que posteriormente podem ulcerar. “..., os pesquisadores também constataram uma altíssima incidência, uma das maiores do mundo, de uma doença de pele pouco diagnosticada, a cromoblastomicose, e identificaram um novo tipo de carrapato, do gênero Amblyomma , encontrado em animais terrestres, sobretudo antas ( Tapir terrestris ), que pode transmitir ao homem alguma doença...” (76)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "crotoxina": {
         "concept": "crotoxina",
         "grammar_category": "s.f.",
         "term_en": "cronotoxina",
@@ -809,7 +809,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "curativo biocompatível": {
         "concept": "curativo biocompatível",
         "grammar_category": "s.m.",
         "term_en": "biocompatible dressing",
@@ -818,7 +818,7 @@
         "inf_encicl": "o curativo é colocado sobre a lesão após a assepsia. Ele gruda no local e, quando a pele nova cresce, cai como se fosse uma crosta. Tanto o banho de chuveiro como a exposição ao sol podem ser liberados para os pacientes em tratamento. Permeável a gases e impermeável a líquidos, a pele artificial forma uma barreira bacteriológica, deixando o ferimento respirar. Outra vantagem é a possibilidade de atenuação ou mesmo a eliminação da dor nesses pacientes. O curativo reduz o tempo de tratamento e, com isso, diminui também o custo das internações de doentes com queimaduras e com feridas crônicas. “...\"É um curativo biocompatível que soma na nossa busca por um substituto de pele ideal\", diz Cabral...” (56)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "curativo de hidrogel": {
         "concept": "curativo de hidrogel",
         "grammar_category": "s.m.",
         "term_en": "hydrogel dressing",
@@ -827,7 +827,7 @@
         "inf_encicl": "o hidrogel tem a consistência similar a de uma gelatina, que retêm água em sua estrutura. Esse tipo de curativo diminui a dor, evita o ressecamento da pele e combate bactérias. “...O laboratório é parceiro do Ipen no desenvolvimento do curativo de hidrogel sem reforço...” (18)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "degeneração macular relacionada à idade": {
         "concept": "degeneração macular relacionada à idade",
         "grammar_category": "s.f.",
         "term_en": "age-related macular degeneration",
@@ -836,7 +836,7 @@
         "inf_encicl": "Apesar de não causar cegueira total, é uma das principais causas de perda visual em pessoas acima de 60 anos e por dificilmente afetar pessoas com menos de 60 anos é chamada de Relacionada à Idade. “...A necessidade de tratar pacientes com Degeneração Macular Relacionada à Idade (DMRI), doença ocular que atinge, principalmente, pessoas acima dos 60 anos, motivou os pesquisadores do Instituto da Visão...” (162)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "depressão alastrante de leão": {
         "concept": "depressão alastrante de leão",
         "grammar_category": "s.f.",
         "term_en": "raging depression of leão",
@@ -845,7 +845,7 @@
         "inf_encicl": "o fenômeno recebeu o nome do primeiro cientista a descrevê- lo em 1944, o brasileiro Aristides Azevedo Pacheco Leão, da Universidade Federal do Rio de Janeiro (UFRJ). Ao estudar as ondas elétricas no cérebro de um coelho, um toque acidental sobre o córtex exposto provocou o curioso fenômeno. Atualmente, sabe-se que a chamada \"aura\" da enxaqueca clássica, manifestações visuais que precedem a dor de cabeça, tem correlação com a depressão alastrante. “...\"Depressão alastrante de Leão\" é um termo bastante conhecido pelos estudiosos da neurofisiologia. Trata-se de uma onda de excitação que se alastra pelo córtex cerebral, seguida de uma depressão, um \"silenciamento\" das ondas elétricas...” (91, 158)\"",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "dermatoscopia": {
         "concept": "dermatoscopia",
         "grammar_category": "s.f.",
         "term_en": "dermatoscopy",
@@ -854,7 +854,7 @@
         "inf_encicl": "o método utiliza um dermatoscópio. O uso da dermatoscopia auxilia, sobretudo, na diferenciação entre lesões benignas (nervos, pintas, sinais) e câncer de pele (principalmente melanoma). Nesse caso, a dermatoscopia proporciona um alto grau de certeza. Com isso o diagnóstico do câncer de pele pode ser feito mais precocemente, além de evitar cirurgias desnecessárias em lesões benignas. “…Então o software, chamado VisualMed, analisa morfologicamente a lesão com base na regra ABCD da dermatoscopia e armazena dados usando um método de diagnóstico com checagem de sete aspectos…” (239)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "derrame pleural": {
         "concept": "derrame pleural",
         "grammar_category": "s.m.",
         "term_en": "pleural haemorrhage",
@@ -863,7 +863,7 @@
         "inf_encicl": "o derrame pleural não é uma doença, mas a manifestação de outras enfermidades como tumores ou pneumonia. Se não tratado adequadamente, o derrame pleural pode levar o paciente à dispnéia (falta grave de ar) e até ao óbito. “…Chamado pelos médicos de derrame pleural, esse acúmulo de líquido entre as pleuras atinge 1 milhão de pessoas nos Estados Unidos e possivelmente um número equivalente por aqui…” (165, 174)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "diarréia do viajante": {
         "concept": "diarréia do viajante",
         "grammar_category": "s.f.",
         "term_en": "travelers' diarrhea",
@@ -872,7 +872,7 @@
         "inf_encicl": "a enfermidade é causada pela bactéria E. Colli. Ocorre geralmente através da ingestão de alimentos que não fazem parte da dieta habitual do paciente. “…são as que provocam a chamada diarréia do viajante, resultado do consumo de alimentos que não fazem parte da dieta habitual do paciente…” (98)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "dicroismo circular": {
         "concept": "dicroismo circular",
         "grammar_category": "s.m.",
         "term_en": "circular dichroism",
@@ -881,7 +881,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "disfunção velofaríngea": {
         "concept": "disfunção velofaríngea",
         "grammar_category": "s.f.",
         "term_en": "velofaringea dysfunction",
@@ -890,7 +890,7 @@
         "inf_encicl": "essa anomalia causa uma alteração de ressonância da fala, ou seja, prejudica a capacidade de comunicação oral do ser humano. “…Mas não é. As fissuras labiopalatais são a principal causa da disfunção velofaríngea, uma situação capaz de prejudicar de tal maneira a fala que a pessoa atingida não consegue comunicar-se normalmente…” (20)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "distrofia muscular progressiva": {
         "concept": "distrofia muscular progressiva",
         "grammar_category": "s.f.",
         "term_en": "progressive muscular dystrophy",
@@ -899,7 +899,7 @@
         "inf_encicl": "essa doenças possui uma especificidade que a distingue sobremaneira das demais deficiências motoras: qualquer esforço muscular que cause um mínimo de fadiga contribui para a deterioração do tecido muscular. Isto porque o defeito genético ocorre pela ausência ou formação inadequada de proteínas essenciais para o funcionamento da fisiologia da célula muscular. “… Mayana, de 56 anos, desenvolve pesquisas genéticas voltadas para o combate da distrofia muscular progressive, a degeneração muscular progressiva da ….” (74, 196))",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "distúrbio do sono": {
         "concept": "distúrbio do sono",
         "grammar_category": "s.m.",
         "term_en": "sleep disturbing",
@@ -908,7 +908,7 @@
         "inf_encicl": "alguns sintomas que podem indicar a presença de algum distúrbio do sono são: dificuldade para adormecer; acordar freqüentemente e ter dificuldade em voltar a dormir; roncar alto; acordar com falta de ar ou engasgado; sonolência excessiva durante o dia; cansaço durante o dia; movimentar as pernas à noite interferindo no sono; falar ou caminhar durante o sono(sonambulismo); acordar por causa de pesadelos. “...Na década de 70, por iniciativa de um grupo de pesquisadores do Departamento de Psicobiologia da Universidade Federal de São Paulo (Unifesp), tiveram início os estudos sobre o distúrbio do sono no Brasil, antes mesmo da primeira classificação internacional da doença...” (202)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "doença da vaca louca": {
         "concept": "doença da vaca louca",
         "grammar_category": "s.f.",
         "term_en": "mad cow disease",
@@ -917,7 +917,7 @@
         "inf_encicl": "a enfermidade causa a morte das células, deixando o cérebro fica com aparência de esponja. A vaca passa a agir como se estivesse enlouquecida. A doença também pode se manifestar em seres humanos que consumam carne de animais infectados. “...Major tinha encefalopatia espongiforme felina (FSE), uma variação da doença da vaca louca, que infectou 180 mil animais do rebanho bovino britânico desde que surgiu, em 1986...” (144)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "doença isquêmica do coração": {
         "concept": "doença isquêmica do coração",
         "grammar_category": "s.f.",
         "term_en": "ischemic heart disease",
@@ -926,7 +926,7 @@
         "inf_encicl": "a evolução da doença leva à falência do músculo cardíaco e, em última instância, à necessidade de transplante. “...Em São Paulo a mortalidade por diabetes é 174% maior do que no Japão; e a mortalidade por doença isquêmica do coração é o dobro aqui...” (184)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "doença reemergente": {
         "concept": "doença reemergente",
         "grammar_category": "s.f.",
         "term_en": "reemergent disease",
@@ -935,7 +935,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "droga neuroativa": {
         "concept": "droga neuroativa",
         "grammar_category": "s.f.",
         "term_en": "neuroactive drug",
@@ -944,7 +944,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "éfedra": {
         "concept": "éfedra",
         "grammar_category": "s.f.",
         "term_en": "efedra",
@@ -953,7 +953,7 @@
         "inf_encicl": "em muitos países a éfedra é muito popular como suplemento para a perda de peso porque reduz o apetite e queima células gordas. A queima destas células gordas fornece muita energia, o que explica o uso da éfedra como produto energético. Ao contrário de muitas outras drogas, a éfedra atua durante muito tempo: de 6 a 10 horas. Há suspeitas de que a éfedra possa causar derrames e ataques cardíacos. “...Associação Norte-Americana de Medicina e grupos de consumidores dos Estados Unidos querem proibir a comercialização da éfedra, utilizada como remédio para emagrecer, sob a acusação de que causaria derrames e ataques cardíacos...” (101)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "efeito placebo": {
         "concept": "efeito placebo",
         "grammar_category": "s.m.",
         "term_en": "placebo effect",
@@ -962,7 +962,7 @@
         "inf_encicl": "na prática o efeito placebo pode funcionar e eliminar dores, baixar a pressão arterial, abrandar a ansiedade e diminuir a depressão. “... A improvável recuperação de quem experimentou a operação simulada se deve à convicção de que a cirurgia realmente eliminaria a dor do joelho, uma evidência de que o pensamento consegue modificar o funcionamento do corpo. É o chamado efeito placebo... ” (216)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "elisa in house": {
         "concept": "elisa in house",
         "grammar_category": "s.m.",
         "term_en": "elisa in house",
@@ -971,7 +971,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "elisa indireto": {
         "concept": "elisa indireto",
         "grammar_category": "s.m.",
         "term_en": "indirect elisa",
@@ -980,7 +980,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "encapsulamento molecular": {
         "concept": "encapsulamento molecular",
         "grammar_category": "s.m.",
         "term_en": "molecular capsuling",
@@ -989,7 +989,7 @@
         "inf_encicl": "no caso de um anti-hipertensivo, por exemplo, permite que a mesma quantidade da dose diária do medicamento tradicional atue no organismo por até uma semana, podendo reduzir a ingestão para apenas um comprimido a cada sete dias. Para os hipertensos, além do conforto de não tomar remédio diariamente, a menor quantidade de droga no organismo reduz os eventuais efeitos colaterais. “...O rápido tempo de aprovação, normalmente maior nesses casos, está no fato de o medicamento não conter um novo principio ativo ou molécula inédita, e sim o uso de tecnologias modernas de encapsulamento molecular...” (87)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "encefalopatia espongiforme felina": {
         "concept": "encefalopatia espongiforme felina",
         "grammar_category": "s.f.",
         "term_en": "feline spongiform",
@@ -998,7 +998,7 @@
         "inf_encicl": "a enfermidade poder afetar felinos que eventualmente consumam carne de bovinos infectados com a doença da vaca louca . “...A autópsia causou surpresa: Major tinha encefalopatia espongiforme felina (FSE), uma variação da doença da vaca louca, que infectou 180 mil animais do rebanho bovino britânico desde que surgiu, em 1986...” (144)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "encefalopatia espongiforme bovina": {
         "concept": "encefalopatia espongiforme bovina",
         "grammar_category": "s.f.",
         "term_en": "bovine spongiform encephalopathy",
@@ -1007,7 +1007,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "encefalopatia espongiforme": {
         "concept": "encefalopatia espongiforme",
         "grammar_category": "s.f.",
         "term_en": "spongiform encephalopathy",
@@ -1016,7 +1016,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "endotelina": {
         "concept": "endotelina",
         "grammar_category": "s.f.",
         "term_en": "endotelina",
@@ -1025,7 +1025,7 @@
         "inf_encicl": "em excesso, essa substância causa a diminuição da dimensão dos vasos sangüíneos, contribuindo, assim, para a alta pressão do sangue entre o coração e o pulmão, que, por sua vez, acarreta problemas cardíacos e pulmonares. “...Em 1986, De Nucci concluiu o doutorado no Royal College of Surgeons of England e, dois anos depois, publicou nos Proceedings of the National Academy of Sciences um de seus mais importantes artigos científicos sobre o papel da endotelina, hormônio vasodilatador liberado pela parede interna dos vasos sangüíneos...” (218)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "ensaio clínico duplo-cego": {
         "concept": "ensaio clínico duplo-cego",
         "grammar_category": "s.m.",
         "term_en": "clinic double-blind test",
@@ -1034,7 +1034,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "enxerto orgânico": {
         "concept": "enxerto orgânico",
         "grammar_category": "s.m.",
         "term_en": "organic graft",
@@ -1043,7 +1043,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "enxerto periférico heterólogo": {
         "concept": "enxerto periférico heterólogo",
         "grammar_category": "s.m.",
         "term_en": "heterolog peripheral graft",
@@ -1052,7 +1052,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "enzima cicloxigenase": {
         "concept": "enzima cicloxigenase",
         "grammar_category": "s.f.",
         "term_en": "cicloxigenase enzyme",
@@ -1061,7 +1061,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "enzima conversora da angiotensina I": {
         "concept": "enzima conversora da angiotensina I",
         "grammar_category": "s.f.",
         "term_en": "enzyme angiotensina converter",
@@ -1070,7 +1070,7 @@
         "inf_encicl": "a dosagem da ECA no plasma humano pode auxiliar no diagnóstico de patologias e na avaliação dos efeitos de terapias medicamentosas. “...Um grupo do Departamento de Biofísica da Universidade Federal de São Paulo (Unifesp) conseguiu sintetizar substratos capazes de identificar com mais rapidez e sensibilidade a Enzima Conversora da Angiotensina I (ECA), que desempenha função-chave na regulação da pressão arterial e na homeostase (sistema de regulagem química interna do organismo)...” (180, 233)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "enzima de reparo": {
         "concept": "enzima de reparo",
         "grammar_category": "s.f.",
         "term_en": "repair enzyme",
@@ -1079,7 +1079,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "enzima degradadora de insulina": {
         "concept": "enzima degradadora de insulina",
         "grammar_category": "s.f.",
         "term_en": "insulin-degrading enzyme",
@@ -1088,7 +1088,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "epidemiologia matemática": {
         "concept": "epidemiologia matemática",
         "grammar_category": "s.f.",
         "term_en": "mathematical epidemiology",
@@ -1097,7 +1097,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "epilepsia de lobo temporal mesial": {
         "concept": "epilepsia de lobo temporal mesial",
         "grammar_category": "s.f.",
         "term_en": "mesial temporal lobe epilepsy",
@@ -1106,7 +1106,7 @@
         "inf_encicl": ". esse problema surge em decorrência de uma lesão numa região do cérebro chamada hipocampo, que participa de processos biológicos importantes como o aprendizado e a formação de memória. Os portadores desse tipo de epilepsia são tratados cirurgicamente para a retirada do tecido lesado, procedimento que quase sempre leva à cura da doença. “...uma variante do gene que codifica a versão normal ou celular do príon, chamada príon celular, ou PrPc, é um fator de risco para o tipo mais comum de epilepsia que não responde a medicamentos - a epilepsia de lobo temporal mesial...” (09)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "epilepsia pós-traumática": {
         "concept": "epilepsia pós-traumática",
         "grammar_category": "s.f.",
         "term_en": "post-traumatic epilepsy",
@@ -1115,7 +1115,7 @@
         "inf_encicl": "não há medicamento para evitar crises desse tipo de epilepsia. “...Nos Estados Unidos, 400 mil pessoas sofrem lesões na cabeça por ano e 5% delas, ou 20 mil indivíduos, desenvolvem um quadro de epilepsia pós-traumática...” (123)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "equinácea": {
         "concept": "equinácea",
         "grammar_category": "s.f.",
         "term_en": "equinacea",
@@ -1124,7 +1124,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "eritropoetina": {
         "concept": "eritropoetina",
         "grammar_category": "s.f.",
         "term_en": "eritropoetine",
@@ -1133,7 +1133,7 @@
         "inf_encicl": "o medicamento pode ser utilizado em pacientes que aguardam transplantes de rim. “...vacinas contra meningite C e hepatite B, a toxina botulínica e biofármacos, como a eritropoetina (para pacientes que aguardam transplante de rim) e o surfactante pulmonar (usado no combate à síndrome de imaturidade pulmonar)...” (47, 121)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "erva-de-são-joão": {
         "concept": "erva-de-são-joão",
         "grammar_category": "s.f.",
         "term_en": "saint john’s wort",
@@ -1142,7 +1142,7 @@
         "inf_encicl": "entretanto, o medicamento pode prejudicar o efeito dos inibidores de protease, a família de remédios que multiplicou a sobrevida de doentes da Aids...” “...A erva-de-São-João, popularmente usada para combater quadros depressivos, prejudica o efeito dos inibidores de protease, a família de remédios que multiplicou a sobrevida dos doentes de Aids....” (101, 102)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "esclerose lateral amiotrófica": {
         "concept": "esclerose lateral amiotrófica",
         "grammar_category": "s.f.",
         "term_en": "amyotrophic lateral sclerosis",
@@ -1151,7 +1151,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "esclerose múltipla": {
         "concept": "esclerose múltipla",
         "grammar_category": "s.f.",
         "term_en": "multiple esclerosis",
@@ -1160,7 +1160,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "esclerose sistêmica": {
         "concept": "esclerose sistêmica",
         "grammar_category": "s.f.",
         "term_en": "Systemic esclerosis",
@@ -1169,7 +1169,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "espectrometria de massa": {
         "concept": "espectrometria de massa",
         "grammar_category": "s.f.",
         "term_en": "mass espectometry",
@@ -1178,7 +1178,7 @@
         "inf_encicl": "pode ser utilizada para detectar, por exemplo, a enzima conversora de angiotensina I, que funciona como marcador genético da hipertensão. “...A partir dessa descoberta, os pesquisadores desenvolveram um teste que pode detectar a presença da enzima com o auxílio de várias técnicas laboratoriais, como cromatografia ou espectrometria de massa...” (233)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "espectroscopia de fluorescência": {
         "concept": "espectroscopia de fluorescência",
         "grammar_category": "s.f.",
         "term_en": "fluorescense espectroscopy",
@@ -1187,7 +1187,7 @@
         "inf_encicl": "a informação fornecida pela fluorescência permite a diferenciação dos tecidos dependendo da composição química, do estado metabólico e da arquitetura tecidual. “...Técnicas baseadas em espectroscopia Raman e espectroscopia de Fluorescência, também conhecidas por \"biópsia óptica\", vêm se revelando potenciais substitutas da histologia convencional...” (189)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "espectroscopia de ressonância nuclear magnética": {
         "concept": "espectroscopia de ressonância nuclear magnética",
         "grammar_category": "s.f.",
         "term_en": "espectroscopy of nuclear magnetic ressonance",
@@ -1196,7 +1196,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "esquistossomicida": {
         "concept": "esquistossomicida",
         "grammar_category": "s.m.",
         "term_en": "esquistossomicida",
@@ -1205,7 +1205,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "estímulo aversivo": {
         "concept": "estímulo aversivo",
         "grammar_category": "s.m.",
         "term_en": "aversive stimulation",
@@ -1214,7 +1214,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "estresse oxidativo": {
         "concept": "estresse oxidativo",
         "grammar_category": "s.m.",
         "term_en": "oxidative stress",
@@ -1223,7 +1223,7 @@
         "inf_encicl": "o estresse oxidativo está relacionado com o envelhecimento, apoptose, câncer, diabetes mellitus e arterioesclerose. “...Mas se comportam como vilões quando produzidos e utilizados de forma desequilibrada - numa condição conhecida como estresse oxidativo -, pois passam a destruir membranas celulares, DNA e enzimas, criando uma situação favorável ao avanço de doenças neurodegenerativas, como o mal de Alzheimer, e do processo de morte celular...” (195)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "extrato de alho": {
         "concept": "extrato de alho",
         "grammar_category": "s.m.",
         "term_en": "garlic extract",
@@ -1232,7 +1232,7 @@
         "inf_encicl": "o extrato de alho combate infecções por fungos; funciona contra vírus da herpes e outros relacionados, bem como aumenta a imunidade contra uma série de agentes infecciosos. “...O pesquisador David Lloyd e sua equipe da Universidade Cardiff, da Inglaterra, expuseram a bactéria intestinal Escherichia coli e o Lactobacillus casei a diferentes concentrações de extrato de alho...” (181)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "extrato de camapu": {
         "concept": "extrato de camapu",
         "grammar_category": "s.m.",
         "term_en": "camapu extract",
@@ -1241,7 +1241,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "extrato de pariparoba": {
         "concept": "extrato de pariparoba",
         "grammar_category": "s.m.",
         "term_en": "pariparoba extract",
@@ -1250,7 +1250,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "falcoemulsificação": {
         "concept": "falcoemulsificação",
         "grammar_category": "s.f.",
         "term_en": "phacoemulsification",
@@ -1259,7 +1259,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "falsa arnica": {
         "concept": "falsa arnica",
         "grammar_category": "s.f.",
         "term_en": "false arnica",
@@ -1268,7 +1268,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "falsa operação": {
         "concept": "falsa operação",
         "grammar_category": "s.f.",
         "term_en": "false surgery",
@@ -1277,7 +1277,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "fator de estimulação de colônia de granulócito": {
         "concept": "fator de estimulação de colônia de granulócito",
         "grammar_category": "s.m.",
         "term_en": "granulocyte colony-stimulating factor",
@@ -1286,7 +1286,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "febre do oeste do nilo": {
         "concept": "febre do oeste do nilo",
         "grammar_category": "s.f.",
         "term_en": "west nile fever",
@@ -1295,7 +1295,7 @@
         "inf_encicl": "O vírus é transmitido pela picada do mosquito Culex infectado após picar um pássaro doente. Não existe possibilidade de a transmissão ocorrer entre duas pessoas. A doença pode causar, em pessoas com baixa capacidade imunológica, encefalite ou meningite, o que pode levar à morte. O vírus do Oeste do Nilo foi descoberto em 1937 na Uganda e existe principalmente na Europa, na África e na Ásia. Ele foi identificado pela primeira vez nos Estados Unidos no verão de 1999, quando sete pessoas morreram. “...Em outros países, nessas duas espécies de garça - a vaqueira, mais comum, e a branca - já foi encontrado o vírus da febre do Oeste do Nilo (o West Nile Virus , ou WNV), que tem preocupado os especialistas em saúde pública por estar se espalhando pelo mundo e provocar uma doença emergente de alta mortalidade...” (05, 115)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "febre maculosa": {
         "concept": "febre maculosa",
         "grammar_category": "s.f.",
         "term_en": "maculosa fever",
@@ -1304,7 +1304,7 @@
         "inf_encicl": "a febre maculosa é mais comum entre abril e outubro, período em que predominam as formas jovens do carrapato. Como elas são menores que os adultos, passam despercebidas, conseguem ficar fixadas à pele das pessoas por mais tempo e, portanto, têm mais chance de transmitir as bactérias. Entre os sintomas da doença estão febre alta, dor de cabeça e lesões na pele semelhantes às do sarampo ou da meningite meningocócica. Porém, como a R. rickettsii infecta células do endotélio (revestimento interno) de vasos sangüíneos, a febre maculosa pode se manifestar de diferentes formas. Já que existem vasos por todo o corpo, praticamente qualquer órgão pode ser afetado. O paciente pode apresentar, por exemplo, um quadro clínico que simula pneumonia, apendicite ou meningite. “...a febre maculosa preocupa também por se tratar de \"uma doença emergente, pouco conhecida dos profissionais de saúde, o que causa atraso no diagnóstico\", ressalta a pesquisadora...” (110)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "fator de crescimento de fibroblastos": {
         "concept": "fator de crescimento de fibroblastos",
         "grammar_category": "s.m.",
         "term_en": "fibroblast growth factor",
@@ -1313,7 +1313,7 @@
         "inf_encicl": "o composto tem sido usado também em meio de cultura de células-tronco para a produção de tipos celulares com uso clínico potencial. “...Estudos com fator de crescimento de fibroblasto (FGF) indicam ações terapêuticas potenciais...” (118)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "fibrilação ventricular": {
         "concept": "fibrilação ventricular",
         "grammar_category": "s.f.",
         "term_en": "ventricular vebrillation",
@@ -1322,7 +1322,7 @@
         "inf_encicl": "essa arritmia é a responsável por 90% das mortes imediatas após o infarto agudo do miocárdio em humanos. O único tratamento conhecido para corrigi-la, com cerca de 30% de sucesso se adotado até cinco minutos após o infarto, é aplicar no tórax do paciente um choque elétrico com um aparelho conhecido como desfibrilador. “...Quando jovem, abaixo dos 40 anos, a chance de o indivíduo com esse tipo de infarto apresentar a fibrilação ventricular, o que pode levar a morte, é grande porque a irrigação colateral ao músculo cardíaco ainda é pouca...” (53, 156))",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "fototrombose mediada pela indocianina verde": {
         "concept": "fototrombose mediada pela indocianina verde",
         "grammar_category": "s.f.",
         "term_en": "indocyanine green mediated photothrombosis",
@@ -1331,7 +1331,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "galantamina": {
         "concept": "galantamina",
         "grammar_category": "s.f.",
         "term_en": "galantamine",
@@ -1340,7 +1340,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "gene dinámico": {
         "concept": "gene dinámico",
         "grammar_category": "s.m.",
         "term_en": "dynamic gene",
@@ -1349,7 +1349,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "gene expresso": {
         "concept": "gene expresso",
         "grammar_category": "s.m.",
         "term_en": "express gene",
@@ -1358,7 +1358,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "genes do imprinting": {
         "concept": "genes do imprinting",
         "grammar_category": "s.m.",
         "term_en": "imprinted gene",
@@ -1367,7 +1367,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "genética molecular": {
         "concept": "genética molecular",
         "grammar_category": "s.f.",
         "term_en": "molecular genetics",
@@ -1376,7 +1376,7 @@
         "inf_encicl": "um campo importante da genética molecular é o uso de informação molecular para determinar padrões de descendência, e assim a classificação científica correta dos organismos, a chamada sistemática molecular. “...A genética molecular, com seus aplicativos em cardiologia, é um instrumento do nosso dia-a-dia\", afirma Ramires...” (104, 129)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "genoma mitocondrial": {
         "concept": "genoma mitocondrial",
         "grammar_category": "s.m.",
         "term_en": "mitocondrial genome",
@@ -1385,7 +1385,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "glicosímetro": {
         "concept": "glicosímetro",
         "grammar_category": "s.m.",
         "term_en": "glucosimeter",
@@ -1394,7 +1394,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "glucoíris": {
         "concept": "glucoíris",
         "grammar_category": "s.f.",
         "term_en": "glucoiris",
@@ -1403,7 +1403,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "gomesina": {
         "concept": "gomesina",
         "grammar_category": "s.f.",
         "term_en": "gomesina",
@@ -1412,7 +1412,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "hantavirose": {
         "concept": "hantavirose",
         "grammar_category": "s.f.",
         "term_en": "hantavirosis",
@@ -1421,7 +1421,7 @@
         "inf_encicl": "a hantavirose é capaz de matar num prazo dois a três dias grande parte das pessoas contaminadas. “...Minas Gerais, Mato Grosso e Goiás - onde houve casos de hantavirose em seres humanos causados pela variedade Araraquara...” (179)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "hemoderivado": {
         "concept": "hemoderivado",
         "grammar_category": "s.m.",
         "term_en": "hemoderived",
@@ -1430,7 +1430,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "hemopressina": {
         "concept": "hemopressina",
         "grammar_category": "s.f.",
         "term_en": "hemopressine",
@@ -1439,7 +1439,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "hemopure": {
         "concept": "hemopure",
         "grammar_category": "s.m.",
         "term_en": "hemopure",
@@ -1448,7 +1448,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "hidrocarboneto policíclico aromático": {
         "concept": "hidrocarboneto policíclico aromático",
         "grammar_category": "s.m.",
         "term_en": "polycyclic aromatic hydrocarbons",
@@ -1457,7 +1457,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "hidroxiapatita": {
         "concept": "hidroxiapatita",
         "grammar_category": "s.f.",
         "term_en": "hydroxiapatita",
@@ -1466,7 +1466,7 @@
         "inf_encicl": "os glóbulos vermelhos velhos, danificados ou anormais são extraídos da circulação principalmente pelo baço. Durante este processo, a hemoglobina (proteína dos glóbulos vermelhos que transporta o oxigénio) transforma-se num pigmento amarelo chamado bilirrubina. A bilirrubina chega ao fígado através da circulação e ali é quimicamente alterada (conjugada) para depois ser excretada para o intestino como um componente da bílis. “...A Blanket Lux é uma manta tecida com fibras ópticas que emite luz azul para tratamento fototerápico de recém-nascidos com hiperbilirrubinemia, mais conhecida como icterícia fisiológica, causada pela incapacidade de o organismo do bebê eliminar a bilirrubina do sangue...” (223)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "hipernasalidade": {
         "concept": "hipernasalidade",
         "grammar_category": "s.f.",
         "term_en": "hypernasality",
@@ -1475,7 +1475,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "hiperplasia epitelial": {
         "concept": "hiperplasia epitelial",
         "grammar_category": "s.f.",
         "term_en": "epithelial hyperplasia",
@@ -1484,7 +1484,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "homocisteína": {
         "concept": "homocisteína",
         "grammar_category": "s.f.",
         "term_en": "homocisteine",
@@ -1493,7 +1493,7 @@
         "inf_encicl": "em excesso na corrente sangüínea pode causar problemas cardíacos. “...A ligação entre excesso de homocisteína na circulação sanguínea e problemas cardíacos não é novidade...” (124)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "homocistinúria": {
         "concept": "homocistinúria",
         "grammar_category": "s.f.",
         "term_en": "homocistinuria",
@@ -1502,7 +1502,7 @@
         "inf_encicl": "a doença é causada principalmente por uma deficiência enzimática que impede o metabolismo correto do aminoácido, que então se acumula no organismo. “...A origem do projeto foi a constatação, pela coordenadora do Ambulatório Multidisciplinar de Doenças Metabólicas Hereditárias, a médica Ana Maria Martins, de que um grande número de crianças ali atendidas sofria de homocistinúria (excesso de homocisteína)...” (124)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "hormônio de crescimento": {
         "concept": "hormônio de crescimento",
         "grammar_category": "s.m.",
         "term_en": "growth hormone",
@@ -1511,7 +1511,7 @@
         "inf_encicl": "o hormônio de crescimento é produzido durante toda a vida, mas não de forma constante. Apresenta picos de produção em determinadas fases da vida e momentos do ciclo circadiano. Sendo assim, na adolescência é quando atinge a sua maior produção diária seguida de um declínio gradual médio na ordem de 14% por década. “...Graças a um amigo que me enviou o número 82 de Pesquisa FAPESP , tomei conhecimento de que o Brasil entra no \"Clube dos produtores de hormônio de crescimento\", o que saúdo com entusiasmo e me alegra muito...” (126)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "hormônio de crescimento biossintético": {
         "concept": "hormônio de crescimento biossintético",
         "grammar_category": "s.m.",
         "term_en": "biosynthetic growth hormone",
@@ -1520,7 +1520,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "hormônio regulador": {
         "concept": "hormônio regulador",
         "grammar_category": "s.m.",
         "term_en": "regulator hormone",
@@ -1529,7 +1529,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "icterícia fisiológica": {
         "concept": "icterícia fisiológica",
         "grammar_category": "s.f.",
         "term_en": "physiological jaundice",
@@ -1538,7 +1538,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "ilhota pancreática": {
         "concept": "ilhota pancreática",
         "grammar_category": "s.f.",
         "term_en": "pancreatic island",
@@ -1547,7 +1547,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "imunossensor amperométrico": {
         "concept": "imunossensor amperométrico",
         "grammar_category": "s.m.",
         "term_en": "amperometric immunosensor",
@@ -1556,7 +1556,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "infarto medular": {
         "concept": "infarto medular",
         "grammar_category": "s.m.",
         "term_en": "medular heart attack",
@@ -1565,7 +1565,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "infecção perinatal": {
         "concept": "infecção perinatal",
         "grammar_category": "s.f.",
         "term_en": "perinatal infection",
@@ -1574,7 +1574,7 @@
         "inf_encicl": "a infecção pode ser causada por doenças sexualmente transmissíveis, ou por meio de sangue e secreções contaminadas. “...Maria Teresa aponta as infecções perinatais, ocorridas intra-útero ou próximas ao parto - sobretudo as doenças de transmissão sexual (DST) ou por meio de sangue e secreções contaminados -, como causas crescentes de mortalidade infantil...” (254)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "insuficiência cardíaca crônica": {
         "concept": "insuficiência cardíaca crônica",
         "grammar_category": "s.f.",
         "term_en": "chronic cardiac insufficiency",
@@ -1583,7 +1583,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "\"...A maioria das pessoas com insuficiência cardíaca crônica também apresenta": {
         "concept": "\"...A maioria das pessoas com insuficiência cardíaca crônica também apresenta",
         "grammar_category": "",
         "term_en": "",
@@ -1592,7 +1592,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "um aumento excessivo da atividade do coração, causada pela liberação de": {
         "concept": "um aumento excessivo da atividade do coração, causada pela liberação de",
         "grammar_category": "",
         "term_en": "",
@@ -1601,7 +1601,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "quantidade maior de noradrenalina no músculo cardíaco\", diz ela...” (220)": {
         "concept": "quantidade maior de noradrenalina no músculo cardíaco\", diz ela...” (220)",
         "grammar_category": "",
         "term_en": "",
@@ -1610,7 +1610,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "insuficiência cardíaca grave": {
         "concept": "insuficiência cardíaca grave",
         "grammar_category": "s.f.",
         "term_en": "serious cardiac insufficiency",
@@ -1619,7 +1619,7 @@
         "inf_encicl": "trata-se de uma das formas de doenças do coração que mais matam no mundo todo. “...indica uma das causas da insuficiência cardíaca grave - distúrbio em que o coração deixa de bombear o sangue de forma eficiente...” (220)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "insuficiência renal aguda": {
         "concept": "insuficiência renal aguda",
         "grammar_category": "s.f.",
         "term_en": "acute renal insufficiency",
@@ -1628,7 +1628,7 @@
         "inf_encicl": "dependendo da severidade e da duração da disfunção renal, este acúmulo é acompanhado por distúrbios metabólicos, tais como excesso de ácido no sangue e hipercalemia (níveis elevados de potássio), mudanças no balanço hídrico corpóreo e efeitos em outros órgãos e sistemas. Pode ser caracterizada pela diminuição ou parada de produção de urina. “...Medicamentos tóxicos A LTA é uma enfermidade de tratamento longo e também difícil, pois requer medicamentos muito tóxicos: antimonial pentavalente e anfotericina B, que podem causar insuficiência renal aguda, e pentamidina, associada ao surgimento de diabetes mellitus...” (191)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "insulina encapsulada": {
         "concept": "insulina encapsulada",
         "grammar_category": "s.f.",
         "term_en": "capsuled insulin",
@@ -1637,7 +1637,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "insulina transgênica": {
         "concept": "insulina transgênica",
         "grammar_category": "s.f.",
         "term_en": "transgenic insulin",
@@ -1646,7 +1646,7 @@
         "inf_encicl": "a insulina assim produzida é mais pura e barata que a extraída de animais. “...\"E os diabéticos não reclamam da insulina transgênica que salva suas vidas.\"...” (95)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "interferon gama": {
         "concept": "interferon gama",
         "grammar_category": "s.m.",
         "term_en": "interferon gamma",
@@ -1655,7 +1655,7 @@
         "inf_encicl": "a molécula também pode ser produzida pela engenharia genética. “...quanto maior a gravidade da doença, menor a produção de interferon gama, molécula que ativa as células de defesa do organismo...” (131)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "isoflavona aglicona": {
         "concept": "isoflavona aglicona",
         "grammar_category": "s.f.",
         "term_en": "glycine max",
@@ -1664,7 +1664,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "isquemia cerebral": {
         "concept": "isquemia cerebral",
         "grammar_category": "s.f.",
         "term_en": "brain ischemia",
@@ -1673,7 +1673,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "jacalina": {
         "concept": "jacalina",
         "grammar_category": "s.f.",
         "term_en": "jacalina",
@@ -1682,7 +1682,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "jogador patológico": {
         "concept": "jogador patológico",
         "grammar_category": "s.m.",
         "term_en": "pathologic gambler",
@@ -1691,7 +1691,7 @@
         "inf_encicl": "a personalidade dos jogadores patológicos é marcada pela compulsão e impulsividade. Uma pessoa compulsiva se caracteriza pela obstinação e perseverança: dificilmente aceita perder e joga para se divertir. Já a impulsividade aparece em pessoas empreendedoras e ativas que, na maioria das vezes, têm dificuldade de prever conseqüências a longo prazo. “...A pós-quebradeira do jogador patológico também é semelhante ao período de recuperação do viciado em cocaína...” (134)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "kava-kava": {
         "concept": "kava-kava",
         "grammar_category": "s.f.",
         "term_en": "kava",
@@ -1700,7 +1700,7 @@
         "inf_encicl": "há indícios de que a planta possa prejudicar o fígado. “...O uso da kava-kava ( Piper methysticum ), popularmente empregada para combater o stress, foi recentemente proibido no Canadá e na Alemanha, depois de encontrados indícios de que prejudicaria o fígado...” (101)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "leishmaniose cutâneo-mucosa": {
         "concept": "leishmaniose cutâneo-mucosa",
         "grammar_category": "s.f.",
         "term_en": "skin-mucosal leishmaniasis",
@@ -1709,7 +1709,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "leishmaniose tegumentar americana": {
         "concept": "leishmaniose tegumentar americana",
         "grammar_category": "s.f.",
         "term_en": "american tegumentar leishmaniasis",
@@ -1718,7 +1718,7 @@
         "inf_encicl": "trata-se de uma doença em franca expansão geográfica no Brasil, sendo uma das infecções dermatológicas mais importantes, não só pela freqüência, mas principalmente pelas dificuldades terapêuticas, deformidades e seqüelas que pode acarretar. “...são os animais silvestres que carregam naturalmente o protozoário Leishmania (Viannia) braziliensis , causador da leishmaniose tegumentar americana (LTA). Essa é a forma mais comum de leishmaniose em seres humanos no país...” (186)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "leptina": {
         "concept": "leptina",
         "grammar_category": "s.f.",
         "term_en": "leptine",
@@ -1727,7 +1727,7 @@
         "inf_encicl": "a proteína também atua no sistema reprodutor feminino e está associada a problemas como perda de massa óssea em atletas, distúrbios alimentares e infertilidade. “...Nesse estudo, atletas com 40% a menos de gordura que mulheres comuns foram tratadas com leptina...” (210)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "lesão medular": {
         "concept": "lesão medular",
         "grammar_category": "s.f.",
         "term_en": "medular injury",
@@ -1736,7 +1736,7 @@
         "inf_encicl": "a lesão pode ser completa ou incompleta. A lesão é completa quando não existe movimento voluntário abaixo do nível da lesão e é incompleta quando há algum movimento voluntário ou sensação abaixo do nível da lesão. Esse tipo de lesão geralmente ocorre em virtude de um evento traumático, como acidentes automobilísticos, mergulho, agressão com arma de fogo ou queda. Também pode ser causada por algumas doenças (causas não traumáticas), como por exemplo, hemorragias, tumores e infecções por vírus. “...No início do tratamento, o pesquisador fez o exame de potencial evocado na publicitária e viu que os sinais nervosos provenientes da região abaixo da lesão medular não alcançavam o cérebro, algo totalmente esperado devido à sua condição de paraplégica...” (70)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "leucemia mielóide aguda": {
         "concept": "leucemia mielóide aguda",
         "grammar_category": "s.f.",
         "term_en": "acute myeloid leukemia",
@@ -1745,7 +1745,7 @@
         "inf_encicl": "a enfermidade causa um bloqueio na fabricação das células normais, havendo uma deficiência de glóbulos vermelhos (anemia), plaquetas e glóbulos brancos. Na maioria dos casos desta doença não existe causa evidente. No entanto, em alguns pacientes consegue-se relacioná-la à exposição a benzeno (principalmente profissional), a irradiações ionizantes, como a que ocorreu em Hiroshima e à exposição à quimioterapia no tratamento de outras doenças, como câncer de mama, ovário ou linfomas. “...De acordo com os dados do trabalho, que analisou a recuperação de 107 transplantados franceses, vítimas de leucemia mielóide aguda ou crônica (formas de câncer no sangue), o risco de haver infecção bacteriana nas pessoas que receberam medulas de indivíduos com alterações no gene da mieloperoxidase foi de 39,5%...” (235)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "leucemia mielóide crônica": {
         "concept": "leucemia mielóide crônica",
         "grammar_category": "s.f.",
         "term_en": "chronic myeloid leukemia",
@@ -1754,7 +1754,7 @@
         "inf_encicl": "A leucemia mielóide crônica é uma anormalidade que envolve os cromossomas de números 9 e 22. Esses cromossomos se quebram e trocam partes entre si. Esta alteração é chamada translocação e o novo cromossoma que se forma é chamado Philadelfia. Esta fusão de pedaços de cromossomos é chamada em nível de gene de bcr-abl. As causas que levam a essa alteração são geralmente desconhecidas. “...De acordo com os dados do trabalho, que analisou a recuperação de 107 transplantados franceses, vítimas de leucemia mielóide aguda ou crônica (formas de câncer no sangue), o risco de haver infecção bacteriana nas pessoas que receberam medulas de indivíduos com alterações no gene da mieloperoxidase foi de 39,5%...” (235)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "linfoma de burkitt": {
         "concept": "linfoma de burkitt",
         "grammar_category": "s.m.",
         "term_en": "burkitt lymphoma",
@@ -1763,7 +1763,7 @@
         "inf_encicl": "embora o linfoma de Burkitt se possa desenvolver em qualquer idade, é muito freqüente em crianças e em adultos jovens, particularmente do sexo masculino. Também pode desenvolver-se em doentes de Aids. “.... Os quatro tipos de câncer que agora podem ser diferenciados são: neuroblastoma, rabdomiosarcoma, linfoma de Burkitt e sarcoma de Ewing...” (234)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "líquido cefalorraquidiano": {
         "concept": "líquido cefalorraquidiano",
         "grammar_category": "s.m.",
         "term_en": "cefalorraquidiano liquid",
@@ -1772,7 +1772,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "líquor": {
         "concept": "líquor",
         "grammar_category": "s.m.",
         "term_en": "liquor",
@@ -1781,7 +1781,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "lopap": {
         "concept": "lopap",
         "grammar_category": "s.f.",
         "term_en": "lopap",
@@ -1790,7 +1790,7 @@
         "inf_encicl": "lopap é a sigla em inglês de Lonomia obliqua prothrombin activator protease - ou protease ativadora de protrombina da Lonomia obliqua. “...Com um controle rigoroso da dosagem, porém, a lopap poderia funcionar contra a trombose, sem provocar reações hemorrágicas...” (252)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "lúpus eritematoso sistêmico": {
         "concept": "lúpus eritematoso sistêmico",
         "grammar_category": "s.m.",
         "term_en": "systemic lupus erythematosus",
@@ -1799,7 +1799,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "mal da vaca louca": {
         "concept": "mal da vaca louca",
         "grammar_category": "s.f.",
         "term_en": "mad cow disease",
@@ -1808,7 +1808,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "mal de alzheimer": {
         "concept": "mal de alzheimer",
         "grammar_category": "s.m.",
         "term_en": "alzheimer’s disease",
@@ -1817,7 +1817,7 @@
         "inf_encicl": "a doença que não tem cura, afeta a memória e a capacidade de aprendizagem. Em seu estágio avançado, é a principal causa de demência, que ocorre principalmente em pessoas com mais de 60 anos. “...Os pesquisadores acreditam que os primeiros sintomas do mal de Alzheimer, normalmente só aparentes depois dos 60 anos de idade, sejam o ponto culminante de um processo silencioso que começa de 20 a 30 anos antes - mas pode deixar suas marcas no sangue desde o início...”. (63, 109, 97)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "mal de chagas": {
         "concept": "mal de chagas",
         "grammar_category": "s.m.",
         "term_en": "chagas disease",
@@ -1826,7 +1826,7 @@
         "inf_encicl": "o parasita secreta moléculas chamadas mitogênicas que fazem com que sua presença não seja reconhecida pelos linfócitos (células do sistema imunológico). “...As fisalinas já são vistas como antitumorais e tripanossomicidas (matam o Trypanosoma cruzi , protozoário causador do mal de Chagas)...” (203, 199)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "mal de creutzfeldt-jacob": {
         "concept": "mal de creutzfeldt-jacob",
         "grammar_category": "s.m.",
         "term_en": "creutzfeldt-jacob disease",
@@ -1835,7 +1835,7 @@
         "inf_encicl": "a enfermidade é a variante humana da doença da vaca louca. “...Ao mesmo tempo, descobriu-se que o uso do hormônio obtido de pituitárias de cadáveres estava associado ao mal de Creutzfeldt-Jacob. Essa doença corresponde à versão humana da doença da \"vaca louca\", caracterizada por degeneração física e mental, o que levou à proibição mundial do uso do hormônio obtido diretamente da pituitária...” (57, 125)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "mal de lutz": {
         "concept": "mal de lutz",
         "grammar_category": "s.m.",
         "term_en": "lutz’s disease",
@@ -1844,7 +1844,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "mamica de cadela": {
         "concept": "mamica de cadela",
         "grammar_category": "s.f.",
         "term_en": "naranjilla",
@@ -1853,7 +1853,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "mão de são carlos": {
         "concept": "mão de são carlos",
         "grammar_category": "s.f.",
         "term_en": "saint charles’ hand",
@@ -1862,7 +1862,7 @@
         "inf_encicl": "dos dedos da mão artificial, apenas três são capazes de realizar movimentos (polegar, indicador e médio). Os outros dois permanecem imóveis, com funções apenas estéticas. A prótese da mão conta com sensores de força, temperatura e deslizamento. Isso permite ao usuário do membro artificial dosar a força empregada para segurar objetos, reconhecer o calor ou frio proveniente dos artefatos e ainda perceber quando algo escorrega de seus dedos. “...Numa iniciativa mais ambiciosa, os pesquisadores da USP trabalham na criação de uma prótese para membros superiores, apelidada de Mão de São Carlos...” (29)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "medicina à distância": {
         "concept": "medicina à distância",
         "grammar_category": "s.f.",
         "term_en": "distant medicine",
@@ -1871,7 +1871,7 @@
         "inf_encicl": "o procedimento se torna possível com o uso de recursos de tecnologia avançada, como vídeo de alta resolução e transmissão de dados via satélite. “...por meio da implantação de tecnologia avançada, como vídeo de alta resolução e transmissão de dados via satélite, tornou a medicina a distância uma prática rotineira em território europeu...” (40)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "medicina comportamental": {
         "concept": "medicina comportamental",
         "grammar_category": "s.f.",
         "term_en": "behavioral medicine",
@@ -1880,7 +1880,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "memantina": {
         "concept": "memantina",
         "grammar_category": "s.f.",
         "term_en": "memantina",
@@ -1889,7 +1889,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "metaplasia intestinal": {
         "concept": "metaplasia intestinal",
         "grammar_category": "s.f.",
         "term_en": "intestinal metaplasy",
@@ -1898,7 +1898,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "metapneumovírus": {
         "concept": "metapneumovírus",
         "grammar_category": "s.m.",
         "term_en": "metapneumovirus",
@@ -1907,7 +1907,7 @@
         "inf_encicl": "o vírus é uma das principais causas de internações hospitalares de crianças com menos de 5 anos de idade. “...Chegou ao país um tipo de vírus descoberto na Holanda há dois anos: o metapneumovírus, que causa sintomas semelhantes aos de uma gripe e, algumas vezes, pneumonia...” (255)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "miastenia grave": {
         "concept": "miastenia grave",
         "grammar_category": "s.f.",
         "term_en": "serious miastenia",
@@ -1916,7 +1916,7 @@
         "inf_encicl": "a doença surge em virtude da produção de anticorpos contra o próprio organismo. Embora não se saiba ainda porque esses auto- anticorpos são produzidos, sabe-se que a doença acomete principalmente mulheres na proporção de 6 mulheres para cada 4 homens, preferencialmente nas idades entre 20 e 35 anos. “...Indicada desde 1955 para amenizar a fraqueza muscular decorrente da miastenia grave, um tipo raro de doença neurológica, a piridostigmina inibe a ação de uma enzima, a acetilcolinesterase, que aciona o sistema nervoso parassimpático, conjunto de nervos responsável pelo controle involuntários dos músculos e órgãos do corpo, cuja falha aumenta o risco de problemas cardiovasculares...” (72)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "microagulha": {
         "concept": "microagulha",
         "grammar_category": "s.f.",
         "term_en": "microneedle",
@@ -1925,7 +1925,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "microarray": {
         "concept": "microarray",
         "grammar_category": "s.m.",
         "term_en": "microarray",
@@ -1934,7 +1934,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "microesferas biodegradáveis": {
         "concept": "microesferas biodegradáveis",
         "grammar_category": "s.f.",
         "term_en": "biodegradable microsphere",
@@ -1943,7 +1943,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "microflora intestinal": {
         "concept": "microflora intestinal",
         "grammar_category": "s.f.",
         "term_en": "intestinal microflora",
@@ -1952,7 +1952,7 @@
         "inf_encicl": "a microflora intestinal é essencial para a decomposição das substâncias alimentares que não foram digeridas, integridade das paredes intestinais, produção de vitaminas, particularmente do grupo B e ácidos gordos, estímulo à resposta imunitária, redução do nível de colesterol no sangue humano e proteção contra microorganismos patogênicos. “...Esse processo de transformação das isoflavonas ocorre normalmente no aparelho digestivo, quando enzimas digestivas produzidas pela microflora intestinal transformam as isoflavonas glicosiladas em agliconas...” (222)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "microscopia eletrônica de varredura": {
         "concept": "microscopia eletrônica de varredura",
         "grammar_category": "s.f.",
         "term_en": "electronic sweeping microscopy",
@@ -1961,7 +1961,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "microtrans": {
         "concept": "microtrans",
         "grammar_category": "s.m.",
         "term_en": "microtrans",
@@ -1970,7 +1970,7 @@
         "inf_encicl": "a agulha mede pouco mais de 1 centímetro e comprimento e menos de 1 milímetro de espessura e pode aumentar a taxa de sucesso de transplantes. “...Uma pequena agulha de pouco mais de 1 centímetro de comprimento e menos de 1 milímetro de espessura, chamada Microtrans, pode ser a resposta que os cirurgiões aguardavam para aumentar as taxas de sucesso dos transplantes...” (16)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "mielomeningocele": {
         "concept": "mielomeningocele",
         "grammar_category": "s.f.",
         "term_en": "myelingomeningocel",
@@ -1979,7 +1979,7 @@
         "inf_encicl": "quando a medula espinhal nasce exposta, como na mielomeningocele, muitos dos nervos podem estar traumatizados ou sem função, sendo que o funcionamento dos órgãos inervados (bexiga, intestinos e músculos) podem estar afetado. “...Esses problemas resultam de uma malformação que pode ser identificada pelos médicos durante a gravidez, a mielomeningocele, que impede o desenvolvimento completo da coluna e deixa a medula espinhal do feto exposta...” (19)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "mimivírus": {
         "concept": "mimivírus",
         "grammar_category": "s.m.",
         "term_en": "mimivirus",
@@ -1988,7 +1988,7 @@
         "inf_encicl": "o vírus possui aproximadamente 400 nanômetros de diâmetro, é quase duas vezes maior que os maiores vírus conhecidos e do tamanho de bactérias pequenas. Isso faz com o vírus consiga sobreviver e reproduzir sem infectar microorganismos vivos. “....Mais importante: o Mimivírus produz 150 de suas proteínas - inclusive algumas que reparam danos no material genético -, uma característica até agora exclusiva dos organismos vivos. Em tese, tal fato permitiria a esse vírus, descoberto ao acaso em 1992, sobreviver e se reproduzir sem infectar microorganismos vivos...” (122)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "mucosite oral": {
         "concept": "mucosite oral",
         "grammar_category": "s.f.",
         "term_en": "oral mucositis",
@@ -1997,7 +1997,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "muleta instrumentalizada": {
         "concept": "muleta instrumentalizada",
         "grammar_category": "s.f.",
         "term_en": "instrumentalized crutch",
@@ -2006,7 +2006,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "neuromorfometria": {
         "concept": "neuromorfometria",
         "grammar_category": "s.f.",
         "term_en": "neuromorphometry",
@@ -2015,7 +2015,7 @@
         "inf_encicl": "o objetivo desse campo é fornecer ferramentas para ajudar os neurocientistas a compreender melhor as células que compõem o cérebro e o sistema nervoso humano. “...O Grupo de Pesquisa Criativa em Visão realiza um trabalho inédito no Brasil na área de neuromorfometria, que consiste na análise de imagens de neurônios...” (242)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "neurônio biônico": {
         "concept": "neurônio biônico",
         "grammar_category": "s.m.",
         "term_en": "bionic neuron",
@@ -2024,7 +2024,7 @@
         "inf_encicl": "podem ser utilizados para o tratamento de diversas doenças de origem neurológica, como a incontinência urinária, por exemplo. “...Os dispositivos chamados \"neurônios biônicos\" ou Bions (marca registrada) já estão sendo testados no tratamento de diversas doenças de origem neurológica, como a incontinência urinária, por exemplo...” (43)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "nitrato de prata": {
         "concept": "nitrato de prata",
         "grammar_category": "s.m.",
         "term_en": "silver nitrate",
@@ -2033,7 +2033,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "núcleo mediano da rafe": {
         "concept": "núcleo mediano da rafe",
         "grammar_category": "s.m.",
         "term_en": "median raphe nucleus",
@@ -2042,7 +2042,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "núcleo paraventricular": {
         "concept": "núcleo paraventricular",
         "grammar_category": "s.m.",
         "term_en": "paraventricular nucleus",
@@ -2051,7 +2051,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "odontogeriatria": {
         "concept": "odontogeriatria",
         "grammar_category": "s.f.",
         "term_en": "odontogeriatry",
@@ -2060,7 +2060,7 @@
         "inf_encicl": "trata-se de uma especialidade odontológica recente. “...\"O Conceito Atual da Medicina Bucal\"; \"Interações entre Medicina e Odontologia\"; \"Distúrbios Bucais na Terceira Idade\"; \"Plano de Tratamento Integrado em Odontogeriatria\";...” (176)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "osseointegração": {
         "concept": "osseointegração",
         "grammar_category": "s.f.",
         "term_en": "bone integration",
@@ -2069,7 +2069,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "óxido nítrico": {
         "concept": "óxido nítrico",
         "grammar_category": "s.m.",
         "term_en": "nitric oxide",
@@ -2078,7 +2078,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "papiloma vírus": {
         "concept": "papiloma vírus",
         "grammar_category": "s.m.",
         "term_en": "papiloma virus",
@@ -2087,7 +2087,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "pata-de-vaca": {
         "concept": "pata-de-vaca",
         "grammar_category": "s.m.",
         "term_en": "paw of cow",
@@ -2096,7 +2096,7 @@
         "inf_encicl": "muito comum na Amazônia, a planta é utilizada também como uma espécie de insulina vegetal, uma vez que consegue regular a glicemia humana. “...A espécie amazônica conhecida como pata-de-vaca (Bauhimia forficata link ), usada popularmente como planta medicinal, tem fama de ser eficaz no tratamento da diabetes e apresentar propriedade purgativas e diuréticas....” (190)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "pele artificial": {
         "concept": "pele artificial",
         "grammar_category": "s.f.",
         "term_en": "artificial skin",
@@ -2105,7 +2105,7 @@
         "inf_encicl": "o curativo gruda no local e, quando a pele nova cresce, cai como se fosse uma crosta. Tanto o banho de chuveiro como a exposição ao sol podem ser liberados para os pacientes em tratamento. Permeável a gases e impermeável a líquidos, a pele artificial forma uma barreira bacteriológica, deixando o ferimento respirar. “...O curativo, também chamado de pele artificial, é colocado sobre a lesão após a assepsia. Ele gruda no local e, quando a pele nova cresce, cai como se fosse uma crosta...” (56)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "perlecan": {
         "concept": "perlecan",
         "grammar_category": "s.m.",
         "term_en": "perlecan",
@@ -2114,7 +2114,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "pinça óptica": {
         "concept": "pinça óptica",
         "grammar_category": "s.f.",
         "term_en": "optical caliper",
@@ -2123,7 +2123,7 @@
         "inf_encicl": "com o feixe duplicado, o sistema se torna um bisturi óptico, capaz de perfurar e cortar partes de uma célula. “...Quando utiliza um feixe de laser é chamado de pinça óptica e tem a capacidade de capturar e mover pedaços de DNA, espermatozóides, bactérias e outros componentes do interior de uma célula....” (138)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "piolho de cama": {
         "concept": "piolho de cama",
         "grammar_category": "s.m.",
         "term_en": "bed louse",
@@ -2132,7 +2132,7 @@
         "inf_encicl": "o inseto também podem ser vetor dos agentes transmissores de leishmaniose, doença de Chagas e hepatite B. Esse parasita prolifera-se em lugares como frestas de cadeiras e entre colchões. “...Entre as frestas das cadeiras, foram encontrados insetos de três a quatro milímetros, que os pesquisadores da Fundação Oswaldo Cruz (Fiocruz) identificaram como piolhos-de-cama ( Cimex hemipterus )...” (132)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "pleurodese": {
         "concept": "pleurodese",
         "grammar_category": "s.f.",
         "term_en": "pleurodesis",
@@ -2141,7 +2141,7 @@
         "inf_encicl": "c onsiste em introduzir na cavidade uma substância que desencadeia a formação de um tecido fibroso de colágeno. Injetada no espaço entre as pleuras, a substância as faz aderir uma à outra. “...Quando a complicação é reincidente (o derrame se refaz), o procedimento mais comum é a pleurodese, que consiste em introduzir na cavidade uma substância que desencadeia a formação de um tecido fibroso de colágeno...” (165, 174)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "pluma grande": {
         "concept": "pluma grande",
         "grammar_category": "s.f.",
         "term_en": "bracken fern",
@@ -2150,7 +2150,7 @@
         "inf_encicl": "a planta é bastante consumida em Minas Gerais. “...É que a samambaia-das-taperas ( Pteridium aquilinum ), conhecida também como samambaia-verdadeira e pluma-grande, ingrediente obrigatório de uma receita de frango intensamente consumida na região de Ouro Preto, Minas Gerais...” (194, 228)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "pneumonia asiática": {
         "concept": "pneumonia asiática",
         "grammar_category": "s.f.",
         "term_en": "asian pneunonia",
@@ -2159,7 +2159,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "poliparasitismo": {
         "concept": "poliparasitismo",
         "grammar_category": "s.m.",
         "term_en": "poliparasitism",
@@ -2168,7 +2168,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "porfíria aguda intermitente": {
         "concept": "porfíria aguda intermitente",
         "grammar_category": "s.f.",
         "term_en": "acute intermittent porphyria",
@@ -2177,7 +2177,7 @@
         "inf_encicl": "com prevalência maior na Escandinávia e na Inglaterra, a doença tem características sutis: na maioria das vezes, os portadores não manifestam a enfermidade. Durante toda a vida, podem ter apenas uma ou duas crises agudas. A doença é atribuída à deficiência na produção de uma enzima chamada Ala desaminase e ao acúmulo de Ala no sangue, no cérebro e no fígado. “...Com prevalência maior na Escandinávia e na Inglaterra, a porfiria aguda intermitente tem características sutis: na maioria das vezes, os portadores não manifestam a enfermidade...” (195)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "potencial evocado": {
         "concept": "potencial evocado",
         "grammar_category": "s.m.",
         "term_en": "evoked potential",
@@ -2186,7 +2186,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "pró-insulina": {
         "concept": "pró-insulina",
         "grammar_category": "s.f.",
         "term_en": "proinsulin",
@@ -2195,7 +2195,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "prótese de Takimoto": {
         "concept": "prótese de Takimoto",
         "grammar_category": "s.f.",
         "term_en": "takimoto’s prothesis",
@@ -2204,7 +2204,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "ptose palpebral": {
         "concept": "ptose palpebral",
         "grammar_category": "s.f.",
         "term_en": "palpebral ptosis",
@@ -2213,7 +2213,7 @@
         "inf_encicl": "as causas mais comuns são: congênita (o músculo que eleva a pálpebra não tem função normal), relacionada com o envelhecimento e por trauma (por cirurgias intra-oculares ou de outra natureza). Pode, com menos freqüência, ser manifestação de outras doenças ou por medicamentos. “...\"Um dos primeiros sinais de que o veneno está agindo é a ptose palpebral - a pessoa não consegue abrir a pálpebra\"...” (27)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "radiocirurgia": {
         "concept": "radiocirurgia",
         "grammar_category": "s.f.",
         "term_en": "radiosurgery",
@@ -2222,7 +2222,7 @@
         "inf_encicl": "a radiocirurgia pode ser utilizada também na correção de distúrbios funcionais, sendo aplicada a determinadas áreas do cérebro com o objetivo de normalizar sua atividade. “...Colocado em prática para casos de TOC há quase dez anos na Universidade de Brown, esse tipo de radiocirurgia tem sido utilizada no combate a tumores, com quase 200 mil casos já tratados, e como alternativa para tratar epilepsia e doença de Parkinson resistentes às terapias convencionais...” (61)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "raman": {
         "concept": "raman",
         "grammar_category": "s.m.",
         "term_en": "raman",
@@ -2231,7 +2231,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "rato de rabo peludo": {
         "concept": "rato de rabo peludo",
         "grammar_category": "s.m.",
         "term_en": "hairy-tailed bolo mouse",
@@ -2240,7 +2240,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "razão de chances": {
         "concept": "razão de chances",
         "grammar_category": "s.f.",
         "term_en": "odds-ratio",
@@ -2249,7 +2249,7 @@
         "inf_encicl": "por exemplo, uma pessoa fumar pelo menos cinco cigarros por dia equivale a um risco relativo de 4,9. Quem acende a cada 24 horas essa quantidade de cigarros tem quase 4,9 vezes mais risco de sofrer infarto do que quem não fuma. “...O risco relativo ou razão de chances ( odds-ratio , em inglês) é um valor numérico que mostra quantas vezes um fator aumenta a chance de ocorrer infarto numa determinada população...” (130)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "reabsorção dentária": {
         "concept": "reabsorção dentária",
         "grammar_category": "s.f.",
         "term_en": "dental reabsorption",
@@ -2258,7 +2258,7 @@
         "inf_encicl": "a reabsorção da raiz, pode levar à perda do dente, só é visível quando está em estágio adiantado. “...Desenvolvimento de um kit comercial para detecção precoce da reabsorção dentária...” (85)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "rede neural artificial": {
         "concept": "rede neural artificial",
         "grammar_category": "s.f.",
         "term_en": "artificial neuronal net",
@@ -2267,7 +2267,7 @@
         "inf_encicl": "o programa pode ser empregado na identificação de impressão digital de criminosos, bem como ser utilizado na identificação de tipos de câncer que podem ser confundidos em exames microscópicos. “...O método combina a tecnologia microarray ( chips de genes), que analisa o padrão de atividade de milhares de genes de qualquer tipo de célula, com a rede neural artificial (ANN), um programa de inteligência artificial capaz de processar quantidades elevadas de informações...” (234)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "ressonância magnética funcional": {
         "concept": "ressonância magnética funcional",
         "grammar_category": "s.f.",
         "term_en": "functional magnetic resonance",
@@ -2276,7 +2276,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "retinol binding protein": {
         "concept": "retinol binding protein",
         "grammar_category": "s.m.",
         "term_en": "retinal binding protein",
@@ -2285,7 +2285,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "sagüi de tufo branco": {
         "concept": "sagüi de tufo branco",
         "grammar_category": "s.m.",
         "term_en": "marmoset monkey",
@@ -2294,7 +2294,7 @@
         "inf_encicl": "é tratado como animal de estimação no sertão do Nordeste. “...Mantidos como animais de estimação no sertão do Nordeste, os sagüis-de-tufo-branco ( Callitrix jacchus jacchus ) se tornaram um motivo de preocupação: podem transmitir o vírus da raiva...” (11)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "sal de escopolamina": {
         "concept": "sal de escopolamina",
         "grammar_category": "s.m.",
         "term_en": "escopolamina salt",
@@ -2303,7 +2303,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "salgadão": {
         "concept": "salgadão",
         "grammar_category": "s.m.",
         "term_en": "salgadão",
@@ -2312,7 +2312,7 @@
         "inf_encicl": "o medicamento também pode ser utilizado no controle de arritmias cardíacas causadas pela queda na corrente sanguínea de um tipo de anestésico, modular a resposta inflamatória do sistema imunológico durante o choque e diminuir as seqüelas de lesões no cérebro e coração decorrentes da falta de oxigênio produzida pela baixa na circulação. “...Agora, novos estudos no Brasil levantam evidências de que a solução hipertônica - ou o salgadão, como é informalmente chamada no meio médico - pode ter efeitos ainda mais amplos...” (12)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "samambaia das taperas": {
         "concept": "samambaia das taperas",
         "grammar_category": "s.f.",
         "term_en": "western brackenfern",
@@ -2321,7 +2321,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "sarcoma de ewing": {
         "concept": "sarcoma de ewing",
         "grammar_category": "s.m.",
         "term_en": "ewing’s sarcoma",
@@ -2330,7 +2330,7 @@
         "inf_encicl": "o tumor ocorre nos ossos longos do corpo, especialmente no úmero, fêmur, tíbia ou perônio. “...Outros tipos de câncer que agora podem ser diferenciados são o linfoma de Burkitt e o sarcoma de Ewing...” (234)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "secreção de prolactina": {
         "concept": "secreção de prolactina",
         "grammar_category": "s.f.",
         "term_en": "prolactin secretion",
@@ -2339,7 +2339,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "shitake": {
         "concept": "shitake",
         "grammar_category": "s.m.",
         "term_en": "shitake",
@@ -2348,7 +2348,7 @@
         "inf_encicl": "O fungo também diminui os efeitos colaterais dos medicamentos antivirais, como fadiga e dores musculares. Além disso, é uma excelente fonte de proteínas e vitaminas. Cada 100 gramas do cogumelo desidratado contém 35 gramas de proteínas, além de ferro, fósforo, cálcio e vitaminas do complexo B. “...O estudo das propriedades medicinais do A. blazei e também do Lentinula edodes , cogumelo conhecido por shitake, foi um dos objetivos da pesquisa...” (193)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "simocaína": {
         "concept": "simocaína",
         "grammar_category": "s.f.",
         "term_en": "simocaina",
@@ -2357,7 +2357,7 @@
         "inf_encicl": "trata-se do primeiro anestésico totalmente desenvolvido por pesquisadores brasileiros. “...a simocaína, o primeiro anestésico brasileiro, desenvolvido em pesquisa coordenada por Maria Simonetti, do Departamento de Farmacologia do Instituto de Ciências Biomédicas da Universidade de São Paulo (USP)...” (25)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "síndrome da fadiga crônica": {
         "concept": "síndrome da fadiga crônica",
         "grammar_category": "s.f.",
         "term_en": "chronic fatigue syndrome",
@@ -2366,7 +2366,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "síndrome da rubéola congênita": {
         "concept": "síndrome da rubéola congênita",
         "grammar_category": "s.f.",
         "term_en": "congenital rubella syndrome",
@@ -2375,7 +2375,7 @@
         "inf_encicl": "os principais sinais e sintomas da infecção são o aborto espontâneo, malformação congênita de grandes órgãos. É possível a ocorrência de formas leves, como surdez parcial ou pequenas deficiências cardíacas, que geralmente são diagnosticadas muitos anos após o nascimento. A infecção é tanto mais grave quanto mais precoce for a contaminação do feto, pois o vírus ataca mais tecidos jovens. “...A campanha deu à FAPESP a oportunidade de divulgação de resultados de alta significação: obteve-se um controle efetivo da síndrome da rubéola congênita, causa de elevados índices de surdez, cegueira e retardo mental em crianças de todo o país...” (73)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "síndrome de turner": {
         "concept": "síndrome de turner",
         "grammar_category": "s.f.",
         "term_en": "turner Syndrome",
@@ -2384,7 +2384,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "síndrome do desconforto respiratório": {
         "concept": "síndrome do desconforto respiratório",
         "grammar_category": "s.f.",
         "term_en": "discomfort respiratory syndrome",
@@ -2393,7 +2393,7 @@
         "inf_encicl": "Esses recém-nascidos clinicamente se apresentam ofegantes, com gemido à expiração, tendo suas costelas visíveis durante a respiração (por causa do esforço respiratório) e cianose (arroxeamento dos lábios e extremidades). “...Porcos e coelhos ajudarão a produzir em escala comercial o surfactante pulmonar, uma substância essencial ao tratamento de um mal que a cada ano atinge milhares de bebês prematuros no país e causa muitas mortes: a síndrome do desconforto respiratório (SDR)...” (44, 240)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "síndrome respiratória aguda severa": {
         "concept": "síndrome respiratória aguda severa",
         "grammar_category": "s.f.",
         "term_en": "severe acute respiratory syndrome",
@@ -2402,7 +2402,7 @@
         "inf_encicl": "já foram relatados casos da doença na Ásia, América do Norte e Europa. Foram registrados casos suspeitos em outros locais do mundo, inclusive no Brasil. Os sintomas da doença são parecidos com uma gripe forte: febre alta (acima de 38ºC), calafrios, dores musculares e tosse seca, porém, a falta de ar é o sinal de que algo grave está ocorrendo. “...Um papel especial pode estar reservado aos gatos nos estudos sobre a síndrome respiratória aguda severa (Sars), forma atípica de pneumonia identificada em fevereiro que matou 800 pessoas em mais de 30 países...” (96, 115)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "síndrome hemolítica urêmica": {
         "concept": "síndrome hemolítica urêmica",
         "grammar_category": "s.f.",
         "term_en": "hemolytic uremic syndrome",
@@ -2411,7 +2411,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "sistema endócrino": {
         "concept": "sistema endócrino",
         "grammar_category": "s.m.",
         "term_en": "endocrine system",
@@ -2420,7 +2420,7 @@
         "inf_encicl": "Esses hormônios atuam como mensageiros para coordenar atividades de várias partes do corpo. “...Por fim, o sistema endócrino, com cerca de uma dezena de glândulas que produzem em torno de 40 hormônios, que regulam o trânsito de açúcar e de gordura pelo organismo ou engrossam a voz dos meninos na puberdade...” (214)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "sistema límbico": {
         "concept": "sistema límbico",
         "grammar_category": "s.m.",
         "term_en": "limbic system",
@@ -2429,7 +2429,7 @@
         "inf_encicl": "há duas estruturas cruciais para o funcionamento do sistema límbico: o hipocampo e a amígdala. “...As emoções são o domínio preferencial da segunda parte do cérebro, que se formou nos primeiros mamíferos e abriga o sistema límbico, composto por uma série de estruturas responsáveis pelo substrato neuronal dos sentimentos...” (60)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "sistema nervoso parassimpático": {
         "concept": "sistema nervoso parassimpático",
         "grammar_category": "s.m.",
         "term_en": "parasympathetic nervous system",
@@ -2438,7 +2438,7 @@
         "inf_encicl": "quando esses músculos falham podem causar problemas cardiovasculares. “...a acetilcolinesterase, que aciona o sistema nervoso parassimpático, conjunto de nervos responsável pelo controle involuntários dos músculos e órgãos do corpo, cuja falha aumenta o risco de problemas cardiovasculares...” (72)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "sistema nervoso periférico": {
         "concept": "sistema nervoso periférico",
         "grammar_category": "s.m.",
         "term_en": "peripheral nervous system",
@@ -2447,7 +2447,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "sistema de temporização": {
         "concept": "sistema de temporização",
         "grammar_category": "s.m.",
         "term_en": "temporalization system",
@@ -2456,7 +2456,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "soro hiperimune": {
         "concept": "soro hiperimune",
         "grammar_category": "s.m.",
         "term_en": "hyperimmune serum",
@@ -2465,7 +2465,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "técnica sage": {
         "concept": "técnica sage",
         "grammar_category": "s.f.",
         "term_en": "sage technique",
@@ -2474,7 +2474,7 @@
         "inf_encicl": "os dados são facilmente comparáveis, podendo determinar com eficácia diferenças no nível de expressão de diferentes amostras. Por isto, se torna mais indicada para identificação de novos genes e transcritos alternativamente expressos que são únicos para um tipo de célula específica. “...Um dos resultados mais notáveis desse estudo, feito por meio da técnica Sage (análise serial da expressão gênica), é a indicação de que ocorre uma diminuição da expressão de pelo menos 15 genes que codificam proteínas conhecidas como citocinas...” (173)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "técnica de sorting": {
         "concept": "técnica de sorting",
         "grammar_category": "s.f.",
         "term_en": "sorting technique",
@@ -2483,7 +2483,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "teleconsulta": {
         "concept": "teleconsulta",
         "grammar_category": "s.f.",
         "term_en": "teleconsultation",
@@ -2492,7 +2492,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "terapia de reposição hormonal": {
         "concept": "terapia de reposição hormonal",
         "grammar_category": "s.f.",
         "term_en": "hormonal reposition therapy",
@@ -2501,7 +2501,7 @@
         "inf_encicl": "há riscos no uso da terapia, como o aumento da incidência de câncer de mama. “...Alguém lembrou que, recentemente, a imprensa informou que a terapia de reposição hormonal aumenta em 26% os riscos de incidência de câncer de mama, omitindo que a cifra significa um acréscimo de apenas oito casos em 10 mil mulheres...” (03, 67)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "terapia fotodinâmica": {
         "concept": "terapia fotodinâmica",
         "grammar_category": "s.f.",
         "term_en": "photodynamic therapy",
@@ -2510,7 +2510,7 @@
         "inf_encicl": "a técnica tem se mostrado eficiente na cura ou melhora da qualidade de vida de pacientes com câncer sem deixar seqüelas. “...O que muitos pacientes e médicos ainda desconhecem é que um novo tipo de tratamento - a terapia fotodinâmica (TFD ou PDT, do inglês Photodynamic Therapy ) - está ganhando terreno rapidamente, num avanço promissor na cura ou na melhora da qualidade de vida dos pacientes com câncer sem deixar seqüelas...” (31, 139, 162)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "terapia gênica": {
         "concept": "terapia gênica",
         "grammar_category": "s.f.",
         "term_en": "genetic therapy",
@@ -2519,7 +2519,7 @@
         "inf_encicl": "no caso de enfermidades genéticas, nas quais um gene está defeituoso ou ausente, a terapia gênica consiste em transferir a versão funcional do gene para o organismo portador da doença, de modo a reparar o defeito. Trata-se de uma ciência jovem: a primeira tentativa foi efetuada nos Estados Unidos em 1990 em uma criança portadora de uma imunodeficiência hereditária. “...Inaugurada há cerca de dez anos, a terapia gênica é uma delicada área de fronteira que trata da correção de genes defeituosos ligados a patologias...” (78) terminal nervoso simpático s.m. sympathetic nervous terminal [ing]; terminal nervoso simpático [esp] Terminal que faz parte do sistema nervoso periférico do ser humano, situado a milímetros do coração, libera no músculo cardíaco uma substância chamada noradrenalina. “...Quando sentimos medo, diante de uma situação de perigo, os terminais nervosos simpáticos, que fazem parte do sistema nervoso periférico, situados a milímetros do coração, liberam no músculo cardíaco uma substância chamada noradrenalina...” (220) teste de carga viral s.m. viral load test [ing]; test de carga viral [esp] Teste que constata a presença de partículas virais, bem como a quantidade dessas partículas presentes no organismo humano. “...O teste de carga viral, desenvolvido pelo grupo do Hospital do Câncer/Instituto Ludwig, é diferente dos exames usuais, que apenas constatam a presença dos vírus...” (81)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "teste de exercício cardiorrespiratório": {
         "concept": "teste de exercício cardiorrespiratório",
         "grammar_category": "s.m.",
         "term_en": "cardiorespiratory exercise testing",
@@ -2528,7 +2528,7 @@
         "inf_encicl": "nas demais situações, se não aponta a causa específica, o TECR serve como bússola, indicando aos médicos qual dos três sistemas não está bem. Possibilita ainda avaliar a evolução do tratamento e orientar os exercícios físicos mais adequados para cada pessoa. “...Conhecer a capacidade normal de fazer exercícios é essencial para os médicos descobrirem de forma mais precisa qual parte do organismo não está funcionando como esperado por meio de um exame relativamente simples, o teste de exercício cardiorrespiratório (TECR)...” (113)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "topógrafo intracirúrgico": {
         "concept": "topógrafo intracirúrgico",
         "grammar_category": "s.m.",
         "term_en": "intrasurgery topograph",
@@ -2537,7 +2537,7 @@
         "inf_encicl": "O equipamento mede a curvatura dessa membrana do olho durante as operações e detecta variações muito pequenas, que ajudam no trabalho do cirurgião e evitam problemas pós-operatórios. “...Depois de nove anos no mercado desenvolvendo equipamentos para uso oftalmológico, a empresa Eyetec, de São Carlos, prepara o lançamento de um topógrafo intracirúrgico...” (177)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "transcriptoma": {
         "concept": "transcriptoma",
         "grammar_category": "s.m.",
         "term_en": "transcriptome",
@@ -2546,7 +2546,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "transtirretina": {
         "concept": "transtirretina",
         "grammar_category": "s.f.",
         "term_en": "transretine",
@@ -2555,7 +2555,7 @@
         "inf_encicl": "com o envelhecimento, porém, a transtirretina tende a se unir em longos cordões - ou fibras -, que se acumulam durante décadas no coração. Os longos cordões se tornam uma espécie de muro entre as células, que prejudica o funcionamento do músculo cardíaco e dificulta o bombeamento do sangue. Uma em cada quatro pessoas com mais de 80 anos vive esse problema, chamado amiloidose sistêmica senil . “.... Associada ora a um ora a outro desses compostos, a transtirretina circula pelo sangue durante quase toda a vida...” (117)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "transtorno cognitivo": {
         "concept": "transtorno cognitivo",
         "grammar_category": "s.f.",
         "term_en": "cognitive disorder",
@@ -2564,7 +2564,7 @@
         "inf_encicl": "o paciente se queixa de intensa sensação de fadiga mental ao executar tarefas mentais e, um aprendizado novo é percebido subjetivamente como difícil, ainda que objetivamente consiga realizá-lo bem. Estes sintomas podem manifestar-se precedendo, ou sucedendo quadros variados de infecções (inclusive por HIV) ou de distúrbios físicos, tanto cerebrais quanto sistêmicos, sem que haja evidências diretas de comprometimento cerebral. “...Gattaz examinou o sangue de idosos saudáveis e o comparou com amostras coletadas de pacientes de Alzheimer e de transtorno cognitivo leve (TCL) - distúrbio caracterizado apenas por declínio de memória....” (97)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "transtorno do pânico": {
         "concept": "transtorno do pânico",
         "grammar_category": "s.m.",
         "term_en": "panic disorder",
@@ -2573,7 +2573,7 @@
         "inf_encicl": "esses ataques manifestam-se como episódios súbitos e imprevisíveis de intenso medo. Os sintomas de um ataque de pânico podem ser: palpitações, dores torácicas, falta de ar, tontura, tremor e sudorese. Algumas pessoas com ataque de pânico chegam a procurar o pronto-socorro extremamente angustiadas, achando que irão morrer por causa desses sintomas. Outras podem ainda permanecer paralisadas pelas sensações apresentadas. “...Os estudos ganham importância pelo fato de o transtorno do pânico ser uma doença cujo reconhecimento é relativamente recente...” (225)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "transtorno obsessivo compulsivo": {
         "concept": "transtorno obsessivo compulsivo",
         "grammar_category": "s.m.",
         "term_en": "obsessive-compulsive disorder",
@@ -2582,7 +2582,7 @@
         "inf_encicl": "desta forma, mesmo o paciente totalmente consciente do ridículo de suas atitudes parece não ter forças para controlar seus impulsos. Entretanto, a simples presença de alguma obsessão ou compulsão não caracteriza TOC, pois estes sintomas podem enquadrar outros distúrbios mentais (depressões, demências, etc). “...Raios gama ajudam a tratar transtornos obsessivo-compulsivos Francisco Bicudo A cirurgia durou cerca de 12 horas...” (61)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "tripanossomíase americana": {
         "concept": "tripanossomíase americana",
         "grammar_category": "s.f.",
         "term_en": "american trypanosomiasis",
@@ -2591,7 +2591,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "tripanossomicida": {
         "concept": "tripanossomicida",
         "grammar_category": "s.f.",
         "term_en": "tripanossomicide",
@@ -2600,7 +2600,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "trocáter": {
         "concept": "trocáter",
         "grammar_category": "s.m.",
         "term_en": "trocater",
@@ -2609,7 +2609,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "tula de besouro": {
         "concept": "tula de besouro",
         "grammar_category": "s.f.",
         "term_en": "tula de besouro",
@@ -2618,7 +2618,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "tumor de erlich": {
         "concept": "tumor de erlich",
         "grammar_category": "s.m.",
         "term_en": "erlich tumor",
@@ -2627,7 +2627,7 @@
         "inf_encicl": "o tumor pode levar o paciente à morte em menos de duas semanas. “...onde ele leciona e coordena um grupo de pesquisa, camundongos sadios conviveram com animais com tumor de Erlich, que deixa a barriga enorme e pode levar à morte em menos de duas semanas...” (214)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "tumor de walker": {
         "concept": "tumor de walker",
         "grammar_category": "s.m.",
         "term_en": "walker tumor",
@@ -2636,7 +2636,7 @@
         "inf_encicl": "o tumor pode matar o paciente em até duas semanas. “...como indica um dos experimentos desse grupo: ratos que fizeram uma hora de esteira por dia - o equivalente a duas ou três horas para os seres humanos - sobreviveram o dobro do tempo esperado ao tumor de Walker, um dos mais letais, que leva à morte em duas semanas...” (211)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "tunicato": {
         "concept": "tunicato",
         "grammar_category": "s.m.",
         "term_en": "tunicato",
@@ -2645,7 +2645,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "ubiquitina": {
         "concept": "ubiquitina",
         "grammar_category": "s.f.",
         "term_en": "ubiquitine",
@@ -2654,7 +2654,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "vacina autóloga": {
         "concept": "vacina autóloga",
         "grammar_category": "s.f.",
         "term_en": "autologue vaccine",
@@ -2663,7 +2663,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "vacina de DNA": {
         "concept": "vacina de DNA",
         "grammar_category": "s.f.",
         "term_en": "DNA vaccine",
@@ -2672,7 +2672,7 @@
         "inf_encicl": "aplicado por meio de injeção intramuscular, esse DNA cria condições para a produção da proteína antigênica pelas próprias células do indivíduo vacinado. “...Há um avanço no combate à brucelose bovina: Sérgio Costa Oliveira, do Instituto de Ciências Biológicas da Universidade Federal de Minas Gerais (UFMG), desenvolveu uma vacina de DNA (ácido desoxirribonucléico, portador do código genético)...” (166, 213, 246, 249)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "vacina quádrupla": {
         "concept": "vacina quádrupla",
         "grammar_category": "s.f.",
         "term_en": "Quadruple vaccine",
@@ -2681,7 +2681,7 @@
         "inf_encicl": "a vacina é constituída de proteínas fabricadas pelas bactérias que provocam difteria, tétano e coqueluche, expressas num único microrganismo (a micobactéria BCG, usada como vacina contra a tuberculose. “...Então, as micobactérias BCG da vacina quádrupla receberam um pedaço não-tóxico da toxina tetânica, uma toxina diftérica - com uma mutação que a torna inativa - e dois antígenos da coqueluche ou tosse comprida...” (251)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "varicela-zoster": {
         "concept": "varicela-zoster",
         "grammar_category": "s.m.",
         "term_en": "varicella zoster",
@@ -2690,7 +2690,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "veia porta": {
         "concept": "veia porta",
         "grammar_category": "s.f.",
         "term_en": "door vein",
@@ -2699,7 +2699,7 @@
         "inf_encicl": "o sangue que vem por essas veias é rico em substâncias nutritivas, que passaram para o sangue depois de terem sido digeridas pelo intestino. “...Foi na veia porta, que irriga o fígado, por meio de um corte de 2 milímetros no lado direito do abdômen e de uma agulha de 30 centímetros, que os oito médicos...” (07)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "videodermatoscópio": {
         "concept": "videodermatoscópio",
         "grammar_category": "s.m.",
         "term_en": "videodermatoscopy",
@@ -2708,7 +2708,7 @@
         "inf_encicl": "em contato com a epiderme, filma a lesão e transmite a imagem colorida a um computador, onde uma placa de captura digitaliza a imagem. “...O videodermatoscópio funciona como um microscópio de pele, com microcâmera e sistema especial de iluminação...” (239)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "videomicroscopia": {
         "concept": "videomicroscopia",
         "grammar_category": "s.f.",
         "term_en": "videomicroscopy",
@@ -2717,7 +2717,7 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "vírus amarílico": {
         "concept": "vírus amarílico",
         "grammar_category": "s.m.",
         "term_en": "amarílis vírus",
@@ -2726,7 +2726,7 @@
         "inf_encicl": "trata-se de um arbovírus pertencente ao gênero Flavivirus , família Flaviviridae . “...É causada pelo vírus amarílico - arbovírus do grupo B, gênero Flavivirus . Há dois tipos: silvestre e urbana...” (241)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "vírus cantagalo": {
         "concept": "vírus cantagalo",
         "grammar_category": "s.m.",
         "term_en": "cantagalo vírus",
@@ -2735,7 +2735,7 @@
         "inf_encicl": "o vírus ganhou esse nome após infectar pessoas e gado bovino de Cantagalo (RJ) e municípios vizinhos. É provável que seja produto de mutações do vírus usado na vacinação antivariólica, que pode ter escapado para a natureza na época (a vacinação foi encerrada no Brasil no fim dos anos 70). É um vírus bem menos agressivo, mas capaz de estimular o sistema imunológico contra a varíola. Ele entra no organismo humano por pequenas lesões da pele e a transmissão se dá por contato com lesões infectadas. “...O exemplo mais recente das chamadas doenças emergentes é o vírus Cantagalo: da mesma família do que causa a varíola, ele provoca bolhas e pústulas nas mãos e nos braços...” (250)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "vírus respiratório sincicial": {
         "concept": "vírus respiratório sincicial",
         "grammar_category": "s.m.",
         "term_en": "sincicial respiratory vírus",
@@ -2744,7 +2744,7 @@
         "inf_encicl": "o contágio se dá por meio do contato com gotas de saliva de pessoas contaminadas, objetos ou superfícies infectadas. O vírus, que está presente no ar, resiste poucas horas no meio ambiente. “...o HCV, agente causador da hepatite C; o Hantavírus, que provoca uma ainda misteriosa síndrome pulmonar; e o VRS (vírus respiratório sincicial), responsável por infecções no trato respiratório, sobretudo em crianças...” (182, 244, 255)",
         "source": "Glossário de Neologismos da Saúde"
     },
-    {
+    "xenotransplante": {
         "concept": "xenotransplante",
         "grammar_category": "s.m.",
         "term_en": "xenotransplantation",
@@ -2753,4 +2753,4 @@
         "inf_encicl": "",
         "source": "Glossário de Neologismos da Saúde"
     }
-]
+}

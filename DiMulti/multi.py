@@ -266,19 +266,46 @@ def parse_xml(xml_path):
 
 def main():
     print("A iniciar o processamento do XML...")
+    # entries é a lista original devolvida pelo parse_xml
     entries = parse_xml(XML_PATH)
     
-    # Esta é a linha que precisas:
-    total_termos = len(entries)
+    # --- NOVA LÓGICA: CONVERSÃO PARA DICIONÁRIO ---
+    dicionario_final = {}
+    for e in entries:
+        # Usamos o termo principal (Catalão) como chave
+        termo_chave = e.get("termo", "").strip()
+        
+        if termo_chave:
+            # Se o termo já existir (homónimos), criamos uma chave única ou lista
+            # Para o TP1, o mais simples é usar o termo como chave
+            dicionario_final[termo_chave] = {
+                "id": e.get("id"),
+                "classe_gramatical": e.get("classe_gramatical"),
+                "definicao": e.get("definicao"),
+                "equivalentes": e.get("equivalentes"),
+                "categoria": e.get("categoria"),
+                "notas": e.get("notas", []),
+                # Incluímos os outros campos caso existam
+                "siglas": e.get("siglas"),
+                "sinonimos": e.get("sinonimos"),
+                "codigos": e.get("codigos")
+            }
+            # Removemos campos que ficaram como None para manter o JSON limpo
+            dicionario_final[termo_chave] = {k: v for k, v in dicionario_final[termo_chave].items() if v is not None}
+
+    total_termos = len(dicionario_final)
     
-    os.makedirs(os.path.dirname(JSON_PATH), exist_ok=True)
+    # Garantir que a pasta existe
+    diretorio = os.path.dirname(JSON_PATH)
+    if diretorio:
+        os.makedirs(diretorio, exist_ok=True)
     
+    # Guardar como objeto JSON { }
     with open(JSON_PATH, "w", encoding="utf-8") as f:
-        json.dump(entries, f, ensure_ascii=False, indent=2)
+        json.dump(dicionario_final, f, ensure_ascii=False, indent=2)
     
-    # Print final informativo
     print("-" * 30)
-    print(f"Sucesso! Foram escritos {total_termos} termos no ficheiro JSON.")
+    print(f"Sucesso! Foram escritos {total_termos} termos únicos no dicionário.")
     print(f"Destino: {JSON_PATH}")
     print("-" * 30)
 

@@ -110,24 +110,39 @@ def processar_ministerio():
         entries.append(current_entry)
 
     # Limpeza Final e Desduplicação
-    final = []
-    vistos = set()
+    # --- SUBSTITUI ESTA SECÇÃO NO TEU SCRIPT ---
+    
+    # Limpeza Final e Transformação em DICIONÁRIO
+    dicionario_final = {}
     for e in entries:
         for k in ["concept", "category", "description", "reference"]: 
             e[k] = limpar(e[k])
         
-        if e["reference"]: e["description"] = ""
-        if "_margin" in e: del e["_margin"]
+        if e["reference"]: 
+            e["description"] = ""
         
-        key = e["concept"].lower()
-        if key not in vistos and len(e["concept"]) > 2:
-            final.append(e)
-            vistos.add(key)
+        # Removemos a margem interna antes de guardar
+        if "_margin" in e: 
+            del e["_margin"]
+        
+        # Usamos o conceito (termo) como CHAVE do dicionário
+        key = e["concept"].strip()
+        
+        # Apenas adicionamos se o termo for válido
+        if len(key) > 2:
+            # Se quiseres que a chave seja sempre em minúsculas para facilitar a união:
+            # key = key.lower()
+            
+            dicionario_final[key] = {
+                "categoria": e["category"],
+                "descricao": e["description"],
+                "referencia": e["reference"]
+            }
 
+    # Guardar como JSON (agora o objeto principal é { })
     with open(json_output, "w", encoding="utf-8") as f:
-        json.dump(final, f, ensure_ascii=False, indent=4)
+        json.dump(dicionario_final, f, ensure_ascii=False, indent=4)
     
-    print(f"✅ SUCESSO! {len(final)} termos extraídos sem erros de agrupamento.")
 
 if __name__ == "__main__":
     processar_ministerio()

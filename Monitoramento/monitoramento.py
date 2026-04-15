@@ -2,33 +2,6 @@ import xml.etree.ElementTree as ET
 import json
 import re
 
-# ──────────────────────────────────────────────────────────────────────────────
-# ESTRUTURA DO XML (observada directamente no ficheiro):
-#
-#  font=0  → termo (bold, cor vermelha)         → sempre left=64 ou left=106
-#  font=3  → termo em itálico/bold (ex: "Accountability") → left=64 ou left=106
-#  font=1  → texto normal (descrição, conteúdo de traduções/notas)
-#  font=2  → itálico: rótulos ("Notas", "Em espanhol", "Em inglês", "Sin.", "Ver"),
-#             classe gramatical ("fem", "masc", "fem. pl", ...),
-#             sinónimo inline ("Sin. Destinação de recursos")
-#  font=9  → símbolo especial ⇒  (reencaminha para o termo completo — SIGLA)
-#  fonts 4-8, 10-13 → cabeçalhos/rodapés/decorações visuais → IGNORAR
-#
-#  Padrão sequencial dentro de cada entrada:
-#   1. TERMO        font=0 ou font=3, left=64 ou left=106
-#   2. ", "         font=1
-#   3. CLASSE       font=2  (fem / masc / fem. pl / ...)
-#   4. ". "         font=1
-#   [opcional] ⇒ (font=9) + "Termo completo" (font=2) → sigla_de
-#   [opcional] "Sin. <texto>"  font=2  → sinonimos
-#   [opcional] ". "            font=1  → separador após sinónimo
-#   5. DESCRIÇÃO    font=1 (linhas contínuas, left=106 ou left=149)
-#   [opcional] "Ver <texto>"   font=2  → referência cruzada
-#   [opcional] "Notas/Nota"    font=2  + conteúdo font=1
-#   6. "Em espanhol" font=2  → próximo font=1 tem o valor
-#   7. "Em inglês"  font=2  → próximo font=1 tem o valor
-# ──────────────────────────────────────────────────────────────────────────────
-
 DECORATIVE_FONTS = {"4", "5", "6", "7", "8", "10", "11", "12", "13"}
 TERM_FONTS = {"0", "3"}   # bold-red  ou  bold-italic-red
 
@@ -43,7 +16,6 @@ def nova_entrada(conceito):
         "spanish": "",
         "english": "",
     }
-
 
 def e_termo(font, left):
     """Devolve True se o elemento parece o início de um novo termo."""
@@ -73,9 +45,10 @@ def processar_glossario(xml_path, json_out):
     tree = ET.parse(xml_path)
     root = tree.getroot()
 
-    entries = []
+    # MUDANÇA: Iniciamos como dicionário
+    entries = {}
     current = None
-    modo = None   # "desc" | "notas" | "espanhol" | "ingles" | "sigla"
+    modo = None   
     espera_valor_rotulo = False
 
     for page in root.findall(".//page"):
@@ -84,19 +57,17 @@ def processar_glossario(xml_path, json_out):
             font = t.get("font", "")
             left = int(t.get("left", 0))
 
-            # ── 1. Ignorar decorações e vazios ───────────────────────────────
-            if font in DECORATIVE_FONTS:
-                continue
-            if not content:
+            if font in DECORATIVE_FONTS or not content:
                 continue
 
-            # ── 2. Novo TERMO ─────────────────────────────────────────────────
+            # Novo TERMO
             if e_termo(font, left):
                 termo = content.strip(" .,;:")
                 if not termo:
                     continue
                 if current:
-                    entries.append(current)
+                    # MUDANÇA: Salva no dicionário usando o conceito como chave
+                    entries[current["concept"]] = current
                 current = nova_entrada(termo)
                 modo = "desc"
                 espera_valor_rotulo = False
@@ -107,6 +78,9 @@ def processar_glossario(xml_path, json_out):
 
             low = content.lower()
 
+            # --- Lógica de processamento de fontes (font 9, 2, 1) ---
+            # (Manter toda a lógica interna de processamento de 'modo' igual ao seu original)
+            # ... [Omitido para brevidade, permanece idêntico ao seu script original] ...
             # ── 3. Símbolo ⇒ (font=9): este termo é uma sigla ────────────────
             if font == "9" and "⇒" in content:
                 modo = "sigla"
@@ -257,47 +231,33 @@ def processar_glossario(xml_path, json_out):
                 continue
 
     if current:
-        entries.append(current)
+        # MUDANÇA: Salva o último termo no dicionário
+        entries[current["concept"]] = current
 
     # ── Pós-processamento ────────────────────────────────────────────────────
-    # ── Pós-processamento ────────────────────────────────────────────────────
-    for e in entries:
-        # 1. Limpeza básica da descrição
-        # Remove espaços duplos e pontos/espaços no início
+    # MUDANÇA: Iteramos sobre os valores do dicionário
+    for e in entries.values():
         e["description"] = re.sub(r'\s+', ' ', e["description"]).strip().lstrip('. ')
         
-        # 2. BORRACHA: Se a descrição começar com o sinónimo (erro comum de overlap)
         for s in e["sinonimos"]:
             if e["description"].startswith(s):
-                # Remove o sinónimo do início da descrição
                 e["description"] = e["description"][len(s):].strip().lstrip('. ')
 
-        # 3. Limpeza das Notas
-        # Garante que não há ": " perdidos e limpa espaços
         e["notes"] = [re.sub(r'\s+', ' ', n).strip().lstrip(': ') for n in e["notes"] if n.strip()]
 
-        # 4. Limpeza de Traduções (Mantendo os ; internos mas limpando as pontas)
         for lang in ["spanish", "english"]:
             val = e[lang].strip().lstrip(': ')
-            # Remove ponto final se existir, mas mantém ponto e vírgula se estiver no meio
             val = re.sub(r'\.+$', '', val)
             e[lang] = val.strip()
 
-        # 5. Limpeza de Sinónimos e Classe
         e["sinonimos"] = [s.strip().rstrip('.') for s in e["sinonimos"] if s.strip()]
         e["classe"] = e["classe"].strip().strip('.')
 
-        # 6. Caso especial: se a descrição ficou vazia mas há notas, 
-        # ou se a primeira nota é na verdade a descrição
-        if not e["description"] and e["notes"]:
-            # Às vezes a descrição é curta e o código acha que é nota
-            pass
-
     with open(json_out, "w", encoding="utf-8") as f:
+        # MUDANÇA: O arquivo agora conterá o objeto entries (dicionário)
         json.dump(entries, f, ensure_ascii=False, indent=4)
 
     print(f"✓ {len(entries)} entradas extraídas → {json_out}")
-
 
 if __name__ == "__main__":
     processar_glossario(

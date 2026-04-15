@@ -9,7 +9,6 @@ def pdf_to_xml(pdf_path: str, xml_path: str = None, first_page: int = None, last
     if xml_path is None:
         xml_path = os.path.splitext(pdf_path)[0] + ".xml"
 
-    # ADICIONADO O FLAG '-i' para ignorar imagens e não encher a pasta de lixo
     command = ["pdftohtml", "-xml", "-noframes", "-i"]
     
     if first_page:

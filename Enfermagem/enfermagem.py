@@ -83,6 +83,7 @@ def analisar_xml_para_json():
                     current_def.append(txt)
 
     # Guardar o último termo processado
+    # Guardar o último termo processado na lista temporária
     if current_term:
         entries.append({
             "concept": current_term,
@@ -90,12 +91,25 @@ def analisar_xml_para_json():
             "source": current_source if current_source else "Glossário de Enfermagem"
         })
 
-    # Gravação Final
-    with open(json_path, 'w', encoding='utf-8') as f:
-        json.dump(entries, f, ensure_ascii=False, indent=4)
-    
-    print(f"✅ SUCESSO! Extraídos {len(entries)} termos.")
-    print(f"📂 Ficheiro atualizado: {json_path}")
+    # --- NOVA LÓGICA: CONVERSÃO PARA DICIONÁRIO ---
+    dicionario_final = {}
+    for e in entries:
+        # Limpeza básica do termo para usar como chave
+        termo_chave = e["concept"].strip()
+        
+        # Evitar entradas vazias ou ruído
+        if len(termo_chave) > 1:
+            dicionario_final[termo_chave] = {
+                "descricao": e["description"],
+                "fonte": e["source"]
+            }
 
+    # Gravação Final como Objeto JSON { }
+    with open(json_path, 'w', encoding='utf-8') as f:
+        json.dump(dicionario_final, f, ensure_ascii=False, indent=4)
+    
+    print(f"✅ SUCESSO! Extraídos {len(dicionario_final)} termos em formato de dicionário.")
+    print(f"📂 Ficheiro atualizado: {json_path}")
+    
 if __name__ == "__main__":
     analisar_xml_para_json()

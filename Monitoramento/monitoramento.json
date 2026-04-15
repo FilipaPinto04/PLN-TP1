@@ -1,5 +1,5 @@
-[
-    {
+{
+    "Ação": {
         "concept": "Ação",
         "classe": "fem",
         "sinonimos": [],
@@ -10,7 +10,7 @@
         "spanish": "acción",
         "english": "action"
     },
-    {
+    "Accountability": {
         "concept": "Accountability",
         "classe": "fem",
         "sinonimos": [],
@@ -19,7 +19,7 @@
         "spanish": "rendición de cuentas; accountability",
         "english": "accountabillity"
     },
-    {
+    "Acesso à informação": {
         "concept": "Acesso à informação",
         "classe": "masc",
         "sinonimos": [],
@@ -30,7 +30,7 @@
         "spanish": "acceso a la información",
         "english": "access to information"
     },
-    {
+    "Ações de saúde": {
         "concept": "Ações de saúde",
         "classe": "pl",
         "sinonimos": [],
@@ -41,7 +41,7 @@
         "spanish": "acciones de salud",
         "english": "health actions"
     },
-    {
+    "Ações intersetoriais": {
         "concept": "Ações intersetoriais",
         "classe": "",
         "sinonimos": [],
@@ -52,7 +52,7 @@
         "spanish": "acciones intersectoriales",
         "english": "intersectoral actions"
     },
-    {
+    "Acompanhamento": {
         "concept": "Acompanhamento",
         "classe": "masc",
         "sinonimos": [],
@@ -61,7 +61,7 @@
         "spanish": "seguimiento",
         "english": "follow-up"
     },
-    {
+    "Agenda estratégica": {
         "concept": "Agenda estratégica",
         "classe": "fem",
         "sinonimos": [],
@@ -72,7 +72,7 @@
         "spanish": "planificación estratégica",
         "english": "strategic agenda"
     },
-    {
+    "Agenda política": {
         "concept": "Agenda política",
         "classe": "fem",
         "sinonimos": [],
@@ -83,7 +83,7 @@
         "spanish": "agenda política",
         "english": "political agenda"
     },
-    {
+    "Agregação de dados": {
         "concept": "Agregação de dados",
         "classe": "fem",
         "sinonimos": [],
@@ -92,7 +92,7 @@
         "spanish": "agregación de datos",
         "english": "data aggregation"
     },
-    {
+    "AIR": {
         "concept": "AIR",
         "classe": "fem",
         "sinonimos": [],
@@ -101,7 +101,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Alocação de recursos": {
         "concept": "Alocação de recursos",
         "classe": "fem",
         "sinonimos": [
@@ -114,109 +114,7 @@
         "spanish": "asignación de recursos",
         "english": "allocation of resources"
     },
-    {
-        "concept": "Análise",
-        "classe": "fem",
-        "sinonimos": [],
-        "description": "Exame detalhado de algo para conhecer e descrever melhor sua natureza, funções, relações e causas.",
-        "notes": [],
-        "spanish": "análisis",
-        "english": "analysis"
-    },
-    {
-        "concept": "Análise baseada em evidências",
-        "classe": "fem",
-        "sinonimos": [],
-        "description": "Processo de verificação cujas bases analíticas são sustentadas em indícios confiáveis e válidos para subsidiar a tomada de decisão a partir do conhecimento acadêmico e empírico. Ver Evidências para tomada de decisão Tomada de decisão",
-        "notes": [],
-        "spanish": "estudio basado en la evidencia",
-        "english": "evidence based analysis"
-    },
-    {
-        "concept": "Análise de dados",
-        "classe": "fem",
-        "sinonimos": [],
-        "description": "Processamento, apresentação tabular e gráfica e interpretação de dados com o objetivo de transformá-los em informação, gerar conhecimento e auxiliar na tomada de decisões.",
-        "notes": [
-            "tem por função responder a uma série de questionamentos relacionados ao objeto e ao contexto analisados."
-        ],
-        "spanish": "análisis de datos",
-        "english": "data analysis"
-    },
-    {
-        "concept": "Análise de Impacto Regulatório",
-        "classe": "fem",
-        "sinonimos": [
-            "AIR"
-        ],
-        "description": "Procedimento analítico, realizado previamente à edição de atos normativos a partir da definição de problema regulatório, que contém informações e dados sobre os prováveis efeitos desses atos, para verificar a razoabilidade do seu impacto e subsidiar a tomada de decisão. Ver Evidências para tomada de decisão Tomada de decisão",
-        "notes": [],
-        "spanish": "análisis del impacto regulatorio",
-        "english": "regulatory impact analysis"
-    },
-    {
-        "concept": "Análise de indicadores",
-        "classe": "fem",
-        "sinonimos": [],
-        "description": "Processo analítico que verifica a implementação e a utilização de um indicador ou de um conjunto de indicadores previstos em determinada intervenção pública.",
-        "notes": [
-            "tem como objetivo gerar conhecimento sobre o objeto mensurado e o potencial de utilização para influenciar na tomada de decisão em relação às intervenções monitoradas e avaliadas. Em espanhol análisis de indicadores Em inglês assessment of indicators"
-        ],
-        "spanish": "",
-        "english": ""
-    },
-    {
-        "concept": "Análise de risco",
-        "classe": "fem",
-        "sinonimos": [],
-        "description": "Processo de compreender a natureza e determinar o nível de risco, de modo a subsidiar a avaliação e seu tratamento, analisando causas, fontes e consequências, observado o custo-benefício em relação ao resultado final esperado. Ver Gestão de risco Risco",
-        "notes": [
-            "nesse processo, devem-se observar a compreensão e o nível do risco analisado para se tomar decisões, em especial: a) se determinado risco precisa de tratamento e prioridade; b) se determinada atividade deve ser realizada ou descontinuada; e c) se controles internos devem ser implementados ou, se já existirem, se devem ser modificados, mantidos ou eliminados."
-        ],
-        "spanish": "análisis de riesgo",
-        "english": "risk analysis"
-    },
-    {
-        "concept": "Análise de situação em saúde",
-        "classe": "fem",
-        "sinonimos": [],
-        "description": "Processo analítico-sintético que permite identificar, descrever, priorizar e explicar o perfil de saúde-doença de determinada população, com o objetivo de formular estratégias para atender às necessidades e determinar prioridades de ação ou intervenção. Ver Análise situacional",
-        "notes": [],
-        "spanish": "análisis de la situación de salud",
-        "english": "health situational analysis"
-    },
-    {
-        "concept": "Análise de viabilidade",
-        "classe": "fem",
-        "sinonimos": [],
-        "description": "Processo de identificação da disponibilidade de determinados tipos de recursos utilizados para o desencadeamento e a continuidade das intervenções que devem ser realizadas para potencializar as oportunidades e reduzir os obstáculos em cada momento no processo decisório.",
-        "notes": [],
-        "spanish": "análisis de viabilidad",
-        "english": "feasibility analysis"
-    },
-    {
-        "concept": "Análise estratégica",
-        "classe": "fem",
-        "sinonimos": [],
-        "description": "Processo de diagnóstico organizacional e de pertinência das intervenções, nos níveis interno e externo à organização, a fim de formular um planejamento para a tomada de decisão e para o cumprimento de objetivos.",
-        "notes": [
-            "i) Essencial para apreciar a suficiência e a adequação da intervenção em relação aos problemas apresentados pelo contexto local. ii) A pertinência de uma intervenção depende, fundamentalmente, do contexto (epidemiológico, sociocultural, sanitário, financeiro, político ou geográfico), dos atores envolvidos e do alinhamento entre objetivos e interesses aos quais estão relacionadas as intervenções em análise."
-        ],
-        "spanish": "análisis estratégico",
-        "english": "strategic analysis"
-    },
-    {
-        "concept": "Análise",
-        "classe": "fem",
-        "sinonimos": [],
-        "description": "Processo de análise de intervenções públicas a partir do seu nascedouro, em seu estágio de elaboração, a fim de verificar se respondem a um problema bem delimitado e pertinente. Ver Análise ex-post.",
-        "notes": [
-            "i) Tem o intuito de orientar a decisão para que ela recaia sobre a alternativa mais efetiva, eficaz e eficiente. ii) Contribui para que as decisões alocativas sejam tomadas a partir de critérios transparentes, baseados em análises técnicas robustas."
-        ],
-        "spanish": "análisis ex-ante",
-        "english": "ex-ante analysis"
-    },
-    {
+    "Análise": {
         "concept": "Análise",
         "classe": "fem",
         "sinonimos": [],
@@ -227,7 +125,89 @@
         "spanish": "análisis ex-post",
         "english": "ex-post analysis"
     },
-    {
+    "Análise baseada em evidências": {
+        "concept": "Análise baseada em evidências",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo de verificação cujas bases analíticas são sustentadas em indícios confiáveis e válidos para subsidiar a tomada de decisão a partir do conhecimento acadêmico e empírico. Ver Evidências para tomada de decisão Tomada de decisão",
+        "notes": [],
+        "spanish": "estudio basado en la evidencia",
+        "english": "evidence based analysis"
+    },
+    "Análise de dados": {
+        "concept": "Análise de dados",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processamento, apresentação tabular e gráfica e interpretação de dados com o objetivo de transformá-los em informação, gerar conhecimento e auxiliar na tomada de decisões.",
+        "notes": [
+            "tem por função responder a uma série de questionamentos relacionados ao objeto e ao contexto analisados."
+        ],
+        "spanish": "análisis de datos",
+        "english": "data analysis"
+    },
+    "Análise de Impacto Regulatório": {
+        "concept": "Análise de Impacto Regulatório",
+        "classe": "fem",
+        "sinonimos": [
+            "AIR"
+        ],
+        "description": "Procedimento analítico, realizado previamente à edição de atos normativos a partir da definição de problema regulatório, que contém informações e dados sobre os prováveis efeitos desses atos, para verificar a razoabilidade do seu impacto e subsidiar a tomada de decisão. Ver Evidências para tomada de decisão Tomada de decisão",
+        "notes": [],
+        "spanish": "análisis del impacto regulatorio",
+        "english": "regulatory impact analysis"
+    },
+    "Análise de indicadores": {
+        "concept": "Análise de indicadores",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo analítico que verifica a implementação e a utilização de um indicador ou de um conjunto de indicadores previstos em determinada intervenção pública.",
+        "notes": [
+            "tem como objetivo gerar conhecimento sobre o objeto mensurado e o potencial de utilização para influenciar na tomada de decisão em relação às intervenções monitoradas e avaliadas. Em espanhol análisis de indicadores Em inglês assessment of indicators"
+        ],
+        "spanish": "",
+        "english": ""
+    },
+    "Análise de risco": {
+        "concept": "Análise de risco",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo de compreender a natureza e determinar o nível de risco, de modo a subsidiar a avaliação e seu tratamento, analisando causas, fontes e consequências, observado o custo-benefício em relação ao resultado final esperado. Ver Gestão de risco Risco",
+        "notes": [
+            "nesse processo, devem-se observar a compreensão e o nível do risco analisado para se tomar decisões, em especial: a) se determinado risco precisa de tratamento e prioridade; b) se determinada atividade deve ser realizada ou descontinuada; e c) se controles internos devem ser implementados ou, se já existirem, se devem ser modificados, mantidos ou eliminados."
+        ],
+        "spanish": "análisis de riesgo",
+        "english": "risk analysis"
+    },
+    "Análise de situação em saúde": {
+        "concept": "Análise de situação em saúde",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo analítico-sintético que permite identificar, descrever, priorizar e explicar o perfil de saúde-doença de determinada população, com o objetivo de formular estratégias para atender às necessidades e determinar prioridades de ação ou intervenção. Ver Análise situacional",
+        "notes": [],
+        "spanish": "análisis de la situación de salud",
+        "english": "health situational analysis"
+    },
+    "Análise de viabilidade": {
+        "concept": "Análise de viabilidade",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo de identificação da disponibilidade de determinados tipos de recursos utilizados para o desencadeamento e a continuidade das intervenções que devem ser realizadas para potencializar as oportunidades e reduzir os obstáculos em cada momento no processo decisório.",
+        "notes": [],
+        "spanish": "análisis de viabilidad",
+        "english": "feasibility analysis"
+    },
+    "Análise estratégica": {
+        "concept": "Análise estratégica",
+        "classe": "fem",
+        "sinonimos": [],
+        "description": "Processo de diagnóstico organizacional e de pertinência das intervenções, nos níveis interno e externo à organização, a fim de formular um planejamento para a tomada de decisão e para o cumprimento de objetivos.",
+        "notes": [
+            "i) Essencial para apreciar a suficiência e a adequação da intervenção em relação aos problemas apresentados pelo contexto local. ii) A pertinência de uma intervenção depende, fundamentalmente, do contexto (epidemiológico, sociocultural, sanitário, financeiro, político ou geográfico), dos atores envolvidos e do alinhamento entre objetivos e interesses aos quais estão relacionadas as intervenções em análise."
+        ],
+        "spanish": "análisis estratégico",
+        "english": "strategic analysis"
+    },
+    "Análise prospectiva": {
         "concept": "Análise prospectiva",
         "classe": "fem",
         "sinonimos": [],
@@ -238,7 +218,7 @@
         "spanish": "análisis prospectivo",
         "english": "prospective analysis"
     },
-    {
+    "Análise situacional": {
         "concept": "Análise situacional",
         "classe": "fem",
         "sinonimos": [],
@@ -247,7 +227,7 @@
         "spanish": "análisis de la situación",
         "english": "situational analysis"
     },
-    {
+    "Aprendizado de máquina": {
         "concept": "Aprendizado de máquina",
         "classe": "masc",
         "sinonimos": [
@@ -258,7 +238,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Área fim": {
         "concept": "Área fim",
         "classe": "fem",
         "sinonimos": [],
@@ -267,7 +247,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Área finalística": {
         "concept": "Área finalística",
         "classe": "fem",
         "sinonimos": [],
@@ -276,7 +256,7 @@
         "spanish": "área final",
         "english": "target area"
     },
-    {
+    "Área meio": {
         "concept": "Área meio",
         "classe": "fem",
         "sinonimos": [],
@@ -285,7 +265,7 @@
         "spanish": "área intermedia",
         "english": "interim area; intermediate area"
     },
-    {
+    "Articulação": {
         "concept": "Articulação",
         "classe": "fem",
         "sinonimos": [],
@@ -296,7 +276,7 @@
         "spanish": "coordinación",
         "english": "coordination"
     },
-    {
+    "Atividades": {
         "concept": "Atividades",
         "classe": "pl",
         "sinonimos": [],
@@ -307,7 +287,7 @@
         "spanish": "actividades",
         "english": "activities"
     },
-    {
+    "Auditoria": {
         "concept": "Auditoria",
         "classe": "fem",
         "sinonimos": [],
@@ -316,7 +296,7 @@
         "spanish": "auditoría",
         "english": "audit"
     },
-    {
+    "Avaliação": {
         "concept": "Avaliação",
         "classe": "fem",
         "sinonimos": [],
@@ -327,7 +307,7 @@
         "spanish": "evaluación",
         "english": "evaluation; assessment"
     },
-    {
+    "Avaliação de desempenho individual e institucional": {
         "concept": "Avaliação de desempenho individual e institucional",
         "classe": "fem",
         "sinonimos": [],
@@ -338,7 +318,7 @@
         "spanish": "evaluación del desempeño individual y institucional",
         "english": "individual and institutional performance assessment"
     },
-    {
+    "Avaliação de impacto": {
         "concept": "Avaliação de impacto",
         "classe": "fem",
         "sinonimos": [],
@@ -349,7 +329,7 @@
         "spanish": "evaluación del impacto",
         "english": "impact assessment"
     },
-    {
+    "Avaliação de processo": {
         "concept": "Avaliação de processo",
         "classe": "fem",
         "sinonimos": [],
@@ -358,7 +338,7 @@
         "spanish": "evaluación del processo",
         "english": "process assessment"
     },
-    {
+    "Avaliação de resultados": {
         "concept": "Avaliação de resultados",
         "classe": "fem",
         "sinonimos": [],
@@ -369,7 +349,7 @@
         "spanish": "evaluación de resultados",
         "english": "assessment of results"
     },
-    {
+    "Avaliação em saúde": {
         "concept": "Avaliação em saúde",
         "classe": "fem",
         "sinonimos": [],
@@ -378,7 +358,7 @@
         "spanish": "evaluación en salud",
         "english": "health assessment; health evaluation"
     },
-    {
+    "Banco de dados": {
         "concept": "Banco de dados",
         "classe": "masc",
         "sinonimos": [],
@@ -389,7 +369,7 @@
         "spanish": "banco de datos",
         "english": "databank"
     },
-    {
+    "Base de dados": {
         "concept": "Base de dados",
         "classe": "fem",
         "sinonimos": [],
@@ -400,7 +380,7 @@
         "spanish": "base de datos",
         "english": "database"
     },
-    {
+    "Base geográfica": {
         "concept": "Base geográfica",
         "classe": "fem",
         "sinonimos": [
@@ -411,7 +391,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Base legal": {
         "concept": "Base legal",
         "classe": "fem",
         "sinonimos": [],
@@ -422,7 +402,7 @@
         "spanish": "base legal",
         "english": "legal grounds"
     },
-    {
+    "Base populacional": {
         "concept": "Base populacional",
         "classe": "fem",
         "sinonimos": [],
@@ -434,7 +414,7 @@
         "spanish": "base poblacional",
         "english": "population basis"
     },
-    {
+    "Benchmarking": {
         "concept": "Benchmarking",
         "classe": "masc",
         "sinonimos": [],
@@ -446,7 +426,7 @@
         "spanish": "benchmarking",
         "english": "benchmarking"
     },
-    {
+    "BI": {
         "concept": "BI",
         "classe": "masc",
         "sinonimos": [],
@@ -455,7 +435,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Big data": {
         "concept": "Big data",
         "classe": "masc",
         "sinonimos": [],
@@ -466,7 +446,7 @@
         "spanish": "big data",
         "english": "big data"
     },
-    {
+    "Boas práticas": {
         "concept": "Boas práticas",
         "classe": "pl",
         "sinonimos": [],
@@ -475,7 +455,7 @@
         "spanish": "buenas practicas",
         "english": "good practices"
     },
-    {
+    "Brainstorming": {
         "concept": "Brainstorming",
         "classe": "masc",
         "sinonimos": [
@@ -486,7 +466,7 @@
         "spanish": "brainstoming ; lluvia de ideas",
         "english": "brainstorming"
     },
-    {
+    "Business Intelligence": {
         "concept": "Business Intelligence",
         "classe": "masc",
         "sinonimos": [
@@ -499,7 +479,7 @@
         "spanish": "business intelligence ; inteligencia de negocios",
         "english": "business intelligence"
     },
-    {
+    "Cadeia de valor": {
         "concept": "Cadeia de valor",
         "classe": "fem",
         "sinonimos": [],
@@ -510,7 +490,7 @@
         "spanish": "cadena de valor",
         "english": "value chain"
     },
-    {
+    "Cálculo do indicador": {
         "concept": "Cálculo do indicador",
         "classe": "masc",
         "sinonimos": [],
@@ -519,7 +499,7 @@
         "spanish": "cálculo del indicador",
         "english": "calculation of indicators"
     },
-    {
+    "Catálogo de intervenções": {
         "concept": "Catálogo de intervenções",
         "classe": "masc",
         "sinonimos": [],
@@ -530,7 +510,7 @@
         "spanish": "catálogo de intervenciones",
         "english": "catalog of interventions"
     },
-    {
+    "Cenário": {
         "concept": "Cenário",
         "classe": "masc",
         "sinonimos": [],
@@ -542,7 +522,7 @@
         "spanish": "escenario",
         "english": "scenario; situation"
     },
-    {
+    "Ciclo de políticas públicas": {
         "concept": "Ciclo de políticas públicas",
         "classe": "masc",
         "sinonimos": [],
@@ -553,7 +533,7 @@
         "spanish": "ciclo de políticas públicas",
         "english": "cycle of public policies"
     },
-    {
+    "Ciência da informação": {
         "concept": "Ciência da informação",
         "classe": "fem",
         "sinonimos": [],
@@ -564,7 +544,7 @@
         "spanish": "ciencia de la información",
         "english": "information science"
     },
-    {
+    "Ciência de dados": {
         "concept": "Ciência de dados",
         "classe": "fem",
         "sinonimos": [],
@@ -575,7 +555,7 @@
         "spanish": "ciencia de datos",
         "english": "data science"
     },
-    {
+    "Colegiado": {
         "concept": "Colegiado",
         "classe": "masc",
         "sinonimos": [],
@@ -586,7 +566,7 @@
         "spanish": "cuerpo colegiado",
         "english": "collegiate body"
     },
-    {
+    "Coleta de dados": {
         "concept": "Coleta de dados",
         "classe": "fem",
         "sinonimos": [],
@@ -597,7 +577,7 @@
         "spanish": "recolección de datos",
         "english": "data collection"
     },
-    {
+    "Comitê consultivo": {
         "concept": "Comitê consultivo",
         "classe": "masc",
         "sinonimos": [],
@@ -606,7 +586,7 @@
         "spanish": "comité consultivo; comité asesor",
         "english": "advisory committee"
     },
-    {
+    "Competências organizacionais": {
         "concept": "Competências organizacionais",
         "classe": "pl",
         "sinonimos": [],
@@ -617,7 +597,7 @@
         "spanish": "competencias organizacionales",
         "english": "organizational skills"
     },
-    {
+    "Compliance": {
         "concept": "Compliance",
         "classe": "fem",
         "sinonimos": [],
@@ -628,7 +608,7 @@
         "spanish": "compliance ; cumplimiento",
         "english": "compliance"
     },
-    {
+    "Confiabilidade": {
         "concept": "Confiabilidade",
         "classe": "fem",
         "sinonimos": [],
@@ -637,7 +617,7 @@
         "spanish": "confiabilidad; fiabilidad",
         "english": "reliability"
     },
-    {
+    "Conjunto de dados": {
         "concept": "Conjunto de dados",
         "classe": "masc",
         "sinonimos": [],
@@ -648,7 +628,7 @@
         "spanish": "conjunto de datos",
         "english": "dataset"
     },
-    {
+    "Conjunto mínimo de dados": {
         "concept": "Conjunto mínimo de dados",
         "classe": "masc",
         "sinonimos": [],
@@ -659,7 +639,7 @@
         "spanish": "conjunto mínimo básico de datos",
         "english": "minimum basic dataset"
     },
-    {
+    "Controle": {
         "concept": "Controle",
         "classe": "masc",
         "sinonimos": [],
@@ -670,7 +650,7 @@
         "spanish": "fiscalización; control",
         "english": "inspection; control"
     },
-    {
+    "Controle social": {
         "concept": "Controle social",
         "classe": "masc",
         "sinonimos": [],
@@ -681,7 +661,7 @@
         "spanish": "control social",
         "english": "social control"
     },
-    {
+    "Cultura de monitoramento e avaliação": {
         "concept": "Cultura de monitoramento e avaliação",
         "classe": "fem",
         "sinonimos": [],
@@ -690,7 +670,7 @@
         "spanish": "cultura de seguimiento y evaluación",
         "english": "monitoring and evaluation culture"
     },
-    {
+    "Custo-benefício": {
         "concept": "Custo-benefício",
         "classe": "masc",
         "sinonimos": [],
@@ -699,7 +679,7 @@
         "spanish": "costo-beneficio",
         "english": "cost-benefit"
     },
-    {
+    "Custo-efetividade": {
         "concept": "Custo-efetividade",
         "classe": "masc",
         "sinonimos": [],
@@ -711,7 +691,7 @@
         "spanish": "costo-efectividad",
         "english": "cost-effectiveness"
     },
-    {
+    "Custodiante da informação": {
         "concept": "Custodiante da informação",
         "classe": "masc",
         "sinonimos": [],
@@ -720,7 +700,7 @@
         "spanish": "guardián de la información",
         "english": "information custodian"
     },
-    {
+    "Dado": {
         "concept": "Dado",
         "classe": "masc",
         "sinonimos": [],
@@ -732,7 +712,7 @@
         "spanish": "dato",
         "english": "data"
     },
-    {
+    "Dados abertos": {
         "concept": "Dados abertos",
         "classe": "pl",
         "sinonimos": [],
@@ -743,7 +723,7 @@
         "spanish": "datos abiertos",
         "english": "open data"
     },
-    {
+    "Dados qualitativos": {
         "concept": "Dados qualitativos",
         "classe": "",
         "sinonimos": [],
@@ -754,7 +734,7 @@
         "spanish": "datos cualitativos",
         "english": "qualitative data"
     },
-    {
+    "Dados quantitativos": {
         "concept": "Dados quantitativos",
         "classe": "",
         "sinonimos": [],
@@ -765,7 +745,7 @@
         "spanish": "datos cuantitativos",
         "english": "quantitative data"
     },
-    {
+    "Dashboard": {
         "concept": "Dashboard",
         "classe": "masc",
         "sinonimos": [
@@ -776,7 +756,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Datalake": {
         "concept": "Datalake",
         "classe": "masc",
         "sinonimos": [],
@@ -787,7 +767,7 @@
         "spanish": "datalake",
         "english": "datalake"
     },
-    {
+    "Desempenho institucional": {
         "concept": "Desempenho institucional",
         "classe": "masc",
         "sinonimos": [],
@@ -796,7 +776,7 @@
         "spanish": "desempeño institucional",
         "english": "institutional performance"
     },
-    {
+    "Destinação de recursos": {
         "concept": "Destinação de recursos",
         "classe": "fem",
         "sinonimos": [
@@ -807,7 +787,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Diretrizes": {
         "concept": "Diretrizes",
         "classe": "pl",
         "sinonimos": [],
@@ -818,7 +798,7 @@
         "spanish": "línea directriz",
         "english": "guideline"
     },
-    {
+    "Disseminação da informação": {
         "concept": "Disseminação da informação",
         "classe": "fem",
         "sinonimos": [],
@@ -830,7 +810,7 @@
         "spanish": "diseminación de la información; difusión de la información",
         "english": "information dissemination"
     },
-    {
+    "Documentação da informação": {
         "concept": "Documentação da informação",
         "classe": "fem",
         "sinonimos": [],
@@ -839,7 +819,7 @@
         "spanish": "documentación de información",
         "english": "information documentation"
     },
-    {
+    "EAS": {
         "concept": "EAS",
         "classe": "masc",
         "sinonimos": [],
@@ -848,7 +828,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Elaboração de indicadores": {
         "concept": "Elaboração de indicadores",
         "classe": "fem",
         "sinonimos": [],
@@ -859,7 +839,7 @@
         "spanish": "elaboración de indicadores",
         "english": "creation of indicators"
     },
-    {
+    "Entidades vinculadas": {
         "concept": "Entidades vinculadas",
         "classe": "",
         "sinonimos": [],
@@ -870,7 +850,7 @@
         "spanish": "entidades vinculadas",
         "english": "linked entities"
     },
-    {
+    "Entregas intermediárias": {
         "concept": "Entregas intermediárias",
         "classe": "pl",
         "sinonimos": [
@@ -881,7 +861,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Escopo": {
         "concept": "Escopo",
         "classe": "masc",
         "sinonimos": [],
@@ -890,7 +870,7 @@
         "spanish": "ámbito; alcance",
         "english": "scope"
     },
-    {
+    "Esferas de gestão": {
         "concept": "Esferas de gestão",
         "classe": "pl",
         "sinonimos": [],
@@ -901,7 +881,7 @@
         "spanish": "nível de manejo; ámbito de gestión",
         "english": "management level"
     },
-    {
+    "Estabelecimento Assistencial de Saúde": {
         "concept": "Estabelecimento Assistencial de Saúde",
         "classe": "masc",
         "sinonimos": [
@@ -914,7 +894,7 @@
         "spanish": "centro de salud",
         "english": "health care facility"
     },
-    {
+    "Estratégia": {
         "concept": "Estratégia",
         "classe": "fem",
         "sinonimos": [],
@@ -923,7 +903,7 @@
         "spanish": "estrategia",
         "english": "strategy"
     },
-    {
+    "Evidências para tomada de decisão": {
         "concept": "Evidências para tomada de decisão",
         "classe": "",
         "sinonimos": [],
@@ -932,7 +912,7 @@
         "spanish": "decisiones basadas en evidencias",
         "english": "evidence-based decision making"
     },
-    {
+    "Execução da política": {
         "concept": "Execução da política",
         "classe": "fem",
         "sinonimos": [
@@ -945,7 +925,7 @@
         "spanish": "ejecución de política",
         "english": "policy implementation"
     },
-    {
+    "Ficha de descrição da intervenção": {
         "concept": "Ficha de descrição da intervenção",
         "classe": "fem",
         "sinonimos": [],
@@ -956,7 +936,7 @@
         "spanish": "hoja de descripción de la intervención",
         "english": "intervention description sheet"
     },
-    {
+    "Ficha de qualificação do indicador": {
         "concept": "Ficha de qualificação do indicador",
         "classe": "fem",
         "sinonimos": [],
@@ -967,7 +947,7 @@
         "spanish": "hoja de calificación del indicador",
         "english": "performance indicator reference sheet"
     },
-    {
+    "Fonte": {
         "concept": "Fonte",
         "classe": "fem",
         "sinonimos": [],
@@ -978,7 +958,7 @@
         "spanish": "fuente; origen",
         "english": "source"
     },
-    {
+    "Fontes de dados": {
         "concept": "Fontes de dados",
         "classe": "",
         "sinonimos": [],
@@ -987,7 +967,7 @@
         "spanish": "fuentes de datos",
         "english": "data sources"
     },
-    {
+    "Fontes de informação": {
         "concept": "Fontes de informação",
         "classe": "",
         "sinonimos": [],
@@ -998,7 +978,7 @@
         "spanish": "fuentes de información",
         "english": "sources of information"
     },
-    {
+    "Forma de implementação": {
         "concept": "Forma de implementação",
         "classe": "fem",
         "sinonimos": [],
@@ -1009,7 +989,7 @@
         "spanish": "forma de implementación",
         "english": "implementation method"
     },
-    {
+    "Fórmula de cálculo": {
         "concept": "Fórmula de cálculo",
         "classe": "fem",
         "sinonimos": [],
@@ -1018,7 +998,7 @@
         "spanish": "fórmula de cálculo",
         "english": "calculation formula"
     },
-    {
+    "Formulação de políticas": {
         "concept": "Formulação de políticas",
         "classe": "fem",
         "sinonimos": [],
@@ -1029,7 +1009,7 @@
         "spanish": "formulación de políticas",
         "english": "policy formulation; policy development"
     },
-    {
+    "Gestão da informação": {
         "concept": "Gestão da informação",
         "classe": "fem",
         "sinonimos": [],
@@ -1040,7 +1020,7 @@
         "spanish": "gestión de la información",
         "english": "information management"
     },
-    {
+    "Gestão de risco": {
         "concept": "Gestão de risco",
         "classe": "fem",
         "sinonimos": [],
@@ -1051,7 +1031,7 @@
         "spanish": "gestión de riesgos",
         "english": "risk management"
     },
-    {
+    "Gestão do conhecimento": {
         "concept": "Gestão do conhecimento",
         "classe": "fem",
         "sinonimos": [],
@@ -1062,7 +1042,7 @@
         "spanish": "gestión del conocimiento",
         "english": "knowledge management"
     },
-    {
+    "Gestão estratégica": {
         "concept": "Gestão estratégica",
         "classe": "fem",
         "sinonimos": [],
@@ -1071,7 +1051,7 @@
         "spanish": "gestión estratégica",
         "english": "strategic management"
     },
-    {
+    "Gestão tripartite": {
         "concept": "Gestão tripartite",
         "classe": "fem",
         "sinonimos": [],
@@ -1082,7 +1062,7 @@
         "spanish": "gestión tripartita",
         "english": "tripartite management; management shared among three administrative levels"
     },
-    {
+    "Gestor de informação em saúde": {
         "concept": "Gestor de informação em saúde",
         "classe": "masc",
         "sinonimos": [],
@@ -1093,7 +1073,7 @@
         "spanish": "gestor de información en salud",
         "english": "health information manager"
     },
-    {
+    "Governabilidade": {
         "concept": "Governabilidade",
         "classe": "fem",
         "sinonimos": [],
@@ -1104,7 +1084,7 @@
         "spanish": "gobernabilidad",
         "english": "governability"
     },
-    {
+    "Governança pública": {
         "concept": "Governança pública",
         "classe": "fem",
         "sinonimos": [],
@@ -1113,7 +1093,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Governo aberto": {
         "concept": "Governo aberto",
         "classe": "masc",
         "sinonimos": [],
@@ -1124,7 +1104,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Grau de implantação": {
         "concept": "Grau de implantação",
         "classe": "masc",
         "sinonimos": [],
@@ -1133,7 +1113,7 @@
         "spanish": "grado de implantación",
         "english": "level of implementation; degree of implementation"
     },
-    {
+    "Implantação": {
         "concept": "Implantação",
         "classe": "fem",
         "sinonimos": [],
@@ -1142,7 +1122,7 @@
         "spanish": "implantación",
         "english": "implantation"
     },
-    {
+    "Implementação": {
         "concept": "Implementação",
         "classe": "fem",
         "sinonimos": [],
@@ -1151,7 +1131,7 @@
         "spanish": "implementación",
         "english": "implementation"
     },
-    {
+    "Implementação da política": {
         "concept": "Implementação da política",
         "classe": "fem",
         "sinonimos": [
@@ -1162,7 +1142,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Indicador": {
         "concept": "Indicador",
         "classe": "masc",
         "sinonimos": [],
@@ -1174,7 +1154,7 @@
         "spanish": "indicador",
         "english": "indicator"
     },
-    {
+    "Indicador analítico": {
         "concept": "Indicador analítico",
         "classe": "masc",
         "sinonimos": [
@@ -1187,7 +1167,7 @@
         "spanish": "indicador analítico",
         "english": "analytical indicator"
     },
-    {
+    "Indicador complexo": {
         "concept": "Indicador complexo",
         "classe": "masc",
         "sinonimos": [
@@ -1198,7 +1178,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Indicador de desempenho": {
         "concept": "Indicador de desempenho",
         "classe": "masc",
         "sinonimos": [],
@@ -1209,7 +1189,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Indicador de economicidade": {
         "concept": "Indicador de economicidade",
         "classe": "masc",
         "sinonimos": [],
@@ -1220,7 +1200,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Indicador de efetividade": {
         "concept": "Indicador de efetividade",
         "classe": "masc",
         "sinonimos": [],
@@ -1231,7 +1211,7 @@
         "spanish": "indicador de efectividad",
         "english": "effectiveness indicator"
     },
-    {
+    "Indicador de eficácia": {
         "concept": "Indicador de eficácia",
         "classe": "masc",
         "sinonimos": [],
@@ -1242,7 +1222,7 @@
         "spanish": "indicador de eficácia",
         "english": "efficacy indicator"
     },
-    {
+    "Indicador de eficiência": {
         "concept": "Indicador de eficiência",
         "classe": "",
         "sinonimos": [],
@@ -1253,7 +1233,7 @@
         "spanish": "indicador de eficiencia",
         "english": "efficiency indicator"
     },
-    {
+    "Indicador de esforço": {
         "concept": "Indicador de esforço",
         "classe": "masc",
         "sinonimos": [],
@@ -1265,7 +1245,7 @@
         "spanish": "indicador de esfuerzo",
         "english": "effort indicator"
     },
-    {
+    "Indicador de excelência": {
         "concept": "Indicador de excelência",
         "classe": "masc",
         "sinonimos": [],
@@ -1277,7 +1257,7 @@
         "spanish": "indicador de excelencia",
         "english": "excellence indicator"
     },
-    {
+    "Indicador de execução": {
         "concept": "Indicador de execução",
         "classe": "masc",
         "sinonimos": [
@@ -1290,7 +1270,7 @@
         "spanish": "indicador de ejecución; indicador de implementación",
         "english": "implementation indicator"
     },
-    {
+    "Indicador de gestão": {
         "concept": "Indicador de gestão",
         "classe": "masc",
         "sinonimos": [],
@@ -1301,7 +1281,7 @@
         "spanish": "indicador de gestión",
         "english": "management indicator"
     },
-    {
+    "Indicador de impacto": {
         "concept": "Indicador de impacto",
         "classe": "masc",
         "sinonimos": [],
@@ -1312,7 +1292,7 @@
         "spanish": "indicador de impacto",
         "english": "impact indicator"
     },
-    {
+    "Indicador de infraestrutura": {
         "concept": "Indicador de infraestrutura",
         "classe": "masc",
         "sinonimos": [],
@@ -1323,7 +1303,7 @@
         "spanish": "indicador de infraestructura",
         "english": "infrastructure indicator"
     },
-    {
+    "Indicador de insumo": {
         "concept": "Indicador de insumo",
         "classe": "masc",
         "sinonimos": [],
@@ -1334,7 +1314,7 @@
         "spanish": "indicador de insumo; indicador de aporte",
         "english": "input indicator"
     },
-    {
+    "Indicador de processo": {
         "concept": "Indicador de processo",
         "classe": "masc",
         "sinonimos": [],
@@ -1345,7 +1325,7 @@
         "spanish": "indicador de proceso",
         "english": "process indicator"
     },
-    {
+    "Indicador de produto": {
         "concept": "Indicador de produto",
         "classe": "masc",
         "sinonimos": [],
@@ -1356,7 +1336,7 @@
         "spanish": "indicador de producto",
         "english": "product indicator"
     },
-    {
+    "Indicador de progresso": {
         "concept": "Indicador de progresso",
         "classe": "masc",
         "sinonimos": [
@@ -1367,7 +1347,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Indicador de resultado": {
         "concept": "Indicador de resultado",
         "classe": "masc",
         "sinonimos": [],
@@ -1378,7 +1358,7 @@
         "spanish": "indicador de resultado",
         "english": "outcome indicator"
     },
-    {
+    "Indicador de saúde": {
         "concept": "Indicador de saúde",
         "classe": "masc",
         "sinonimos": [],
@@ -1389,7 +1369,7 @@
         "spanish": "indicador de salud",
         "english": "health indicator"
     },
-    {
+    "Indicador simples": {
         "concept": "Indicador simples",
         "classe": "masc",
         "sinonimos": [
@@ -1400,7 +1380,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Indicador sintético": {
         "concept": "Indicador sintético",
         "classe": "masc",
         "sinonimos": [
@@ -1413,7 +1393,7 @@
         "spanish": "indicador sintético",
         "english": "synthetic indicator"
     },
-    {
+    "Indicador social": {
         "concept": "Indicador social",
         "classe": "masc",
         "sinonimos": [],
@@ -1424,7 +1404,7 @@
         "spanish": "indicador social",
         "english": "social indicator"
     },
-    {
+    "Índice": {
         "concept": "Índice",
         "classe": "masc",
         "sinonimos": [],
@@ -1435,7 +1415,7 @@
         "spanish": "índice",
         "english": "index"
     },
-    {
+    "Índice de referência": {
         "concept": "Índice de referência",
         "classe": "masc",
         "sinonimos": [],
@@ -1446,7 +1426,7 @@
         "spanish": "índice de referencia",
         "english": "reference index"
     },
-    {
+    "Informação": {
         "concept": "Informação",
         "classe": "fem",
         "sinonimos": [],
@@ -1457,7 +1437,7 @@
         "spanish": "información",
         "english": "information"
     },
-    {
+    "Informação em saúde": {
         "concept": "Informação em saúde",
         "classe": "fem",
         "sinonimos": [],
@@ -1468,7 +1448,7 @@
         "spanish": "información de salud",
         "english": "health information"
     },
-    {
+    "Informação estratégica": {
         "concept": "Informação estratégica",
         "classe": "fem",
         "sinonimos": [],
@@ -1479,7 +1459,7 @@
         "spanish": "información estratégica",
         "english": "strategic information"
     },
-    {
+    "Institucionalização do monitoramento e avaliação": {
         "concept": "Institucionalização do monitoramento e avaliação",
         "classe": "fem",
         "sinonimos": [],
@@ -1490,7 +1470,7 @@
         "spanish": "institucionalización del seguimiento y evaluación",
         "english": "institutionalization of monitoring and evaluation"
     },
-    {
+    "Instrumentos de gestão": {
         "concept": "Instrumentos de gestão",
         "classe": "pl",
         "sinonimos": [],
@@ -1501,7 +1481,7 @@
         "spanish": "instrumentos de gestión",
         "english": "management instruments; management tools"
     },
-    {
+    "Intercâmbio de informação": {
         "concept": "Intercâmbio de informação",
         "classe": "masc",
         "sinonimos": [],
@@ -1512,7 +1492,7 @@
         "spanish": "intercambio de información",
         "english": "information exchange"
     },
-    {
+    "Interoperabilidade da informação em saúde": {
         "concept": "Interoperabilidade da informação em saúde",
         "classe": "fem",
         "sinonimos": [],
@@ -1521,7 +1501,7 @@
         "spanish": "interoperabilidad de la información en salud",
         "english": "health information interoperability"
     },
-    {
+    "Interpretação do indicador": {
         "concept": "Interpretação do indicador",
         "classe": "fem",
         "sinonimos": [],
@@ -1530,7 +1510,7 @@
         "spanish": "interpretación del indicador",
         "english": "indicator interpretation"
     },
-    {
+    "Intervenção": {
         "concept": "Intervenção",
         "classe": "fem",
         "sinonimos": [],
@@ -1541,7 +1521,7 @@
         "spanish": "intervención",
         "english": "intervention"
     },
-    {
+    "Limitação do indicador": {
         "concept": "Limitação do indicador",
         "classe": "fem",
         "sinonimos": [],
@@ -1552,7 +1532,7 @@
         "spanish": "limitación del indicador",
         "english": "limitation of the indicator"
     },
-    {
+    "Linha de base": {
         "concept": "Linha de base",
         "classe": "fem",
         "sinonimos": [],
@@ -1563,7 +1543,7 @@
         "spanish": "línea de base",
         "english": "baseline"
     },
-    {
+    "Machine learning": {
         "concept": "Machine learning",
         "classe": "",
         "sinonimos": [
@@ -1574,7 +1554,7 @@
         "spanish": "aprendizaje automático; machine learning",
         "english": "machine learning"
     },
-    {
+    "Marco lógico": {
         "concept": "Marco lógico",
         "classe": "masc",
         "sinonimos": [
@@ -1587,7 +1567,7 @@
         "spanish": "marco lógico",
         "english": "logical framework"
     },
-    {
+    "Matriz de indicadores": {
         "concept": "Matriz de indicadores",
         "classe": "fem",
         "sinonimos": [],
@@ -1598,7 +1578,7 @@
         "spanish": "matriz de indicadores",
         "english": "matrix of indicators"
     },
-    {
+    "Matriz de informação estratégica": {
         "concept": "Matriz de informação estratégica",
         "classe": "fem",
         "sinonimos": [],
@@ -1609,7 +1589,7 @@
         "spanish": "matriz de información estratégica",
         "english": "strategic information matrix"
     },
-    {
+    "Matriz lógica": {
         "concept": "Matriz lógica",
         "classe": "fem",
         "sinonimos": [
@@ -1620,7 +1600,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Medida-síntese": {
         "concept": "Medida-síntese",
         "classe": "fem",
         "sinonimos": [],
@@ -1631,7 +1611,7 @@
         "spanish": "medida de síntesis",
         "english": "synthesis measure"
     },
-    {
+    "Memória de cálculo": {
         "concept": "Memória de cálculo",
         "classe": "fem",
         "sinonimos": [],
@@ -1640,7 +1620,7 @@
         "spanish": "memoria de cálculo",
         "english": "calculation method"
     },
-    {
+    "Mensuração": {
         "concept": "Mensuração",
         "classe": "fem",
         "sinonimos": [],
@@ -1649,7 +1629,7 @@
         "spanish": "medición; mensuración",
         "english": "measurement"
     },
-    {
+    "Meta": {
         "concept": "Meta",
         "classe": "fem",
         "sinonimos": [],
@@ -1660,7 +1640,7 @@
         "spanish": "meta",
         "english": "goal"
     },
-    {
+    "Metadados": {
         "concept": "Metadados",
         "classe": "pl",
         "sinonimos": [],
@@ -1671,7 +1651,7 @@
         "spanish": "metadatos",
         "english": "metadata"
     },
-    {
+    "Método": {
         "concept": "Método",
         "classe": "masc",
         "sinonimos": [],
@@ -1682,7 +1662,7 @@
         "spanish": "método",
         "english": "method"
     },
-    {
+    "Metodologia": {
         "concept": "Metodologia",
         "classe": "fem",
         "sinonimos": [],
@@ -1693,7 +1673,7 @@
         "spanish": "metodología",
         "english": "methodology"
     },
-    {
+    "Metodologia de avaliação": {
         "concept": "Metodologia de avaliação",
         "classe": "fem",
         "sinonimos": [],
@@ -1704,7 +1684,7 @@
         "spanish": "metodología de evaluación",
         "english": "evaluation methodology"
     },
-    {
+    "Modelo de avaliação": {
         "concept": "Modelo de avaliação",
         "classe": "masc",
         "sinonimos": [],
@@ -1715,7 +1695,7 @@
         "spanish": "modelo de evaluación",
         "english": "assessment model; evaluation model"
     },
-    {
+    "Modelo de gestão": {
         "concept": "Modelo de gestão",
         "classe": "masc",
         "sinonimos": [],
@@ -1724,7 +1704,7 @@
         "spanish": "modelo de gestión",
         "english": "management model"
     },
-    {
+    "Modelo lógico": {
         "concept": "Modelo lógico",
         "classe": "masc",
         "sinonimos": [],
@@ -1735,7 +1715,7 @@
         "spanish": "modelo lógico",
         "english": "logic model"
     },
-    {
+    "Monitoramento": {
         "concept": "Monitoramento",
         "classe": "masc",
         "sinonimos": [],
@@ -1746,7 +1726,7 @@
         "spanish": "monitoreo",
         "english": "monitoring"
     },
-    {
+    "Normativa": {
         "concept": "Normativa",
         "classe": "fem",
         "sinonimos": [
@@ -1757,7 +1737,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Normativo": {
         "concept": "Normativo",
         "classe": "masc",
         "sinonimos": [
@@ -1770,7 +1750,7 @@
         "spanish": "norma; normativo",
         "english": "regulation"
     },
-    {
+    "Objetivo": {
         "concept": "Objetivo",
         "classe": "masc",
         "sinonimos": [],
@@ -1781,7 +1761,7 @@
         "spanish": "objetivo",
         "english": "target; objective"
     },
-    {
+    "Objetivos estratégicos": {
         "concept": "Objetivos estratégicos",
         "classe": "pl",
         "sinonimos": [],
@@ -1792,7 +1772,7 @@
         "spanish": "objetivos estratégicos",
         "english": "strategic objectives"
     },
-    {
+    "Orçamento": {
         "concept": "Orçamento",
         "classe": "masc",
         "sinonimos": [],
@@ -1801,7 +1781,7 @@
         "spanish": "presupuesto",
         "english": "budget"
     },
-    {
+    "Órgãos colegiados": {
         "concept": "Órgãos colegiados",
         "classe": "pl",
         "sinonimos": [],
@@ -1812,7 +1792,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Pacto": {
         "concept": "Pacto",
         "classe": "masc",
         "sinonimos": [],
@@ -1821,7 +1801,7 @@
         "spanish": "pacto",
         "english": "pact"
     },
-    {
+    "Pactuação": {
         "concept": "Pactuação",
         "classe": "fem",
         "sinonimos": [],
@@ -1832,7 +1812,7 @@
         "spanish": "negociación",
         "english": "agreement; negotiation"
     },
-    {
+    "Painel de informação": {
         "concept": "Painel de informação",
         "classe": "masc",
         "sinonimos": [
@@ -1843,7 +1823,7 @@
         "spanish": "panel de información",
         "english": "dashboard; information panel"
     },
-    {
+    "Painel de monitoramento": {
         "concept": "Painel de monitoramento",
         "classe": "masc",
         "sinonimos": [],
@@ -1855,7 +1835,7 @@
         "spanish": "panel de monitoreo",
         "english": "monitoring panel"
     },
-    {
+    "Parâmetro": {
         "concept": "Parâmetro",
         "classe": "masc",
         "sinonimos": [],
@@ -1866,7 +1846,7 @@
         "spanish": "parámetro",
         "english": "baseline; parameter"
     },
-    {
+    "Partes interessadas": {
         "concept": "Partes interessadas",
         "classe": "",
         "sinonimos": [
@@ -1879,7 +1859,7 @@
         "spanish": "partes interesadas; stakeholders",
         "english": "stakeholders"
     },
-    {
+    "Pesquisa avaliativa": {
         "concept": "Pesquisa avaliativa",
         "classe": "fem",
         "sinonimos": [],
@@ -1888,7 +1868,7 @@
         "spanish": "investigación evaluativa",
         "english": "evaluation research"
     },
-    {
+    "Planejamento": {
         "concept": "Planejamento",
         "classe": "masc",
         "sinonimos": [],
@@ -1899,7 +1879,7 @@
         "spanish": "planificación",
         "english": "planning"
     },
-    {
+    "Planejamento em saúde": {
         "concept": "Planejamento em saúde",
         "classe": "masc",
         "sinonimos": [],
@@ -1910,7 +1890,7 @@
         "spanish": "planificación en salud",
         "english": "health planning"
     },
-    {
+    "Planejamento estratégico": {
         "concept": "Planejamento estratégico",
         "classe": "masc",
         "sinonimos": [],
@@ -1923,7 +1903,7 @@
         "spanish": "planificación estratégica",
         "english": "strategic planning"
     },
-    {
+    "Planejamento governamental": {
         "concept": "Planejamento governamental",
         "classe": "masc",
         "sinonimos": [],
@@ -1934,7 +1914,7 @@
         "spanish": "planificación gubernamental",
         "english": "government planning"
     },
-    {
+    "Plano": {
         "concept": "Plano",
         "classe": "masc",
         "sinonimos": [],
@@ -1945,7 +1925,7 @@
         "spanish": "plan",
         "english": "plan"
     },
-    {
+    "Política": {
         "concept": "Política",
         "classe": "fem",
         "sinonimos": [],
@@ -1956,7 +1936,7 @@
         "spanish": "política",
         "english": "policy"
     },
-    {
+    "Política implementada": {
         "concept": "Política implementada",
         "classe": "fem",
         "sinonimos": [],
@@ -1967,7 +1947,7 @@
         "spanish": "política implementada",
         "english": "implemented policy"
     },
-    {
+    "Política pública": {
         "concept": "Política pública",
         "classe": "fem",
         "sinonimos": [],
@@ -1978,7 +1958,7 @@
         "spanish": "política pública",
         "english": "public policy"
     },
-    {
+    "Política pública de saúde": {
         "concept": "Política pública de saúde",
         "classe": "fem",
         "sinonimos": [],
@@ -1989,7 +1969,7 @@
         "spanish": "política pública de salud",
         "english": "health public policy"
     },
-    {
+    "Política social": {
         "concept": "Política social",
         "classe": "fem",
         "sinonimos": [],
@@ -2000,7 +1980,7 @@
         "spanish": "política social",
         "english": "social policy"
     },
-    {
+    "Problema": {
         "concept": "Problema",
         "classe": "masc",
         "sinonimos": [],
@@ -2011,7 +1991,7 @@
         "spanish": "problema",
         "english": "problem; issue"
     },
-    {
+    "Processo": {
         "concept": "Processo",
         "classe": "masc",
         "sinonimos": [],
@@ -2020,7 +2000,7 @@
         "spanish": "proceso",
         "english": "process"
     },
-    {
+    "Processo decisório": {
         "concept": "Processo decisório",
         "classe": "masc",
         "sinonimos": [
@@ -2031,7 +2011,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Produção de conhecimento": {
         "concept": "Produção de conhecimento",
         "classe": "fem",
         "sinonimos": [],
@@ -2042,7 +2022,7 @@
         "spanish": "produción de conocimiento",
         "english": "knowledge production"
     },
-    {
+    "Produto": {
         "concept": "Produto",
         "classe": "masc",
         "sinonimos": [],
@@ -2051,7 +2031,7 @@
         "spanish": "producto",
         "english": "product"
     },
-    {
+    "Programa": {
         "concept": "Programa",
         "classe": "masc",
         "sinonimos": [],
@@ -2062,7 +2042,7 @@
         "spanish": "programa",
         "english": "program"
     },
-    {
+    "Projeto": {
         "concept": "Projeto",
         "classe": "masc",
         "sinonimos": [],
@@ -2071,7 +2051,7 @@
         "spanish": "proyecto",
         "english": "project"
     },
-    {
+    "Público-alvo": {
         "concept": "Público-alvo",
         "classe": "masc",
         "sinonimos": [
@@ -2082,7 +2062,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Público estratégico": {
         "concept": "Público estratégico",
         "classe": "masc",
         "sinonimos": [
@@ -2093,7 +2073,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Público sujeito": {
         "concept": "Público sujeito",
         "classe": "masc",
         "sinonimos": [
@@ -2104,7 +2084,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Qualidade da informação": {
         "concept": "Qualidade da informação",
         "classe": "fem",
         "sinonimos": [],
@@ -2116,7 +2096,7 @@
         "spanish": "calidad de la información",
         "english": "information quality"
     },
-    {
+    "Recursos": {
         "concept": "Recursos",
         "classe": "pl",
         "sinonimos": [],
@@ -2128,7 +2108,7 @@
         "spanish": "recursos",
         "english": "resources"
     },
-    {
+    "Rede": {
         "concept": "Rede",
         "classe": "fem",
         "sinonimos": [],
@@ -2137,7 +2117,7 @@
         "spanish": "red",
         "english": "network"
     },
-    {
+    "Referencial estratégico": {
         "concept": "Referencial estratégico",
         "classe": "masc",
         "sinonimos": [],
@@ -2146,7 +2126,7 @@
         "spanish": "marco estratégico",
         "english": "strategic framework"
     },
-    {
+    "Registro": {
         "concept": "Registro",
         "classe": "masc",
         "sinonimos": [],
@@ -2157,7 +2137,7 @@
         "spanish": "registro",
         "english": "record"
     },
-    {
+    "Responsável pelo monitoramento": {
         "concept": "Responsável pelo monitoramento",
         "classe": "masc",
         "sinonimos": [],
@@ -2166,7 +2146,7 @@
         "spanish": "responsable de monitoreo",
         "english": "monitoring authority"
     },
-    {
+    "Resultados intermediários": {
         "concept": "Resultados intermediários",
         "classe": "pl",
         "sinonimos": [
@@ -2177,7 +2157,7 @@
         "spanish": "resultados intermedios",
         "english": "interim results; intermediate results"
     },
-    {
+    "Risco": {
         "concept": "Risco",
         "classe": "masc",
         "sinonimos": [],
@@ -2186,7 +2166,7 @@
         "spanish": "",
         "english": "risk"
     },
-    {
+    "Sala de situação de saúde": {
         "concept": "Sala de situação de saúde",
         "classe": "fem",
         "sinonimos": [],
@@ -2197,7 +2177,7 @@
         "spanish": "sala de situación de salud",
         "english": "health situation room"
     },
-    {
+    "Segurança da informação": {
         "concept": "Segurança da informação",
         "classe": "fem",
         "sinonimos": [],
@@ -2209,7 +2189,7 @@
         "spanish": "seguridad de la información",
         "english": "information security"
     },
-    {
+    "Serviços de saúde": {
         "concept": "Serviços de saúde",
         "classe": "pl",
         "sinonimos": [],
@@ -2220,7 +2200,7 @@
         "spanish": "servicios de salud",
         "english": "health services"
     },
-    {
+    "Sistemas de informação em saúde": {
         "concept": "Sistemas de informação em saúde",
         "classe": "pl",
         "sinonimos": [],
@@ -2229,7 +2209,7 @@
         "spanish": "sistemas de información de salud",
         "english": "health information systems"
     },
-    {
+    "Sistemática de monitoramento e avaliação em saúde": {
         "concept": "Sistemática de monitoramento e avaliação em saúde",
         "classe": "fem",
         "sinonimos": [],
@@ -2240,7 +2220,7 @@
         "spanish": "sistemática de seguimiento y evaluación en salud",
         "english": "systematic approach for health monitoring and evaluation"
     },
-    {
+    "Stakeholders": {
         "concept": "Stakeholders",
         "classe": "pl",
         "sinonimos": [
@@ -2251,7 +2231,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Tempestade de ideias": {
         "concept": "Tempestade de ideias",
         "classe": "fem",
         "sinonimos": [
@@ -2262,7 +2242,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Território": {
         "concept": "Território",
         "classe": "masc",
         "sinonimos": [
@@ -2275,7 +2255,7 @@
         "spanish": "territorio",
         "english": "territory"
     },
-    {
+    "Tomada de decisão": {
         "concept": "Tomada de decisão",
         "classe": "fem",
         "sinonimos": [
@@ -2288,7 +2268,7 @@
         "spanish": "toma de decisiones",
         "english": "decision making"
     },
-    {
+    "Transparência": {
         "concept": "Transparência",
         "classe": "fem",
         "sinonimos": [],
@@ -2299,7 +2279,7 @@
         "spanish": "",
         "english": ""
     },
-    {
+    "Unidade de medida": {
         "concept": "Unidade de medida",
         "classe": "fem",
         "sinonimos": [],
@@ -2310,7 +2290,7 @@
         "spanish": "unidad de medida",
         "english": "unit of measurement"
     },
-    {
+    "Unidades": {
         "concept": "Unidades",
         "classe": "pl",
         "sinonimos": [],
@@ -2321,7 +2301,7 @@
         "spanish": "unidad administrativa",
         "english": "administrative unit"
     },
-    {
+    "Uso do indicador": {
         "concept": "Uso do indicador",
         "classe": "masc",
         "sinonimos": [],
@@ -2330,7 +2310,7 @@
         "spanish": "uso del indicador",
         "english": "use of the indicator"
     },
-    {
+    "Valor em saúde": {
         "concept": "Valor em saúde",
         "classe": "masc",
         "sinonimos": [],
@@ -2341,7 +2321,7 @@
         "spanish": "valor en salud",
         "english": "health value"
     },
-    {
+    "Valor público": {
         "concept": "Valor público",
         "classe": "masc",
         "sinonimos": [],
@@ -2350,7 +2330,7 @@
         "spanish": "valor público",
         "english": "public value"
     },
-    {
+    "Valor público em saúde": {
         "concept": "Valor público em saúde",
         "classe": "",
         "sinonimos": [],
@@ -2359,7 +2339,7 @@
         "spanish": "valor público en salud",
         "english": "health public value"
     },
-    {
+    "Visualização de dados": {
         "concept": "Visualização de dados",
         "classe": "fem",
         "sinonimos": [],
@@ -2370,4 +2350,4 @@
         "spanish": "visualización de datos",
         "english": "data visualizaton acceso a la información – acesso à informação acción – ação acciones de salud – ações de saúde acciones intersectoriales – ações intersetoriais actividades – atividades agenda política – agenda política agregación de datos – agregação de dados ámbito; alcance – escopo análisis – análise análisis de datos – análise de dados análisis de indicadores – análise de indicadores análisis de la situación – análise situacional análisis de la situación de salud – análise de situação em saúde análisis de riesgo – análise de risco análisis de viabilidad – análise de viabilidade análisis del impacto regulatorio – análise de impacto regulatório análisis estratégico – análise estratégica análisis ex-ante – análise ex-ante análisis ex-post – análise ex-post análisis prospectivo – análise prospectiva aprendizaje automático; machine learning – machine learning área final – área finalística área intermedia – área meio asignación de recursos – alocação de recursos auditoría – auditoria banco de datos – banco de dados base de datos – base de dados base legal – base legal base poblacional – base populacional benchmarking – benchmarking big data – big data brainstoming ; lluvia de ideas – brainstorming buenas practicas – boas práticas business intelligence ; inteligencia de negocios – business intelligence cadena de valor – cadeia de valor cálculo del indicador – cálculo do indicador calidad de la información – qualidade da informação catálogo de intervenciones – catálogo de intervenções centro de salud – estabelecimento assistencial de saúde ciclo de políticas públicas – ciclo de políticas públicas ciencia de datos – ciência de dados ciencia de la información – ciência da informação comité consultivo; comité asesor – comitê consultivo competencias organizacionales – competências organizacionais compliance; cumplimiento – compliance confiabilidad; fiabilidad – confiabilidade conjunto de datos – conjunto de dados conjunto mínimo básico de datos – conjunto mínimo de dados control social – controle social coordinación – articulação costo-beneficio – custo-benefício costo-efectividad – custo-efetividade cuerpo colegiado – colegiado cultura de seguimiento y evaluación – cultura de monitoramento e avaliação datalake – datalake dato – dado datos abiertos – dados abertos datos cualitativos – dados qualitativos datos cuantitativos – dados quantitativos decisiones basadas en evidencias – evidências para tomada de decisão desempeño institucional – desempenho institucional diseminación de la información; difusión de la información – disseminação da informação documentación de información – documentação da informação ejecución de política – execução da política elaboración de indicadores – elaboração de indicadores entidades vinculadas – entidades vinculadas escenario – cenário estrategia – estratégia estudio basado en la evidencia – análise baseada em evidências evaluación – avaliação evaluación de resultados – avaliação de resultados evaluación del desempeño individual y institucional – avaliação de desempenho individual e institucional evaluación del impacto – avaliação de impacto evaluación del processo – avaliação de processo evaluación en salud – avaliação em saúde fiscalización; control – controle forma de implementación – forma de implementação fórmula de cálculo – fórmula de cálculo formulación de políticas – formulação de políticas fuente; origen – fonte fuentes de datos – fontes de dados fuentes de información – fontes de informação gestión de la información – gestão da informação gestión de riesgos – gestão de risco gestión del conocimiento – gestão do conhecimento gestión estratégica – gestão estratégica gestión tripartita – gestão tripartite gestor de información en salud – gestor de informação em saúde gobernabilidad – governabilidade gobernanza publica – governança pública gobierno abierto – governo aberto grado de implantación – grau de implantação guardián de la información – custodiante da informação hoja de calificación del indicador – ficha de qualificação do indicador hoja de descripción de la intervención – ficha de descrição da intervenção implantación – implantação implementación – implementação indicador – indicador indicador analítico – indicador analítico indicador de desempeño – indicador de desempenho indicador de economicidad – indicador de economicidade indicador de efectividad – indicador de efetividade indicador de eficácia – indicador de eficácia indicador de eficiencia – indicador de eficiência indicador de ejecución; indicador de implementación – indicador de execução indicador de esfuerzo – indicador de esforço indicador de excelencia – indicador de excelência indicador de gestión – indicador de gestão indicador de impacto – indicador de impacto indicador de infraestructura – indicador de infraestrutura indicador de insumo; indicador de aporte – indicador de insumo indicador de proceso – indicador de processo indicador de producto – indicador de produto indicador de resultado – indicador de resultado indicador de salud – indicador de saúde indicador sintético – indicador sintético indicador social – indicador social índice – índice índice de referencia – índice de referência información – informação información de salud – informação em saúde información estratégica – informação estratégica institucionalización del seguimiento y evaluación – institucionalização do monitoramento e avaliação instrumentos de gestión – instrumentos de gestão intercambio de información – intercâmbio de informação interoperabilidad de la información en salud – interoperabilidade da informação em saúde interpretación del indicador – interpretação do indicador intervención – intervenção investigación evaluativa – pesquisa avaliativa limitación del indicador – limitação do indicador línea de base – linha de base línea directriz – diretrizes marco estratégico – referencial estratégico marco lógico – marco lógico matriz de indicadores – matriz de indicadores matriz de información estratégica – matriz de informação estratégica medición; mensuración – mensuração medida de síntesis – medida-síntese memoria de cálculo – memória de cálculo meta – meta metadatos – metadados método – método metodología – metodologia metodología de evaluación – metodologia de avaliação modelo de evaluación – modelo de avaliação modelo de gestión – modelo de gestão modelo lógico – modelo lógico monitoreo – monitoramento negociación – pactuação nível de manejo; ámbito de gestión – esferas de gestão norma; normativo – normativo objetivo – objetivo objetivos estratégicos – objetivos estratégicos órganos colegiados – órgãos colegiados pacto – pacto panel de información – painel de informação panel de monitoreo – painel de monitoramento parámetro – parâmetro partes interesadas; stakeholders – partes interessadas plan – plano planificación – planejamento planificación en salud – planejamento em saúde planificación estratégica – agenda estratégica planificación estratégica – planejamento estratégico planificación gubernamental – planejamento governamental política – política política implementada – política implementada política pública – política pública política pública de salud – política pública de saúde política social – política social presupuesto – orçamento problema – problema proceso – processo produción de conocimiento – produção de conhecimento producto – produto programa – programa proyecto – projeto público objetivo – público-alvo recolección de datos – coleta de dados recursos – recursos red – rede registro – registro rendición de cuentas; accountability – accountability responsable de monitoreo – responsável pelo monitoramento resultados intermedios – resultados intermediários riesgo – risco sala de situación de salud – sala de situação de saúde seguimiento – acompanhamento seguridad de la información – segurança da informação servicios de salud – serviços de saúde sistemas de información de salud – sistemas de informação em saúde sistemática de seguimiento y evaluación en salud – sistemática de monitoramento e avaliação em saúde territorio – território toma de decisiones – tomada de decisão transparencia – transparência unidad administrativa – unidades unidad de medida – unidade de medida uso del indicador – uso do indicador valor en salud – valor em saúde valor público – valor público valor público en salud – valor público em saúde visualización de datos – visualização de dados"
     }
-]
+}

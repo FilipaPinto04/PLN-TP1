@@ -1,0 +1,47 @@
+============================================================
+   ESTATÍSTICAS DE CRUZAMENTO
+============================================================
+  Total de termos únicos:            15377
+  Termos em apenas 1 fonte:         13811  (89%)
+  Termos em 2+ fontes (cruzados):    1566  (10%)
+  Termos em 3+ fontes:                372  (2%)
+  Máximo de fontes num só termo:        6
+
+  Quantidade de termos extraídos por fonte:
+  Quantidade de termos extraídos por fonte:
+    medicina                 :   8713 termos
+    ICNP                     :   4471 termos
+    termos                   :   1815 termos
+    catala                   :    806 termos
+    enfermagem               :    763 termos
+    ministerio               :    757 termos
+    neologismos              :    306 termos
+    monitoramento            :    219 termos
+    ossos                    :    170 termos
+    wipo                     :    159 termos
+
+
+  Top pares de fontes com mais termos em comum:
+    medicina         ↔ termos             773 termos
+    ICNP             ↔ medicina           367 termos
+    ICNP             ↔ enfermagem         337 termos
+    enfermagem       ↔ medicina           247 termos
+    ICNP             ↔ termos             174 termos
+    enfermagem       ↔ termos             144 termos
+    catala           ↔ medicina           123 termos
+    medicina         ↔ ministerio          75 termos
+    catala           ↔ termos              52 termos
+    catala           ↔ wipo                51 termos
+
+  Top 10 termos mais cruzados:
+    'antibiótico' → ['ICNP', 'catala', 'enfermagem', 'medicina', 'ministerio', 'termos']
+    'sintoma' → ['ICNP', 'catala', 'enfermagem', 'medicina', 'termos', 'wipo']
+    'vacina' → ['ICNP', 'catala', 'enfermagem', 'medicina', 'termos', 'wipo']
+    'aerossol' → ['ICNP', 'catala', 'medicina', 'termos', 'wipo']
+    'analgésico' → ['ICNP', 'catala', 'enfermagem', 'medicina', 'termos']
+    'choque' → ['ICNP', 'catala', 'enfermagem', 'medicina', 'termos']
+    'desidratação' → ['ICNP', 'enfermagem', 'medicina', 'ministerio', 'termos']
+    'diarreia' → ['ICNP', 'catala', 'enfermagem', 'medicina', 'termos']
+    'dispneia' → ['ICNP', 'catala', 'enfermagem', 'medicina', 'termos']
+    'epidemia' → ['catala', 'medicina', 'ministerio', 'termos', 'wipo']
+

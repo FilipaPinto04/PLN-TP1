@@ -15,7 +15,8 @@ def analisar():
     tree = ET.parse(xml_path)
     root = tree.getroot()
 
-    entries = []
+    # Alterado para dicionário
+    entries = {}
     current_entry = None
 
     for page in root.findall(".//page"):
@@ -25,55 +26,50 @@ def analisar():
             
             left = int(text.get("left", 0))
 
-            # 1. Identificar Novo Conceito (left=128)
             is_concept_start = (left == 128) and not re.match(r'^\d', txt) and len(txt) > 1
 
             if is_concept_start:
                 if current_entry:
-                    entries.append(processar_campos(current_entry))
+                    # Processa e adiciona ao dicionário usando o conceito como chave
+                    resultado = processar_campos(current_entry)
+                    entries[resultado["concept"]] = resultado
                 
                 current_entry = {
                     "concept": txt,
-                    "grammar_category": "", # Nova secção
+                    "grammar_category": "",
                     "raw_text": ""
                 }
             elif current_entry:
-                # 2. Verificar se o texto é o género gramatical
-                # Padrão: s.f., s.m., adj., v., etc.
                 if not current_entry["grammar_category"] and re.match(r'^[sivn]\.(f|m|adj|adv)\.?$', txt.lower()):
                     current_entry["grammar_category"] = txt
                 else:
-                    # O resto vai para processamento de tradução e definição
                     current_entry["raw_text"] += " " + txt
 
+    # Processa o último termo
     if current_entry:
-        entries.append(processar_campos(current_entry))
+        resultado = processar_campos(current_entry)
+        entries[resultado["concept"]] = resultado
 
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(entries, f, ensure_ascii=False, indent=4)
     
-    print(f"✅ Concluído! Categoria gramatical isolada numa nova secção.")
+    print(f"✅ Concluído! JSON gerado como dicionário com {len(entries)} termos.")
 
 def processar_campos(item):
     full_text = re.sub(r'\s+', ' ', item["raw_text"]).strip()
     
-    # Extração de traduções
     ing = re.search(r'([^;]+)\[ing\]', full_text)
     esp = re.search(r'([^;]+)\[esp\]', full_text)
-    
-    # Informação Enciclopédica
     inf = re.search(r'Inf\.\s*encicl\.:\s*(.*)', full_text)
     
-    # Limpeza da definição
     def_clean = re.sub(r'[^;]+\[ing\]\s*;?\s*', '', full_text)
     def_clean = re.sub(r'[^;]+\[esp\]\s*;?\s*', '', def_clean)
     def_clean = re.sub(r'Inf\.\s*encicl\.:.*', '', def_clean)
-    # Remove as citações/exemplos no fim (ex: "... (180)")
     def_clean = re.sub(r'“.*”\s*\(\d+\)', '', def_clean) 
     
     return {
         "concept": item["concept"],
-        "grammar_category": item["grammar_category"], # Secção dedicada
+        "grammar_category": item["grammar_category"],
         "term_en": ing.group(1).strip() if ing else "",
         "term_es": esp.group(1).strip() if esp else "",
         "definition": def_clean.strip(),
