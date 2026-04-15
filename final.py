@@ -219,7 +219,7 @@ def extrair_termos(dados):
     return resultados
 
 
-# Mapeamento fonte -> extractor
+# Mapeamento fonte - extractor
 
 EXTRACTORS = {
     "medicina":      extrair_medicina,

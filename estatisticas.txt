@@ -1,14 +1,14 @@
 
    ESTATÍSTICAS
 
-  Total de termos únicos:            15377
-  Termos em apenas 1 fonte:         13811  (89%)
-  Termos em 2+ fontes (cruzados):    1566  (10%)
-  Termos em 3+ fontes:                372  (2%)
+  Total de termos únicos:            15014
+  Termos em apenas 1 fonte:         13457  (89%)
+  Termos em 2+ fontes (cruzados):    1557  (10%)
+  Termos em 3+ fontes:                370  (2%)
   Máximo de fontes num só termo:        6
 
   Quantidade de termos extraídos por fonte:
-    medicina                 :   8713 termos
+    medicina                 :   8280 termos
     ICNP                     :   4471 termos
     termos                   :   1815 termos
     catala                   :    806 termos
@@ -21,14 +21,14 @@
 
 
   Top pares de fontes com mais termos em comum:
-    medicina         ↔ termos             773 termos
-    ICNP             ↔ medicina           367 termos
+    medicina         ↔ termos             768 termos
+    ICNP             ↔ medicina           366 termos
     ICNP             ↔ enfermagem         337 termos
-    enfermagem       ↔ medicina           247 termos
+    enfermagem       ↔ medicina           246 termos
     ICNP             ↔ termos             174 termos
     enfermagem       ↔ termos             144 termos
-    catala           ↔ medicina           123 termos
-    medicina         ↔ ministerio          75 termos
+    catala           ↔ medicina           122 termos
+    medicina         ↔ ministerio          74 termos
     catala           ↔ termos              52 termos
     catala           ↔ wipo                51 termos
 

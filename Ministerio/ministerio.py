@@ -19,7 +19,7 @@ def processar_ministerio():
     tree = ET.parse(xml_input)
     root = tree.getroot()
     
-    # ids de negrito e conectores
+    # ids a negrito e conectores
     BOLD_FONTS = {"1", "8", "11", "12", "13", "15", "17"}
     CONECTORS = (" à", " de", " do", " da", " e", " em", " para", " o", " a", " e ")
     

@@ -283,7 +283,6 @@ def main():
         json.dump(dicionario_final, f, ensure_ascii=False, indent=2)
     
     print(f"Foram escritos {total_termos} termos únicos no dicionário.")
-    print(f"Destino: {JSON_PATH}")
 
 if __name__ == "__main__":
     main()

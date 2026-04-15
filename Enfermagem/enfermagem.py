@@ -94,7 +94,6 @@ def analisar_xml_para_json():
         json.dump(dicionario_final, f, ensure_ascii=False, indent=4)
     
     print(f"Extraídos {len(dicionario_final)} termos.")
-    print(f"Ficheiro atualizado: {json_path}")
     
 if __name__ == "__main__":
     analisar_xml_para_json()

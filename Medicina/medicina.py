@@ -7,8 +7,9 @@ JSON_OUT = "medicina.json"
 # Regex para ID, Termo e Classe
 ENTRY_RE = re.compile(r"^(\d+)\s+(.+?)\s+([mfas]|m/f|mpl|fpl|adj\.?|adv\.?|v\.?|s\.?|loc\.?|prep\.?)$")
 ID_TERMO_RE = re.compile(r"^(\d+)\s+(.+)$")
+VID_RE  = re.compile(r"Vid\.[-\s]+(.*)", re.IGNORECASE)  
 
-# Regex para SIN, VAR e Notas (mais flexível)
+# Regex para SIN, VAR e Notas 
 SIN_RE   = re.compile(r"^(SIN\.|VAR\.)[-\s]+(.*)", re.IGNORECASE)
 NOTA_RE  = re.compile(r"^Nota\.[-\s]+(.*)", re.IGNORECASE)
 LANGS    = {"es", "en", "pt"}
@@ -34,7 +35,7 @@ def new_entry(num, termo, genero):
 
 def add_lang_term(current, lang, text):
     if not text.strip() or text.strip() == ";": return
-    # Limpeza de caracteres residuais de formatação
+    # limpar
     text = text.replace("•", "").strip()
     partes = [p.strip() for p in re.split(r"\s*;\s*", text) if p.strip()]
     for p in partes:
@@ -69,11 +70,23 @@ def parse_xml(xml_path):
 
         for top, left, font, content in col_esq + col_dir:
             
-            # Novo Termo
+            # termo
             m_full = ENTRY_RE.match(content)
             m_id   = ID_TERMO_RE.match(content)
             
             if font == "3" or m_full or m_id:
+                vm = VID_RE.search(content)
+                if vm:
+                    # termo antes do Vid.-
+                    termo_vazio = content.split("Vid.")[0].strip()
+                    alvo = vm.group(1).strip()
+                    
+                    flush()
+                    current = new_entry(None, termo_vazio, "")
+                    current["is_remissive"] = True
+                    current["vid_target"] = alvo
+                    flush() 
+                    continue
                 if m_full:
                     flush()
                     current = new_entry(m_full.group(1), m_full.group(2), m_full.group(3))
@@ -92,14 +105,13 @@ def parse_xml(xml_path):
 
             if not current: continue
 
-            # Áreas (font 6)
+            # áreas (font 6)
             if font == "6":
-                # Divide por múltiplos espaços para limpar áreas como "Fisioloxía   Anatomía"
                 for a in re.split(r"\s{2,}", content):
                     if a.strip() and a.strip() not in current["areas"]:
                         current["areas"].append(a.strip())
             
-            # Sinónimos e Notas (font 5)
+            # sinónimos e notas (font 5)
             elif font == "5" or "Nota" in content:
                 sm = SIN_RE.match(content)
                 nm = NOTA_RE.match(content)
@@ -109,12 +121,12 @@ def parse_xml(xml_path):
                         if p.strip(): current[tipo].append(p.strip())
                 elif nm:
                     current["notas"].append(nm.group(1).strip())
-                elif "SIN.-" in content: # Fallback para formatos colados
+                elif "SIN.-" in content: 
                     txt = content.replace("SIN.-", "").strip()
                     for p in re.split(r"\s*;\s*", txt):
                         if p.strip(): current["sinonimos"].append(p.strip())
 
-            # Traduções
+            # traduções
             elif content.strip()[:2] in LANGS and (content.strip()[2:3] == " " or len(content.strip()) == 2):
                 lang = content.strip()[:2]
                 current_lang = lang
@@ -129,37 +141,48 @@ def parse_xml(xml_path):
     return entries
 
 def main():
-    print("[MED] A processar XML...")
     entries = parse_xml(XML_PATH)
 
+    # entradas extra
+    mapa_remissoes = {}
+    for e in entries:
+        if e.get("is_remissive") and e["vid_target"]:
+            alvo = e["vid_target"].strip()
+            origem = e["termo"].strip()
+            if alvo not in mapa_remissoes:
+                mapa_remissoes[alvo] = []
+            if origem not in mapa_remissoes[alvo]:
+                mapa_remissoes[alvo].append(origem)
+
+    # dicionario
     dicionario_final = {}
     for e in entries:
+        # dicionário se tiver ID
+        if not e["id"] or not e["id"].isdigit():
+            continue
+            
         nome_chave = e["termo"]
         
-        # Formata o género
-        gen = e["genero"]
-        if gen == "a": gen = "adj."
-        
-        trads = {l: "; ".join(e["traducoes"][l]) for l in ["es", "en", "pt"]}
-
         dicionario_final[nome_chave] = {
-            "id": e["id"],
-            "genero": gen,
-            "categoria": " ".join(e["areas"]), # Espaço simples entre áreas
-            "traducoes": trads,
+            "id":        e["id"],
+            "genero":    e["genero"],
+            "categoria": " | ".join(e["areas"]),
+            "traducoes": {
+                l: "; ".join(e["traducoes"][l])
+                for l in ["es", "en", "pt"]
+            },
             "sinonimos": e["sinonimos"],
-            "variantes": e["variantes"],
-            "nota": " ".join(e["notas"]),
-            "entrada_extra": {}
+            "variantes": e["variantes"], 
+            "nota":      " ".join(e["notas"]),
+            "entrada_extra": mapa_remissoes.get(nome_chave, [])
         }
 
-    diretorio = os.path.dirname(os.path.abspath(JSON_OUT))
-    if diretorio: os.makedirs(diretorio, exist_ok=True)
-
+    # guardar
+    os.makedirs(os.path.dirname(os.path.abspath(JSON_OUT)), exist_ok=True)
     with open(JSON_OUT, "w", encoding="utf-8") as f:
         json.dump(dicionario_final, f, ensure_ascii=False, indent=4)
 
-    print(f"Sucesso! {len(dicionario_final)} termos extraídos.")
+    print(f"{len(dicionario_final)} termos guardados em {JSON_OUT}")
 
 if __name__ == "__main__":
     main()
