@@ -1,96 +1,101 @@
-import fitz
 import xml.etree.ElementTree as ET
 import json
 import os
 import re
 
-def processar_tudo():
-    # 1. Configurar caminhos (Garante que funciona em qualquer pasta)
+def analisar_xml_para_json():
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    pdf_path = os.path.join(base_dir, "Glossário de Enfermagem.pdf")
-    xml_path = os.path.join(base_dir, "enfermagem.xml")
-    json_path = os.path.join(base_dir, "enfermagem.json")
+    
+    # Localizar o ficheiro XML
+    xml_path = None
+    for f in os.listdir(base_dir):
+        if f.lower().endswith(".xml") and "enfermagem" in f.lower():
+            xml_path = os.path.join(base_dir, f)
+            break
 
-    if not os.path.exists(pdf_path):
-        print(f"❌ Erro: Coloca o PDF na pasta: {base_dir}")
+    if not xml_path:
+        print("❌ Erro: Ficheiro XML não encontrado.")
         return
 
-    # --- ETAPA 3: GERAR XML ESTRUTURADO ---
-    print("⏳ A gerar XML (Páginas 24-114)...")
-    doc = fitz.open(pdf_path)
-    xml_lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<pdf2xml>']
+    json_path = os.path.join(base_dir, "enfermagem.json")
 
-    for i in range(23, 114): # Índice 0: pág 24 a 114
-        pagina = doc[i]
-        xml_lines.append(f'  <page number="{i+1}">')
-        
-        # Separar por colunas físicas para não misturar texto
-        blocos = pagina.get_text("dict")["blocks"]
-        esq, direita = [], []
-        
-        for b in blocos:
-            if "lines" in b:
-                for linha in b["lines"]:
-                    for span in linha["spans"]:
-                        txt = span["text"].strip()
-                        if not txt or "GLOSSÁRIO" in txt or "Página" in txt: continue
-                        
-                        left = span["bbox"][0]
-                        is_bold = "Bold" in span["font"] or span["flags"] & 2**4
-                        clean_txt = txt.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-                        
-                        item = f'    <text left="{int(left)}" bold="{is_bold}">{clean_txt}</text>'
-                        if left < 300: esq.append(item)
-                        else: direita.append(item)
-        
-        xml_lines.extend(esq)
-        xml_lines.extend(direita)
-        xml_lines.append('  </page>')
-    
-    xml_lines.append('</pdf2xml>')
-    with open(xml_path, 'w', encoding='utf-8') as f:
-        f.write("\n".join(xml_lines))
+    try:
+        tree = ET.parse(xml_path)
+        root = tree.getroot()
+    except Exception as e:
+        print(f"❌ Erro ao ler o XML: {e}")
+        return
 
-    # --- ETAPA 5 & 6: EXTRAIR PARA JSON ---
-    print("⏳ A processar XML para JSON...")
-    tree = ET.parse(xml_path)
-    root = tree.getroot()
-    
     entries = []
-    current_term, current_def = "", []
+    current_term = ""
+    current_def = []
+    current_source = ""
+    capturando_fonte = False
 
-    for text in root.iter('text'):
-        txt = text.text.strip()
-        is_bold = text.get('bold') == 'True'
+    # Processamento página a página
+    for page in root.findall(".//page"):
+        elements = page.findall("text")
+        
+        # ORDENAÇÃO: 
+        # 1. Identificamos o meio da página dinamicamente ou usamos 440 como margem segura
+        # 2. Ordenamos por Coluna (Esquerda vs Direita) e depois por altura (top)
+        elements.sort(key=lambda x: (int(x.get('left', 0)) > 440, int(x.get('top', 0))))
 
-        if txt.startswith("FONTE:") or "http" in txt:
-            if current_term and current_def:
-                entries.append({
-                    "concept": current_term.strip().rstrip(','),
-                    "description": " ".join(current_def).strip(),
-                    "source": "Glossário de Enfermagem"
-                })
-                current_term, current_def = "", []
-            continue
+        for text_tag in elements:
+            txt = "".join(text_tag.itertext()).strip()
+            
+            # Filtros de ruído (Títulos de topo e números de página)
+            if not txt or "GLOSSÁRIO" in txt or "Página" in txt or (txt.isdigit() and len(txt) < 4):
+                continue
+                
+            left_pos = int(text_tag.get('left', 0))
+            font_id = text_tag.get('font')
 
-        if is_bold and len(txt) > 2:
-            if current_term and current_def:
-                entries.append({
-                    "concept": current_term.strip().rstrip(','),
-                    "description": " ".join(current_def).strip(),
-                    "source": "Glossário de Enfermagem"
-                })
-                current_term, current_def = txt, []
-            else:
-                current_term = (current_term + " " + txt).strip() if not current_def else txt
-        else:
-            if current_term: current_def.append(txt)
+            # IDENTIFICAÇÃO DO CONCEITO:
+            # A fonte "0" é o nosso marcador universal de termos.
+            # Se for font="0", é um novo termo, esteja ele em que coluna estiver.
+            is_conceito = (font_id == "0")
 
+            if is_conceito:
+                # Salvar o termo anterior antes de processar o novo
+                if current_term:
+                    entries.append({
+                        "concept": current_term,
+                        "description": " ".join(current_def).strip(),
+                        "source": current_source if current_source else "Glossário de Enfermagem"
+                    })
+                
+                current_term = txt
+                current_def = []
+                current_source = ""
+                capturando_fonte = False
+                
+            elif "FONTE:" in txt.upper():
+                capturando_fonte = True
+                continue
+                
+            elif current_term:
+                if capturando_fonte:
+                    # Se encontrarmos um novo link ou referência após "FONTE:"
+                    current_source = (current_source + " " + txt).strip()
+                else:
+                    # Acumular descrição: apenas se não for um marcador de página ou ruído
+                    current_def.append(txt)
+
+    # Guardar o último termo processado
+    if current_term:
+        entries.append({
+            "concept": current_term,
+            "description": " ".join(current_def).strip(),
+            "source": current_source if current_source else "Glossário de Enfermagem"
+        })
+
+    # Gravação Final
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(entries, f, ensure_ascii=False, indent=4)
     
-    print(f"✅ CONCLUÍDO! Extraídos {len(entries)} termos.")
-    print(f"📂 Ficheiro gerado: {json_path}")
+    print(f"✅ SUCESSO! Extraídos {len(entries)} termos.")
+    print(f"📂 Ficheiro atualizado: {json_path}")
 
 if __name__ == "__main__":
-    processar_tudo()
+    analisar_xml_para_json()

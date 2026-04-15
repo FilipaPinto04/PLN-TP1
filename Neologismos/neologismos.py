@@ -1,105 +1,85 @@
-import fitz
+import xml.etree.ElementTree as ET
 import json
 import os
 import re
 
-def limpar_xml(txt):
-    if not txt: return ""
-    return txt.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
-
-def processar():
+def analisar():
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    os.chdir(base_dir)
-    
-    pdf_in = "glossario_neologismos_saude.pdf"
-    xml_out = "neologismos.xml"
-    json_out = "neologismos.json"
+    xml_path = os.path.join(base_dir, "glossario_neologismos_saude.xml")
+    json_path = os.path.join(base_dir, "neologismos.json")
 
-    if not os.path.exists(pdf_in):
-        print(f"❌ Erro: '{pdf_in}' não encontrado.")
+    if not os.path.exists(xml_path):
+        print(f"❌ Ficheiro {xml_path} não encontrado.")
         return
 
-    doc = fitz.open(pdf_in)
+    tree = ET.parse(xml_path)
+    root = tree.getroot()
+
     entries = []
-    xml_lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<pdf2xml>']
-    
-    current_term = ""
-    current_def = ""
+    current_entry = None
 
-    print(f"⏳ A limpar títulos e extrair neologismos (Pág 87-183)...")
-
-    for i in range(86, 183):
-        if i >= len(doc): break
-        page = doc[i]
-        xml_lines.append(f'  <page number="{i+1}">')
-        
-        # 1. Extrair e ordenar spans por coluna (X) e altura (Y)
-        spans = []
-        for b in page.get_text("dict")["blocks"]:
-            if "lines" in b:
-                for l in b["lines"]:
-                    for s in l["spans"]:
-                        spans.append({
-                            "text": s["text"].strip(),
-                            "x": s["bbox"][0],
-                            "y": s["bbox"][1],
-                            "font": s["font"],
-                            "flags": s["flags"]
-                        })
-
-        # Divisor de colunas em X=290
-        spans.sort(key=lambda s: (s["x"] > 290, s["y"]))
-
-        for s in spans:
-            txt = s["text"]
+    for page in root.findall(".//page"):
+        for text in page.findall("text"):
+            txt = "".join(text.itertext()).strip()
+            if not txt: continue
             
-            # --- FILTROS DE EXCLUSÃO ---
-            if not txt or "Glossário" in txt or txt.isdigit():
-                continue
-            
-            # FILTRO CRÍTICO: Ignora "3.2.", "3.2.1", etc.
-            if re.match(r'^\d+(\.\d+)+', txt):
-                continue
+            left = int(text.get("left", 0))
+
+            # 1. Identificar Novo Conceito (left=128)
+            is_concept_start = (left == 128) and not re.match(r'^\d', txt) and len(txt) > 1
+
+            if is_concept_start:
+                if current_entry:
+                    entries.append(processar_campos(current_entry))
                 
-            # Ignora letras capitulares do índice (A, B, C...)
-            if len(txt) == 1 and txt.isupper():
-                continue
+                current_entry = {
+                    "concept": txt,
+                    "grammar_category": "", # Nova secção
+                    "raw_text": ""
+                }
+            elif current_entry:
+                # 2. Verificar se o texto é o género gramatical
+                # Padrão: s.f., s.m., adj., v., etc.
+                if not current_entry["grammar_category"] and re.match(r'^[sivn]\.(f|m|adj|adv)\.?$', txt.lower()):
+                    current_entry["grammar_category"] = txt
+                else:
+                    # O resto vai para processamento de tradução e definição
+                    current_entry["raw_text"] += " " + txt
 
-            is_bold = "Bold" in s["font"] or (s["flags"] & 2**4)
-            # Margem onde os conceitos (abeta, etc) começam
-            e_margem = (s["x"] < 80) or (290 < s["x"] < 330)
+    if current_entry:
+        entries.append(processar_campos(current_entry))
 
-            if is_bold and e_margem:
-                # Se encontrarmos um novo conceito, salvamos o acumulado
-                if current_term:
-                    entries.append({
-                        "concept": current_term.strip(),
-                        "description": re.sub(r'\s+', ' ', current_def).strip(),
-                        "source": "Glossário de Neologismos da Saúde"
-                    })
-                current_term = txt
-                current_def = ""
-                tipo = "concept"
-            else:
-                if current_term:
-                    current_def += " " + txt
-                tipo = "description"
+    with open(json_path, 'w', encoding='utf-8') as f:
+        json.dump(entries, f, ensure_ascii=False, indent=4)
+    
+    print(f"✅ Concluído! Categoria gramatical isolada numa nova secção.")
 
-            xml_lines.append(f'    <text type="{tipo}" x="{s["x"]:.1f}">{limpar_xml(txt)}</text>')
-        
-        xml_lines.append('  </page>')
-
-    # Salvar o último
-    if current_term:
-        entries.append({"concept": current_term.strip(), "description": current_def.strip(), "source": "Glossário de Neologismos da Saúde"})
-
-    xml_lines.append('</pdf2xml>')
-
-    with open(xml_out, 'w', encoding='utf-8') as f: f.write("\n".join(xml_lines))
-    with open(json_out, 'w', encoding='utf-8') as f: json.dump(entries, f, ensure_ascii=False, indent=4)
-
-    doc.close()
-    print(f"✅ SUCESSO! O primeiro termo agora deve ser 'abeta'.")
+def processar_campos(item):
+    full_text = re.sub(r'\s+', ' ', item["raw_text"]).strip()
+    
+    # Extração de traduções
+    ing = re.search(r'([^;]+)\[ing\]', full_text)
+    esp = re.search(r'([^;]+)\[esp\]', full_text)
+    
+    # Informação Enciclopédica
+    inf = re.search(r'Inf\.\s*encicl\.:\s*(.*)', full_text)
+    
+    # Limpeza da definição
+    def_clean = re.sub(r'[^;]+\[ing\]\s*;?\s*', '', full_text)
+    def_clean = re.sub(r'[^;]+\[esp\]\s*;?\s*', '', def_clean)
+    def_clean = re.sub(r'Inf\.\s*encicl\.:.*', '', def_clean)
+    # Remove as citações/exemplos no fim (ex: "... (180)")
+    def_clean = re.sub(r'“.*”\s*\(\d+\)', '', def_clean) 
+    
+    return {
+        "concept": item["concept"],
+        "grammar_category": item["grammar_category"], # Secção dedicada
+        "term_en": ing.group(1).strip() if ing else "",
+        "term_es": esp.group(1).strip() if esp else "",
+        "definition": def_clean.strip(),
+        "inf_encicl": inf.group(1).strip() if inf else "",
+        "source": "Glossário de Neologismos da Saúde"
+    }
 
 if __name__ == "__main__":
-    processar()
+    analisar()
