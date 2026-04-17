@@ -7,6 +7,7 @@ JSON_OUT = "medicina.json"
 # Regex para ID, Termo e Classe
 ENTRY_RE = re.compile(r"^(\d+)\s+(.+?)\s+([mfas]|m/f|mpl|fpl|adj\.?|adv\.?|v\.?|s\.?|loc\.?|prep\.?)$")
 ID_TERMO_RE = re.compile(r"^(\d+)\s+(.+)$")
+
 VID_RE  = re.compile(r"Vid\.[-\s]+(.*)", re.IGNORECASE)  
 
 # Regex para SIN, VAR e Notas 
